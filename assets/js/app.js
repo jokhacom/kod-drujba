@@ -38,8 +38,8 @@
       'hero.intro': 'Смотреть интро', 'intro.play': 'Начать путешествие', 'intro.hint': 'Со звуком. Можно пропустить.', 'intro.skip': 'Пропустить', 'intro.sound': 'Включить звук', 'intro.mute': 'Выключить звук', 'intro.together': 'Пять стран вместе',
       more: 'Подробнее о туре', dayN: 'День', days2: 'дня', days1: 'день',
       'stats.countries': 'стран', 'stats.days': 'дней на все пять стран', 'stats.packages': 'пакета для студентов',
-      'offers.kicker': 'Для студентов', 'offers.title': 'Пакеты от команд маршрута', 'offers.lead': 'Три маршрута по трём странам на 6–7 дней, день в Алматы с ВК-ботом и два дня в Кыргызстане. Программа по часам и честная смета.', 'cur.label': 'Валюта', 'cur.note': 'Смета ведётся в тенге, другие валюты пересчитываются автоматически.', 'cur.live': 'Курс обновлён', 'cur.approx': 'Сейчас показан примерный курс.',
-      'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Смета на 1 человека', 'tour.moves': 'Как переезжаем между странами', 'tour.important': 'Важно знать', 'offers.total': 'Итого', 'offers.perDay': 'в день',
+      'offers.kicker': 'Для студентов', 'offers.title': 'Пакеты от команд маршрута', 'offers.lead': 'Три маршрута по трём странам на 6–7 дней, в каждом по два дня на страну. Программа по часам и честная смета.', 'cur.label': 'Валюта', 'cur.note': 'Смета ведётся в тенге, другие валюты пересчитываются автоматически.', 'cur.live': 'Курс обновлён', 'cur.approx': 'Сейчас показан примерный курс.',
+      'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Смета на 1 человека', 'tour.moves': 'Как переезжаем между странами', 'tour.facts': 'Паспорт пакета', 'tour.important': 'Важно знать', 'offers.total': 'Итого', 'offers.perDay': 'в день',
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
       'tour.route': 'Маршрут', 'tour.of5': 'из 5 стран', 'tour.perDay': 'Цена за день поездки', 'tour.market': 'Обычный тур', 'tour.save': 'Дешевле обычного тура на', 'tour.loy1': 'Эта поездка даст', 'tour.loy2': 'в Паспорт дружбы и', 'tour.stamp1': 'штамп', 'tour.stamp2': 'штампа', 'tour.stamp5': 'штампов', 'tour.keeper': 'Сразу статус «Хранитель кода»: −20% на все следующие поездки.', 'tour.loyMore': 'Как работает паспорт',
       'loy.kicker': 'Программа лояльности', 'loy.title': 'Паспорт дружбы', 'loy.s1': 'Где вы уже были с «Кодом дружбы»?', 'loy.s2': 'Монеты сверх поездок', 'loy.s3': 'Следующая поездка', 'loy.toNext': 'До уровня', 'loy.more': 'ещё', 'loy.max': 'Максимальный уровень: −20% на всё', 'loy.base': 'Цена пакета', 'loy.lvl': 'Уровень', 'loy.coins': 'Монеты', 'loy.pay': 'Вы платите', 'loy.saveTxt': 'Экономия', 'loy.back': 'вернётся', 'loy.after': 'После поездки в паспорте', 'loy.calc': 'Посчитать свою скидку',
@@ -85,8 +85,8 @@
       'hero.intro': 'Watch the intro', 'intro.play': 'Start the journey', 'intro.hint': 'With sound. You can skip it.', 'intro.skip': 'Skip', 'intro.sound': 'Turn sound on', 'intro.mute': 'Mute', 'intro.together': 'Five countries together',
       more: 'Tour details', dayN: 'Day', days2: 'days', days1: 'day',
       'stats.countries': 'countries', 'stats.days': 'days for all five countries', 'stats.packages': 'student packages',
-      'offers.kicker': 'For students', 'offers.title': 'Packages from the route teams', 'offers.lead': 'Three three-country routes of 6–7 days, a day in Almaty with a VK bot and two days in Kyrgyzstan. An hour-by-hour programme and an honest budget.', 'cur.label': 'Currency', 'cur.note': 'The budget is kept in tenge; other currencies are converted automatically.', 'cur.live': 'Rate updated', 'cur.approx': 'An approximate rate is shown right now.',
-      'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'Budget per person', 'tour.moves': 'How we travel between countries', 'tour.important': 'Good to know', 'offers.total': 'Total', 'offers.perDay': 'a day',
+      'offers.kicker': 'For students', 'offers.title': 'Packages from the route teams', 'offers.lead': 'Three three-country routes of 6–7 days, two days in each country. An hour-by-hour programme and an honest budget.', 'cur.label': 'Currency', 'cur.note': 'The budget is kept in tenge; other currencies are converted automatically.', 'cur.live': 'Rate updated', 'cur.approx': 'An approximate rate is shown right now.',
+      'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'Budget per person', 'tour.moves': 'How we travel between countries', 'tour.facts': 'Package at a glance', 'tour.important': 'Good to know', 'offers.total': 'Total', 'offers.perDay': 'a day',
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
       'tour.route': 'Route', 'tour.of5': 'of 5 countries', 'tour.perDay': 'Price per day', 'tour.market': 'Typical tour', 'tour.save': 'Cheaper than a typical tour by', 'tour.loy1': 'This trip adds', 'tour.loy2': 'to your Friendship Passport and', 'tour.stamp1': 'stamp', 'tour.stamp2': 'stamps', 'tour.stamp5': 'stamps', 'tour.keeper': 'Instant Code Keeper status: −20% on every next trip.', 'tour.loyMore': 'How the passport works',
       'loy.kicker': 'Loyalty programme', 'loy.title': 'Friendship Passport', 'loy.s1': 'Where have you been with Friendship Code?', 'loy.s2': 'Coins beyond trips', 'loy.s3': 'Your next trip', 'loy.toNext': 'To', 'loy.more': '', 'loy.max': 'Top level: −20% on everything', 'loy.base': 'Package price', 'loy.lvl': 'Level', 'loy.coins': 'Coins', 'loy.pay': 'You pay', 'loy.saveTxt': 'You save', 'loy.back': 'back', 'loy.after': 'Passport after the trip', 'loy.calc': 'Work out your discount',
@@ -508,7 +508,7 @@
     const sumTxt = o.kzt ? amt(total) : (() => { const r = o.cost.reduce((a, [, v]) => { const [lo, hi] = v.split('–').map(Number); return [a[0] + lo, a[1] + (hi || lo)]; }, [0, 0]); return esc(`$${r[0]}–${r[1]}`); })();
     // программа дня: свои строки + точки из программы страны (ref "am:0")
     const sched = (d) => {
-      const rows = (d.s || []).map((r) => ({ tm: r.tm, x: L(r.x), h: r.h ? L(r.h) : '' }));
+      const rows = (d.s || []).map((r) => ({ tm: r.tm, x: L(r.x), h: r.h ? L(r.h) : '', pl: r.pl ? L(r.pl) : '' }));
       if (d.ref) { const [cid, di] = d.ref.split(':'); (country(cid).days[+di]?.points || []).forEach((pt) => rows.push({ tm: /^\d+$/.test(String(pt.time || '')) ? '' : (pt.time || ''), x: L(pt.name), h: pt.hook ? L(pt.hook) : '' })); }
       return rows;
     };
@@ -532,6 +532,7 @@
       </header>
       <div class="tr-body" style="--c:${p1};--c2:${p2};--c3:${p3}">
         <p class="tr-pitch tv">${esc(L(o.pitch))}</p>
+        ${o.facts ? `<section class="tr-sec tv"><h3 class="tr-h">${esc(t('tour.facts'))}</h3><dl class="tr-facts">${o.facts.map(([a, b]) => `<div><dt>${esc(L(a))}</dt><dd>${cvH(L(b))}</dd></div>`).join('')}</dl>${o.intro ? `<p class="tr-intro">${esc(L(o.intro))}</p>` : ''}</section>` : ''}
 
         <section class="tr-sec tv">
           <h3 class="tr-h">${esc(t('tour.route'))}</h3>
@@ -553,13 +554,14 @@
           <h3 class="tr-h">${esc(t('offers.plan'))}</h3>
           <div class="dy" data-dy>
             <div class="dy-tabs" role="tablist">${o.plan.map((d, i) => `<button type="button" role="tab" class="dy-tab" data-dy-i="${i}" aria-selected="${i === 0}">${i + 1}</button>`).join('')}</div>
-            <div class="dy-track">${o.plan.map((d, i) => `<article class="dy-card${i === 0 ? ' on' : ''}" data-dy-card="${i}"><span class="dy-num">${String(i + 1).padStart(2, '0')}</span><p class="dy-lbl">${esc(t('day'))} ${i + 1} / ${o.plan.length}</p><h4>${d.c ? `<i class="dy-fl">${flagSvg(d.c)}</i>` : ''}${esc(L(d.t))}</h4><p>${esc(L(d.d))}</p>${(() => { const rows = sched(d); return rows.length ? `<ol class="dy-sch">${rows.map((r) => `<li><time>${esc(r.tm)}</time><div>${r.h ? `<b>«${esc(r.h)}»</b>` : ''}<span>${cvH(r.x)}</span></div></li>`).join('')}</ol>` : ''; })()}${d.note ? `<p class="dy-note">${esc(L(d.note))}</p>` : ''}</article>`).join('')}</div>
+            <div class="dy-track">${o.plan.map((d, i) => `<article class="dy-card${i === 0 ? ' on' : ''}" data-dy-card="${i}"><span class="dy-num">${String(i + 1).padStart(2, '0')}</span><p class="dy-lbl">${esc(t('day'))} ${i + 1} / ${o.plan.length}</p><h4>${d.c ? `<i class="dy-fl">${flagSvg(d.c)}</i>` : ''}${esc(L(d.t))}</h4><p>${esc(L(d.d))}</p>${(() => { const rows = sched(d); return rows.length ? `<ol class="dy-sch">${rows.map((r) => `<li><time>${esc(r.tm)}</time><div>${r.h ? `<b>«${esc(r.h)}»</b>` : ''}<span>${cvH(r.x)}</span>${r.pl ? `<small class="dy-pl">📍 ${esc(r.pl)}</small>` : ''}</div></li>`).join('')}</ol>` : ''; })()}${d.note ? `<p class="dy-note">${esc(L(d.note))}</p>` : ''}</article>`).join('')}</div>
             <div class="dy-nav"><button type="button" data-dy-step="-1" aria-label="←">←</button><div class="dy-bar"><i style="--p:${1 / o.plan.length}"></i></div><button type="button" data-dy-step="1" aria-label="→">→</button></div>
           </div>
         </section>
 
         <section class="tr-sec tr-money tv">
           <h3 class="tr-h">${esc(t('offers.cost'))}</h3>
+          ${o.costIntro ? `<p class="tr-intro">${esc(L(o.costIntro))}</p>` : ''}
           <div class="dn">
             <div class="dn-chart"><svg viewBox="0 0 180 180" aria-hidden="true"><circle r="70" cx="90" cy="90" class="dn-bg"/>${segs}</svg>
               <div class="dn-mid"><small data-dn-lbl>${esc(t('offers.total'))}</small><b data-dn-val>${sumTxt}</b></div></div>
@@ -571,8 +573,9 @@
         ${o.transfers ? `<section class="tr-sec tv">
           <h3 class="tr-h">${esc(t('tour.moves'))}</h3>
           <div class="mv">${o.transfers.map((m, i) => `<article class="mv-i tv" style="--d:${i}"><h4>${esc(L(m.st))}</h4><p class="mv-how">${esc(L(m.how))}</p><p class="mv-tm">⏱ ${esc(L(m.tm))}</p><p class="mv-note">${esc(L(m.note))}</p></article>`).join('')}</div>
+          ${o.transferDays ? `<ul class="mv-days">${o.transferDays.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>` : ''}
         </section>` : ''}
-        ${o.notes ? `<section class="tr-sec tr-notes tv"><h3 class="tr-h">${esc(t('tour.important'))}</h3><ul>${o.notes.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul></section>` : ''}
+        ${o.notes ? `<section class="tr-sec tr-notes tv"><h3 class="tr-h">${esc(t('tour.important'))}</h3><ul>${o.notes.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>${o.sources ? `<p class="tr-src">${esc(t('offers.sources'))}: ${o.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ')}</p>` : ''}${o.summary ? `<p class="tr-intro">${esc(L(o.summary))}</p>` : ''}</section>` : ''}
 
         <section class="tr-sec tr-io">
           <div class="io io-in tv"><h3 class="tr-h">${esc(t('pkg.in'))}</h3>${list(o.inc, 'io-list')}</div>
