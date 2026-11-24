@@ -43,10 +43,10 @@
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
       'tour.route': 'Маршрут', 'tour.of5': 'из 5 стран', 'tour.perDay': 'Цена за день поездки', 'tour.market': 'Обычный тур', 'tour.save': 'Дешевле обычного тура на', 'tour.loy1': 'Эта поездка даст', 'tour.loy2': 'в Паспорт дружбы и', 'tour.stamp1': 'штамп', 'tour.stamp2': 'штампа', 'tour.stamp5': 'штампов', 'tour.keeper': 'Сразу статус «Хранитель кода»: −20% на все следующие поездки.', 'tour.loyMore': 'Как работает паспорт',
       'loy.kicker': 'Программа лояльности', 'loy.title': 'Паспорт дружбы', 'loy.s1': 'Где вы уже были с «Кодом дружбы»?', 'loy.s2': 'Монеты сверх поездок', 'loy.s3': 'Следующая поездка', 'loy.toNext': 'До уровня', 'loy.more': 'ещё', 'loy.max': 'Максимальный уровень: −20% на всё', 'loy.base': 'Цена пакета', 'loy.lvl': 'Уровень', 'loy.coins': 'Монеты', 'loy.pay': 'Вы платите', 'loy.saveTxt': 'Экономия', 'loy.back': 'вернётся', 'loy.after': 'После поездки в паспорте', 'loy.calc': 'Посчитать свою скидку',
-      'book.cta': 'Забронировать', 'book.title': 'Заявка на поездку', 'book.lead': 'Выберите пакет и дату, и команда свяжется с вами, чтобы всё уточнить. Это ни к чему не обязывает.', 'book.pkg': 'Пакет', 'book.date': 'Желаемая дата', 'book.people': 'Сколько вас', 'book.name': 'Ваше имя', 'book.contact': 'Телефон или Telegram', 'book.contactPh': '+998 … или @username', 'book.uni': 'Вуз и страна', 'book.uniPh': 'Например, ТГТУ, Узбекистан', 'book.msg': 'Сообщение', 'book.msgPh': 'Вопросы, пожелания, с кем едете…', 'book.send': 'Отправить заявку', 'book.sending': 'Отправляем…', 'book.tg': 'Или напишите в Telegram', 'book.note': 'Заявка придёт команде проекта на почту. Мы не передаём ваши данные третьим лицам.', 'book.required': 'Заполните дату, имя и контакт.', 'book.okTitle': 'Спасибо! Заявка отправлена', 'book.ok': 'Команда свяжется с вами в ближайшее время, обычно в течение суток.', 'book.okLoy': 'После поездки в ваш Паспорт дружбы лягут новые штампы.', 'book.back': 'Вернуться на сайт', 'book.err': 'Не получилось отправить заявку. Попробуйте ещё раз, напишите в Telegram или', 'book.mail': 'отправьте письмом',
-      'faq.kicker': 'Вопросы и ответы', 'faq.title': 'Частые вопросы', 'faq.more': 'Не нашли ответ? Напишите нам или сразу оставьте заявку.',
+      'book.cta': 'Забронировать', 'book.title': 'Заявка на поездку', 'book.lead': 'Выберите пакет и дату, и команда свяжется с вами, чтобы всё уточнить. Это ни к чему не обязывает.', 'book.pkg': 'Пакет', 'book.date': 'Желаемая дата', 'book.people': 'Сколько вас', 'book.name': 'Ваше имя', 'book.contact': 'Телефон или e-mail', 'book.contactPh': '+7 … или name@mail.ru', 'book.uni': 'Вуз и страна', 'book.uniPh': 'Например, ТГТУ, Узбекистан', 'book.msg': 'Сообщение', 'book.msgPh': 'Вопросы, пожелания, с кем едете…', 'book.send': 'Отправить заявку', 'book.sending': 'Отправляем…', 'book.note': 'Заявка придёт команде проекта на почту. Мы не передаём ваши данные третьим лицам.', 'book.required': 'Заполните дату, имя и контакт.', 'book.okTitle': 'Спасибо! Заявка отправлена', 'book.ok': 'Команда свяжется с вами в ближайшее время, обычно в течение суток.', 'book.okLoy': 'После поездки в ваш Паспорт дружбы лягут новые штампы.', 'book.back': 'Вернуться на сайт', 'book.err': 'Не получилось отправить заявку. Попробуйте ещё раз или', 'book.mail': 'отправьте письмом',
+      'faq.kicker': 'Вопросы и ответы', 'faq.title': 'Частые вопросы', 'faq.more': 'Не нашли ответ? Оставьте заявку, и команда ответит на все вопросы.',
       'prog.show': 'Показать программу', 'prog.hide': 'Скрыть программу', 'prog.points': 'точек', 'gal.more': 'Показать все фото', 'why.more': 'Почему маршрут идёт именно так', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
-      'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.site2': 'сайт тур-пакета', 'pkg.symbol': 'Национальный символ',
+      'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт тур-пакета', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.site2': 'сайт тур-пакета', 'pkg.symbol': 'Национальный символ',
       start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
       'sound.on': 'Звук включён', 'sound.off': 'Звук выключен'
     },
@@ -90,10 +90,10 @@
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
       'tour.route': 'Route', 'tour.of5': 'of 5 countries', 'tour.perDay': 'Price per day', 'tour.market': 'Typical tour', 'tour.save': 'Cheaper than a typical tour by', 'tour.loy1': 'This trip adds', 'tour.loy2': 'to your Friendship Passport and', 'tour.stamp1': 'stamp', 'tour.stamp2': 'stamps', 'tour.stamp5': 'stamps', 'tour.keeper': 'Instant Code Keeper status: −20% on every next trip.', 'tour.loyMore': 'How the passport works',
       'loy.kicker': 'Loyalty programme', 'loy.title': 'Friendship Passport', 'loy.s1': 'Where have you been with Friendship Code?', 'loy.s2': 'Coins beyond trips', 'loy.s3': 'Your next trip', 'loy.toNext': 'To', 'loy.more': '', 'loy.max': 'Top level: −20% on everything', 'loy.base': 'Package price', 'loy.lvl': 'Level', 'loy.coins': 'Coins', 'loy.pay': 'You pay', 'loy.saveTxt': 'You save', 'loy.back': 'back', 'loy.after': 'Passport after the trip', 'loy.calc': 'Work out your discount',
-      'book.cta': 'Book', 'book.title': 'Trip request', 'book.lead': 'Choose a package and a date, and the team will get in touch to confirm the details. No obligation.', 'book.pkg': 'Package', 'book.date': 'Preferred date', 'book.people': 'How many of you', 'book.name': 'Your name', 'book.contact': 'Phone or Telegram', 'book.contactPh': '+998 … or @username', 'book.uni': 'University and country', 'book.uniPh': 'E.g. TSTU, Uzbekistan', 'book.msg': 'Message', 'book.msgPh': 'Questions, wishes, who you travel with…', 'book.send': 'Send the request', 'book.sending': 'Sending…', 'book.tg': 'Or write on Telegram', 'book.note': 'Your request goes to the project team by email. We never share your data with third parties.', 'book.required': 'Please fill in the date, name and contact.', 'book.okTitle': 'Thank you! Request sent', 'book.ok': 'The team will get in touch soon, usually within a day.', 'book.okLoy': 'After the trip, new stamps will go into your Friendship Passport.', 'book.back': 'Back to the site', 'book.err': 'The request could not be sent. Try again, write on Telegram or', 'book.mail': 'send it by email',
-      'faq.kicker': 'Questions and answers', 'faq.title': 'FAQ', 'faq.more': 'Didn’t find your answer? Write to us or send a request right away.',
+      'book.cta': 'Book', 'book.title': 'Trip request', 'book.lead': 'Choose a package and a date, and the team will get in touch to confirm the details. No obligation.', 'book.pkg': 'Package', 'book.date': 'Preferred date', 'book.people': 'How many of you', 'book.name': 'Your name', 'book.contact': 'Phone or e-mail', 'book.contactPh': '+7 … or name@mail.com', 'book.uni': 'University and country', 'book.uniPh': 'E.g. TSTU, Uzbekistan', 'book.msg': 'Message', 'book.msgPh': 'Questions, wishes, who you travel with…', 'book.send': 'Send the request', 'book.sending': 'Sending…', 'book.note': 'Your request goes to the project team by email. We never share your data with third parties.', 'book.required': 'Please fill in the date, name and contact.', 'book.okTitle': 'Thank you! Request sent', 'book.ok': 'The team will get in touch soon, usually within a day.', 'book.okLoy': 'After the trip, new stamps will go into your Friendship Passport.', 'book.back': 'Back to the site', 'book.err': 'The request could not be sent. Try again or', 'book.mail': 'send it by email',
+      'faq.kicker': 'Questions and answers', 'faq.title': 'FAQ', 'faq.more': 'Didn’t find your answer? Send a request and the team will answer all your questions.',
       'prog.show': 'Show the programme', 'prog.hide': 'Hide the programme', 'prog.points': 'stops', 'gal.more': 'Show all photos', 'why.more': 'Why the route runs this way', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
-      'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.site2': 'tour package website', 'pkg.symbol': 'National symbol',
+      'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 'Tour package website', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.site2': 'tour package website', 'pkg.symbol': 'National symbol',
       start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
       'sound.on': 'Sound on', 'sound.off': 'Sound off'
     }
@@ -354,11 +354,10 @@
           ${pk.bring ? `<section class="pk-bring"><h3>${esc(t('pkg.bring'))}</h3>${list(pk.bring)}</section>` : ''}
           <section class="pk-sym"><h3>${esc(t('pkg.symbol'))}</h3>${window.KD_ORN.svg(c.id, 'pk-orn', p1)}<p>${esc(L(c.symbol))}</p></section>
         </div>
-        ${pk.extend ? `<aside class="pk-extend"><h3>${esc(L(pk.extend.title))}</h3><p>${esc(L(pk.extend.text))}</p><a class="btn btn-country" href="${esc(pk.extend.url)}" target="_blank" rel="noopener">t2t.asia →</a></aside>` : ''}
+        ${pk.extend ? `<aside class="pk-extend"><h3>${esc(L(pk.extend.title))}</h3><p>${esc(L(pk.extend.text))}</p></aside>` : ''}
         <p class="pk-note">${esc(L(c.note))}${pk.included ? '' : ` ${esc(t('pkg.terms'))}`}</p>
         <div class="pk-cta">
-          <a class="btn btn-country" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('pkg.book'))} · Telegram</a>
-          <a class="btn btn-line" href="${esc(DATA.contacts.site)}" target="_blank" rel="noopener">${esc(t('pkg.site'))}</a>
+          <button class="btn btn-country" type="button" data-book>${esc(t('pkg.book'))}</button>
         </div>
       </div>`;
     $('#sheet').classList.remove('is-tour');
@@ -663,7 +662,7 @@
     observeReveal();
   }
 
-  /* ---------- Бронирование: окно-заявка, как на t2t.asia (Web3Forms → почта команды) ---------- */
+  /* ---------- Бронирование: окно-заявка (Web3Forms → почта команды) ---------- */
   let bookDraft = null, bookReturn = null;
   function bookHTML() {
     const B = DATA.booking, d = bookDraft || {};
@@ -694,8 +693,7 @@
         <label class="bk-f" for="bkMsg"><span>${esc(t('book.msg'))}</span><textarea id="bkMsg" name="message" rows="3" maxlength="2000" placeholder="${esc(t('book.msgPh'))}">${esc(d.message || '')}</textarea></label>
         <input class="bk-hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
         <p class="bk-err" role="alert" hidden></p>
-        <div class="bk-go"><button type="submit" class="btn btn-gold"><span>${esc(t('book.send'))}</span></button>
-          <a class="bk-tg" href="${esc(B.telegram)}" target="_blank" rel="noopener">${esc(t('book.tg'))} →</a></div>
+        <div class="bk-go"><button type="submit" class="btn btn-gold"><span>${esc(t('book.send'))}</span></button></div>
         <p class="bk-note">${esc(t('book.note'))}</p>
       </form>`;
   }
@@ -879,10 +877,6 @@
     $('#teamGrid').innerHTML = DATA.team.map((g, i) => `<article class="team-card reveal" style="--c:${TEAM_COLORS[i % TEAM_COLORS.length]}">
       <h3>${esc(L(g.group))}</h3><p class="role">${esc(L(g.role))}</p>
       <ul>${g.people.map((p) => `<li>${esc(p)}</li>`).join('')}</ul></article>`).join('');
-    const tg = $('#tgLink');
-    tg.href = DATA.contacts.telegram;
-    $('span', tg).textContent = `Telegram ${DATA.contacts.telegramLabel || ''}`.trim();
-    $('#siteLink').href = DATA.contacts.site;
     observeReveal();
   }
 
@@ -1272,10 +1266,14 @@
     }
     DATA.countries.forEach((c) => { COLORS[c.id] = c.palette[0]; });
     applyStatic();
-    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderFaq(); renderCur(); loadFx(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
-    $('#mapNote').textContent = L(DATA.meta.coordsNote);
-    observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
-    window.KD_INTRO.init(DATA, L, t, startHero);
+    // каждый блок отдельно: ошибка в одном не должна оставлять сайт пустым
+    const safe = (fn) => { try { fn(); } catch (err) { console.error('[render]', fn.name, err); } };
+    [renderHero, renderStats, renderOffers, renderLoyalty, renderFaq, renderCur, loadFx, renderBands, renderWhy, renderCountryNav, renderCountries, renderGallery, renderTeam, renderAR].forEach(safe);
+    safe(() => { $('#mapNote').textContent = L(DATA.meta.coordsNote); });
+    [observeReveal, spyCountries, initEffects, syncSoundBtn].forEach(safe);
+    safe(() => window.KD_INTRO.init(DATA, L, t, startHero));
+    // страховка: если интро закрыто, а шапка так и не запустилась
+    setTimeout(function heroGuard() { if (document.body.classList.contains('hero-go')) return; const r = $('#intro'); if (!r || r.hidden) startHero(); else setTimeout(heroGuard, 2000); }, 4000);
     const tm = location.hash.match(/^#tour-(\w+)/);
     if (tm) setTimeout(() => $(`#c-${tm[1]}`)?.scrollIntoView(), 300);
     const om = location.hash.match(/^#pack-(\w+)/);

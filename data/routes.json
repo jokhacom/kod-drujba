@@ -2274,18 +2274,7 @@
       "ru": "для мечетей плечи и колени должны быть закрыты",
       "en": "shoulders and knees covered for mosques"
      }
-    ],
-    "extend": {
-     "title": {
-      "ru": "Хотите остаться дольше?",
-      "en": "Want to stay longer?"
-     },
-     "text": {
-      "ru": "На t2t.asia есть пакеты на 3 дня: «Самарканд и Шахрисабз» (Регистан, Гур-Эмир, Шахи-Зинда, дворец Ак-Сарай) и «Ташкент и Бухара».",
-      "en": "t2t.asia offers 3-day packages: “Samarkand and Shahrisabz” (Registan, Gur-Emir, Shah-i-Zinda, Ak-Saray palace) and “Tashkent and Bukhara”."
-     },
-     "url": "https://t2t.asia"
-    }
+    ]
    },
    "site": "https://t2t.asia/"
   }
@@ -2425,11 +2414,7 @@
    ]
   }
  ],
- "contacts": {
-  "site": "https://t2t.asia",
-  "telegram": "https://t.me/djavokhirmirzo",
-  "telegramLabel": "@djavokhirmirzo"
- },
+ "contacts": {},
  "uzPhotos": {
   "samarqand_0": {
    "src": "assets/img/uz/samarqand_0.webp",
@@ -4645,7 +4630,6 @@
  "booking": {
   "web3formsKey": "d0a9c1d3-a5f9-43b9-aca7-b79b5a7328d5",
   "to": "mirkomilovjavohir562@gmail.com",
-  "telegram": "https://t.me/djavokhirmirzo",
   "help": {
    "ru": "Помогите выбрать",
    "en": "Help me choose"
@@ -4739,8 +4723,8 @@
     "en": "How do I book and when do I pay?"
    },
    "a": {
-    "ru": "Нажмите «Забронировать», выберите пакет и дату. Команда свяжется с вами в Telegram или по телефону, подтвердит места и расскажет, как и когда оплатить.",
-    "en": "Press “Book”, pick a package and a date. The team will contact you on Telegram or by phone, confirm your place and explain how and when to pay."
+    "ru": "Нажмите «Забронировать», выберите пакет и дату. Команда свяжется с вами по телефону или почте, которые вы укажете, подтвердит места и расскажет, как и когда оплатить.",
+    "en": "Press “Book”, pick a package and a date. The team will contact you by the phone or e-mail you give, confirm your place and explain how and when to pay."
    }
   },
   {

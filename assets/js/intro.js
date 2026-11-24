@@ -214,7 +214,9 @@
     let seen = false;
     try { seen = sessionStorage.getItem('kd-intro') === '1'; } catch (e) { /* ignore */ }
     if (location.hash && location.hash !== '#top') seen = true;
-    if (!seen) open({ auto: true }); else if (onDone) onDone();
+    // если интро не смогло открыться (нет сети, старый браузер), сайт всё равно показываем
+    const fail = (err) => { console.warn('[intro]', err); const r = $('intro'); if (r) r.hidden = true; document.documentElement.classList.remove('intro-lock'); if (onDone) onDone(); };
+    if (!seen) { try { open({ auto: true }).catch(fail); } catch (err) { fail(err); } } else if (onDone) onDone();
   }
   /* Кнопка внизу: «Выключить звук», пока звук включён (даже если браузер ждёт первого касания, оно сразу его запустит); «Включить звук», если посетитель выключил */
   function syncSound() {
