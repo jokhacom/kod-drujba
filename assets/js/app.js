@@ -411,7 +411,7 @@
   // «8 000 ₸» внутри текста → сумма в выбранной валюте
   const cvH = (txt) => esc(txt).replace(/(\d[\d  ,]*\d|\d) ₸/g, (m, n) => amt(+n.replace(/[  ,]/g, '')));
   const ruFlag = '<svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#fff"/><rect y="13.3" width="60" height="13.4" fill="#0039A6"/><rect y="26.7" width="60" height="13.3" fill="#D52B1E"/></svg>';
-  const curFlag = (c) => c.flag === 'ru' ? ruFlag : c.flag ? flagSvg(c.flag) : '<b class="cur-usd">$</b>';
+  const curFlag = (c) => c.flag === 'ru' ? ruFlag : c.flag ? flagSvg(c.flag) : '<b class="cur-usd">US</b>';
   function curBar() {
     return `<div class="cur" role="group" aria-label="${esc(t('cur.label'))}"><span class="cur-lbl">${esc(t('cur.label'))}</span><div class="cur-list">${CUR.map((c) => `<button type="button" class="cur-b" data-cur="${c.id}" aria-pressed="${c.id === cur}" title="${esc(L(c.name))}"><i>${curFlag(c)}</i><b>${esc(c.sym)}</b><small>${c.id}</small></button>`).join('')}</div><p class="cur-note" data-cur-note></p></div>`;
   }
