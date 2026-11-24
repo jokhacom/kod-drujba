@@ -8,7 +8,7 @@
       'nav.map': 'Карта', 'nav.route': 'Программа', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
       'hero.eyebrow': 'Международная школа Студтуризма', 'hero.title': 'Код дружбы', 'hero.sub': '5 стран, 9 дней, одна дружба',
       'hero.cta': 'Смотреть маршрут', 'hero.credit': 'Фото: озеро Кольсай',
-      'map.kicker': 'Интерактивная карта', 'map.title': 'Алматы → Бишкек → Душанбе → Самарканд → Ереван',
+      'map.kicker': 'Интерактивная карта', 'map.title': 'Ереван → Алматы → Бишкек → Душанбе → Самарканд',
       'map.lead': 'Нажмите на точку, чтобы увидеть фото, время и описание. Фильтр показывает одну страну.',
       'map.all': 'Весь маршрут', 'map.toProgram': 'Открыть в программе →', 'map.extra': 'Дополнительный тур',
       'map.loading': 'Загружаем карту…', 'map.error': 'Карта не загрузилась. Проверьте интернет и обновите страницу.',
@@ -16,7 +16,7 @@
       noTiming: 'Порядок точек без почасового тайминга',
       'ph.soon': 'Фото скоро', 'ph.attr': 'Автор · лицензия',
       'gallery.kicker': 'Галерея', 'gallery.title': 'Маршрут в кадрах',
-      'gallery.lead': 'Фото остальных стран появятся по мере подбора, у каждого будет указан автор и лицензия.',
+      'gallery.lead': 'Казахстан и Узбекистан уже в кадре. Фото Армении, Кыргызстана и Таджикистана появятся по мере подбора, с автором и лицензией.',
       'ar.kicker': 'Дополненная реальность', 'ar.title': 'Поставьте Регистан у себя на столе',
       'ar.lead': 'Покрутите макет пальцем или мышью. На телефоне нажмите «Открыть в AR», на компьютере отсканируйте QR-код.',
       'ar.note': 'Это упрощённые стилизованные макеты. Детальные модели можно заменить в папке assets/models без правки кода.',
@@ -28,15 +28,21 @@
       'tips.docs.t': 'Документы и связь', 'tips.docs.d': 'Маршрут пересекает пять границ. Проверьте требования к въезду для своего гражданства и подключите роуминг или местную SIM.',
       'team.kicker': 'Кто это сделал', 'team.title': 'Команда проекта',
       'contacts.title': 'Поехали вместе', 'contacts.lead': 'Вопросы о маршруте и бронирование', 'contacts.tg': 'Telegram',
-      'footer.copy': '«Код дружбы» · Международная школа Студтуризма', 'footer.map': 'Карта', 'footer.photos': 'Фото Казахстана',
-      photo: 'Фото', close: 'Закрыть'
+      'footer.copy': '«Код дружбы» · Международная школа Студтуризма', 'footer.map': 'Карта', 'footer.photos': 'Фото',
+      photo: 'Фото', close: 'Закрыть',
+      'hero.intro': 'Смотреть интро', 'intro.play': 'Начать путешествие', 'intro.hint': 'Со звуком. Можно пропустить.', 'intro.skip': 'Пропустить', 'intro.sound': 'Включить звук', 'intro.together': 'Пять стран вместе',
+      more: 'Подробнее о туре', dayN: 'День', days2: 'дня', days1: 'день',
+      'stats.countries': 'стран', 'stats.days': 'дней', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
+      'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.symbol': 'Национальный символ',
+      start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
+      'sound.on': 'Звук включён', 'sound.off': 'Звук выключен'
     },
     en: {
       skip: 'Skip to route', brand: 'Friendship Code',
       'nav.map': 'Map', 'nav.route': 'Itinerary', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
       'hero.eyebrow': 'International Student Tourism School', 'hero.title': 'Friendship Code', 'hero.sub': '5 countries, 9 days, one friendship',
       'hero.cta': 'See the route', 'hero.credit': 'Photo: Lake Kolsai',
-      'map.kicker': 'Interactive map', 'map.title': 'Almaty → Bishkek → Dushanbe → Samarkand → Yerevan',
+      'map.kicker': 'Interactive map', 'map.title': 'Yerevan → Almaty → Bishkek → Dushanbe → Samarkand',
       'map.lead': 'Tap a point to see a photo, time and description. Use the filter to focus on one country.',
       'map.all': 'Whole route', 'map.toProgram': 'Open in itinerary →', 'map.extra': 'Optional trip',
       'map.loading': 'Loading map…', 'map.error': 'The map failed to load. Check your connection and refresh.',
@@ -44,7 +50,7 @@
       noTiming: 'Stops in order, no hourly timing',
       'ph.soon': 'Photo coming soon', 'ph.attr': 'Author · licence',
       'gallery.kicker': 'Gallery', 'gallery.title': 'The route in pictures',
-      'gallery.lead': 'Photos of the other countries are on the way, each with its author and licence.',
+      'gallery.lead': 'Kazakhstan and Uzbekistan are already here. Photos of Armenia, Kyrgyzstan and Tajikistan are on the way, each with its author and licence.',
       'ar.kicker': 'Augmented reality', 'ar.title': 'Put the Registan on your desk',
       'ar.lead': 'Spin the model with a finger or mouse. On a phone tap “View in AR”, on a computer scan the QR code.',
       'ar.note': 'These are simplified stylised models. Detailed ones can be dropped into assets/models without code changes.',
@@ -56,8 +62,14 @@
       'tips.docs.t': 'Documents & connectivity', 'tips.docs.d': 'The route crosses five borders. Check entry rules for your citizenship and set up roaming or a local SIM.',
       'team.kicker': 'Who made it', 'team.title': 'Project team',
       'contacts.title': 'Travel with us', 'contacts.lead': 'Questions and bookings', 'contacts.tg': 'Telegram',
-      'footer.copy': '“Friendship Code” · International Student Tourism School', 'footer.map': 'Map', 'footer.photos': 'Kazakhstan photos',
-      photo: 'Photo', close: 'Close'
+      'footer.copy': '“Friendship Code” · International Student Tourism School', 'footer.map': 'Map', 'footer.photos': 'Photos',
+      photo: 'Photo', close: 'Close',
+      'hero.intro': 'Watch the intro', 'intro.play': 'Start the journey', 'intro.hint': 'With sound. You can skip it.', 'intro.skip': 'Skip', 'intro.sound': 'Turn sound on', 'intro.together': 'Five countries together',
+      more: 'Tour details', dayN: 'Day', days2: 'days', days1: 'day',
+      'stats.countries': 'countries', 'stats.days': 'days', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
+      'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.symbol': 'National symbol',
+      start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
+      'sound.on': 'Sound on', 'sound.off': 'Sound off'
     }
   };
 
@@ -82,13 +94,22 @@
   function photo(p, point) {
     if (!p) return null;
     const meta = DATA.meta;
+    if (typeof p === 'string' && p[0] === '@') p = DATA.uzPhotos[p.slice(1)];
+    if (!p) return null;
     if (typeof p === 'string') {
       return { src: `assets/img/${p}.webp`, sm: `assets/img/${p}-sm.webp`, author: meta.photoCredit, license: L(meta.photoLicense), caption: L(point?.photoCaption) || L(point?.name) };
     }
     return { src: p.src, sm: p.sm || p.src, author: p.author || '', license: L(p.license) || p.license || '', url: p.url, caption: L(p.caption) || L(point?.name) };
   }
   const credit = (ph) => [ph.author, ph.license].filter(Boolean).join(' · ');
-  const placeholder = (name) => `<div class="ph" role="img" aria-label="${esc(name)}: ${esc(t('ph.soon'))}"><b>${esc(name)}</b><small>${esc(t('ph.soon'))} · ${esc(t('ph.attr'))}</small></div>`;
+  const country = (id) => DATA.countries.find((x) => x.id === id);
+  /* Цветная «открытка» страны с её орнаментом: вместо фото, пока фото нет */
+  function art(c, label, sub = '') {
+    const [a, b, d] = c.palette;
+    return `<div class="art" role="img" aria-label="${esc(label)}" style="--a:${a};--b:${b};--d:${d};background-image:${window.KD_ORN.pattern(c.id, '#ffffff', 0.18, 90)},linear-gradient(135deg,${a} 0%,${d} 100%)">
+      ${window.KD_ORN.svg(c.id, 'art-orn', '#fff')}<b>${esc(label)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</div>`;
+  }
+  const placeholder = (name, c) => art(c || DATA.countries[0], name, t('art.soon'));
 
   /* ---------- Lightbox ---------- */
   const lb = { list: [], i: 0 };
@@ -125,48 +146,74 @@
     document.documentElement.lang = lang;
     $$('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
     $$('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
-    $('#heroAuthor').textContent = DATA?.meta.photoCredit || '';
-    $('#footerAuthor').textContent = DATA ? `${DATA.meta.photoCredit} (${L(DATA.meta.photoLicense)})` : '';
+        $('#footerAuthor').textContent = DATA ? (lang === 'ru' ? `Казахстан: ${DATA.meta.photoCredit}; Узбекистан: Unsplash, авторы указаны в подписях` : `Kazakhstan: ${DATA.meta.photoCredit}; Uzbekistan: Unsplash, authors in captions`) : '';
   }
 
   /* ---------- Hero, filters, nav ---------- */
   function renderHero() {
-    $('#heroCountries').innerHTML = DATA.countries.map((c) => `<li>${esc(L(c.name))}</li>`).join('');
+    $('#heroCountries').innerHTML = DATA.countries.map((c) => `<li style="--c:${c.palette[0]}">${window.KD_ORN.svg(c.id, 'chip-orn', c.palette[0])}${esc(L(c.name))}</li>`).join('');
+    // Заголовок по буквам для волны появления
+    const title = t('hero.title');
+    let li = 0;
+    $('#heroTitle').innerHTML = title.split(' ').map((w) => `<span class="w">${[...w].map((ch) => `<span style="--i:${li++}">${esc(ch)}</span>`).join('')}</span>`).join(' ');
+    $('#heroTitle').setAttribute('aria-label', title);
+    // Арки: фото, где есть, и цветные открытки остальных стран
+    const arches = DATA.countries.map((c) => {
+      const ph = photo(c.cover, { name: c.city });
+      return `<div class="arch" style="--c:${c.palette[0]}" data-tilt>${ph ? `<img src="${ph.sm}" alt="" loading="lazy" decoding="async">` : art(c, L(c.name))}<span>${esc(L(c.name))}</span></div>`;
+    }).join('');
+    $('#heroArches').innerHTML = arches;
+    $('#heroOrns').innerHTML = DATA.countries.map((c, i) => window.KD_ORN.svg(c.id, `float f${i}`, c.palette[0])).join('');
+  }
+  function renderStats() {
+    const stops = DATA.countries.reduce((n, c) => n + c.days.reduce((m, d) => m + d.points.filter((p) => p.coords).length, 0), 0);
+    const items = [[5, t('stats.countries')], [9, t('stats.days')], [stops, t('stats.stops')], [1, t('stats.one')]];
+    $('#stats').innerHTML = items.map(([v, l], i) => `<div class="stat reveal" style="--c:${DATA.countries[i % 5].palette[0]}"><b data-count="${v}">${v}</b><span>${esc(l)}</span></div>`).join('');
+  }
+  function renderBands() {
+    const row = DATA.countries.map((c) => window.KD_ORN.svg(c.id, '', c.palette[0]) + window.KD_ORN.svg(c.id, 'sm', c.palette[1])).join('');
+    ['#ornBand1', '#ornBand2'].forEach((sel) => { const el = $(sel); if (el) el.innerHTML = row.repeat(4); });
+  }
+  function renderWhy() {
+    const w = DATA.routeWhy;
+    $('#routeWhy').innerHTML = `<h3>${esc(L(w.title))}</h3><ol>${w.items.map((x, i) => `<li style="--c:${DATA.countries[i % 5].palette[0]}">${esc(L(x))}</li>`).join('')}</ol>`;
   }
   function renderCountryNav() {
     $('#countryNav').innerHTML = DATA.countries.map((c) =>
-      `<a href="#c-${c.id}" style="--c:${COLORS[c.id]}"><span class="dot"></span>${esc(L(c.name))}</a>`).join('');
+      `<a href="#c-${c.id}" style="--c:${COLORS[c.id]}">${window.KD_ORN.svg(c.id, 'nav-orn', COLORS[c.id])}${esc(L(c.name))}</a>`).join('');
     $('#mapFilter').innerHTML = `<button class="chip" type="button" data-filter="all" aria-pressed="${mapState.filter === 'all'}">${esc(t('map.all'))}</button>` +
       DATA.countries.map((c) => `<button class="chip" type="button" data-filter="${c.id}" style="--c:${COLORS[c.id]}" aria-pressed="${mapState.filter === c.id}"><span class="dot"></span>${esc(L(c.name))}</button>`).join('');
   }
 
   /* ---------- Countries ---------- */
+  const dayOffset = {};
+  function computeOffsets() { let n = 0; DATA.countries.forEach((c) => { dayOffset[c.id] = n; n += c.days.length; }); }
   function timeLabel(c, p) {
     if (c.noTiming) return `№${esc(p.time)}`;
     return p.time ? esc(p.time) : '•';
   }
-  function renderDay(c, di) {
+  function renderDay(c, di, opts = {}) {
     const day = c.days[di];
     const items = day.points.map((p, pi) => {
       const ph = photo(p.photo, p);
       const isMain = p.tags.includes('main');
-      const showMedia = ph || isMain;
-      const media = ph
+      const showMedia = !opts.compact && (ph || isMain);
+      const media = !showMedia ? '' : ph
         ? `<button class="tl-media" type="button" data-lb="${c.id}|${di}|${pi}" aria-label="${esc(t('photo'))}: ${esc(L(p.name))}"><img src="${ph.sm}" alt="${esc(ph.caption)}" loading="lazy" decoding="async" width="640" height="400"></button>`
-        : (isMain ? `<div class="tl-media is-ph">${placeholder(L(p.name))}</div>` : '');
+        : `<div class="tl-media is-ph">${placeholder(L(p.name), c)}</div>`;
       const badges = p.tags.map((tg) => `<span class="badge ${tg}">${esc(L(DATA.tags[tg]))}</span>`).join('');
-      const actions = [
+      const actions = opts.compact ? '' : [
         p.coords ? `<button class="tl-map" type="button" data-goto="${c.id}-${di}-${pi}">📍 ${esc(t('onMap'))}</button>` : '',
         p.ar ? `<a class="tl-map tl-ar" href="#ar-${p.ar}">◈ ${esc(t('arLink'))}</a>` : ''
       ].join('');
-      return `<li class="tl-item${isMain ? ' is-main' : ''}" id="p-${c.id}-${di}-${pi}">
+      return `<li class="tl-item${isMain ? ' is-main' : ''}" ${opts.compact ? '' : `id="p-${c.id}-${di}-${pi}"`} style="--d:${pi}">
         <div class="tl-time">${timeLabel(c, p)}</div>
-        <div class="tl-card${showMedia ? ' has-media' : ''}">
+        <div class="tl-card${showMedia ? ' has-media' : ''}" ${opts.compact ? '' : 'data-tilt'}>
           ${media}
           <div>
             <h3>${esc(L(p.name))}</h3>
             <p>${esc(L(p.desc))}</p>
-            ${ph ? `<p class="tl-credit">${esc(t('photo'))}: ${esc(credit(ph))}</p>` : ''}
+            ${ph && !opts.compact ? `<p class="tl-credit">${esc(t('photo'))}: ${esc(credit(ph))}</p>` : ''}
             ${badges ? `<div class="badges">${badges}</div>` : ''}
             ${actions}
           </div>
@@ -175,13 +222,15 @@
     }).join('');
     return `<p class="day-sub"><b>${esc(L(day.title))}.</b> ${esc(L(day.subtitle))}${c.noTiming ? ` · ${esc(t('noTiming'))}` : ''}</p><ol class="timeline">${items}</ol>`;
   }
+  const modeIcon = (m) => m === 'plane' ? '✈' : m === 'bus' ? '🚐' : '🚆';
   function renderCountries() {
-    $('#countryBlocks').innerHTML = DATA.countries.map((c, ci) => {
-      const di = activeDay[c.id] || 0;
+    computeOffsets();
+    const blocks = DATA.countries.map((c, ci) => {
+      const di = activeDay[c.id] || 0, off = dayOffset[c.id];
       const tabs = c.days.length > 1
         ? `<div class="day-tabs" role="tablist" aria-label="${esc(L(c.name))}">${c.days.map((d, i) =>
-            `<button class="day-tab" role="tab" type="button" id="tab-${c.id}-${i}" aria-controls="panel-${c.id}" aria-selected="${i === di}" data-country="${c.id}" data-day="${i}">${esc(t('day'))} ${i + 1} · ${esc(L(d.title))}</button>`).join('')}</div>`
-        : `<div class="day-tabs"><span class="day-tab" aria-selected="true">${esc(t('day'))} 1 · ${esc(L(c.days[0].title))}</span></div>`;
+            `<button class="day-tab" role="tab" type="button" id="tab-${c.id}-${i}" aria-controls="panel-${c.id}" aria-selected="${i === di}" data-country="${c.id}" data-day="${i}">${esc(t('day'))} ${off + i + 1} · ${esc(L(d.title))}</button>`).join('')}</div>`
+        : `<div class="day-tabs"><span class="day-tab" aria-selected="true">${esc(t('day'))} ${off + 1} · ${esc(L(c.days[0].title))}</span></div>`;
       let extra = '';
       if (c.extra) {
         extra = `<aside class="extra reveal"><h3>${esc(L(c.extra.title))}</h3><p>${esc(L(c.extra.text))}</p>
@@ -190,15 +239,22 @@
             return `<button type="button" data-lb-extra="${c.id}|${i}" aria-label="${esc(t('photo'))} ${i + 1}"><img src="${ph.sm}" alt="${esc(L(c.extra.points[0].name))}" loading="lazy" decoding="async"></button>`;
           }).join('')}</div></aside>`;
       }
-      return `<article class="country" id="c-${c.id}" style="--c:${COLORS[c.id]}">
+      const [p1, p2, p3] = c.palette;
+      const arrive = c.arrive ? `<div class="transfer reveal" style="--c:${p1}"><div class="container"><span class="tr-ico" aria-hidden="true">${modeIcon(c.arrive.mode)}</span><span class="tr-lbl">${esc(ci === 0 ? t('start') : t('transfer'))}</span><span class="tr-txt">${esc(L(c.arrive))}</span></div></div>` : '';
+      const ph = photo(c.cover, { name: c.city });
+      return `${arrive}<article class="country" id="c-${c.id}" style="--c:${p1};--c2:${p2};--c3:${p3};--pat:${window.KD_ORN.pattern(c.id, p1, 0.09, 130)}">
+        ${window.KD_ORN.svg(c.id, 'country-orn', p1)}
         <div class="container">
           <header class="country-head reveal">
             <div class="country-num" aria-hidden="true">0${ci + 1}</div>
-            <div>
+            <div class="country-title">
+              <p class="country-symbol">${window.KD_ORN.svg(c.id, 'sym', p1)}<span>${esc(L(c.symbol))}</span></p>
               <h2>${esc(L(c.name))}</h2>
-              <p class="country-city">${esc(L(c.city))}</p>
+              <p class="country-city">${esc(L(c.city))} · ${c.days.length} ${esc(c.days.length > 1 ? t('days2') : t('days1'))}</p>
               <p class="lead">${esc(L(c.intro))}</p>
+              <button class="btn btn-country magnetic" type="button" data-pkg="${c.id}">${esc(t('more'))} <span aria-hidden="true">→</span></button>
             </div>
+            <div class="country-cover" data-tilt>${ph ? `<img src="${ph.sm}" alt="${esc(ph.caption)}" loading="lazy" decoding="async">` : art(c, L(c.city))}</div>
           </header>
           ${tabs}
           <div class="day-panel" id="panel-${c.id}" role="tabpanel">${renderDay(c, di)}</div>
@@ -207,13 +263,77 @@
         </div>
       </article>`;
     }).join('');
+    const last = DATA.countries[DATA.countries.length - 1];
+    const finish = `<div class="transfer finish reveal" style="--c:${last.palette[0]}"><div class="container"><span class="tr-ico" aria-hidden="true">🏁</span><span class="tr-lbl">${esc(t('finish'))}</span><span class="tr-txt">${esc(L(DATA.finish))}</span></div></div>`;
+    $('#countryBlocks').innerHTML = blocks + finish;
     observeReveal();
   }
   function selectDay(cid, di) {
     activeDay[cid] = di;
-    const c = DATA.countries.find((x) => x.id === cid);
-    $(`#panel-${cid}`).innerHTML = renderDay(c, di);
+    const c = country(cid);
+    const panel = $(`#panel-${cid}`);
+    panel.classList.remove('swap'); void panel.offsetWidth;
+    panel.innerHTML = renderDay(c, di);
+    panel.classList.add('swap');
     $$(`.day-tab[data-country="${cid}"]`).forEach((b) => b.setAttribute('aria-selected', String(+b.dataset.day === di)));
+  }
+
+  /* ---------- Tour package sheet («Подробнее») ---------- */
+  let sheetReturn = null;
+  function openPackage(cid, push = true) {
+    const c = country(cid); if (!c) return;
+    const pk = c.package || {}, off = dayOffset[c.id];
+    const [p1, p2, p3] = c.palette;
+    const ph = photo(c.cover, { name: c.city });
+    const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>`;
+    const days = c.days.map((d, i) => `<section class="pk-day"><h4><span>${esc(t('day'))} ${off + i + 1}</span> ${esc(L(d.title))}</h4>${renderDay(c, i, { compact: true })}</section>`).join('');
+    $('#sheetPanel').innerHTML = `
+      <button class="sheet-close" type="button" data-close aria-label="${esc(t('pkg.close'))}">×</button>
+      <header class="pk-hero" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        <div class="pk-media">${ph ? `<img src="${ph.src}" alt="${esc(ph.caption)}">` : art(c, L(c.city))}</div>
+        <div class="pk-stripe" aria-hidden="true">${DATA.countries.map((x) => `<i style="background:${x.palette[0]}"></i><i style="background:${x.palette[1]}"></i>`).join('')}</div>
+        <div class="pk-head">
+          <p class="pk-kicker">${esc(L(pk.source) || `${t('pkg.kicker')} · ${t('brand')}`)}</p>
+          <span class="pk-pill">${c.days.length} ${esc(c.days.length > 1 ? t('days2') : t('days1'))}</span>
+          <h2 id="sheetTitle">${esc(L(c.name))}<br><small>${esc(L(c.city))}</small></h2>
+          <p class="pk-tag">${esc(L(pk.tagline))}</p>
+        </div>
+      </header>
+      <div class="pk-body" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        ${pk.stats ? `<div class="pk-stats">${pk.stats.map((s) => `<div><b>${esc(s.v)}</b><span>${esc(L(s.l))}</span></div>`).join('')}</div>` : ''}
+        <p class="pk-intro">${esc(L(c.intro))}</p>
+        <h3>${esc(t('pkg.program'))}</h3>
+        ${days}
+        <div class="pk-grid">
+          ${pk.transport || c.arrive ? `<section><h3>${esc(t('pkg.how'))}</h3>${c.arrive ? `<p><b>${modeIcon(c.arrive.mode)} ${esc(L(c.arrive))}</b></p>` : ''}${pk.transport ? `<p>${esc(L(pk.transport))}</p>` : ''}</section>` : ''}
+          ${pk.meals ? `<section><h3>${esc(t('pkg.meals'))}</h3><p>${esc(L(pk.meals))}</p></section>` : ''}
+          ${pk.included ? `<section class="pk-in"><h3>${esc(t('pkg.in'))}</h3>${list(pk.included)}</section>` : ''}
+          ${pk.excluded ? `<section class="pk-out"><h3>${esc(t('pkg.out'))}</h3>${list(pk.excluded)}</section>` : ''}
+          ${pk.bring ? `<section class="pk-bring"><h3>${esc(t('pkg.bring'))}</h3>${list(pk.bring)}</section>` : ''}
+          <section class="pk-sym"><h3>${esc(t('pkg.symbol'))}</h3>${window.KD_ORN.svg(c.id, 'pk-orn', p1)}<p>${esc(L(c.symbol))}</p></section>
+        </div>
+        ${pk.extend ? `<aside class="pk-extend"><h3>${esc(L(pk.extend.title))}</h3><p>${esc(L(pk.extend.text))}</p><a class="btn btn-country" href="${esc(pk.extend.url)}" target="_blank" rel="noopener">t2t.asia →</a></aside>` : ''}
+        <p class="pk-note">${esc(L(c.note))}${pk.included ? '' : ` ${esc(t('pkg.terms'))}`}</p>
+        <div class="pk-cta">
+          <a class="btn btn-country" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('pkg.book'))} · Telegram</a>
+          <a class="btn btn-line" href="${esc(DATA.contacts.site)}" target="_blank" rel="noopener">${esc(t('pkg.site'))}</a>
+        </div>
+      </div>`;
+    const sh = $('#sheet');
+    sheetReturn = document.activeElement;
+    sh.hidden = false; document.documentElement.classList.add('sheet-lock');
+    requestAnimationFrame(() => sh.classList.add('open'));
+    $('#sheetPanel').scrollTop = 0; $('#sheetPanel').focus({ preventScroll: true });
+    if (push && location.hash !== `#tour-${cid}`) history.pushState(null, '', `#tour-${cid}`);
+    if (window.KD_SOUND.enabled) window.KD_SOUND.ting(DATA.countries.indexOf(c), 0, 0.15);
+  }
+  function closePackage(fromPop = false) {
+    const sh = $('#sheet');
+    if (sh.hidden) return;
+    sh.classList.remove('open');
+    setTimeout(() => { sh.hidden = true; document.documentElement.classList.remove('sheet-lock'); }, 350);
+    if (!fromPop && location.hash.startsWith('#tour-')) history.back();
+    sheetReturn?.focus?.({ preventScroll: true });
   }
 
   /* ---------- Gallery ---------- */
@@ -222,21 +342,27 @@
     const items = [];
     galleryList = [];
     DATA.countries.forEach((c) => {
-      let phCount = 0;
+      let artCount = 0;
       c.days.forEach((d) => d.points.forEach((p) => {
         const ph = photo(p.photo, p);
         if (ph) items.push({ ph });
-        else if (p.tags.includes('main') && phCount < 2) { phCount++; items.push({ name: L(p.name), country: L(c.name) }); }
+        else if (p.tags.includes('main') && artCount < 2 && !['kz', 'uz'].includes(c.id)) { artCount++; items.push({ name: L(p.name), c }); }
       }));
       if (c.extra) c.extra.photos.forEach((p) => items.push({ ph: photo(p, c.extra.points[0]) }));
+      if (c.id === 'uz') ['reg_light', 'samarqand_8', 'samarqand_4', 'shah_wide', 'det_star', 'mato_0'].forEach((k) => items.push({ ph: photo('@' + k, {}) }));
     });
-    $('#galleryGrid').innerHTML = items.map((it, i) => {
+    // Перемешиваем страны, чтобы галерея не начиналась сплошным Казахстаном
+    const byC = {}; items.forEach((it) => { const k = it.c ? it.c.id : (it.ph.src.includes('/uz/') ? 'uz' : 'kz'); (byC[k] = byC[k] || []).push(it); });
+    const order = DATA.countries.map((c) => c.id), mixed = [];
+    while (order.some((k) => byC[k]?.length)) order.forEach((k) => { if (byC[k]?.length) mixed.push(byC[k].shift()); });
+    $('#galleryGrid').innerHTML = mixed.map((it, i) => {
       if (it.ph) {
         const idx = galleryList.push(it.ph) - 1;
-        return `<button class="g-item" type="button" data-gal="${idx}"><img src="${it.ph.sm}" alt="${esc(it.ph.caption)}" loading="lazy" decoding="async"><figcaption>${esc(it.ph.caption)}</figcaption></button>`;
+        return `<button class="g-item reveal" type="button" data-gal="${idx}" style="--d:${i % 6}"><img src="${it.ph.sm}" alt="${esc(it.ph.caption)}" loading="lazy" decoding="async"><figcaption>${esc(it.ph.caption)}</figcaption></button>`;
       }
-      return `<div class="g-item is-ph${i % 3 === 0 ? ' tall' : ''}">${placeholder(`${it.name} · ${it.country}`)}</div>`;
+      return `<div class="g-item is-ph reveal${i % 3 === 0 ? ' tall' : ''}" style="--d:${i % 6}">${art(it.c, it.name, `${L(it.c.name)} · ${t('art.soon')}`)}</div>`;
     }).join('');
+    observeReveal();
   }
 
   /* ---------- Team & contacts ---------- */
@@ -249,6 +375,52 @@
     $('span', tg).textContent = `Telegram ${DATA.contacts.telegramLabel || ''}`.trim();
     $('#siteLink').href = DATA.contacts.site;
     observeReveal();
+  }
+
+  /* ---------- Effects: progress, counters, tilt, magnetic, glow ---------- */
+  const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function initEffects() {
+    const bar = $('#progressBar');
+    const onScroll = () => {
+      const h = document.documentElement.scrollHeight - innerHeight;
+      bar.style.transform = `scaleX(${h > 0 ? Math.min(1, scrollY / h) : 0})`;
+      const hero = $('#hero');
+      if (hero && !reduceMotion) hero.style.setProperty('--sy', Math.min(1, scrollY / innerHeight).toFixed(3));
+    };
+    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    if (fine && !reduceMotion) {
+      document.addEventListener('pointermove', (e) => {
+        const tl = e.target.closest?.('[data-tilt]');
+        $$('[data-tilt].tilting').forEach((x) => { if (x !== tl) { x.classList.remove('tilting'); x.style.transform = ''; } });
+        if (tl) {
+          const r = tl.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+          tl.classList.add('tilting');
+          tl.style.transform = `perspective(900px) rotateY(${x * 7}deg) rotateX(${-y * 7}deg) translateY(-3px)`;
+          tl.style.setProperty('--mx', `${(x + 0.5) * 100}%`); tl.style.setProperty('--my', `${(y + 0.5) * 100}%`);
+        }
+        const mg = e.target.closest?.('.magnetic');
+        $$('.magnetic.pull').forEach((x) => { if (x !== mg) { x.classList.remove('pull'); x.style.transform = ''; } });
+        if (mg) {
+          const r = mg.getBoundingClientRect();
+          mg.classList.add('pull');
+          mg.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * 0.18}px, ${(e.clientY - r.top - r.height / 2) * 0.3}px)`;
+        }
+        const hero = $('#hero');
+        if (hero) { hero.style.setProperty('--px', (e.clientX / innerWidth - 0.5).toFixed(3)); hero.style.setProperty('--py', (e.clientY / innerHeight - 0.5).toFixed(3)); }
+      }, { passive: true });
+    }
+  }
+  function countUp(el) {
+    const to = +el.dataset.count; if (!to || reduceMotion) return;
+    const t0 = performance.now(), dur = 1400;
+    const step = (now) => { const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = Math.round(to * e); if (k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  }
+  function startHero() { document.body.classList.add('hero-go'); }
+  function syncSoundBtn() {
+    const on = window.KD_SOUND.enabled, b = $('#soundBtn');
+    b.textContent = on ? '🔊' : '🔈'; b.setAttribute('aria-pressed', String(on)); b.title = on ? t('sound.on') : t('sound.off');
   }
 
   /* ---------- Map ---------- */
@@ -300,7 +472,7 @@
       mapState.bounds[c.id] = L_.latLngBounds(pts);
       all.push(...pts);
     });
-    const hubs = L_.polyline(DATA.countries.map((c) => c.hub), { color: '#D4A23C', weight: 3, opacity: .9, dashArray: '10 10' });
+    const hubs = L_.polyline(DATA.countries.map((c) => c.hub), { color: '#E3A21A', weight: 3, opacity: .95, dashArray: '10 10' });
     hubs.addTo(map); mapState.layers.hubs = hubs;
     mapState.bounds.all = L_.latLngBounds(all);
   }
@@ -421,7 +593,7 @@
     const els = $$('.reveal:not(.in)');
     if (!('IntersectionObserver' in window)) { els.forEach((e) => e.classList.add('in')); return; }
     if (!revealObs) revealObs = new IntersectionObserver((entries) => entries.forEach((e) => {
-      if (e.isIntersecting) { e.target.classList.add('in'); revealObs.unobserve(e.target); }
+      if (e.isIntersecting) { e.target.classList.add('in'); const cnt = e.target.querySelector?.('[data-count]'); if (cnt) countUp(cnt); revealObs.unobserve(e.target); }
     }), { rootMargin: '0px 0px -8% 0px' });
     els.forEach((e) => revealObs.observe(e));
   }
@@ -473,6 +645,11 @@
       }
       const gal = e.target.closest('[data-gal]');
       if (gal) { openLightbox(galleryList, +gal.dataset.gal); return; }
+      const pk = e.target.closest('[data-pkg]');
+      if (pk) { openPackage(pk.dataset.pkg); return; }
+      if (e.target.closest('#sheet [data-close]')) { closePackage(); return; }
+      if (e.target.closest('#replayIntro')) { window.KD_INTRO.open(); return; }
+      if (e.target.closest('#soundBtn')) { window.KD_SOUND.setEnabled(!window.KD_SOUND.enabled); if (window.KD_SOUND.enabled) window.KD_SOUND.ting(2); return; }
       const ar = e.target.closest('[data-ar]');
       if (ar) { activateAR(ar.dataset.ar); return; }
       const lb2 = e.target.closest('.lang button');
@@ -485,6 +662,12 @@
       burger.setAttribute('aria-expanded', String(open));
       $('#nav').classList.toggle('open', open);
     });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#sheet').hidden) closePackage(); });
+    addEventListener('popstate', () => {
+      const m = location.hash.match(/^#tour-(\w+)/);
+      if (m) openPackage(m[1], false); else closePackage(true);
+    });
+    document.addEventListener('kd-sound', syncSoundBtn);
     const bar = $('#topbar');
     const onScroll = () => bar.classList.toggle('scrolled', window.scrollY > 40 || $('#nav').classList.contains('open'));
     window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
@@ -500,9 +683,10 @@
   }
   function renderAll() {
     applyStatic();
-    renderHero(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     $$('.reveal').forEach((el) => el.classList.add('in'));
+    syncSoundBtn(); window.KD_INTRO.relabel();
     spyCountries();
   }
 
@@ -517,10 +701,14 @@
       $('#countryBlocks').innerHTML = '<p class="container" style="padding:40px 16px">Не удалось загрузить данные маршрута (data/routes.json).</p>';
       return;
     }
+    DATA.countries.forEach((c) => { COLORS[c.id] = c.palette[0]; });
     applyStatic();
-    renderHero(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
-    observeReveal(); spyCountries();
+    observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
+    window.KD_INTRO.init(DATA, L, t, startHero);
+    const tm = location.hash.match(/^#tour-(\w+)/);
+    if (tm) setTimeout(() => openPackage(tm[1], false), 200);
     lazySection($('#map'), initMap, '400px');
     lazySection($('#ar'), () => { arVisible = true; mountModels(); }, '500px');
     if (location.hash.startsWith('#ar-')) { arVisible = true; mountModels(); setTimeout(() => $(location.hash)?.scrollIntoView(), 300); }
