@@ -224,5 +224,5 @@
     b.setAttribute('aria-pressed', String(on));
   }
   function relabel() { if (built && !$('intro').hidden) build(); }
-  window.KD_INTRO = { init, open, close, relabel };
+  window.KD_INTRO = { init, open, close, relabel, flag: flagSVG };
 })();

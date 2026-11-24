@@ -5,7 +5,7 @@
   const I18N = {
     ru: {
       skip: 'К маршруту', brand: 'Код дружбы',
-      'nav.packages': 'Пакеты', 'nav.map': 'Карта', 'nav.route': 'Страны', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
+      'nav.packages': 'Пакеты', 'nav.loyalty': 'Паспорт', 'nav.map': 'Карта', 'nav.route': 'Страны', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
       'hero.eyebrow': 'Международная школа Студтуризма', 'hero.title': 'Код дружбы', 'hero.sub': '5 стран, 3 студенческих пакета, одна дружба',
       'hero.cta': 'Выбрать поездку', 'hero.credit': 'Фото: озеро Кольсай',
       'map.kicker': 'Интерактивная карта', 'map.title': 'Ереван → Алматы → Бишкек → Душанбе → Самарканд',
@@ -41,6 +41,8 @@
       'offers.kicker': 'Для студентов', 'offers.title': 'Три формата одного маршрута', 'offers.lead': 'От выходных в Самарканде до всех пяти стран за неделю. Хостелы и общежития, гиды-студенты, поезда и автобусы.',
       'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Из чего складывается цена, $', 'offers.total': 'Итого', 'offers.perDay': 'в день',
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
+      'tour.route': 'Маршрут', 'tour.of5': 'из 5 стран', 'tour.perDay': 'Цена за день поездки', 'tour.market': 'Обычный тур', 'tour.save': 'Дешевле обычного тура на', 'tour.loy1': 'Эта поездка даст', 'tour.loy2': 'в Паспорт дружбы и', 'tour.stamp1': 'штамп', 'tour.stamp2': 'штампа', 'tour.stamp5': 'штампов', 'tour.keeper': 'Сразу статус «Хранитель кода»: −20% на все следующие поездки.', 'tour.loyMore': 'Как работает паспорт',
+      'loy.kicker': 'Программа лояльности', 'loy.title': 'Паспорт дружбы', 'loy.s1': 'Где вы уже были с «Кодом дружбы»?', 'loy.s2': 'Монеты сверх поездок', 'loy.s3': 'Следующая поездка', 'loy.toNext': 'До уровня', 'loy.more': 'ещё', 'loy.max': 'Максимальный уровень: −20% на всё', 'loy.base': 'Цена пакета', 'loy.lvl': 'Уровень', 'loy.coins': 'Монеты', 'loy.pay': 'Вы платите', 'loy.saveTxt': 'Экономия', 'loy.back': 'вернётся', 'loy.after': 'После поездки в паспорте', 'loy.calc': 'Посчитать свою скидку',
       'prog.show': 'Показать программу', 'prog.hide': 'Скрыть программу', 'prog.points': 'точек', 'gal.more': 'Показать все фото', 'why.more': 'Почему маршрут идёт именно так', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
       'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.site2': 'сайт тур-пакета', 'pkg.symbol': 'Национальный символ',
       start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
@@ -48,7 +50,7 @@
     },
     en: {
       skip: 'Skip to route', brand: 'Friendship Code',
-      'nav.packages': 'Packages', 'nav.map': 'Map', 'nav.route': 'Countries', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
+      'nav.packages': 'Packages', 'nav.loyalty': 'Passport', 'nav.map': 'Map', 'nav.route': 'Countries', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
       'hero.eyebrow': 'International Student Tourism School', 'hero.title': 'Friendship Code', 'hero.sub': '5 countries, 3 student packages, one friendship',
       'hero.cta': 'Pick a trip', 'hero.credit': 'Photo: Lake Kolsai',
       'map.kicker': 'Interactive map', 'map.title': 'Yerevan → Almaty → Bishkek → Dushanbe → Samarkand',
@@ -84,6 +86,8 @@
       'offers.kicker': 'For students', 'offers.title': 'Three formats of one route', 'offers.lead': 'From a weekend in Samarkand to all five countries in a week. Hostels and dorms, student guides, trains and buses.',
       'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'What the price is made of, $', 'offers.total': 'Total', 'offers.perDay': 'a day',
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
+      'tour.route': 'Route', 'tour.of5': 'of 5 countries', 'tour.perDay': 'Price per day', 'tour.market': 'Typical tour', 'tour.save': 'Cheaper than a typical tour by', 'tour.loy1': 'This trip adds', 'tour.loy2': 'to your Friendship Passport and', 'tour.stamp1': 'stamp', 'tour.stamp2': 'stamps', 'tour.stamp5': 'stamps', 'tour.keeper': 'Instant Code Keeper status: −20% on every next trip.', 'tour.loyMore': 'How the passport works',
+      'loy.kicker': 'Loyalty programme', 'loy.title': 'Friendship Passport', 'loy.s1': 'Where have you been with Friendship Code?', 'loy.s2': 'Coins beyond trips', 'loy.s3': 'Your next trip', 'loy.toNext': 'To', 'loy.more': '', 'loy.max': 'Top level: −20% on everything', 'loy.base': 'Package price', 'loy.lvl': 'Level', 'loy.coins': 'Coins', 'loy.pay': 'You pay', 'loy.saveTxt': 'You save', 'loy.back': 'back', 'loy.after': 'Passport after the trip', 'loy.calc': 'Work out your discount',
       'prog.show': 'Show the programme', 'prog.hide': 'Hide the programme', 'prog.points': 'stops', 'gal.more': 'Show all photos', 'why.more': 'Why the route runs this way', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
       'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.site2': 'tour package website', 'pkg.symbol': 'National symbol',
       start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
@@ -231,7 +235,7 @@
         <div class="tl-card${showMedia ? ' has-media' : ''}" ${opts.compact ? '' : 'data-tilt'}>
           ${media}
           <div>
-            <h3>${esc(L(p.name))}</h3>
+            ${p.hook ? `<p class="tl-place">${esc(L(p.name))}</p><h3 class="tl-hook">«${esc(L(p.hook))}»</h3>` : `<h3>${esc(L(p.name))}</h3>`}
             <p>${esc(L(p.desc))}</p>
             ${ph && !opts.compact ? `<p class="tl-credit">${esc(t('photo'))}: ${esc(credit(ph))}</p>` : ''}
             ${badges ? `<div class="badges">${badges}</div>` : ''}
@@ -313,7 +317,7 @@
   }
 
   /* ---------- Tour package sheet («Подробнее») ---------- */
-  let sheetReturn = null;
+  let sheetReturn = null, sheetPushed = false;
   function openPackage(cid, push = true) {
     const c = country(cid); if (!c) return;
     const pk = c.package || {}, off = dayOffset[c.id];
@@ -353,6 +357,7 @@
           <a class="btn btn-line" href="${esc(DATA.contacts.site)}" target="_blank" rel="noopener">${esc(t('pkg.site'))}</a>
         </div>
       </div>`;
+    $('#sheet').classList.remove('is-tour');
     showSheet(`#tour-${cid}`, push, DATA.countries.indexOf(c));
   }
   function showSheet(hash, push, note) {
@@ -361,7 +366,8 @@
     sh.hidden = false; document.documentElement.classList.add('sheet-lock');
     requestAnimationFrame(() => sh.classList.add('open'));
     $('#sheetPanel').scrollTop = 0; $('#sheetPanel').focus({ preventScroll: true });
-    if (push && location.hash !== hash) history.pushState(null, '', hash);
+    sheetPushed = false;
+    if (push && location.hash !== hash) { history.pushState(null, '', hash); sheetPushed = true; }
     if (window.KD_SOUND.enabled) window.KD_SOUND.ting(note, 0, 0.15);
   }
 
@@ -393,7 +399,7 @@
         <button class="btn btn-country of-btn" type="button" data-offer="${o.id}">${esc(t('offers.more'))} <span aria-hidden="true">→</span></button>
       </article>`;
     }).join('');
-    $('#passport').innerHTML = `<div class="pp-stamps">${DATA.countries.map((c, i) => `<span style="--c:${c.palette[0]};--r:${(i - 2) * 7}deg">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></span>`).join('')}</div><p>${esc(L(O.passport))}</p>`;
+    $('#passport').innerHTML = `<div class="pp-stamps">${DATA.countries.map((c, i) => `<span style="--c:${c.palette[0]};--r:${(i - 2) * 7}deg">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></span>`).join('')}</div><p>${esc(L(O.passport))} <a href="#loyalty" class="pp-link">${esc(t('loy.calc'))} →</a></p>`;
     const perDay = O.items.map((o) => [Math.round(o.price[0] / o.days), Math.round(o.price[1] / o.days)]);
     $('#market').innerHTML = `<summary>${esc(t('offers.market'))}</summary>
       <div class="mk-body">
@@ -408,49 +414,223 @@
       </div>`;
     observeReveal();
   }
+  /* ---------- Окно пакета: полноэкранная «история» поездки ---------- */
+  const MARKET_DAY = 266; // среднее $/день у Orexca ($3890/14), Advantour ($4290/14), G Adventures ($5579/26)
+  const flagSvg = (id, w = 60, h = 40) => `<svg viewBox="0 0 ${w} ${h}" aria-hidden="true">${window.KD_INTRO.flag(id, w, h)}</svg>`;
+  let tourObs = null, tourTimer = 0;
   function openOffer(id, push = true) {
     const o = DATA.offers.items.find((x) => x.id === id); if (!o) return;
     const cs = o.countries.map(country), last = cs[cs.length - 1];
     const [p1, p2, p3] = last.palette;
-    const ph = photo(last.cover, { name: last.city });
-    const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>`;
-    const sum = o.cost.reduce((a, [, v]) => { const [x, y] = v.split('–').map(Number); return [a[0] + x, a[1] + (y || x)]; }, [0, 0]);
+    const mid = Math.round((o.price[0] + o.price[1]) / 2), perDay = Math.round(mid / o.days);
+    const lv = loyLevel(0), coins = Math.round(mid * lv.cash / 100);
+    const slides = cs.map((c) => { const ph = photo(c.cover, { name: c.city }); return { c, ph }; });
+    // фото без «открыток» в начале, чтобы первым кадром было настоящее фото
+    slides.sort((a, b) => (!!b.ph) - (!!a.ph));
+    const list = (arr, cls) => `<ul class="${cls}">${arr.map((x, i) => `<li class="tv" style="--d:${i}">${esc(L(x))}</li>`).join('')}</ul>`;
+    const cost = o.cost.map(([k, v]) => { const [a, b] = v.split('–').map(Number); return { k: L(k), v, m: (a + (b || a)) / 2 }; });
+    const total = cost.reduce((n, x) => n + x.m, 0);
+    const segCol = ['#F2A800', '#00AFCA', '#E8112D', '#2E9D46', '#0033A0', '#FEC50C', '#CE1126', '#1EB53A'];
+    let acc = 0;
+    const C = 2 * Math.PI * 70;
+    const segs = cost.map((x, i) => { const len = x.m / total * C; const s = `<circle class="dn-seg" data-seg="${i}" r="70" cx="90" cy="90" stroke="${segCol[i % segCol.length]}" stroke-dasharray="${len - 2} ${C - len + 2}" stroke-dashoffset="${-acc}" style="--d:${i}"/>`; acc += len; return s; }).join('');
+    const sum = cost.reduce((a, x) => { const [lo, hi] = x.v.split('–').map(Number); return [a[0] + lo, a[1] + (hi || lo)]; }, [0, 0]);
+    const n = cs.length;
+    const nodes = cs.map((c, i) => { const x = n === 1 ? 50 : 8 + i * (84 / (n - 1)); return `<div class="rt-node" style="--x:${x}%;--c:${c.palette[0]};--d:${i}"><span class="rt-flag">${flagSvg(c.id)}</span><b>${esc(L(c.city).split(' и ')[0].split(' and ')[0])}</b><small>${esc(L(c.name))}</small></div>`; }).join('');
+    const wave = n === 1 ? 'M 40 50 L 960 50' : cs.map((c, i) => { const x = 80 + i * (840 / (n - 1)); return i === 0 ? `M ${x} 50` : `Q ${x - 420 / (n - 1)} ${i % 2 ? 0 : 100} ${x} 50`; }).join(' ');
+    $('#sheet').classList.add('is-tour');
     $('#sheetPanel').innerHTML = `
       <button class="sheet-close" type="button" data-close aria-label="${esc(t('pkg.close'))}">×</button>
-      <header class="pk-hero" style="--c:${p1};--c2:${p2};--c3:${p3}">
-        <div class="pk-media">${ph ? `<img src="${ph.src}" alt="${esc(ph.caption)}">` : art(last, L(last.city))}</div>
-        <div class="pk-stripe" aria-hidden="true">${cs.map((x) => `<i style="background:${x.palette[0]}"></i><i style="background:${x.palette[1]}"></i>`).join('')}</div>
-        <div class="pk-head">
-          <p class="pk-kicker">${esc(t('offers.kicker2'))} · ${esc(t('brand'))}</p>
-          <span class="pk-pill">${o.days} ${esc(t('offers.days'))} / ${o.nights} ${esc(t('offers.nights'))} · ${money(o)}</span>
-          <h2 id="sheetTitle">${esc(L(o.name))}<br><small>${esc(L(o.route))}</small></h2>
-          <p class="pk-tag">${esc(L(o.pitch))}</p>
+      <header class="tr-hero" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        <div class="tr-slides">${slides.map((s, i) => `<figure class="tr-slide${i === 0 ? ' on' : ''}">${s.ph ? `<img src="${s.ph.src}" alt="${esc(s.ph.caption)}">` : art(s.c, L(s.c.city))}<figcaption>${window.KD_ORN.svg(s.c.id, '', '#fff')}${esc(L(s.c.name))}</figcaption></figure>`).join('')}</div>
+        <div class="tr-shade" aria-hidden="true"></div>
+        <div class="tr-head">
+          <p class="tr-kicker">${esc(t('offers.kicker2'))} · ${esc(L(o.tag))}</p>
+          <h2 id="sheetTitle" class="tr-title">${[...L(o.name)].map((ch, i) => ch === ' ' ? ' ' : `<span style="--i:${i}">${esc(ch)}</span>`).join('')}</h2>
+          <p class="tr-route">${cs.map((c, i) => `<span style="--i:${i};--c:${c.palette[0]}">${flagSvg(c.id)}${esc(L(c.name))}</span>`).join('<i>→</i>')}</p>
+          <div class="tr-badges"><span><b>${o.days}</b> ${esc(t('days2'))}</span><span><b>${money(o)}</b> ${esc(t('offers.per'))}</span></div>
         </div>
+        ${slides.length > 1 ? `<div class="tr-dots">${slides.map((_, i) => `<i class="${i === 0 ? 'on' : ''}"></i>`).join('')}</div>` : ''}
+        <div class="tr-scroll" aria-hidden="true"><span></span></div>
       </header>
-      <div class="pk-body" style="--c:${p1};--c2:${p2};--c3:${p3}">
-        <div class="pk-stats"><div><b>${o.days}</b><span>${esc(t('days2'))}</span></div><div><b>${o.countries.length}</b><span>${nCountries(o.countries.length)}</span></div><div><b>${money(o)}</b><span>${esc(t('offers.per'))}</span></div><div><b>~$${Math.round((o.price[0] + o.price[1]) / 2 / o.days)}</b><span>${esc(t('offers.perDay'))}</span></div></div>
-        ${offerFlags(o)}
-        <h3>${esc(t('offers.plan'))}</h3>
-        <ol class="of-plan">${o.plan.map((d, i) => `<li><span>${esc(t('day'))} ${i + 1}</span><div><b>${esc(L(d.t))}</b><p>${esc(L(d.d))}</p></div></li>`).join('')}</ol>
-        <div class="pk-grid">
-          <section class="pk-in"><h3>${esc(t('pkg.in'))}</h3>${list(o.inc)}</section>
-          <section class="pk-out"><h3>${esc(t('pkg.out'))}</h3>${list(o.exc)}</section>
-          <section class="of-cost"><h3>${esc(t('offers.cost'))}</h3><table>${o.cost.map(([k, v]) => `<tr><td>${esc(L(k))}</td><td>${esc(v)}</td></tr>`).join('')}<tr class="tot"><td>${esc(t('offers.total'))}</td><td>${sum[0]}–${sum[1]}</td></tr></table></section>
-        </div>
-        <p class="pk-note">${esc(L(DATA.offers.note))} ${esc(L(DATA.offers.passport))}</p>
-        <div class="pk-cta">
-          <a class="btn btn-country" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('offers.book'))} · Telegram</a>
-          ${o.countries.map((id) => `<a class="btn btn-line" href="${esc(country(id).site)}" target="_blank" rel="noopener">${esc(L(country(id).name))} ↗</a>`).join('')}
-        </div>
-      </div>`;
+      <div class="tr-body" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        <p class="tr-pitch tv">${esc(L(o.pitch))}</p>
+
+        <section class="tr-sec tv">
+          <h3 class="tr-h">${esc(t('tour.route'))}</h3>
+          <div class="rt"><svg class="rt-line" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><path d="${wave}" pathLength="1"/></svg>${nodes}<span class="rt-plane" aria-hidden="true">✈</span></div>
+        </section>
+
+        <section class="tr-sec tr-kpi">
+          <div class="kpi tv" style="--d:0"><svg viewBox="0 0 120 120" aria-hidden="true"><circle r="52" cx="60" cy="60" class="kpi-bg"/><circle r="52" cx="60" cy="60" class="kpi-ring" style="--p:${o.days / 7}"/></svg><b data-count="${o.days}">${o.days}</b><span>${esc(t('days2'))}</span></div>
+          <div class="kpi tv" style="--d:1"><div class="kpi-flags">${DATA.countries.map((c, i) => `<i class="${o.countries.includes(c.id) ? 'on' : ''}" style="--i:${i}">${flagSvg(c.id)}</i>`).join('')}</div><b data-count="${n}">${n}</b><span>${esc(t('tour.of5'))}</span></div>
+          <div class="kpi kpi-cmp tv" style="--d:2">
+            <p>${esc(t('tour.perDay'))}</p>
+            <div class="cmp"><span>${esc(t('tour.market'))}</span><i style="--w:100%"><b>$${MARKET_DAY}</b></i></div>
+            <div class="cmp ours"><span>${esc(t('brand'))}</span><i style="--w:${Math.round(perDay / MARKET_DAY * 100)}%"><b>$${perDay}</b></i></div>
+            <small>${esc(t('tour.save'))} ${Math.round((1 - perDay / MARKET_DAY) * 100)}%</small>
+          </div>
+        </section>
+
+        <section class="tr-sec tv">
+          <h3 class="tr-h">${esc(t('offers.plan'))}</h3>
+          <div class="dy" data-dy>
+            <div class="dy-tabs" role="tablist">${o.plan.map((d, i) => `<button type="button" role="tab" class="dy-tab" data-dy-i="${i}" aria-selected="${i === 0}">${i + 1}</button>`).join('')}</div>
+            <div class="dy-track">${o.plan.map((d, i) => `<article class="dy-card${i === 0 ? ' on' : ''}" data-dy-card="${i}"><span class="dy-num">${String(i + 1).padStart(2, '0')}</span><p class="dy-lbl">${esc(t('day'))} ${i + 1} / ${o.plan.length}</p><h4>${esc(L(d.t))}</h4><p>${esc(L(d.d))}</p></article>`).join('')}</div>
+            <div class="dy-nav"><button type="button" data-dy-step="-1" aria-label="←">←</button><div class="dy-bar"><i style="--p:${1 / o.plan.length}"></i></div><button type="button" data-dy-step="1" aria-label="→">→</button></div>
+          </div>
+        </section>
+
+        <section class="tr-sec tr-money tv">
+          <h3 class="tr-h">${esc(t('offers.cost'))}</h3>
+          <div class="dn">
+            <div class="dn-chart"><svg viewBox="0 0 180 180" aria-hidden="true"><circle r="70" cx="90" cy="90" class="dn-bg"/>${segs}</svg>
+              <div class="dn-mid"><small data-dn-lbl>${esc(t('offers.total'))}</small><b data-dn-val data-total="$${sum[0]}–${sum[1]}">$${sum[0]}–${sum[1]}</b></div></div>
+            <ul class="dn-legend">${cost.map((x, i) => `<li><button type="button" data-seg-btn="${i}" style="--sc:${segCol[i % segCol.length]}"><i></i><span>${esc(x.k)}</span><b>$${esc(x.v)}</b></button></li>`).join('')}</ul>
+          </div>
+        </section>
+
+        <section class="tr-sec tr-io">
+          <div class="io io-in tv"><h3 class="tr-h">${esc(t('pkg.in'))}</h3>${list(o.inc, 'io-list')}</div>
+          <div class="io io-out tv"><h3 class="tr-h">${esc(t('pkg.out'))}</h3>${list(o.exc, 'io-list')}</div>
+        </section>
+
+        <section class="tr-sec tr-loy tv">
+          <div class="tl-stamps">${cs.map((c, i) => `<span style="--c:${c.palette[0]};--i:${i};--r:${(i % 2 ? 1 : -1) * (6 + i * 3)}deg">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></span>`).join('')}</div>
+          <div><h3 class="tr-h">${esc(L(DATA.loyalty.name))}</h3>
+            <p>${esc(t('tour.loy1'))} <b>+${n} ${esc(n === 1 ? t('tour.stamp1') : n < 5 ? t('tour.stamp2') : t('tour.stamp5'))}</b> ${esc(t('tour.loy2'))} <b>≈${coins} ${esc(L(DATA.loyalty.coin))}</b>.${n === 5 ? ` ${esc(t('tour.keeper'))}` : ''}</p>
+            <a class="btn btn-line" href="#loyalty" data-goto-loy>${esc(t('tour.loyMore'))} →</a></div>
+        </section>
+
+        <p class="pk-note tv">${esc(L(DATA.offers.note))}</p>
+      </div>
+      <div class="tr-cta">
+        <div><b>${money(o)}</b><small>${o.days} ${esc(t('days2'))} · ${n} ${nCountries(n)}</small></div>
+        <a class="btn btn-gold" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('offers.book'))}</a>
+      </div>
+      <div class="tr-sites">${cs.map((c) => `<a href="${esc(c.site)}" target="_blank" rel="noopener" style="--c:${c.palette[0]}">${flagSvg(c.id)}${esc(L(c.name))} ↗</a>`).join('')}</div>`;
     showSheet(`#pack-${id}`, push, DATA.offers.items.indexOf(o) * 2);
+    initTour(slides.length);
   }
+  function initTour(nSlides) {
+    const panel = $('#sheetPanel');
+    clearInterval(tourTimer);
+    // слайд-шоу стран в шапке
+    if (nSlides > 1) {
+      let k = 0;
+      tourTimer = setInterval(() => {
+        if ($('#sheet').hidden) { clearInterval(tourTimer); return; }
+        const sl = $$('.tr-slide', panel), dots = $$('.tr-dots i', panel);
+        sl[k].classList.remove('on'); dots[k]?.classList.remove('on');
+        k = (k + 1) % sl.length; sl[k].classList.add('on'); dots[k]?.classList.add('on');
+      }, 3800);
+    }
+    // параллакс шапки
+    panel.onscroll = () => panel.style.setProperty('--sc', Math.min(panel.scrollTop, 900));
+    panel.style.setProperty('--sc', 0);
+    // появление блоков и счётчики
+    tourObs?.disconnect();
+    tourObs = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('in');
+      $$('[data-count]', e.target).forEach((b) => countUp(b));
+      tourObs.unobserve(e.target);
+    }), { root: panel, threshold: 0.18 });
+    $$('.tv', panel).forEach((el) => tourObs.observe(el));
+    // свайп по дням
+    const track = $('.dy-track', panel);
+    if (track) {
+      let x0 = null;
+      track.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+      track.addEventListener('touchend', (e) => { if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) stepDay(dx < 0 ? 1 : -1); x0 = null; });
+    }
+  }
+  function showDay(i) {
+    const panel = $('#sheetPanel'), cards = $$('.dy-card', panel); if (!cards.length) return;
+    i = (i + cards.length) % cards.length;
+    cards.forEach((c, k) => { c.classList.toggle('on', k === i); c.classList.toggle('prev', k < i); });
+    $$('.dy-tab', panel).forEach((b, k) => b.setAttribute('aria-selected', String(k === i)));
+    $('.dy-bar i', panel).style.setProperty('--p', (i + 1) / cards.length);
+    if (window.KD_SOUND.enabled && !window.KD_SOUND.blocked) window.KD_SOUND.ting(i, 0, 0.08);
+  }
+  function stepDay(d) { const cur = $$('.dy-card', $('#sheetPanel')).findIndex((c) => c.classList.contains('on')); showDay(cur + d); }
+  function pickSeg(i) {
+    const panel = $('#sheetPanel');
+    $$('.dn-seg', panel).forEach((s) => s.classList.toggle('dim', i != null && +s.dataset.seg !== i));
+    $$('[data-seg-btn]', panel).forEach((b) => b.classList.toggle('on', +b.dataset.segBtn === i));
+    const btn = i == null ? null : $(`[data-seg-btn="${i}"]`, panel);
+    $('[data-dn-lbl]', panel).textContent = btn ? $('span', btn).textContent : t('offers.total');
+    $('[data-dn-val]', panel).textContent = btn ? $('b', btn).textContent : $('[data-dn-val]', panel).dataset.total;
+  }
+
+  /* ---------- Паспорт дружбы (программа лояльности) ---------- */
+  const loyState = { stamps: [], friends: 1, quests: { ar: true, photo: false, review: true }, team: false, next: 'trio' };
+  try { Object.assign(loyState, JSON.parse(localStorage.getItem('kd-loy') || '{}')); } catch (e) { /* storage blocked */ }
+  function loyLevel(stamps) { return [...DATA.loyalty.levels].reverse().find((l) => stamps >= l.min); }
+  function renderLoyalty() {
+    const Y = DATA.loyalty;
+    $('#loyLead').textContent = L(Y.lead);
+    $('#loy').innerHTML = `
+      <div class="loy-levels reveal">${Y.levels.slice(1).map((l, i) => `<div class="lv" style="--i:${i}"><span class="lv-n">${l.min}${l.min === 3 ? '–4' : ''}</span><b>${esc(L(l.name))}</b><p>${esc(L(l.perk))}</p></div>`).join('')}</div>
+      <div class="loy-grid">
+        <div class="loy-card loy-pass reveal">
+          <p class="loy-step">1 · ${esc(t('loy.s1'))}</p>
+          <div class="pass">${DATA.countries.map((c) => `<button type="button" class="pass-st" data-stamp="${c.id}" style="--c:${c.palette[0]}" aria-pressed="false">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></button>`).join('')}</div>
+          <div class="pass-lvl"><svg viewBox="0 0 120 120" aria-hidden="true"><circle r="52" cx="60" cy="60" class="kpi-bg"/><circle r="52" cx="60" cy="60" class="kpi-ring" data-loy-ring/></svg><div><b data-loy-name></b><small data-loy-next></small></div></div>
+        </div>
+        <div class="loy-card reveal">
+          <p class="loy-step">2 · ${esc(t('loy.s2'))}</p>
+          <ul class="earn">${Y.earn.map((e) => e.max ? `<li><span class="ei">${e.icon}</span><div><b>${esc(L(e.label))}</b><small>${esc(L(e.desc))}</small></div><div class="stepper"><button type="button" data-fr="-1" aria-label="−">−</button><output data-fr-val>0</output><button type="button" data-fr="1" aria-label="+">+</button></div></li>`
+            : `<li><span class="ei">${e.icon}</span><div><b>${esc(L(e.label))} · +${e.coins}</b><small>${esc(L(e.desc))}</small></div><label class="sw"><input type="checkbox" data-quest="${e.id}"><i></i></label></li>`).join('')}
+            <li><span class="ei">🏳️</span><div><b>${esc(L(Y.team.label))} · −${Y.team.disc}%</b><small>${esc(L(Y.team.desc))}</small></div><label class="sw"><input type="checkbox" data-team><i></i></label></li></ul>
+        </div>
+        <div class="loy-card loy-res reveal">
+          <p class="loy-step">3 · ${esc(t('loy.s3'))}</p>
+          <div class="loy-pick" role="group">${DATA.offers.items.map((o) => `<button type="button" data-next="${o.id}">${esc(L(o.name))}</button>`).join('')}</div>
+          <div class="loy-out" data-loy-out></div>
+        </div>
+      </div>
+      <ul class="loy-rules reveal">${Y.rules.map((r) => `<li>${esc(L(r))}</li>`).join('')}</ul>`;
+    syncLoyalty();
+  }
+  function syncLoyalty() {
+    const Y = DATA.loyalty, st = loyState, box = $('#loy'); if (!box) return;
+    try { localStorage.setItem('kd-loy', JSON.stringify(st)); } catch (e) { /* ignore */ }
+    $$('[data-stamp]', box).forEach((b) => { const on = st.stamps.includes(b.dataset.stamp); b.setAttribute('aria-pressed', String(on)); b.classList.toggle('on', on); });
+    const k = st.stamps.length, lv = loyLevel(k), nxt = Y.levels.find((l) => l.min > k);
+    $('[data-loy-name]', box).textContent = L(lv.name);
+    $('[data-loy-next]', box).textContent = nxt ? `${t('loy.toNext')} «${L(nxt.name)}»: ${t('loy.more')} ${nxt.min - k} ${nCountries(nxt.min - k)}` : t('loy.max');
+    $('[data-loy-ring]', box).style.setProperty('--p', k / 5);
+    $('[data-fr-val]', box).textContent = st.friends;
+    $$('[data-quest]', box).forEach((c) => { c.checked = !!st.quests[c.dataset.quest]; });
+    $('[data-team]', box).checked = !!st.team;
+    $$('[data-next]', box).forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.next === st.next)));
+    const o = DATA.offers.items.find((x) => x.id === st.next), price = Math.round((o.price[0] + o.price[1]) / 2);
+    const coins = st.friends * 15 + Y.earn.filter((e) => !e.max && st.quests[e.id]).reduce((n, e) => n + e.coins, 0);
+    const disc = Math.round(price * (lv.disc + (st.team ? Y.team.disc : 0)) / 100);
+    const cap = Math.round(price * 0.35), use = Math.min(coins, Math.max(0, cap - disc)), save = Math.min(cap, disc + use);
+    const back = Math.round((price - save) * lv.cash / 100);
+    // новые штампы после поездки
+    const after = [...new Set([...st.stamps, ...o.countries])].length, lvAfter = loyLevel(after);
+    $('[data-loy-out]', box).innerHTML = `
+      <div class="lo-row"><span>${esc(t('loy.base'))}</span><b>$${price}</b></div>
+      <div class="lo-row"><span>${esc(t('loy.lvl'))} «${esc(L(lv.name))}» −${lv.disc}%${st.team ? ` · ${esc(L(Y.team.label))} −${Y.team.disc}%` : ''}</span><b>−$${disc}</b></div>
+      <div class="lo-row"><span>${esc(t('loy.coins'))} (${coins})</span><b>−$${use}</b></div>
+      <div class="lo-total"><span>${esc(t('loy.pay'))}</span><b>$${price - save}</b></div>
+      <p class="lo-save">${esc(t('loy.saveTxt'))} <b>$${save}</b> · ${esc(t('loy.back'))} <b>+${back}</b> ${esc(L(Y.coin))}</p>
+      <p class="lo-after">${esc(t('loy.after'))}: <b>${after}/5</b> · «${esc(L(lvAfter.name))}»</p>`;
+  }
+
   function closePackage(fromPop = false) {
     const sh = $('#sheet');
     if (sh.hidden) return;
     sh.classList.remove('open');
-    setTimeout(() => { sh.hidden = true; document.documentElement.classList.remove('sheet-lock'); }, 350);
-    if (!fromPop && /^#(tour|pack)-/.test(location.hash)) history.back();
+    clearInterval(tourTimer);
+    setTimeout(() => { sh.hidden = true; sh.classList.remove('is-tour'); document.documentElement.classList.remove('sheet-lock'); }, 350);
+    if (!fromPop && /^#(tour|pack)-/.test(location.hash)) {
+      // если окно открыто по прямой ссылке, назад не идём, чтобы не уйти с сайта
+      if (sheetPushed) history.back(); else history.replaceState(null, '', location.pathname + location.search);
+    }
     sheetReturn?.focus?.({ preventScroll: true });
   }
 
@@ -560,7 +740,7 @@
     const ph = photo(p.photo, p);
     const media = ph ? `<img src="${ph.sm}" alt="${esc(ph.caption)}" loading="lazy">` : placeholder(L(p.name));
     const meta = extra ? `${L(c.name)} · ${t('map.extra')}` : `${L(c.name)} · ${t('day')} ${di + 1}${p.time ? ` · ${c.noTiming ? t('step') + ' ' + p.time : p.time}` : ''}`;
-    return `<div class="pop-media">${media}</div><div class="pop-body"><p class="pop-meta">${esc(meta)}</p><h4>${esc(L(p.name))}</h4>
+    return `<div class="pop-media">${media}</div><div class="pop-body"><p class="pop-meta">${esc(meta)}</p>${p.hook ? `<p class="pop-hook">«${esc(L(p.hook))}»</p>` : ''}<h4>${esc(L(p.name))}</h4>
       ${p.desc ? `<p>${esc(L(p.desc))}</p>` : ''}
       ${ph ? `<p style="font-size:11px;margin-top:6px">${esc(t('photo'))}: ${esc(credit(ph))}</p>` : ''}
       ${extra ? '' : `<a class="pop-link" href="#p-${c.id}-${di}-${pi}" data-open="${c.id}|${di}|${pi}">${esc(t('map.toProgram'))}</a>`}</div>`;
@@ -793,6 +973,19 @@
       }
       const gal = e.target.closest('[data-gal]');
       if (gal) { openLightbox(galleryList, +gal.dataset.gal); return; }
+      const dyt = e.target.closest('[data-dy-i]');
+      if (dyt) { showDay(+dyt.dataset.dyI); return; }
+      const dys = e.target.closest('[data-dy-step]');
+      if (dys) { stepDay(+dys.dataset.dyStep); return; }
+      const sg = e.target.closest('[data-seg-btn]');
+      if (sg) { const i = +sg.dataset.segBtn; pickSeg(sg.classList.contains('on') ? null : i); return; }
+      if (e.target.closest('[data-goto-loy]')) { e.preventDefault(); closePackage(); setTimeout(() => $('#loyalty').scrollIntoView({ behavior: 'smooth' }), 420); return; }
+      const stp = e.target.closest('[data-stamp]');
+      if (stp) { const id = stp.dataset.stamp, a = loyState.stamps; loyState.stamps = a.includes(id) ? a.filter((x) => x !== id) : [...a, id]; if (!a.includes(id) && window.KD_SOUND.enabled) window.KD_SOUND.ting(DATA.countries.findIndex((c) => c.id === id), 0, 0.12); syncLoyalty(); return; }
+      const fr = e.target.closest('[data-fr]');
+      if (fr) { loyState.friends = Math.max(0, Math.min(5, loyState.friends + +fr.dataset.fr)); syncLoyalty(); return; }
+      const nx = e.target.closest('[data-next]');
+      if (nx) { loyState.next = nx.dataset.next; syncLoyalty(); return; }
       const pt = e.target.closest('[data-prog]');
       if (pt) { toggleProg(pt.dataset.prog); return; }
       const of = e.target.closest('[data-offer]');
@@ -812,6 +1005,12 @@
       if (lb2) { setLang(lb2.dataset.lang); return; }
       if (e.target.closest('.nav a')) closeMenu();
     });
+    document.addEventListener('change', (e) => {
+      const q = e.target.closest('[data-quest]');
+      if (q) { loyState.quests[q.dataset.quest] = q.checked; syncLoyalty(); return; }
+      if (e.target.closest('[data-team]')) { loyState.team = e.target.checked; syncLoyalty(); }
+    });
+    document.addEventListener('mouseover', (e) => { const sg = e.target.closest('.dn-seg,[data-seg-btn]'); if (sg && matchMedia('(hover:hover)').matches) pickSeg(+(sg.dataset.seg ?? sg.dataset.segBtn)); });
     const burger = $('#burger');
     burger.addEventListener('click', () => {
       const open = burger.getAttribute('aria-expanded') !== 'true';
@@ -839,7 +1038,7 @@
   }
   function renderAll() {
     applyStatic();
-    renderHero(); renderStats(); renderOffers(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     $$('.reveal').forEach((el) => el.classList.add('in'));
     syncSoundBtn(); window.KD_INTRO.relabel();
@@ -859,7 +1058,7 @@
     }
     DATA.countries.forEach((c) => { COLORS[c.id] = c.palette[0]; });
     applyStatic();
-    renderHero(); renderStats(); renderOffers(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
     window.KD_INTRO.init(DATA, L, t, startHero);

@@ -59,8 +59,8 @@
    "days": [
     {
      "title": {
-      "ru": "Ереван",
-      "en": "Yerevan"
+      "ru": "Розовый Ереван",
+      "en": "Pink Yerevan"
      },
      "subtitle": {
       "ru": "Пешком по центру, вечером к фонтанам",
@@ -83,7 +83,11 @@
        "coords": [
         40.183,
         44.508
-       ]
+       ],
+       "hook": {
+        "ru": "Кольцо зелёного Еревана",
+        "en": "Yerevan’s green ring"
+       }
       },
       {
        "time": "2",
@@ -102,7 +106,11 @@
        "coords": [
         40.1777,
         44.5126
-       ]
+       ],
+       "hook": {
+        "ru": "Розовое сердце города",
+        "en": "The pink heart of the city"
+       }
       },
       {
        "time": "3",
@@ -120,7 +128,11 @@
        "coords": [
         40.1815,
         44.5175
-       ]
+       ],
+       "hook": {
+        "ru": "Улица, где начинался Ереван",
+        "en": "The street where Yerevan began"
+       }
       },
       {
        "time": "4",
@@ -138,7 +150,11 @@
        "coords": [
         40.183,
         44.515
-       ]
+       ],
+       "hook": {
+        "ru": "Фонтан-секрет под землёй",
+        "en": "The secret underground fountain"
+       }
       },
       {
        "time": "5",
@@ -156,7 +172,11 @@
        "coords": [
         40.183,
         44.514
-       ]
+       ],
+       "hook": {
+        "ru": "Прогулка по проспекту стиля",
+        "en": "A walk down the avenue of style"
+       }
       },
       {
        "time": "6",
@@ -175,7 +195,11 @@
        "coords": [
         40.1862,
         44.515
-       ]
+       ],
+       "hook": {
+        "ru": "Сцена, где живёт музыка",
+        "en": "Where music lives"
+       }
       },
       {
        "time": "7",
@@ -193,7 +217,11 @@
        "coords": [
         40.1895,
         44.5155
-       ]
+       ],
+       "hook": {
+        "ru": "Искусство под открытым небом",
+        "en": "Art under the open sky"
+       }
       },
       {
        "time": "8",
@@ -213,7 +241,11 @@
         40.1911,
         44.5153
        ],
-       "ar": "cascade"
+       "ar": "cascade",
+       "hook": {
+        "ru": "Лестница к Арарату",
+        "en": "A staircase to Ararat"
+       }
       },
       {
        "time": "9",
@@ -232,7 +264,11 @@
        "coords": [
         40.1923,
         44.5214
-       ]
+       ],
+       "hook": {
+        "ru": "Сокровищница древних букв",
+        "en": "Treasury of ancient letters"
+       }
       },
       {
        "time": "10",
@@ -250,7 +286,11 @@
        "coords": [
         40.196,
         44.5245
-       ]
+       ],
+       "hook": {
+        "ru": "Страж над городом",
+        "en": "Guardian above the city"
+       }
       },
       {
        "time": "11",
@@ -268,7 +308,11 @@
        "coords": [
         40.186,
         44.4985
-       ]
+       ],
+       "hook": {
+        "ru": "Холм больших концертов",
+        "en": "The hill of big concerts"
+       }
       },
       {
        "time": "12",
@@ -286,7 +330,11 @@
        "coords": [
         40.182,
         44.504
-       ]
+       ],
+       "hook": {
+        "ru": "Город старше Рима",
+        "en": "A city older than Rome"
+       }
       },
       {
        "time": "13",
@@ -305,14 +353,18 @@
        "coords": [
         40.1772,
         44.513
-       ]
+       ],
+       "hook": {
+        "ru": "Танец воды и света",
+        "en": "A dance of water and light"
+       }
       }
      ]
     },
     {
      "title": {
-      "ru": "Севан",
-      "en": "Sevan"
+      "ru": "Голубой Севан",
+      "en": "Blue Sevan"
      },
      "subtitle": {
       "ru": "Озеро Севан и окрестности на машине",
@@ -335,7 +387,11 @@
        "coords": [
         40.399,
         45.076
-       ]
+       ],
+       "hook": {
+        "ru": "Монастырь над голубым озером",
+        "en": "A monastery above the blue lake"
+       }
       },
       {
        "time": "2",
@@ -353,7 +409,11 @@
        "coords": [
         40.49,
         45.3
-       ]
+       ],
+       "hook": {
+        "ru": "Вершина с видом на Севан",
+        "en": "A summit overlooking Sevan"
+       }
       },
       {
        "time": "3",
@@ -368,7 +428,11 @@
        "tags": [
         "nature"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Остров, где кричат чайки",
+        "en": "Island of the seagulls"
+       }
       },
       {
        "time": "4",
@@ -383,7 +447,11 @@
        "tags": [
         "nature"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Шум горного водопада",
+        "en": "The roar of a mountain waterfall"
+       }
       },
       {
        "time": "5",
@@ -402,7 +470,11 @@
        "coords": [
         40.152,
         45.395
-       ]
+       ],
+       "hook": {
+        "ru": "Озеро в кратере вулкана",
+        "en": "A lake inside a volcano"
+       }
       }
      ]
     }
@@ -496,8 +568,8 @@
    "days": [
     {
      "title": {
-      "ru": "City tour",
-      "en": "City tour"
+      "ru": "Almaty Vibes",
+      "en": "Almaty Vibes"
      },
      "subtitle": {
       "ru": "Знакомство с городом, культурой и горами",
@@ -521,7 +593,11 @@
        "coords": [
         43.262,
         76.9535
-       ]
+       ],
+       "hook": {
+        "ru": "Яблочный вкус Алматы",
+        "en": "Almaty’s apple flavour"
+       }
       },
       {
        "time": "10:15",
@@ -541,7 +617,11 @@
         43.2587,
         76.9532
        ],
-       "photo": "kz/kz_cathedral"
+       "photo": "kz/kz_cathedral",
+       "hook": {
+        "ru": "Собор без единого гвоздя",
+        "en": "A cathedral without a single nail"
+       }
       },
       {
        "time": "11:20",
@@ -560,7 +640,11 @@
         43.2445,
         76.9505
        ],
-       "photo": "kz/kz_hotel_kazakhstan"
+       "photo": "kz/kz_hotel_kazakhstan",
+       "hook": {
+        "ru": "Алматы в стиле ретро-модерн",
+        "en": "Almaty in retro-modern style"
+       }
       },
       {
        "time": "12:20",
@@ -580,6 +664,10 @@
        "photoCaption": {
         "ru": "Ресторан в Алматы",
         "en": "A restaurant in Almaty"
+       },
+       "hook": {
+        "ru": "Вкус степного гостеприимства",
+        "en": "A taste of steppe hospitality"
        }
       },
       {
@@ -600,7 +688,11 @@
         43.219,
         76.929
        ],
-       "photo": "kz/kz_art_museum"
+       "photo": "kz/kz_art_museum",
+       "hook": {
+        "ru": "Искусство новой Азии",
+        "en": "The art of new Asia"
+       }
       },
       {
        "time": "16:15",
@@ -621,7 +713,11 @@
         77.059
        ],
        "photo": "kz/kz_medeu",
-       "ar": "medeu"
+       "ar": "medeu",
+       "hook": {
+        "ru": "Лёд среди облаков",
+        "en": "Ice among the clouds"
+       }
       },
       {
        "time": "17:30",
@@ -641,7 +737,11 @@
         43.128,
         77.08
        ],
-       "photo": "kz/kz_shymbulak"
+       "photo": "kz/kz_shymbulak",
+       "hook": {
+        "ru": "Ближе к небу на канатке",
+        "en": "Closer to the sky by cable car"
+       }
       },
       {
        "time": "20:15",
@@ -656,14 +756,18 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Вечер в сундуке вкусов",
+        "en": "An evening in a chest of flavours"
+       }
       }
      ]
     },
     {
      "title": {
-      "ru": "Nature tour",
-      "en": "Nature tour"
+      "ru": "Canyon Quest",
+      "en": "Canyon Quest"
      },
      "subtitle": {
       "ru": "Каньоны и водохранилище Алматинской области",
@@ -681,7 +785,11 @@
         "en": "About three hours' drive to Charyn."
        },
        "tags": [],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Рассвет навстречу каньонам",
+        "en": "Sunrise towards the canyons"
+       }
       },
       {
        "time": "09:00",
@@ -700,7 +808,11 @@
        "coords": [
         43.353,
         79.08
-       ]
+       ],
+       "hook": {
+        "ru": "Долина красных замков",
+        "en": "Valley of red castles"
+       }
       },
       {
        "time": "11:30",
@@ -718,7 +830,11 @@
        "coords": [
         43.404,
         78.993
-       ]
+       ],
+       "hook": {
+        "ru": "Тёмная сторона каньона",
+        "en": "The dark side of the canyon"
+       }
       },
       {
        "time": "13:00",
@@ -733,7 +849,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Привал степных путников",
+        "en": "A steppe traveller’s rest"
+       }
       },
       {
        "time": "14:00",
@@ -751,7 +871,11 @@
        "coords": [
         43.353,
         78.55
-       ]
+       ],
+       "hook": {
+        "ru": "Бирюза среди гор",
+        "en": "Turquoise among the mountains"
+       }
       },
       {
        "time": "19:30",
@@ -766,7 +890,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Возвращение в огни Алматы",
+        "en": "Back to Almaty’s lights"
+       }
       }
      ]
     }
@@ -897,20 +1025,39 @@
     74.5698
    ],
    "intro": {
-    "ru": "Зелёная столица с музеями и бульварами, а за ней Боомское ущелье и жемчужина гор, озеро Иссык-Куль.",
-    "en": "A green capital of museums and boulevards, then the Boom Gorge and the pearl of the mountains, Lake Issyk-Kul."
+    "ru": "Не просто увидеть — почувствовать. Два дня ярких впечатлений: городская культура, история, гастрономия и природа.",
+    "en": "Not just to see, but to feel. Two days of vivid impressions: city culture, history, food and nature."
    },
    "days": [
     {
      "title": {
-      "ru": "City walk",
-      "en": "City walk"
+      "ru": "Bishkek Discovery",
+      "en": "Bishkek Discovery"
      },
      "subtitle": {
-      "ru": "Знакомство с Бишкеком",
-      "en": "Getting to know Bishkek"
+      "ru": "Почувствуй ритм столицы: история, искусство, вкусы и городская атмосфера",
+      "en": "Feel the capital’s rhythm: history, art, flavours and city vibes"
      },
      "points": [
+      {
+       "time": "08:30",
+       "name": {
+        "ru": "Завтрак в отеле",
+        "en": "Breakfast at the hotel"
+       },
+       "hook": {
+        "ru": "Утро начинается со вкуса Кыргызстана",
+        "en": "The morning starts with a taste of Kyrgyzstan"
+       },
+       "desc": {
+        "ru": "Завтрак в отеле перед прогулкой по столице.",
+        "en": "Breakfast at the hotel before exploring the capital."
+       },
+       "tags": [
+        "food"
+       ],
+       "coords": null
+      },
       {
        "time": "09:30",
        "name": {
@@ -928,7 +1075,11 @@
        "coords": [
         42.8765,
         74.6037
-       ]
+       ],
+       "hook": {
+        "ru": "В сердце Кыргызстана",
+        "en": "In the heart of Kyrgyzstan"
+       }
       },
       {
        "time": "10:45",
@@ -947,7 +1098,11 @@
        "coords": [
         42.8778,
         74.6045
-       ]
+       ],
+       "hook": {
+        "ru": "Путешествие сквозь века",
+        "en": "A journey through the centuries"
+       }
       },
       {
        "time": "12:10",
@@ -966,7 +1121,11 @@
        "coords": [
         42.877,
         74.6085
-       ]
+       ],
+       "hook": {
+        "ru": "Зелёная душа Бишкека",
+        "en": "Bishkek’s green soul"
+       }
       },
       {
        "time": "13:00",
@@ -984,7 +1143,11 @@
        "coords": [
         42.8765,
         74.6115
-       ]
+       ],
+       "hook": {
+        "ru": "Кыргызстан глазами художников",
+        "en": "Kyrgyzstan through artists’ eyes"
+       }
       },
       {
        "time": "14:15",
@@ -999,7 +1162,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Вкус Бишкека",
+        "en": "A taste of Bishkek"
+       }
       },
       {
        "time": "15:30",
@@ -1017,7 +1184,11 @@
        "coords": [
         42.88,
         74.596
-       ]
+       ],
+       "hook": {
+        "ru": "Атмосфера старого парка",
+        "en": "The mood of an old park"
+       }
       },
       {
        "time": "16:30",
@@ -1035,7 +1206,11 @@
        "coords": [
         42.876,
         74.6145
-       ]
+       ],
+       "hook": {
+        "ru": "Охота за впечатлениями",
+        "en": "Hunting for impressions"
+       }
       },
       {
        "time": "17:30",
@@ -1053,7 +1228,11 @@
        "coords": [
         42.871,
         74.608
-       ]
+       ],
+       "hook": {
+        "ru": "По аллеям свободы",
+        "en": "Along the alleys of freedom"
+       }
       },
       {
        "time": "19:00",
@@ -1068,20 +1247,62 @@
        "tags": [
         "food"
        ],
+       "coords": null,
+       "hook": {
+        "ru": "Вечер восточного гостеприимства",
+        "en": "An evening of Eastern hospitality"
+       }
+      },
+      {
+       "time": "20:40",
+       "name": {
+        "ru": "Свободное время",
+        "en": "Free time"
+       },
+       "hook": {
+        "ru": "Бишкек после заката",
+        "en": "Bishkek after sunset"
+       },
+       "desc": {
+        "ru": "Вечерний город в своём ритме.",
+        "en": "The evening city at your own pace."
+       },
+       "tags": [
+        "city"
+       ],
        "coords": null
       }
      ]
     },
     {
      "title": {
-      "ru": "Иссык-Куль",
-      "en": "Issyk-Kul"
+      "ru": "Issyk-Kul Escape",
+      "en": "Issyk-Kul Escape"
      },
      "subtitle": {
-      "ru": "Бишкек → Бурана → Боом → Балыкчы → Чолпон-Ата",
-      "en": "Bishkek → Burana → Boom → Balykchy → Cholpon-Ata"
+      "ru": "Побег к жемчужине Тянь-Шаня: горные пейзажи, древняя история и отдых у озера",
+      "en": "An escape to the pearl of the Tian Shan: mountain views, ancient history and the lake"
      },
      "points": [
+      {
+       "time": "07:30",
+       "name": {
+        "ru": "Завтрак",
+        "en": "Breakfast"
+       },
+       "hook": {
+        "ru": "Заряд энергии перед большим путешествием",
+        "en": "Fuel for a big journey"
+       },
+       "desc": {
+        "ru": "Завтрак перед выездом к Иссык-Кулю.",
+        "en": "Breakfast before heading to Issyk-Kul."
+       },
+       "tags": [
+        "food"
+       ],
+       "coords": null
+      },
       {
        "time": "08:00",
        "name": {
@@ -1093,7 +1314,11 @@
         "en": "Heading towards Cholpon-Ata."
        },
        "tags": [],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Дорога к жемчужине Кыргызстана начинается",
+        "en": "The road to Kyrgyzstan’s pearl begins"
+       }
       },
       {
        "time": "09:30",
@@ -1111,7 +1336,11 @@
        "coords": [
         42.746,
         75.25
-       ]
+       ],
+       "hook": {
+        "ru": "Следы Великого шёлкового пути",
+        "en": "Traces of the Great Silk Road"
+       }
       },
       {
        "time": "10:15",
@@ -1129,7 +1358,11 @@
        "coords": [
         42.56,
         75.83
-       ]
+       ],
+       "hook": {
+        "ru": "Дорога сквозь горы",
+        "en": "A road through the mountains"
+       }
       },
       {
        "time": "12:40",
@@ -1147,6 +1380,30 @@
        "coords": [
         42.46,
         76.187
+       ],
+       "hook": {
+        "ru": "Вкус путешествия",
+        "en": "The taste of the journey"
+       }
+      },
+      {
+       "time": "13:30",
+       "name": {
+        "ru": "Прибытие в Чолпон-Ату",
+        "en": "Arrival in Cholpon-Ata"
+       },
+       "hook": {
+        "ru": "Добро пожаловать к жемчужине Тянь-Шаня",
+        "en": "Welcome to the pearl of the Tian Shan"
+       },
+       "desc": {
+        "ru": "Заселение и первый взгляд на Иссык-Куль.",
+        "en": "Check-in and a first look at Issyk-Kul."
+       },
+       "tags": [],
+       "coords": [
+        42.649,
+        77.083
        ]
       },
       {
@@ -1165,7 +1422,11 @@
        "coords": [
         42.641,
         77.085
-       ]
+       ],
+       "hook": {
+        "ru": "Место, где встречаются культуры",
+        "en": "Where cultures meet"
+       }
       },
       {
        "time": "16:00",
@@ -1183,7 +1444,11 @@
        "coords": [
         42.662,
         77.065
-       ]
+       ],
+       "hook": {
+        "ru": "Послания из прошлого",
+        "en": "Messages from the past"
+       }
       },
       {
        "time": "17:00",
@@ -1202,7 +1467,11 @@
        "coords": [
         42.644,
         77.075
-       ]
+       ],
+       "hook": {
+        "ru": "Наедине с природой",
+        "en": "Alone with nature"
+       }
       },
       {
        "time": "19:00",
@@ -1217,14 +1486,18 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Ужин с атмосферой озёрного вечера",
+        "en": "Dinner with a lakeside evening mood"
+       }
       }
      ]
     }
    ],
    "note": {
-    "ru": "Время в пути и длительность остановок зависят от дорог и погоды.",
-    "en": "Travel time and stops depend on roads and weather."
+    "ru": "Названия активностей — презентационные формулировки. Время посещений и режим работы объектов подтверждаются перед поездкой.",
+    "en": "Activity names are presentational. Visiting times and opening hours are confirmed before the trip."
    },
    "palette": [
     "#E8112D",
@@ -1311,8 +1584,8 @@
    "days": [
     {
      "title": {
-      "ru": "Душанбе",
-      "en": "Dushanbe"
+      "ru": "Королевский Душанбе",
+      "en": "Royal Dushanbe"
      },
      "subtitle": {
       "ru": "Монументы, библиотека, театр и рынок",
@@ -1336,7 +1609,11 @@
        "coords": [
         38.577,
         68.784
-       ]
+       ],
+       "hook": {
+        "ru": "Под сенью короны Сомони",
+        "en": "Beneath Somoni’s crown"
+       }
       },
       {
        "time": "10:30",
@@ -1354,7 +1631,11 @@
        "coords": [
         38.5778,
         68.781
-       ]
+       ],
+       "hook": {
+        "ru": "Дворец миллиона книг",
+        "en": "A palace of a million books"
+       }
       },
       {
        "time": "12:00",
@@ -1369,7 +1650,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Плов, лепёшка и пиала чая",
+        "en": "Plov, bread and a bowl of tea"
+       }
       },
       {
        "time": "13:30",
@@ -1387,7 +1672,11 @@
        "coords": [
         38.5745,
         68.787
-       ]
+       ],
+       "hook": {
+        "ru": "За кулисами Душанбе",
+        "en": "Backstage in Dushanbe"
+       }
       },
       {
        "time": "16:30",
@@ -1406,7 +1695,11 @@
        "coords": [
         38.56,
         68.7765
-       ]
+       ],
+       "hook": {
+        "ru": "Базар цветов и специй",
+        "en": "A bazaar of colours and spices"
+       }
       },
       {
        "time": "18:30",
@@ -1421,7 +1714,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Ужин с ароматом Памира",
+        "en": "Dinner with a taste of the Pamirs"
+       }
       },
       {
        "time": "20:00",
@@ -1440,14 +1737,18 @@
        "coords": [
         38.5815,
         68.7835
-       ]
+       ],
+       "hook": {
+        "ru": "Город в огнях с высоты",
+        "en": "The city lit up from above"
+       }
       }
      ]
     },
     {
      "title": {
-      "ru": "Искандеркуль",
-      "en": "Iskanderkul"
+      "ru": "Fann Mountains Escape",
+      "en": "Fann Mountains Escape"
      },
      "subtitle": {
       "ru": "Фанские горы и мастер-классы",
@@ -1465,7 +1766,11 @@
         "en": "About three hours' drive."
        },
        "tags": [],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Дорога в сердце Фанских гор",
+        "en": "The road into the Fann Mountains"
+       }
       },
       {
        "time": "09:00",
@@ -1485,7 +1790,11 @@
        "coords": [
         39.075,
         68.37
-       ]
+       ],
+       "hook": {
+        "ru": "Озеро Александра Великого",
+        "en": "Alexander the Great’s lake"
+       }
       },
       {
        "time": "",
@@ -1503,7 +1812,11 @@
        "coords": [
         39.079,
         68.382
-       ]
+       ],
+       "hook": {
+        "ru": "Тропа змей, воды и пещер",
+        "en": "A trail of snakes, water and caves"
+       }
       },
       {
        "time": "16:00",
@@ -1518,7 +1831,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Секрет таджикского курутоба",
+        "en": "The secret of Tajik qurutob"
+       }
       },
       {
        "time": "20:00",
@@ -1537,7 +1854,11 @@
        "coords": [
         38.592,
         68.817
-       ]
+       ],
+       "hook": {
+        "ru": "Ужин во дворце Навруза",
+        "en": "Dinner in the Navruz palace"
+       }
       },
       {
        "time": "21:00+",
@@ -1550,7 +1871,11 @@
         "en": "Evening flight Dushanbe — Tashkent (≈ 1 h 15 min). In the morning the Afrosiyob train to Samarkand, the finale of the route."
        },
        "tags": [],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Курс на Самарканд",
+        "en": "Course for Samarkand"
+       }
       }
      ]
     }
@@ -1666,7 +1991,11 @@
        "coords": [
         41.292,
         69.286
-       ]
+       ],
+       "hook": {
+        "ru": "Старт великого пути",
+        "en": "The start of a great journey"
+       }
       },
       {
        "time": "08:00",
@@ -1679,7 +2008,11 @@
         "en": "High-speed train: Tashkent → Samarkand in 2.5 hours."
        },
        "tags": [],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Шёлковый путь на скорости 250 км/ч",
+        "en": "The Silk Road at 250 km/h"
+       }
       },
       {
        "time": "12:00",
@@ -1695,7 +2028,11 @@
         "food"
        ],
        "coords": null,
-       "photo": "@ppl_plov"
+       "photo": "@ppl_plov",
+       "hook": {
+        "ru": "Плов, достойный эмира",
+        "en": "Plov fit for an emir"
+       }
       },
       {
        "time": "13:30",
@@ -1716,7 +2053,11 @@
         66.9757
        ],
        "ar": "registan",
-       "photo": "@samarqand_0"
+       "photo": "@samarqand_0",
+       "hook": {
+        "ru": "Сердце Великого шёлкового пути",
+        "en": "The heart of the Great Silk Road"
+       }
       },
       {
        "time": "16:00",
@@ -1736,7 +2077,11 @@
         39.6485,
         66.969
        ],
-       "photo": "@gur_day"
+       "photo": "@gur_day",
+       "hook": {
+        "ru": "Золотой купол Тамерлана",
+        "en": "Tamerlane’s golden dome"
+       }
       },
       {
        "time": "17:30",
@@ -1754,7 +2099,11 @@
        "coords": [
         39.668,
         67.03
-       ]
+       ],
+       "hook": {
+        "ru": "Тень шелковиц у реки",
+        "en": "Mulberry shade by the river"
+       }
       },
       {
        "time": "18:00",
@@ -1772,7 +2121,11 @@
        "coords": [
         39.664,
         67.022
-       ]
+       ],
+       "hook": {
+        "ru": "Город, где оживает история",
+        "en": "A city where history comes alive"
+       }
       },
       {
        "time": "19:30",
@@ -1787,7 +2140,11 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "hook": {
+        "ru": "Восточный вечер",
+        "en": "An Eastern evening"
+       }
       }
      ]
     }
@@ -2770,8 +3127,8 @@
    }
   ],
   "passport": {
-   "ru": "Паспорт дружбы. Не обязательно ехать во все страны сразу. Каждая поездка ставит штампы стран, где вы побывали. Соберите все пять, и школа выдаст сертификат «Код дружбы» и скидку на следующую поездку.",
-   "en": "Friendship passport. You don’t have to visit every country at once. Each trip stamps the countries you visited. Collect all five and the School gives you a “Friendship Code” certificate and a discount on your next trip."
+   "ru": "Каждая поездка ставит штампы стран в Паспорт дружбы. Соберите все пять — и станете Хранителем кода: −20% на все поездки до конца учёбы.",
+   "en": "Each trip stamps its countries into your Friendship Passport. Collect all five to become a Code Keeper: −20% on every trip until graduation."
   },
   "market": [
    {
@@ -2854,6 +3211,171 @@
     "Kun.uz: Afrosiyob",
     "https://kun.uz/en/news/2024/04/26/afrosiyob-high-speed-train-ticket-prices-to-increase-by-up-to-40"
    ]
+  ]
+ },
+ "loyalty": {
+  "name": {
+   "ru": "Паспорт дружбы",
+   "en": "Friendship Passport"
+  },
+  "coin": {
+   "ru": "шёлковых монет",
+   "en": "silk coins"
+  },
+  "lead": {
+   "ru": "Каждая страна ставит штамп в паспорт. Чем больше штампов, тем дешевле следующая поездка. Монеты копятся за поездки, друзей и задания в пути, 1 монета = $1 скидки.",
+   "en": "Each country adds a stamp to your passport. More stamps make your next trip cheaper. Coins build up from trips, friends and challenges on the road; 1 coin = $1 off."
+  },
+  "levels": [
+   {
+    "min": 0,
+    "name": {
+     "ru": "Новичок",
+     "en": "Newcomer"
+    },
+    "disc": 0,
+    "cash": 5,
+    "perk": {
+     "ru": "5% от поездки возвращается монетами",
+     "en": "5% of the trip comes back as coins"
+    }
+   },
+   {
+    "min": 1,
+    "name": {
+     "ru": "Путник",
+     "en": "Wanderer"
+    },
+    "disc": 0,
+    "cash": 5,
+    "perk": {
+     "ru": "Первый штамп и 5% монетами",
+     "en": "First stamp and 5% back in coins"
+    }
+   },
+   {
+    "min": 2,
+    "name": {
+     "ru": "Друг",
+     "en": "Friend"
+    },
+    "disc": 5,
+    "cash": 7,
+    "perk": {
+     "ru": "−5% на поездки и 7% монетами",
+     "en": "−5% on trips and 7% back in coins"
+    }
+   },
+   {
+    "min": 3,
+    "name": {
+     "ru": "Караванщик",
+     "en": "Caravaneer"
+    },
+    "disc": 10,
+    "cash": 10,
+    "perk": {
+     "ru": "−10%, 10% монетами и мастер-класс в подарок",
+     "en": "−10%, 10% back in coins and a free workshop"
+    }
+   },
+   {
+    "min": 5,
+    "name": {
+     "ru": "Хранитель кода",
+     "en": "Code Keeper"
+    },
+    "disc": 20,
+    "cash": 10,
+    "perk": {
+     "ru": "−20% на все поездки до конца учёбы, сертификат школы и место на фестивале «Код дружбы» в Самарканде",
+     "en": "−20% on every trip until graduation, a School certificate and a place at the Friendship Code festival in Samarkand"
+    }
+   }
+  ],
+  "earn": [
+   {
+    "id": "friend",
+    "icon": "🤝",
+    "coins": 15,
+    "max": 5,
+    "label": {
+     "ru": "Приведи друга",
+     "en": "Bring a friend"
+    },
+    "desc": {
+     "ru": "Тебе +15 монет, другу −$15 на первую поездку",
+     "en": "You get +15 coins, your friend gets $15 off"
+    }
+   },
+   {
+    "id": "ar",
+    "icon": "◈",
+    "coins": 5,
+    "label": {
+     "ru": "AR-квест",
+     "en": "AR quest"
+    },
+    "desc": {
+     "ru": "Открой три AR-макета прямо на месте",
+     "en": "Open three AR models on location"
+    }
+   },
+   {
+    "id": "photo",
+    "icon": "📸",
+    "coins": 15,
+    "label": {
+     "ru": "Фото-челлендж #КодДружбы",
+     "en": "#FriendshipCode photo challenge"
+    },
+    "desc": {
+     "ru": "По 3 монеты за пост, до 5 постов за поездку",
+     "en": "3 coins per post, up to 5 posts a trip"
+    }
+   },
+   {
+    "id": "review",
+    "icon": "✍️",
+    "coins": 5,
+    "label": {
+     "ru": "Отзыв после поездки",
+     "en": "Review after the trip"
+    },
+    "desc": {
+     "ru": "Короткий отзыв или видео для школы",
+     "en": "A short review or video for the School"
+    }
+   }
+  ],
+  "team": {
+   "disc": 10,
+   "label": {
+    "ru": "Команда пяти флагов",
+    "en": "Team of five flags"
+   },
+   "desc": {
+    "ru": "Едете группой со студентами из всех пяти стран: −10% каждому",
+    "en": "Travel as a group with students from all five countries: −10% each"
+   }
+  },
+  "rules": [
+   {
+    "ru": "Скидка уровня, «Команда пяти флагов» и монеты складываются, но вместе не больше 35% цены поездки.",
+    "en": "Level discount, Team of five flags and coins stack, but together they cover at most 35% of the trip."
+   },
+   {
+    "ru": "Монеты живут 2 года, их нельзя обменять на деньги или передать.",
+    "en": "Coins last 2 years and can’t be cashed out or transferred."
+   },
+   {
+    "ru": "Штамп ставится один раз за страну, в любом пакете. Можно собирать паспорт за несколько коротких поездок.",
+    "en": "Each country is stamped once, on any package. You can fill the passport over several short trips."
+   },
+   {
+    "ru": "Хранители кода могут стать гидами-студентами следующих групп и получать за это оплату.",
+    "en": "Code Keepers can become student guides for the next groups and get paid for it."
+   }
   ]
  }
 }
