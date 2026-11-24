@@ -2658,770 +2658,6 @@
   },
   "items": [
    {
-    "id": "alma",
-    "name": {
-     "ru": "Alma IT",
-     "en": "Alma IT"
-    },
-    "tag": {
-     "ru": "1 день · с ВК-ботом",
-     "en": "1 day · with a VK bot"
-    },
-    "days": 1,
-    "nights": 0,
-    "kzt": 43920,
-    "countries": [
-     "kz"
-    ],
-    "route": {
-     "ru": "МУИТ → Медеу → Шымбулак → музей Яндекса → Кок-Тобе",
-     "en": "IITU → Medeu → Shymbulak → Yandex Museum → Kok-Tobe"
-    },
-    "pitch": {
-     "ru": "Открой Алматы. Собери свою историю. Самостоятельный день в горах и городе: ВК-бот ведёт по маршруту, даёт задания и в финале собирает вашу фотокарту Казахстана.",
-     "en": "Discover Almaty. Collect your story. A self-guided day in the mountains and the city: a VK bot leads the way, sets challenges and builds your photo map of Kazakhstan at the end."
-    },
-    "highlights": [
-     {
-      "ru": "Медеу и канатная дорога на Шымбулак",
-      "en": "Medeu and the cable car to Shymbulak"
-     },
-     {
-      "ru": "Музей Яндекса и МУИТ по желанию",
-      "en": "The Yandex Museum and IITU (optional)"
-     },
-     {
-      "ru": "Вечер на Кок-Тобе и ужин над городом",
-      "en": "An evening on Kok-Tobe and dinner above the city"
-     },
-     {
-      "ru": "Персональная фотокарта Казахстана",
-      "en": "Your personal photo map of Kazakhstan"
-     }
-    ],
-    "plan": [
-     {
-      "c": "kz",
-      "t": {
-       "ru": "Alma IT: горы, IT и Кок-Тобе",
-       "en": "Alma IT: mountains, IT and Kok-Tobe"
-      },
-      "d": {
-       "ru": "С 08:00 до 22:00, один или своей компанией, без гида. На каждой остановке задание бота и фото.",
-       "en": "08:00 to 22:00, alone or with friends, no guide. A bot challenge and a photo at every stop."
-      },
-      "s": [
-       {
-        "tm": "08:00–10:00",
-        "x": {
-         "ru": "МУИТ: обзорная экскурсия по желанию, по предварительной записи. Вход свободный",
-         "en": "IITU: an optional tour by prior appointment. Free entry"
-        },
-        "h": {
-         "ru": "Университет, где рождаются технологии",
-         "en": "The university where tech is born"
-        }
-       },
-       {
-        "tm": "10:00–10:30",
-        "x": {
-         "ru": "Такси из МУИТ к Медеу · 4 600 ₸",
-         "en": "Taxi from IITU to Medeu · 4 600 ₸"
-        }
-       },
-       {
-        "tm": "10:30–11:00",
-        "x": {
-         "ru": "Пеший подъём к площадке Медеу",
-         "en": "Walk up to the Medeu viewpoint"
-        }
-       },
-       {
-        "tm": "11:00–12:30",
-        "x": {
-         "ru": "Медеу: прогулка, фото, задание бота, игры для компании",
-         "en": "Medeu: a walk, photos, a bot challenge, games for friends"
-        },
-        "h": {
-         "ru": "Лёд среди облаков",
-         "en": "Ice among the clouds"
-        }
-       },
-       {
-        "tm": "12:30–13:30",
-        "x": {
-         "ru": "Обед в Abakate · 4 000 ₸",
-         "en": "Lunch at Abakate · 4 000 ₸"
-        },
-        "h": {
-         "ru": "Вкус Казахстана в горах",
-         "en": "A taste of Kazakhstan in the mountains"
-        }
-       },
-       {
-        "tm": "13:30–13:50",
-        "x": {
-         "ru": "Билет и посадка на канатную дорогу · 12 000 ₸",
-         "en": "Ticket and boarding the cable car · 12 000 ₸"
-        }
-       },
-       {
-        "tm": "13:50–14:10",
-        "x": {
-         "ru": "Канатная дорога Медеу → Шымбулак",
-         "en": "Cable car Medeu → Shymbulak"
-        },
-        "h": {
-         "ru": "Ближе к небу на канатке",
-         "en": "Closer to the sky by cable car"
-        }
-       },
-       {
-        "tm": "14:10–15:10",
-        "x": {
-         "ru": "Шымбулак: горные виды, фото и задание бота",
-         "en": "Shymbulak: mountain views, photos and a bot challenge"
-        },
-        "h": {
-         "ru": "Луна над Шымбулаком",
-         "en": "The moon over Shymbulak"
-        }
-       },
-       {
-        "tm": "15:10–15:30",
-        "x": {
-         "ru": "Канатная дорога обратно, тот же билет",
-         "en": "Cable car back down, same ticket"
-        }
-       },
-       {
-        "tm": "15:40–16:10",
-        "x": {
-         "ru": "Такси к музею Яндекса · 4 600 ₸",
-         "en": "Taxi to the Yandex Museum · 4 600 ₸"
-        }
-       },
-       {
-        "tm": "16:10–16:40",
-        "x": {
-         "ru": "Музей Яндекса, вход свободный",
-         "en": "Yandex Museum, free entry"
-        },
-        "h": {
-         "ru": "Музей, где живут первые компьютеры",
-         "en": "Where the first computers live"
-        }
-       },
-       {
-        "tm": "16:40–17:00",
-        "x": {
-         "ru": "Такси к канатной дороге Кок-Тобе · 1 600 ₸",
-         "en": "Taxi to the Kok-Tobe cable car · 1 600 ₸"
-        }
-       },
-       {
-        "tm": "17:00–17:15",
-        "x": {
-         "ru": "Билет и подъём на Кок-Тобе · 10 000 ₸",
-         "en": "Ticket and ride up Kok-Tobe · 10 000 ₸"
-        }
-       },
-       {
-        "tm": "17:15–20:00",
-        "x": {
-         "ru": "Кок-Тобе: задания бота, панорамы, развлечения",
-         "en": "Kok-Tobe: bot challenges, panoramas, fun"
-        },
-        "h": {
-         "ru": "Гора, которая слышит желания",
-         "en": "The mountain that hears wishes"
-        }
-       },
-       {
-        "tm": "20:00–21:00",
-        "x": {
-         "ru": "Ужин в ресторане «Абай» · 7 000 ₸",
-         "en": "Dinner at Abai restaurant · 7 000 ₸"
-        },
-        "h": {
-         "ru": "Ужин над огнями Алматы",
-         "en": "Dinner above Almaty’s lights"
-        }
-       },
-       {
-        "tm": "21:00–21:20",
-        "x": {
-         "ru": "Спуск по канатной дороге, тот же билет",
-         "en": "Cable car down, same ticket"
-        }
-       },
-       {
-        "tm": "21:20–22:00",
-        "x": {
-         "ru": "Домой на общественном транспорте · 120 ₸",
-         "en": "Home by public transport · 120 ₸"
-        }
-       }
-      ],
-      "note": {
-       "ru": "Без МУИТ выезд в горы в 10:00, маршрут около 12 часов. В МУИТ записываются сами по контактам из бота.",
-       "en": "Without IITU you head to the mountains at 10:00, about 12 hours in total. You book IITU yourself using contacts in the bot."
-      }
-     }
-    ],
-    "transfers": [
-     {
-      "st": {
-       "ru": "По Алматы",
-       "en": "Around Almaty"
-      },
-      "how": {
-       "ru": "Такси между удалёнными точками, пешком и канатные дороги",
-       "en": "Taxis between far stops, walking and cable cars"
-      },
-      "tm": {
-       "ru": "Маршрут без лишних возвратов",
-       "en": "A route with no doubling back"
-      },
-      "note": {
-       "ru": "Транспорт оплачивает участник, организованного трансфера нет.",
-       "en": "Participants pay for transport; there is no organised transfer."
-      }
-     }
-    ],
-    "notes": [
-     {
-      "ru": "Формат самостоятельный: без экскурсовода, подсказки и рассказы о местах в ВК-боте. Нужны смартфон и русский язык.",
-      "en": "Self-guided: no tour guide, tips and stories live in the VK bot. You need a smartphone and Russian."
-     },
-     {
-      "ru": "Ночёвка не входит: старт и финиш в вашем общежитии или отеле.",
-      "en": "No overnight stay: start and finish at your dorm or hotel."
-     },
-     {
-      "ru": "Сезон: весна, лето, осень. Особая подготовка не нужна.",
-      "en": "Season: spring, summer, autumn. No special fitness needed."
-     },
-     {
-      "ru": "В конце квиз из пяти вопросов и персональная фотокарта, при плохой связи в течение 24 часов.",
-      "en": "At the end, a five-question quiz and your photo map, within 24 hours if the connection is poor."
-     }
-    ],
-    "inc": [
-     {
-      "ru": "Маршрут и задания в ВК-боте",
-      "en": "Route and challenges in the VK bot"
-     },
-     {
-      "ru": "Подсказки, где поесть и сколько стоит",
-      "en": "Tips on where to eat and what it costs"
-     },
-     {
-      "ru": "Легенды мест: яблочный город, Кок-Тобе, снежный барс",
-      "en": "Local legends: the apple city, Kok-Tobe, the snow leopard"
-     },
-     {
-      "ru": "Итоговый квиз и персональная фотокарта",
-      "en": "Final quiz and personal photo map"
-     }
-    ],
-    "exc": [
-     {
-      "ru": "Проживание",
-      "en": "Accommodation"
-     },
-     {
-      "ru": "Дорога до Алматы",
-      "en": "Travel to Almaty"
-     },
-     {
-      "ru": "Личные расходы и сувениры",
-      "en": "Personal spending and souvenirs"
-     }
-    ],
-    "cost": [
-     [
-      {
-       "ru": "Такси между точками",
-       "en": "Taxis between stops"
-      },
-      10800,
-      {
-       "ru": "МУИТ → Медеу 4 600 ₸, Медеу → музей Яндекса 4 600 ₸, к Кок-Тобе 1 600 ₸",
-       "en": "IITU → Medeu 4 600 ₸, Medeu → Yandex Museum 4 600 ₸, to Kok-Tobe 1 600 ₸"
-      }
-     ],
-     [
-      {
-       "ru": "Канатные дороги",
-       "en": "Cable cars"
-      },
-      22000,
-      {
-       "ru": "Медеу–Шымбулак 12 000 ₸, Кок-Тобе 10 000 ₸, туда и обратно",
-       "en": "Medeu–Shymbulak 12 000 ₸, Kok-Tobe 10 000 ₸, return"
-      }
-     ],
-     [
-      {
-       "ru": "Питание",
-       "en": "Food"
-      },
-      11000,
-      {
-       "ru": "обед в Abakate 4 000 ₸, ужин в «Абае» 7 000 ₸",
-       "en": "lunch at Abakate 4 000 ₸, dinner at Abai 7 000 ₸"
-      }
-     ],
-     [
-      {
-       "ru": "Общественный транспорт",
-       "en": "Public transport"
-      },
-      120,
-      null
-     ]
-    ],
-    "costNote": {
-     "ru": "Сумма из паспорта маршрута, без резерва.",
-     "en": "Total from the route passport, no contingency."
-    },
-    "price": [
-     85,
-     85
-    ]
-   },
-   {
-    "id": "kg2",
-    "name": {
-     "ru": "Не просто увидеть — почувствовать",
-     "en": "Don’t just see it, feel it"
-    },
-    "tag": {
-     "ru": "Кыргызстан · 2 дня",
-     "en": "Kyrgyzstan · 2 days"
-    },
-    "days": 2,
-    "nights": 1,
-    "kzt": 48400,
-    "countries": [
-     "kg"
-    ],
-    "route": {
-     "ru": "Бишкек → Иссык-Куль",
-     "en": "Bishkek → Issyk-Kul"
-    },
-    "pitch": {
-     "ru": "Два дня ярких впечатлений: городская культура, история, гастрономия и природа. Ритм Бишкека и побег к жемчужине Тянь-Шаня.",
-     "en": "Two days of vivid impressions: city culture, history, food and nature. Bishkek’s rhythm and an escape to the pearl of the Tian Shan."
-    },
-    "highlights": [
-     {
-      "ru": "Bishkek Discovery: Ала-Тоо, музеи, «Нават»",
-      "en": "Bishkek Discovery: Ala-Too, museums, Navat"
-     },
-     {
-      "ru": "Башня Бурана и Боомское ущелье",
-      "en": "Burana Tower and Boom Gorge"
-     },
-     {
-      "ru": "«Рух-Ордо», петроглифы и Иссык-Куль",
-      "en": "Ruh-Ordo, petroglyphs and Issyk-Kul"
-     },
-     {
-      "ru": "Штамп Кыргызстана в Паспорт дружбы",
-      "en": "Kyrgyzstan’s stamp in the Friendship Passport"
-     }
-    ],
-    "plan": [
-     {
-      "c": "kg",
-      "t": {
-       "ru": "Bishkek Discovery",
-       "en": "Bishkek Discovery"
-      },
-      "d": {
-       "ru": "Почувствуй ритм столицы: история, искусство, вкусы и городская атмосфера.",
-       "en": "Feel the capital’s rhythm: history, art, flavours and city life."
-      },
-      "s": [
-       {
-        "tm": "08:30–09:30",
-        "x": {
-         "ru": "Завтрак в отеле",
-         "en": "Breakfast at the hotel"
-        },
-        "h": {
-         "ru": "Утро начинается со вкуса Кыргызстана",
-         "en": "The morning starts with a taste of Kyrgyzstan"
-        }
-       },
-       {
-        "tm": "09:30–10:40",
-        "x": {
-         "ru": "Площадь Ала-Тоо",
-         "en": "Ala-Too Square"
-        },
-        "h": {
-         "ru": "В сердце Кыргызстана",
-         "en": "In the heart of Kyrgyzstan"
-        }
-       },
-       {
-        "tm": "10:45–12:00",
-        "x": {
-         "ru": "Национальный исторический музей",
-         "en": "National History Museum"
-        },
-        "h": {
-         "ru": "Путешествие сквозь века",
-         "en": "A journey through the centuries"
-        }
-       },
-       {
-        "tm": "12:10–12:45",
-        "x": {
-         "ru": "Дубовый парк",
-         "en": "Oak Park"
-        },
-        "h": {
-         "ru": "Зелёная душа Бишкека",
-         "en": "Bishkek’s green soul"
-        }
-       },
-       {
-        "tm": "13:00–14:00",
-        "x": {
-         "ru": "Музей изобразительных искусств",
-         "en": "Museum of Fine Arts"
-        },
-        "h": {
-         "ru": "Кыргызстан глазами художников",
-         "en": "Kyrgyzstan through artists’ eyes"
-        }
-       },
-       {
-        "tm": "14:15–15:15",
-        "x": {
-         "ru": "Обед в ресторане Faiza",
-         "en": "Lunch at Faiza"
-        },
-        "h": {
-         "ru": "Вкус Бишкека",
-         "en": "A taste of Bishkek"
-        }
-       },
-       {
-        "tm": "15:30–16:15",
-        "x": {
-         "ru": "Парк Панфилова",
-         "en": "Panfilov Park"
-        },
-        "h": {
-         "ru": "Атмосфера старого парка",
-         "en": "The mood of an old park"
-        }
-       },
-       {
-        "tm": "16:30–17:30",
-        "x": {
-         "ru": "ЦУМ «Айчүрөк»: сувениры",
-         "en": "Aichurok department store: souvenirs"
-        },
-        "h": {
-         "ru": "Охота за впечатлениями",
-         "en": "Hunting for impressions"
-        }
-       },
-       {
-        "tm": "17:30–18:30",
-        "x": {
-         "ru": "Бульвар Эркиндик",
-         "en": "Erkindik Boulevard"
-        },
-        "h": {
-         "ru": "По аллеям свободы",
-         "en": "Along the alleys of freedom"
-        }
-       },
-       {
-        "tm": "19:00–20:30",
-        "x": {
-         "ru": "Ужин в ресторане «Нават»",
-         "en": "Dinner at Navat"
-        },
-        "h": {
-         "ru": "Вечер восточного гостеприимства",
-         "en": "An evening of Eastern hospitality"
-        }
-       },
-       {
-        "tm": "20:40",
-        "x": {
-         "ru": "Свободное время",
-         "en": "Free time"
-        },
-        "h": {
-         "ru": "Бишкек после заката",
-         "en": "Bishkek after sunset"
-        }
-       }
-      ]
-     },
-     {
-      "c": "kg",
-      "t": {
-       "ru": "Issyk-Kul Escape",
-       "en": "Issyk-Kul Escape"
-      },
-      "d": {
-       "ru": "Побег к жемчужине Тянь-Шаня: горы, древняя история и отдых у озера.",
-       "en": "An escape to the pearl of the Tian Shan: mountains, ancient history and rest by the lake."
-      },
-      "s": [
-       {
-        "tm": "07:30–08:00",
-        "x": {
-         "ru": "Завтрак",
-         "en": "Breakfast"
-        },
-        "h": {
-         "ru": "Заряд энергии перед большим путешествием",
-         "en": "Fuel for a big journey"
-        }
-       },
-       {
-        "tm": "08:00",
-        "x": {
-         "ru": "Выезд из Бишкека к Чолпон-Ате",
-         "en": "Leave Bishkek for Cholpon-Ata"
-        },
-        "h": {
-         "ru": "Дорога к жемчужине Кыргызстана начинается",
-         "en": "The road to Kyrgyzstan’s pearl begins"
-        }
-       },
-       {
-        "tm": "09:30–10:15",
-        "x": {
-         "ru": "Башня Бурана",
-         "en": "Burana Tower"
-        },
-        "h": {
-         "ru": "Следы Великого шёлкового пути",
-         "en": "Traces of the Great Silk Road"
-        }
-       },
-       {
-        "tm": "10:15–12:30",
-        "x": {
-         "ru": "Боомское ущелье",
-         "en": "Boom Gorge"
-        },
-        "h": {
-         "ru": "Дорога сквозь горы",
-         "en": "A road through the mountains"
-        }
-       },
-       {
-        "tm": "12:40–13:30",
-        "x": {
-         "ru": "Обед в Балыкчы",
-         "en": "Lunch in Balykchy"
-        },
-        "h": {
-         "ru": "Вкус путешествия",
-         "en": "The taste of the journey"
-        }
-       },
-       {
-        "tm": "13:30–14:30",
-        "x": {
-         "ru": "Прибытие в Чолпон-Ату",
-         "en": "Arrive in Cholpon-Ata"
-        },
-        "h": {
-         "ru": "Добро пожаловать к жемчужине Тянь-Шаня",
-         "en": "Welcome to the pearl of the Tian Shan"
-        }
-       },
-       {
-        "tm": "14:30–16:00",
-        "x": {
-         "ru": "Культурный центр «Рух-Ордо»",
-         "en": "Ruh-Ordo cultural centre"
-        },
-        "h": {
-         "ru": "Место, где встречаются культуры",
-         "en": "Where cultures meet"
-        }
-       },
-       {
-        "tm": "16:00–17:00",
-        "x": {
-         "ru": "Петроглифы под открытым небом",
-         "en": "Open-air petroglyphs"
-        },
-        "h": {
-         "ru": "Послания из прошлого",
-         "en": "Messages from the past"
-        }
-       },
-       {
-        "tm": "17:00–18:30",
-        "x": {
-         "ru": "Прогулка или пляж на Иссык-Куле",
-         "en": "A walk or the beach at Issyk-Kul"
-        },
-        "h": {
-         "ru": "Наедине с природой",
-         "en": "Alone with nature"
-        }
-       },
-       {
-        "tm": "19:00–20:00",
-        "x": {
-         "ru": "Ужин у озера",
-         "en": "Dinner by the lake"
-        },
-        "h": {
-         "ru": "Ужин с атмосферой озёрного вечера",
-         "en": "Dinner with a lakeside evening mood"
-        }
-       }
-      ],
-      "note": {
-       "ru": "Время посещений и режим работы объектов подтверждаются перед поездкой.",
-       "en": "Visiting times and opening hours are confirmed before the trip."
-      }
-     }
-    ],
-    "transfers": [
-     {
-      "st": {
-       "ru": "Бишкек → Чолпон-Ата",
-       "en": "Bishkek → Cholpon-Ata"
-      },
-      "how": {
-       "ru": "Заказной микроавтобус с водителем и гидом",
-       "en": "Chartered minibus with a driver and guide"
-      },
-      "tm": {
-       "ru": "Около 4 часов с остановками у Бураны и в Боомском ущелье",
-       "en": "About 4 hours with stops at Burana and Boom Gorge"
-      },
-      "note": {
-       "ru": "Обратная дорога в Бишкек 4–5 часов, время выезда согласуется с гидом.",
-       "en": "The way back to Bishkek takes 4–5 hours; the departure time is agreed with the guide."
-      }
-     }
-    ],
-    "notes": [
-     {
-      "ru": "Названия активностей презентационные, как в программе команды Кыргызстана.",
-      "en": "Activity names are presentational, as in the Kyrgyzstan team’s programme."
-     },
-     {
-      "ru": "В документе команды цены нет: смета посчитана тем же методом, что и «Шёлковое трио».",
-      "en": "The team’s document has no price, so the budget uses the same method as the Silk Trio."
-     }
-    ],
-    "inc": [
-     {
-      "ru": "1 ночь, по 2 в номере",
-      "en": "1 night, 2 per room"
-     },
-     {
-      "ru": "Питание по смете, 8 000 ₸ в день",
-      "en": "Food on budget, 8 000 ₸ a day"
-     },
-     {
-      "ru": "Выезд на Иссык-Куль",
-      "en": "The Issyk-Kul trip"
-     },
-     {
-      "ru": "Экскурсии, билеты и резерв 10%",
-      "en": "Tours, tickets and a 10% contingency"
-     }
-    ],
-    "exc": [
-     {
-      "ru": "Дорога до Бишкека и обратно",
-      "en": "Travel to Bishkek and back"
-     },
-     {
-      "ru": "Страховка, личные покупки",
-      "en": "Insurance, personal shopping"
-     }
-    ],
-    "cost": [
-     [
-      {
-       "ru": "Проживание, 1 ночь",
-       "en": "Stay, 1 night"
-      },
-      12000,
-      {
-       "ru": "12 000 ₸ за ночь, по 2 в номере",
-       "en": "12 000 ₸ a night, 2 per room"
-      }
-     ],
-     [
-      {
-       "ru": "Питание, 2 дня",
-       "en": "Food, 2 days"
-      },
-      16000,
-      {
-       "ru": "8 000 ₸ в день",
-       "en": "8 000 ₸ a day"
-      }
-     ],
-     [
-      {
-       "ru": "Городской транспорт и выезд на Иссык-Куль",
-       "en": "Local transport and the Issyk-Kul trip"
-      },
-      5000,
-      null
-     ],
-     [
-      {
-       "ru": "Экскурсии и входные билеты",
-       "en": "Tours and tickets"
-      },
-      8000,
-      {
-       "ru": "музеи, Бурана, «Рух-Ордо»",
-       "en": "museums, Burana, Ruh-Ordo"
-      }
-     ],
-     [
-      {
-       "ru": "Дополнительные расходы",
-       "en": "Extras"
-      },
-      3000,
-      {
-       "ru": "вода, перекусы",
-       "en": "water, snacks"
-      }
-     ],
-     [
-      {
-       "ru": "Резерв 10%",
-       "en": "10% reserve"
-      },
-      4400,
-      null
-     ]
-    ],
-    "price": [
-     95,
-     95
-    ]
-   },
-   {
     "id": "trio",
     "name": {
      "ru": "Шёлковое трио",
@@ -4371,6 +3607,770 @@
     "price": [
      435,
      435
+    ]
+   },
+   {
+    "id": "alma",
+    "name": {
+     "ru": "Alma IT",
+     "en": "Alma IT"
+    },
+    "tag": {
+     "ru": "1 день · с ВК-ботом",
+     "en": "1 day · with a VK bot"
+    },
+    "days": 1,
+    "nights": 0,
+    "kzt": 43920,
+    "countries": [
+     "kz"
+    ],
+    "route": {
+     "ru": "МУИТ → Медеу → Шымбулак → музей Яндекса → Кок-Тобе",
+     "en": "IITU → Medeu → Shymbulak → Yandex Museum → Kok-Tobe"
+    },
+    "pitch": {
+     "ru": "Открой Алматы. Собери свою историю. Самостоятельный день в горах и городе: ВК-бот ведёт по маршруту, даёт задания и в финале собирает вашу фотокарту Казахстана.",
+     "en": "Discover Almaty. Collect your story. A self-guided day in the mountains and the city: a VK bot leads the way, sets challenges and builds your photo map of Kazakhstan at the end."
+    },
+    "highlights": [
+     {
+      "ru": "Медеу и канатная дорога на Шымбулак",
+      "en": "Medeu and the cable car to Shymbulak"
+     },
+     {
+      "ru": "Музей Яндекса и МУИТ по желанию",
+      "en": "The Yandex Museum and IITU (optional)"
+     },
+     {
+      "ru": "Вечер на Кок-Тобе и ужин над городом",
+      "en": "An evening on Kok-Tobe and dinner above the city"
+     },
+     {
+      "ru": "Персональная фотокарта Казахстана",
+      "en": "Your personal photo map of Kazakhstan"
+     }
+    ],
+    "plan": [
+     {
+      "c": "kz",
+      "t": {
+       "ru": "Alma IT: горы, IT и Кок-Тобе",
+       "en": "Alma IT: mountains, IT and Kok-Tobe"
+      },
+      "d": {
+       "ru": "С 08:00 до 22:00, один или своей компанией, без гида. На каждой остановке задание бота и фото.",
+       "en": "08:00 to 22:00, alone or with friends, no guide. A bot challenge and a photo at every stop."
+      },
+      "s": [
+       {
+        "tm": "08:00–10:00",
+        "x": {
+         "ru": "МУИТ: обзорная экскурсия по желанию, по предварительной записи. Вход свободный",
+         "en": "IITU: an optional tour by prior appointment. Free entry"
+        },
+        "h": {
+         "ru": "Университет, где рождаются технологии",
+         "en": "The university where tech is born"
+        }
+       },
+       {
+        "tm": "10:00–10:30",
+        "x": {
+         "ru": "Такси из МУИТ к Медеу · 4 600 ₸",
+         "en": "Taxi from IITU to Medeu · 4 600 ₸"
+        }
+       },
+       {
+        "tm": "10:30–11:00",
+        "x": {
+         "ru": "Пеший подъём к площадке Медеу",
+         "en": "Walk up to the Medeu viewpoint"
+        }
+       },
+       {
+        "tm": "11:00–12:30",
+        "x": {
+         "ru": "Медеу: прогулка, фото, задание бота, игры для компании",
+         "en": "Medeu: a walk, photos, a bot challenge, games for friends"
+        },
+        "h": {
+         "ru": "Лёд среди облаков",
+         "en": "Ice among the clouds"
+        }
+       },
+       {
+        "tm": "12:30–13:30",
+        "x": {
+         "ru": "Обед в Abakate · 4 000 ₸",
+         "en": "Lunch at Abakate · 4 000 ₸"
+        },
+        "h": {
+         "ru": "Вкус Казахстана в горах",
+         "en": "A taste of Kazakhstan in the mountains"
+        }
+       },
+       {
+        "tm": "13:30–13:50",
+        "x": {
+         "ru": "Билет и посадка на канатную дорогу · 12 000 ₸",
+         "en": "Ticket and boarding the cable car · 12 000 ₸"
+        }
+       },
+       {
+        "tm": "13:50–14:10",
+        "x": {
+         "ru": "Канатная дорога Медеу → Шымбулак",
+         "en": "Cable car Medeu → Shymbulak"
+        },
+        "h": {
+         "ru": "Ближе к небу на канатке",
+         "en": "Closer to the sky by cable car"
+        }
+       },
+       {
+        "tm": "14:10–15:10",
+        "x": {
+         "ru": "Шымбулак: горные виды, фото и задание бота",
+         "en": "Shymbulak: mountain views, photos and a bot challenge"
+        },
+        "h": {
+         "ru": "Луна над Шымбулаком",
+         "en": "The moon over Shymbulak"
+        }
+       },
+       {
+        "tm": "15:10–15:30",
+        "x": {
+         "ru": "Канатная дорога обратно, тот же билет",
+         "en": "Cable car back down, same ticket"
+        }
+       },
+       {
+        "tm": "15:40–16:10",
+        "x": {
+         "ru": "Такси к музею Яндекса · 4 600 ₸",
+         "en": "Taxi to the Yandex Museum · 4 600 ₸"
+        }
+       },
+       {
+        "tm": "16:10–16:40",
+        "x": {
+         "ru": "Музей Яндекса, вход свободный",
+         "en": "Yandex Museum, free entry"
+        },
+        "h": {
+         "ru": "Музей, где живут первые компьютеры",
+         "en": "Where the first computers live"
+        }
+       },
+       {
+        "tm": "16:40–17:00",
+        "x": {
+         "ru": "Такси к канатной дороге Кок-Тобе · 1 600 ₸",
+         "en": "Taxi to the Kok-Tobe cable car · 1 600 ₸"
+        }
+       },
+       {
+        "tm": "17:00–17:15",
+        "x": {
+         "ru": "Билет и подъём на Кок-Тобе · 10 000 ₸",
+         "en": "Ticket and ride up Kok-Tobe · 10 000 ₸"
+        }
+       },
+       {
+        "tm": "17:15–20:00",
+        "x": {
+         "ru": "Кок-Тобе: задания бота, панорамы, развлечения",
+         "en": "Kok-Tobe: bot challenges, panoramas, fun"
+        },
+        "h": {
+         "ru": "Гора, которая слышит желания",
+         "en": "The mountain that hears wishes"
+        }
+       },
+       {
+        "tm": "20:00–21:00",
+        "x": {
+         "ru": "Ужин в ресторане «Абай» · 7 000 ₸",
+         "en": "Dinner at Abai restaurant · 7 000 ₸"
+        },
+        "h": {
+         "ru": "Ужин над огнями Алматы",
+         "en": "Dinner above Almaty’s lights"
+        }
+       },
+       {
+        "tm": "21:00–21:20",
+        "x": {
+         "ru": "Спуск по канатной дороге, тот же билет",
+         "en": "Cable car down, same ticket"
+        }
+       },
+       {
+        "tm": "21:20–22:00",
+        "x": {
+         "ru": "Домой на общественном транспорте · 120 ₸",
+         "en": "Home by public transport · 120 ₸"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Без МУИТ выезд в горы в 10:00, маршрут около 12 часов. В МУИТ записываются сами по контактам из бота.",
+       "en": "Without IITU you head to the mountains at 10:00, about 12 hours in total. You book IITU yourself using contacts in the bot."
+      }
+     }
+    ],
+    "transfers": [
+     {
+      "st": {
+       "ru": "По Алматы",
+       "en": "Around Almaty"
+      },
+      "how": {
+       "ru": "Такси между удалёнными точками, пешком и канатные дороги",
+       "en": "Taxis between far stops, walking and cable cars"
+      },
+      "tm": {
+       "ru": "Маршрут без лишних возвратов",
+       "en": "A route with no doubling back"
+      },
+      "note": {
+       "ru": "Транспорт оплачивает участник, организованного трансфера нет.",
+       "en": "Participants pay for transport; there is no organised transfer."
+      }
+     }
+    ],
+    "notes": [
+     {
+      "ru": "Формат самостоятельный: без экскурсовода, подсказки и рассказы о местах в ВК-боте. Нужны смартфон и русский язык.",
+      "en": "Self-guided: no tour guide, tips and stories live in the VK bot. You need a smartphone and Russian."
+     },
+     {
+      "ru": "Ночёвка не входит: старт и финиш в вашем общежитии или отеле.",
+      "en": "No overnight stay: start and finish at your dorm or hotel."
+     },
+     {
+      "ru": "Сезон: весна, лето, осень. Особая подготовка не нужна.",
+      "en": "Season: spring, summer, autumn. No special fitness needed."
+     },
+     {
+      "ru": "В конце квиз из пяти вопросов и персональная фотокарта, при плохой связи в течение 24 часов.",
+      "en": "At the end, a five-question quiz and your photo map, within 24 hours if the connection is poor."
+     }
+    ],
+    "inc": [
+     {
+      "ru": "Маршрут и задания в ВК-боте",
+      "en": "Route and challenges in the VK bot"
+     },
+     {
+      "ru": "Подсказки, где поесть и сколько стоит",
+      "en": "Tips on where to eat and what it costs"
+     },
+     {
+      "ru": "Легенды мест: яблочный город, Кок-Тобе, снежный барс",
+      "en": "Local legends: the apple city, Kok-Tobe, the snow leopard"
+     },
+     {
+      "ru": "Итоговый квиз и персональная фотокарта",
+      "en": "Final quiz and personal photo map"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Проживание",
+      "en": "Accommodation"
+     },
+     {
+      "ru": "Дорога до Алматы",
+      "en": "Travel to Almaty"
+     },
+     {
+      "ru": "Личные расходы и сувениры",
+      "en": "Personal spending and souvenirs"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Такси между точками",
+       "en": "Taxis between stops"
+      },
+      10800,
+      {
+       "ru": "МУИТ → Медеу 4 600 ₸, Медеу → музей Яндекса 4 600 ₸, к Кок-Тобе 1 600 ₸",
+       "en": "IITU → Medeu 4 600 ₸, Medeu → Yandex Museum 4 600 ₸, to Kok-Tobe 1 600 ₸"
+      }
+     ],
+     [
+      {
+       "ru": "Канатные дороги",
+       "en": "Cable cars"
+      },
+      22000,
+      {
+       "ru": "Медеу–Шымбулак 12 000 ₸, Кок-Тобе 10 000 ₸, туда и обратно",
+       "en": "Medeu–Shymbulak 12 000 ₸, Kok-Tobe 10 000 ₸, return"
+      }
+     ],
+     [
+      {
+       "ru": "Питание",
+       "en": "Food"
+      },
+      11000,
+      {
+       "ru": "обед в Abakate 4 000 ₸, ужин в «Абае» 7 000 ₸",
+       "en": "lunch at Abakate 4 000 ₸, dinner at Abai 7 000 ₸"
+      }
+     ],
+     [
+      {
+       "ru": "Общественный транспорт",
+       "en": "Public transport"
+      },
+      120,
+      null
+     ]
+    ],
+    "costNote": {
+     "ru": "Сумма из паспорта маршрута, без резерва.",
+     "en": "Total from the route passport, no contingency."
+    },
+    "price": [
+     85,
+     85
+    ]
+   },
+   {
+    "id": "kg2",
+    "name": {
+     "ru": "Не просто увидеть — почувствовать",
+     "en": "Don’t just see it, feel it"
+    },
+    "tag": {
+     "ru": "Кыргызстан · 2 дня",
+     "en": "Kyrgyzstan · 2 days"
+    },
+    "days": 2,
+    "nights": 1,
+    "kzt": 48400,
+    "countries": [
+     "kg"
+    ],
+    "route": {
+     "ru": "Бишкек → Иссык-Куль",
+     "en": "Bishkek → Issyk-Kul"
+    },
+    "pitch": {
+     "ru": "Два дня ярких впечатлений: городская культура, история, гастрономия и природа. Ритм Бишкека и побег к жемчужине Тянь-Шаня.",
+     "en": "Two days of vivid impressions: city culture, history, food and nature. Bishkek’s rhythm and an escape to the pearl of the Tian Shan."
+    },
+    "highlights": [
+     {
+      "ru": "Bishkek Discovery: Ала-Тоо, музеи, «Нават»",
+      "en": "Bishkek Discovery: Ala-Too, museums, Navat"
+     },
+     {
+      "ru": "Башня Бурана и Боомское ущелье",
+      "en": "Burana Tower and Boom Gorge"
+     },
+     {
+      "ru": "«Рух-Ордо», петроглифы и Иссык-Куль",
+      "en": "Ruh-Ordo, petroglyphs and Issyk-Kul"
+     },
+     {
+      "ru": "Штамп Кыргызстана в Паспорт дружбы",
+      "en": "Kyrgyzstan’s stamp in the Friendship Passport"
+     }
+    ],
+    "plan": [
+     {
+      "c": "kg",
+      "t": {
+       "ru": "Bishkek Discovery",
+       "en": "Bishkek Discovery"
+      },
+      "d": {
+       "ru": "Почувствуй ритм столицы: история, искусство, вкусы и городская атмосфера.",
+       "en": "Feel the capital’s rhythm: history, art, flavours and city life."
+      },
+      "s": [
+       {
+        "tm": "08:30–09:30",
+        "x": {
+         "ru": "Завтрак в отеле",
+         "en": "Breakfast at the hotel"
+        },
+        "h": {
+         "ru": "Утро начинается со вкуса Кыргызстана",
+         "en": "The morning starts with a taste of Kyrgyzstan"
+        }
+       },
+       {
+        "tm": "09:30–10:40",
+        "x": {
+         "ru": "Площадь Ала-Тоо",
+         "en": "Ala-Too Square"
+        },
+        "h": {
+         "ru": "В сердце Кыргызстана",
+         "en": "In the heart of Kyrgyzstan"
+        }
+       },
+       {
+        "tm": "10:45–12:00",
+        "x": {
+         "ru": "Национальный исторический музей",
+         "en": "National History Museum"
+        },
+        "h": {
+         "ru": "Путешествие сквозь века",
+         "en": "A journey through the centuries"
+        }
+       },
+       {
+        "tm": "12:10–12:45",
+        "x": {
+         "ru": "Дубовый парк",
+         "en": "Oak Park"
+        },
+        "h": {
+         "ru": "Зелёная душа Бишкека",
+         "en": "Bishkek’s green soul"
+        }
+       },
+       {
+        "tm": "13:00–14:00",
+        "x": {
+         "ru": "Музей изобразительных искусств",
+         "en": "Museum of Fine Arts"
+        },
+        "h": {
+         "ru": "Кыргызстан глазами художников",
+         "en": "Kyrgyzstan through artists’ eyes"
+        }
+       },
+       {
+        "tm": "14:15–15:15",
+        "x": {
+         "ru": "Обед в ресторане Faiza",
+         "en": "Lunch at Faiza"
+        },
+        "h": {
+         "ru": "Вкус Бишкека",
+         "en": "A taste of Bishkek"
+        }
+       },
+       {
+        "tm": "15:30–16:15",
+        "x": {
+         "ru": "Парк Панфилова",
+         "en": "Panfilov Park"
+        },
+        "h": {
+         "ru": "Атмосфера старого парка",
+         "en": "The mood of an old park"
+        }
+       },
+       {
+        "tm": "16:30–17:30",
+        "x": {
+         "ru": "ЦУМ «Айчүрөк»: сувениры",
+         "en": "Aichurok department store: souvenirs"
+        },
+        "h": {
+         "ru": "Охота за впечатлениями",
+         "en": "Hunting for impressions"
+        }
+       },
+       {
+        "tm": "17:30–18:30",
+        "x": {
+         "ru": "Бульвар Эркиндик",
+         "en": "Erkindik Boulevard"
+        },
+        "h": {
+         "ru": "По аллеям свободы",
+         "en": "Along the alleys of freedom"
+        }
+       },
+       {
+        "tm": "19:00–20:30",
+        "x": {
+         "ru": "Ужин в ресторане «Нават»",
+         "en": "Dinner at Navat"
+        },
+        "h": {
+         "ru": "Вечер восточного гостеприимства",
+         "en": "An evening of Eastern hospitality"
+        }
+       },
+       {
+        "tm": "20:40",
+        "x": {
+         "ru": "Свободное время",
+         "en": "Free time"
+        },
+        "h": {
+         "ru": "Бишкек после заката",
+         "en": "Bishkek after sunset"
+        }
+       }
+      ]
+     },
+     {
+      "c": "kg",
+      "t": {
+       "ru": "Issyk-Kul Escape",
+       "en": "Issyk-Kul Escape"
+      },
+      "d": {
+       "ru": "Побег к жемчужине Тянь-Шаня: горы, древняя история и отдых у озера.",
+       "en": "An escape to the pearl of the Tian Shan: mountains, ancient history and rest by the lake."
+      },
+      "s": [
+       {
+        "tm": "07:30–08:00",
+        "x": {
+         "ru": "Завтрак",
+         "en": "Breakfast"
+        },
+        "h": {
+         "ru": "Заряд энергии перед большим путешествием",
+         "en": "Fuel for a big journey"
+        }
+       },
+       {
+        "tm": "08:00",
+        "x": {
+         "ru": "Выезд из Бишкека к Чолпон-Ате",
+         "en": "Leave Bishkek for Cholpon-Ata"
+        },
+        "h": {
+         "ru": "Дорога к жемчужине Кыргызстана начинается",
+         "en": "The road to Kyrgyzstan’s pearl begins"
+        }
+       },
+       {
+        "tm": "09:30–10:15",
+        "x": {
+         "ru": "Башня Бурана",
+         "en": "Burana Tower"
+        },
+        "h": {
+         "ru": "Следы Великого шёлкового пути",
+         "en": "Traces of the Great Silk Road"
+        }
+       },
+       {
+        "tm": "10:15–12:30",
+        "x": {
+         "ru": "Боомское ущелье",
+         "en": "Boom Gorge"
+        },
+        "h": {
+         "ru": "Дорога сквозь горы",
+         "en": "A road through the mountains"
+        }
+       },
+       {
+        "tm": "12:40–13:30",
+        "x": {
+         "ru": "Обед в Балыкчы",
+         "en": "Lunch in Balykchy"
+        },
+        "h": {
+         "ru": "Вкус путешествия",
+         "en": "The taste of the journey"
+        }
+       },
+       {
+        "tm": "13:30–14:30",
+        "x": {
+         "ru": "Прибытие в Чолпон-Ату",
+         "en": "Arrive in Cholpon-Ata"
+        },
+        "h": {
+         "ru": "Добро пожаловать к жемчужине Тянь-Шаня",
+         "en": "Welcome to the pearl of the Tian Shan"
+        }
+       },
+       {
+        "tm": "14:30–16:00",
+        "x": {
+         "ru": "Культурный центр «Рух-Ордо»",
+         "en": "Ruh-Ordo cultural centre"
+        },
+        "h": {
+         "ru": "Место, где встречаются культуры",
+         "en": "Where cultures meet"
+        }
+       },
+       {
+        "tm": "16:00–17:00",
+        "x": {
+         "ru": "Петроглифы под открытым небом",
+         "en": "Open-air petroglyphs"
+        },
+        "h": {
+         "ru": "Послания из прошлого",
+         "en": "Messages from the past"
+        }
+       },
+       {
+        "tm": "17:00–18:30",
+        "x": {
+         "ru": "Прогулка или пляж на Иссык-Куле",
+         "en": "A walk or the beach at Issyk-Kul"
+        },
+        "h": {
+         "ru": "Наедине с природой",
+         "en": "Alone with nature"
+        }
+       },
+       {
+        "tm": "19:00–20:00",
+        "x": {
+         "ru": "Ужин у озера",
+         "en": "Dinner by the lake"
+        },
+        "h": {
+         "ru": "Ужин с атмосферой озёрного вечера",
+         "en": "Dinner with a lakeside evening mood"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Время посещений и режим работы объектов подтверждаются перед поездкой.",
+       "en": "Visiting times and opening hours are confirmed before the trip."
+      }
+     }
+    ],
+    "transfers": [
+     {
+      "st": {
+       "ru": "Бишкек → Чолпон-Ата",
+       "en": "Bishkek → Cholpon-Ata"
+      },
+      "how": {
+       "ru": "Заказной микроавтобус с водителем и гидом",
+       "en": "Chartered minibus with a driver and guide"
+      },
+      "tm": {
+       "ru": "Около 4 часов с остановками у Бураны и в Боомском ущелье",
+       "en": "About 4 hours with stops at Burana and Boom Gorge"
+      },
+      "note": {
+       "ru": "Обратная дорога в Бишкек 4–5 часов, время выезда согласуется с гидом.",
+       "en": "The way back to Bishkek takes 4–5 hours; the departure time is agreed with the guide."
+      }
+     }
+    ],
+    "notes": [
+     {
+      "ru": "Названия активностей презентационные, как в программе команды Кыргызстана.",
+      "en": "Activity names are presentational, as in the Kyrgyzstan team’s programme."
+     },
+     {
+      "ru": "В документе команды цены нет: смета посчитана тем же методом, что и «Шёлковое трио».",
+      "en": "The team’s document has no price, so the budget uses the same method as the Silk Trio."
+     }
+    ],
+    "inc": [
+     {
+      "ru": "1 ночь, по 2 в номере",
+      "en": "1 night, 2 per room"
+     },
+     {
+      "ru": "Питание по смете, 8 000 ₸ в день",
+      "en": "Food on budget, 8 000 ₸ a day"
+     },
+     {
+      "ru": "Выезд на Иссык-Куль",
+      "en": "The Issyk-Kul trip"
+     },
+     {
+      "ru": "Экскурсии, билеты и резерв 10%",
+      "en": "Tours, tickets and a 10% contingency"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Дорога до Бишкека и обратно",
+      "en": "Travel to Bishkek and back"
+     },
+     {
+      "ru": "Страховка, личные покупки",
+      "en": "Insurance, personal shopping"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Проживание, 1 ночь",
+       "en": "Stay, 1 night"
+      },
+      12000,
+      {
+       "ru": "12 000 ₸ за ночь, по 2 в номере",
+       "en": "12 000 ₸ a night, 2 per room"
+      }
+     ],
+     [
+      {
+       "ru": "Питание, 2 дня",
+       "en": "Food, 2 days"
+      },
+      16000,
+      {
+       "ru": "8 000 ₸ в день",
+       "en": "8 000 ₸ a day"
+      }
+     ],
+     [
+      {
+       "ru": "Городской транспорт и выезд на Иссык-Куль",
+       "en": "Local transport and the Issyk-Kul trip"
+      },
+      5000,
+      null
+     ],
+     [
+      {
+       "ru": "Экскурсии и входные билеты",
+       "en": "Tours and tickets"
+      },
+      8000,
+      {
+       "ru": "музеи, Бурана, «Рух-Ордо»",
+       "en": "museums, Burana, Ruh-Ordo"
+      }
+     ],
+     [
+      {
+       "ru": "Дополнительные расходы",
+       "en": "Extras"
+      },
+      3000,
+      {
+       "ru": "вода, перекусы",
+       "en": "water, snacks"
+      }
+     ],
+     [
+      {
+       "ru": "Резерв 10%",
+       "en": "10% reserve"
+      },
+      4400,
+      null
+     ]
+    ],
+    "price": [
+     95,
+     95
     ]
    }
   ],
