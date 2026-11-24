@@ -16,7 +16,7 @@
       noTiming: 'Порядок точек без почасового тайминга',
       'ph.soon': 'Фото скоро', 'ph.attr': 'Автор · лицензия',
       'gallery.kicker': 'Галерея', 'gallery.title': 'Маршрут в кадрах',
-      'gallery.lead': 'Казахстан и Узбекистан уже в кадре. Фото Армении, Кыргызстана и Таджикистана появятся по мере подбора, с автором и лицензией.',
+      'gallery.lead': 'Армения, Казахстан и Узбекистан уже в кадре. Фото Кыргызстана и Таджикистана появятся по мере подбора, с автором и лицензией.',
       'ar.kicker': 'Дополненная реальность', 'ar.title': 'Поставьте Регистан у себя на столе',
       'ar.lead': 'Покрутите макет пальцем или мышью. На телефоне нажмите «Открыть в AR», на компьютере отсканируйте QR-код.',
       'ar.note': 'Это упрощённые стилизованные макеты. Детальные модели можно заменить в папке assets/models без правки кода.',
@@ -61,7 +61,7 @@
       noTiming: 'Stops in order, no hourly timing',
       'ph.soon': 'Photo coming soon', 'ph.attr': 'Author · licence',
       'gallery.kicker': 'Gallery', 'gallery.title': 'The route in pictures',
-      'gallery.lead': 'Kazakhstan and Uzbekistan are already here. Photos of Armenia, Kyrgyzstan and Tajikistan are on the way, each with its author and licence.',
+      'gallery.lead': 'Armenia, Kazakhstan and Uzbekistan are already here. Photos of Kyrgyzstan and Tajikistan are on the way, each with its author and licence.',
       'ar.kicker': 'Augmented reality', 'ar.title': 'Put the Registan on your desk',
       'ar.lead': 'Spin the model with a finger or mouse. On a phone tap “View in AR”, on a computer scan the QR code.',
       'ar.note': 'These are simplified stylised models. Detailed ones can be dropped into assets/models without code changes.',
@@ -121,7 +121,7 @@
     if (typeof p === 'string') {
       return { src: `assets/img/${p}.webp`, sm: `assets/img/${p}-sm.webp`, author: meta.photoCredit, license: L(meta.photoLicense), caption: L(point?.photoCaption) || L(point?.name) };
     }
-    return { src: p.src, sm: p.sm || p.src, author: p.author || '', license: L(p.license) || p.license || '', url: p.url, caption: L(p.caption) || L(point?.name) };
+    return { src: p.src, sm: p.sm || p.src, author: p.author || '', license: L(p.license) || p.license || '', url: p.url, caption: (lang === 'en' && p.captionEn) || L(p.caption) || L(point?.name) };
   }
   const credit = (ph) => [ph.author, ph.license].filter(Boolean).join(' · ');
   const country = (id) => DATA.countries.find((x) => x.id === id);
@@ -168,7 +168,7 @@
     document.documentElement.lang = lang;
     $$('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
     $$('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
-        $('#footerAuthor').textContent = DATA ? (lang === 'ru' ? `Казахстан: ${DATA.meta.photoCredit}; Узбекистан: Unsplash, авторы указаны в подписях` : `Kazakhstan: ${DATA.meta.photoCredit}; Uzbekistan: Unsplash, authors in captions`) : '';
+        $('#footerAuthor').textContent = DATA ? (lang === 'ru' ? `Казахстан: ${DATA.meta.photoCredit}; Узбекистан: Unsplash; Армения: материалы команды. Авторы указаны в подписях` : `Kazakhstan: ${DATA.meta.photoCredit}; Uzbekistan: Unsplash; Armenia: team materials. Authors in captions`) : '';
   }
 
   /* ---------- Hero, filters, nav ---------- */
@@ -647,10 +647,11 @@
         else if (p.tags.includes('main') && artCount < 2 && !['kz', 'uz'].includes(c.id)) { artCount++; items.push({ name: L(p.name), c }); }
       }));
       if (c.extra) c.extra.photos.forEach((p) => items.push({ ph: photo(p, c.extra.points[0]) }));
+      (c.extraPhotos || []).forEach((p) => items.push({ ph: photo(p, {}) }));
       if (c.id === 'uz') ['reg_light', 'samarqand_8', 'samarqand_4', 'shah_wide', 'det_star', 'mato_0'].forEach((k) => items.push({ ph: photo('@' + k, {}) }));
     });
     // Перемешиваем страны, чтобы галерея не начиналась сплошным Казахстаном
-    const byC = {}; items.forEach((it) => { const k = it.c ? it.c.id : (it.ph.src.includes('/uz/') ? 'uz' : 'kz'); (byC[k] = byC[k] || []).push(it); });
+    const byC = {}; items.forEach((it) => { const k = it.c ? it.c.id : ((it.ph.src.match(/img\/(am|kz|kg|tj|uz)\//) || [])[1] || 'kz'); (byC[k] = byC[k] || []).push(it); });
     const order = DATA.countries.map((c) => c.id), mixed = [];
     while (order.some((k) => byC[k]?.length)) order.forEach((k) => { if (byC[k]?.length) mixed.push(byC[k].shift()); });
     $('#galleryGrid').innerHTML = mixed.map((it, i) => {

@@ -110,7 +110,8 @@
        "hook": {
         "ru": "Розовое сердце города",
         "en": "The pink heart of the city"
-       }
+       },
+       "photo": "@am_government"
       },
       {
        "time": "3",
@@ -132,7 +133,8 @@
        "hook": {
         "ru": "Улица, где начинался Ереван",
         "en": "The street where Yerevan began"
-       }
+       },
+       "photo": "@am_abovyan"
       },
       {
        "time": "4",
@@ -154,7 +156,8 @@
        "hook": {
         "ru": "Фонтан-секрет под землёй",
         "en": "The secret underground fountain"
-       }
+       },
+       "photo": "@am_flower_fountain"
       },
       {
        "time": "5",
@@ -357,7 +360,8 @@
        "hook": {
         "ru": "Танец воды и света",
         "en": "A dance of water and light"
-       }
+       },
+       "photo": "@am_republic_night"
       }
      ]
     },
@@ -391,7 +395,8 @@
        "hook": {
         "ru": "Монастырь над голубым озером",
         "en": "A monastery above the blue lake"
-       }
+       },
+       "photo": "@am_hayravank"
       },
       {
        "time": "2",
@@ -413,7 +418,8 @@
        "hook": {
         "ru": "Вершина с видом на Севан",
         "en": "A summit overlooking Sevan"
-       }
+       },
+       "photo": "@am_sevan_artanish"
       },
       {
        "time": "3",
@@ -474,7 +480,8 @@
        "hook": {
         "ru": "Озеро в кратере вулкана",
         "en": "A lake inside a volcano"
-       }
+       },
+       "photo": "@am_armaghan"
       }
      ]
     }
@@ -545,7 +552,12 @@
      }
     ]
    },
-   "site": "https://skimirilov.github.io/barev-yerevan/"
+   "site": "https://skimirilov.github.io/barev-yerevan/",
+   "cover": "@am_hayravank",
+   "extraPhotos": [
+    "@am_republic_fountain",
+    "@am_old_yerevan"
+   ]
   },
   {
    "id": "kz",
@@ -2520,6 +2532,78 @@
     "ru": "Регистан на закате",
     "en": "The Registan at sunset"
    }
+  },
+  "am_sevan_artanish": {
+   "src": "assets/img/am/sevan_artanish.webp",
+   "sm": "assets/img/am/sevan_artanish-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Севан с полуострова Артаниш",
+   "captionEn": "Lake Sevan from the Artanish peninsula"
+  },
+  "am_hayravank": {
+   "src": "assets/img/am/hayravank.webp",
+   "sm": "assets/img/am/hayravank-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Монастырь Айраванк над Севаном",
+   "captionEn": "Hayravank Monastery above Lake Sevan"
+  },
+  "am_armaghan": {
+   "src": "assets/img/am/armaghan.webp",
+   "sm": "assets/img/am/armaghan-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Озеро в кратере горы Армаган",
+   "captionEn": "The crater lake on Mount Armaghan"
+  },
+  "am_old_yerevan": {
+   "src": "assets/img/am/old_yerevan.webp",
+   "sm": "assets/img/am/old_yerevan-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Старый Ереван: дом из туфа и базальта",
+   "captionEn": "Old Yerevan: a house of tuff and basalt"
+  },
+  "am_republic_night": {
+   "src": "assets/img/am/republic_night.webp",
+   "sm": "assets/img/am/republic_night-sm.webp",
+   "author": "Relocarta",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Площадь Республики ночью",
+   "captionEn": "Republic Square at night"
+  },
+  "am_government": {
+   "src": "assets/img/am/government.webp",
+   "sm": "assets/img/am/government-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Дом Правительства на площади Республики",
+   "captionEn": "Government House on Republic Square"
+  },
+  "am_republic_fountain": {
+   "src": "assets/img/am/republic_fountain.webp",
+   "sm": "assets/img/am/republic_fountain-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Фонтаны площади Республики",
+   "captionEn": "Fountains of Republic Square"
+  },
+  "am_flower_fountain": {
+   "src": "assets/img/am/flower_fountain.webp",
+   "sm": "assets/img/am/flower_fountain-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Подземный фонтан-цветок",
+   "captionEn": "The underground flower fountain"
+  },
+  "am_abovyan": {
+   "src": "assets/img/am/abovyan.webp",
+   "sm": "assets/img/am/abovyan-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Старый дом на углу улицы Абовяна",
+   "captionEn": "An old house on Abovyan Street"
   }
  },
  "finish": {
