@@ -1083,3 +1083,5 @@ a.arch:hover { border-color: #fff; }
 .tr-cta .cur-mini { margin-left: auto; }
 @media (max-width: 480px) { .cur-b { padding: 6px 9px 6px 6px; gap: 5px; } .cur-b small { display: none; } .cur-lbl { flex-basis: 100%; text-align: center; } }
 .dn-note { grid-column: 1 / -1; margin: 0 0 8px; font-size: .85rem; color: #8E9AB5; }
+/* 4 пакета: сетка 2×2 */
+@media (min-width: 760px) { .offers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -5,8 +5,8 @@
    "en": "Friendship Code"
   },
   "subtitle": {
-   "ru": "5 стран, 3 студенческих пакета, одна дружба",
-   "en": "5 countries, 3 student packages, one friendship"
+   "ru": "5 стран, 4 студенческих пакета, одна дружба",
+   "en": "5 countries, 4 student packages, one friendship"
   },
   "photoCredit": "Ж. Миркомилов",
   "photoLicense": {
@@ -3607,6 +3607,894 @@
     "price": [
      435,
      435
+    ]
+   },
+   {
+    "id": "peaks",
+    "name": {
+     "ru": "Горы и столицы",
+     "en": "Peaks and Capitals"
+    },
+    "tag": {
+     "ru": "7 дней · 3 страны",
+     "en": "7 days · 3 countries"
+    },
+    "days": 7,
+    "nights": 6,
+    "kzt": 425700,
+    "countries": [
+     "tj",
+     "kz",
+     "am"
+    ],
+    "route": {
+     "ru": "Душанбе → Искандеркуль → Алматы → Медеу → Ереван → Севан",
+     "en": "Dushanbe → Iskanderkul → Almaty → Medeu → Yerevan → Sevan"
+    },
+    "pitch": {
+     "ru": "Таджикистан, Казахстан и Армения за неделю: Фанские горы, канатка на Шымбулак и голубой Севан. По два дня в каждой стране, между странами перелёты.",
+     "en": "Tajikistan, Kazakhstan and Armenia in a week: the Fann Mountains, the cable car to Shymbulak and blue Lake Sevan. Two days in each country, flights in between."
+    },
+    "highlights": [
+     {
+      "ru": "Королевский Душанбе и озеро Искандеркуль",
+      "en": "Royal Dushanbe and Lake Iskanderkul"
+     },
+     {
+      "ru": "Мастер-классы по ширчаю и курутобу",
+      "en": "Shirchoy and qurutob master classes"
+     },
+     {
+      "ru": "Медеу и канатная дорога на Шымбулак",
+      "en": "Medeu and the cable car to Shymbulak"
+     },
+     {
+      "ru": "Каскад, Айраванк и озеро Севан",
+      "en": "The Cascade, Hayravank and Lake Sevan"
+     }
+    ],
+    "plan": [
+     {
+      "c": "tj",
+      "t": {
+       "ru": "Королевский Душанбе",
+       "en": "Royal Dushanbe"
+      },
+      "d": {
+       "ru": "Сомони, библиотека, театр, базар Меҳргон и вечер на башне Истиклол.",
+       "en": "Somoni, the library, the theatre, Mehrgon bazaar and an evening on Istiklol tower."
+      },
+      "s": [
+       {
+        "tm": "08:00–09:00",
+        "x": {
+         "ru": "Завтрак в отеле",
+         "en": "Breakfast at the hotel"
+        }
+       },
+       {
+        "tm": "09:30–10:30",
+        "x": {
+         "ru": "Монумент Исмоили Сомони: сбор, фотосессия и экскурсия",
+         "en": "Ismoil Somoni monument: meet-up, photos and a tour"
+        },
+        "h": {
+         "ru": "Под сенью короны Сомони",
+         "en": "Beneath Somoni’s crown"
+        }
+       },
+       {
+        "tm": "10:30–12:00",
+        "x": {
+         "ru": "Национальная библиотека Таджикистана",
+         "en": "National Library of Tajikistan"
+        },
+        "h": {
+         "ru": "Дворец миллиона книг",
+         "en": "A palace of a million books"
+        }
+       },
+       {
+        "tm": "12:00–13:00",
+        "x": {
+         "ru": "Обед в чайхане «Сайёҳ»",
+         "en": "Lunch at Sayyoh teahouse"
+        },
+        "h": {
+         "ru": "Плов, лепёшка и пиала чая",
+         "en": "Plov, bread and a bowl of tea"
+        }
+       },
+       {
+        "tm": "13:30–16:00",
+        "x": {
+         "ru": "Культурная программа и Национальный театр",
+         "en": "Cultural programme and the National Theatre"
+        },
+        "h": {
+         "ru": "За кулисами Душанбе",
+         "en": "Backstage in Dushanbe"
+        }
+       },
+       {
+        "tm": "16:30–18:00",
+        "x": {
+         "ru": "Рынок «Меҳргон»",
+         "en": "Mehrgon market"
+        },
+        "h": {
+         "ru": "Базар цветов и специй",
+         "en": "A bazaar of colours and spices"
+        }
+       },
+       {
+        "tm": "18:30–19:30",
+        "x": {
+         "ru": "Ужин в ресторане «Зирбак»",
+         "en": "Dinner at Zirbak restaurant"
+        },
+        "h": {
+         "ru": "Ужин с ароматом Памира",
+         "en": "Dinner with a taste of the Pamirs"
+        }
+       },
+       {
+        "tm": "20:00–21:00",
+        "x": {
+         "ru": "Башня «Истиклол»",
+         "en": "Istiklol tower"
+        },
+        "h": {
+         "ru": "Город в огнях с высоты",
+         "en": "The city lit up from above"
+        }
+       },
+       {
+        "tm": "после 21:00",
+        "x": {
+         "ru": "Свободное время и возвращение в отель",
+         "en": "Free time and back to the hotel"
+        }
+       }
+      ]
+     },
+     {
+      "c": "tj",
+      "t": {
+       "ru": "Искандеркуль и Фанские горы",
+       "en": "Iskanderkul and the Fann Mountains"
+      },
+      "d": {
+       "ru": "Завтрак у горного озера, тропа к Змеиному озеру и водопаду, кухня Таджикистана.",
+       "en": "Breakfast by a mountain lake, a trail to Snake Lake and the waterfall, Tajik cooking."
+      },
+      "s": [
+       {
+        "tm": "06:00–09:00",
+        "x": {
+         "ru": "Выезд из Душанбе в Фанские горы, около 3 часов",
+         "en": "Leave Dushanbe for the Fann Mountains, about 3 hours"
+        },
+        "h": {
+         "ru": "Дорога в сердце Фанских гор",
+         "en": "The road into the Fann Mountains"
+        }
+       },
+       {
+        "tm": "09:00–10:00",
+        "x": {
+         "ru": "Завтрак у озера и мастер-класс по ширчаю",
+         "en": "Breakfast by the lake and a shirchoy master class"
+        },
+        "h": {
+         "ru": "Озеро Александра Великого",
+         "en": "Alexander the Great’s lake"
+        }
+       },
+       {
+        "tm": "10:00–13:00",
+        "x": {
+         "ru": "Прогулка: Змеиное озеро, водопад, смотровые точки",
+         "en": "A hike: Snake Lake, the waterfall, viewpoints"
+        },
+        "h": {
+         "ru": "Тропа змей, воды и пещер",
+         "en": "A trail of snakes, water and caves"
+        }
+       },
+       {
+        "tm": "13:00–14:00",
+        "x": {
+         "ru": "Обед и мастер-класс по курутобу",
+         "en": "Lunch and a qurutob master class"
+        },
+        "h": {
+         "ru": "Секрет таджикского курутоба",
+         "en": "The secret of Tajik qurutob"
+        }
+       },
+       {
+        "tm": "14:00–17:00",
+        "x": {
+         "ru": "Время на прогулку и фото, начало обратной дороги",
+         "en": "Time for walks and photos, start back"
+        }
+       },
+       {
+        "tm": "17:00–20:00",
+        "x": {
+         "ru": "Возвращение в Душанбе",
+         "en": "Back to Dushanbe"
+        }
+       },
+       {
+        "tm": "20:00–21:00",
+        "x": {
+         "ru": "Ужин и отдых",
+         "en": "Dinner and rest"
+        }
+       }
+      ],
+      "note": {
+       "ru": "В программе команды после экскурсии был вылет в Самарканд. Здесь вместо него ночёвка в Душанбе и утренний рейс в Алматы.",
+       "en": "The team’s programme flew to Samarkand after the trip. Here you stay in Dushanbe and fly to Almaty next morning."
+      }
+     },
+     {
+      "c": "kz",
+      "t": {
+       "ru": "Перелёт в Алматы и город",
+       "en": "Fly to Almaty and the city"
+      },
+      "d": {
+       "ru": "Рейс Душанбе → Алматы, после обеда Зелёный базар, собор и ретро-модерн.",
+       "en": "Flight Dushanbe → Almaty, then the Green Bazaar, the cathedral and retro-modern Almaty."
+      },
+      "s": [
+       {
+        "tm": "07:00–09:00",
+        "x": {
+         "ru": "Завтрак, трансфер в аэропорт, регистрация",
+         "en": "Breakfast, transfer to the airport, check-in"
+        }
+       },
+       {
+        "tm": "утро / день",
+        "x": {
+         "ru": "Прямой рейс Душанбе → Алматы, 1 ч 45 мин – 1 ч 55 мин",
+         "en": "Direct flight Dushanbe → Almaty, 1 h 45 min – 1 h 55 min"
+        },
+        "h": {
+         "ru": "Курс на яблочный город",
+         "en": "Course for the apple city"
+        }
+       },
+       {
+        "tm": "+1 ч",
+        "x": {
+         "ru": "Паспортный контроль, багаж, встреча с водителем",
+         "en": "Passport control, luggage, meet the driver"
+        }
+       },
+       {
+        "tm": "13:00–14:00",
+        "x": {
+         "ru": "Размещение в отеле и обед",
+         "en": "Hotel check-in and lunch"
+        }
+       },
+       {
+        "tm": "14:00–15:00",
+        "x": {
+         "ru": "Зелёный базар",
+         "en": "Green Bazaar"
+        },
+        "h": {
+         "ru": "Яблочный вкус Алматы",
+         "en": "Almaty’s apple flavour"
+        }
+       },
+       {
+        "tm": "15:00–16:00",
+        "x": {
+         "ru": "Парк 28 гвардейцев-панфиловцев и Вознесенский собор",
+         "en": "Panfilov Park and Ascension Cathedral"
+        },
+        "h": {
+         "ru": "Собор без единого гвоздя",
+         "en": "A cathedral without a single nail"
+        }
+       },
+       {
+        "tm": "16:00–17:00",
+        "x": {
+         "ru": "Гостиница «Казахстан» и Дворец Республики",
+         "en": "Hotel Kazakhstan and the Palace of the Republic"
+        },
+        "h": {
+         "ru": "Алматы в стиле ретро-модерн",
+         "en": "Almaty in retro-modern style"
+        }
+       },
+       {
+        "tm": "17:00–18:30",
+        "x": {
+         "ru": "Прогулка по центру и свободное время",
+         "en": "A walk in the centre and free time"
+        }
+       },
+       {
+        "tm": "19:00–20:00",
+        "x": {
+         "ru": "Ужин и возвращение в отель",
+         "en": "Dinner and back to the hotel"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Время вылета фиксируется после выбора даты. Прямые рейсы выполняют Air Astana и Somon Air.",
+       "en": "Departure time is set once the date is chosen. Direct flights are run by Air Astana and Somon Air."
+      }
+     },
+     {
+      "c": "kz",
+      "t": {
+       "ru": "Медеу и Шымбулак",
+       "en": "Medeu and Shymbulak"
+      },
+      "d": {
+       "ru": "Целый день в горах над Алматы.",
+       "en": "A whole day in the mountains above Almaty."
+      },
+      "s": [
+       {
+        "tm": "08:00–09:00",
+        "x": {
+         "ru": "Завтрак в отеле",
+         "en": "Breakfast at the hotel"
+        }
+       },
+       {
+        "tm": "09:00–09:45",
+        "x": {
+         "ru": "Трансфер в горы",
+         "en": "Transfer to the mountains"
+        }
+       },
+       {
+        "tm": "09:45–11:00",
+        "x": {
+         "ru": "Медеу: прогулка и горные пейзажи",
+         "en": "Medeu: a walk and mountain views"
+        },
+        "h": {
+         "ru": "Лёд среди облаков",
+         "en": "Ice among the clouds"
+        }
+       },
+       {
+        "tm": "11:00–11:20",
+        "x": {
+         "ru": "Посадка на канатную дорогу",
+         "en": "Board the cable car"
+        }
+       },
+       {
+        "tm": "11:20–14:00",
+        "x": {
+         "ru": "Шымбулак: подъём, прогулка и отдых",
+         "en": "Shymbulak: ride up, walk and rest"
+        },
+        "h": {
+         "ru": "Ближе к небу на канатке",
+         "en": "Closer to the sky by cable car"
+        }
+       },
+       {
+        "tm": "14:00–15:00",
+        "x": {
+         "ru": "Обед на курорте или в городе",
+         "en": "Lunch at the resort or in town"
+        }
+       },
+       {
+        "tm": "15:00–16:00",
+        "x": {
+         "ru": "Возвращение в город",
+         "en": "Back to the city"
+        }
+       },
+       {
+        "tm": "16:00–18:00",
+        "x": {
+         "ru": "Свободное время и покупки",
+         "en": "Free time and shopping"
+        }
+       },
+       {
+        "tm": "18:00–19:00",
+        "x": {
+         "ru": "Ужин",
+         "en": "Dinner"
+        },
+        "h": {
+         "ru": "Вечер в огнях Алматы",
+         "en": "An evening in Almaty’s lights"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Чарынский каньон и Бартогай не вошли: на них нужен отдельный день.",
+       "en": "Charyn Canyon and Bartogay are not included: they need a separate day."
+      }
+     },
+     {
+      "c": "am",
+      "t": {
+       "ru": "Перелёт в Ереван и Розовый город",
+       "en": "Fly to Yerevan and the Pink City"
+      },
+      "d": {
+       "ru": "Рейс Алматы → Ереван и прогулка от площади Республики до Каскада.",
+       "en": "Flight Almaty → Yerevan and a walk from Republic Square to the Cascade."
+      },
+      "s": [
+       {
+        "tm": "утро",
+        "x": {
+         "ru": "Завтрак, выезд из отеля, трансфер в аэропорт",
+         "en": "Breakfast, check-out, transfer to the airport"
+        }
+       },
+       {
+        "tm": "за 2,5–3 ч",
+        "x": {
+         "ru": "Регистрация, багаж и контроль",
+         "en": "Check-in, luggage and security"
+        }
+       },
+       {
+        "tm": "по расписанию",
+        "x": {
+         "ru": "Прямой рейс Алматы → Ереван FlyOne Armenia, около 4 часов",
+         "en": "Direct FlyOne Armenia flight Almaty → Yerevan, about 4 hours"
+        },
+        "h": {
+         "ru": "Из гор Тянь-Шаня к Арарату",
+         "en": "From the Tian Shan to Ararat"
+        }
+       },
+       {
+        "tm": "после прилёта",
+        "x": {
+         "ru": "Паспортный контроль, багаж, трансфер в отель",
+         "en": "Passport control, luggage, hotel transfer"
+        }
+       },
+       {
+        "tm": "далее",
+        "x": {
+         "ru": "Обед и короткий отдых",
+         "en": "Lunch and a short rest"
+        }
+       },
+       {
+        "tm": "далее",
+        "x": {
+         "ru": "Площадь Республики, улица Абовяна, Северный проспект",
+         "en": "Republic Square, Abovyan Street, Northern Avenue"
+        },
+        "h": {
+         "ru": "Розовое сердце города",
+         "en": "The pink heart of the city"
+        }
+       },
+       {
+        "tm": "далее",
+        "x": {
+         "ru": "Оперный театр и Скульптурные сады",
+         "en": "The Opera House and the Sculpture Gardens"
+        },
+        "h": {
+         "ru": "Сцена, где живёт музыка",
+         "en": "Where music lives"
+        }
+       },
+       {
+        "tm": "далее",
+        "x": {
+         "ru": "Каскад: прогулка и панорамы",
+         "en": "The Cascade: a walk and panoramas"
+        },
+        "h": {
+         "ru": "Лестница к Арарату",
+         "en": "A staircase to Ararat"
+        }
+       },
+       {
+        "tm": "далее",
+        "x": {
+         "ru": "Матенадаран, снаружи, внутрь по времени работы",
+         "en": "Matenadaran, outside, inside if open"
+        },
+        "h": {
+         "ru": "Сокровищница древних букв",
+         "en": "Treasury of ancient letters"
+        }
+       },
+       {
+        "tm": "вечер",
+        "x": {
+         "ru": "Ужин и возвращение в отель",
+         "en": "Dinner and back to the hotel"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Прямые рейсы Алматы–Ереван летают ограниченно, тур подстраивается под их дни. При позднем прилёте часть прогулки переносится на утро.",
+       "en": "Almaty–Yerevan direct flights are limited, so the tour follows their days. If you land late, part of the walk moves to the morning."
+      }
+     },
+     {
+      "c": "am",
+      "t": {
+       "ru": "Голубой Севан",
+       "en": "Blue Sevan"
+      },
+      "d": {
+       "ru": "Айраванк, Артаниш и фотопрогулка у озера Севан.",
+       "en": "Hayravank, Artanish and a photo walk by Lake Sevan."
+      },
+      "s": [
+       {
+        "tm": "07:00–08:00",
+        "x": {
+         "ru": "Завтрак и выезд из Еревана",
+         "en": "Breakfast and leave Yerevan"
+        }
+       },
+       {
+        "tm": "08:00–09:30",
+        "x": {
+         "ru": "Переезд к монастырю Айраванк",
+         "en": "Drive to Hayravank Monastery"
+        }
+       },
+       {
+        "tm": "09:30–10:15",
+        "x": {
+         "ru": "Монастырь Айраванк и виды на озеро",
+         "en": "Hayravank Monastery and lake views"
+        },
+        "h": {
+         "ru": "Монастырь над голубым озером",
+         "en": "A monastery above the blue lake"
+        }
+       },
+       {
+        "tm": "10:15–11:30",
+        "x": {
+         "ru": "Гора Артаниш, по погоде и доступности",
+         "en": "Mount Artanish, weather permitting"
+        },
+        "h": {
+         "ru": "Вершина с видом на Севан",
+         "en": "A summit overlooking Sevan"
+        }
+       },
+       {
+        "tm": "11:30–12:30",
+        "x": {
+         "ru": "Обед и отдых",
+         "en": "Lunch and rest"
+        }
+       },
+       {
+        "tm": "12:30–14:00",
+        "x": {
+         "ru": "Остановка у озера Севан, фотопрогулка",
+         "en": "A stop at Lake Sevan, photo walk"
+        },
+        "h": {
+         "ru": "Голубая жемчужина Армении",
+         "en": "Armenia’s blue pearl"
+        }
+       },
+       {
+        "tm": "14:00–15:30",
+        "x": {
+         "ru": "Ещё одна природная точка, если позволит дорога",
+         "en": "One more nature stop if the road allows"
+        }
+       },
+       {
+        "tm": "15:30–17:00",
+        "x": {
+         "ru": "Возвращение в Ереван",
+         "en": "Back to Yerevan"
+        }
+       },
+       {
+        "tm": "18:00–19:00",
+        "x": {
+         "ru": "Ужин и свободное время",
+         "en": "Dinner and free time"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Остров чаек, водопад у Антарамеджа и Арагац добавляются только после проверки дороги.",
+       "en": "Seagull Island, the Antaramej waterfall and Aragats are added only once the road is checked."
+      }
+     },
+     {
+      "c": "am",
+      "t": {
+       "ru": "Завершение тура",
+       "en": "End of the tour"
+      },
+      "d": {
+       "ru": "Утро в Ереване и вылет домой.",
+       "en": "A morning in Yerevan and the flight home."
+      },
+      "s": [
+       {
+        "tm": "07:00–08:00",
+        "x": {
+         "ru": "Завтрак и освобождение номеров",
+         "en": "Breakfast and check-out"
+        }
+       },
+       {
+        "tm": "08:00–09:00",
+        "x": {
+         "ru": "Свободное время, прогулка у отеля",
+         "en": "Free time, a walk near the hotel"
+        }
+       },
+       {
+        "tm": "за 3 ч до рейса",
+        "x": {
+         "ru": "Трансфер в аэропорт Звартноц, регистрация",
+         "en": "Transfer to Zvartnots airport, check-in"
+        }
+       },
+       {
+        "tm": "по расписанию",
+        "x": {
+         "ru": "Вылет из Еревана домой",
+         "en": "Flight home from Yerevan"
+        },
+        "h": {
+         "ru": "До новой встречи, Армения",
+         "en": "Until next time, Armenia"
+        }
+       }
+      ]
+     }
+    ],
+    "transfers": [
+     {
+      "st": {
+       "ru": "Душанбе → Алматы",
+       "en": "Dushanbe → Almaty"
+      },
+      "how": {
+       "ru": "Прямой рейс Air Astana или Somon Air",
+       "en": "Direct Air Astana or Somon Air flight"
+      },
+      "tm": {
+       "ru": "1 ч 45 мин – 1 ч 55 мин",
+       "en": "1 h 45 min – 1 h 55 min"
+      },
+      "note": {
+       "ru": "В аэропорт за 2,5–3 часа. После прилёта багаж, контроль и групповой трансфер в отель.",
+       "en": "Be at the airport 2.5–3 hours early. After landing: luggage, control and a group transfer."
+      }
+     },
+     {
+      "st": {
+       "ru": "Алматы → Ереван",
+       "en": "Almaty → Yerevan"
+      },
+      "how": {
+       "ru": "Прямой рейс FlyOne Armenia",
+       "en": "Direct FlyOne Armenia flight"
+      },
+      "tm": {
+       "ru": "4 ч – 4 ч 20 мин",
+       "en": "4 h – 4 h 20 min"
+      },
+      "note": {
+       "ru": "Рейсы ограниченное число дней в неделю: сначала выбирают дату рейса, потом под неё фиксируют тур.",
+       "en": "Flights run only a few days a week: pick the flight date first, then fix the tour around it."
+      }
+     },
+     {
+      "st": {
+       "ru": "Ереван ↔ Севан",
+       "en": "Yerevan ↔ Sevan"
+      },
+      "how": {
+       "ru": "Заказной микроавтобус с водителем",
+       "en": "Chartered minibus with a driver"
+      },
+      "tm": {
+       "ru": "1–1,5 часа в одну сторону",
+       "en": "1–1.5 hours each way"
+      },
+      "note": {
+       "ru": "Групповой трансфер на экскурсионный день с остановками по программе.",
+       "en": "A group transfer for the day with stops on the programme."
+      }
+     },
+     {
+      "st": {
+       "ru": "Аэропорт ↔ отель",
+       "en": "Airport ↔ hotel"
+      },
+      "how": {
+       "ru": "Микроавтобус или минивэн",
+       "en": "Minibus or minivan"
+      },
+      "tm": {
+       "ru": "30–60 минут в городе",
+       "en": "30–60 minutes in town"
+      },
+      "note": {
+       "ru": "Зависит от пробок и размера группы.",
+       "en": "Depends on traffic and group size."
+      }
+     }
+    ],
+    "notes": [
+     {
+      "ru": "7 календарных дней: по 2 дня в Таджикистане, Казахстане и Армении, 7-й день вылет из Еревана.",
+      "en": "7 calendar days: 2 days each in Tajikistan, Kazakhstan and Armenia, flight home from Yerevan on day 7."
+     },
+     {
+      "ru": "Рейс Алматы–Ереван летает примерно два раза в неделю, дни тура выбирают под него.",
+      "en": "The Almaty–Yerevan flight runs about twice a week, so tour days follow it."
+     },
+     {
+      "ru": "Обратный билет из Еревана не входит: город возвращения у всех свой.",
+      "en": "The ticket home from Yerevan is not included: everyone returns to a different city."
+     },
+     {
+      "ru": "Перед бронированием проверьте паспорт и визы для своего гражданства, правила багажа и погоду в горах.",
+      "en": "Before booking, check passport and visa rules for your citizenship, luggage rules and mountain weather."
+     }
+    ],
+    "inc": [
+     {
+      "ru": "Два перелёта: Душанбе → Алматы и Алматы → Ереван",
+      "en": "Two flights: Dushanbe → Almaty and Almaty → Yerevan"
+     },
+     {
+      "ru": "6 ночей, по 2 в номере",
+      "en": "6 nights, 2 per room"
+     },
+     {
+      "ru": "Питание по смете, около 9 000 ₸ в день",
+      "en": "Food on budget, about 9 000 ₸ a day"
+     },
+     {
+      "ru": "Трансферы: Искандеркуль, Севан, аэропорты",
+      "en": "Transfers: Iskanderkul, Sevan, airports"
+     },
+     {
+      "ru": "Экскурсии, канатная дорога и резерв 10%",
+      "en": "Tours, the cable car and a 10% contingency"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Обратный билет из Еревана",
+      "en": "Ticket home from Yerevan"
+     },
+     {
+      "ru": "Страховка и личные покупки",
+      "en": "Insurance and personal shopping"
+     },
+     {
+      "ru": "Одноместное размещение, лишний багаж",
+      "en": "Single room, extra luggage"
+     },
+     {
+      "ru": "Остров чаек, водопад, Арагац, Чарын и Бартогай",
+      "en": "Seagull Island, the waterfall, Aragats, Charyn and Bartogay"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Перелёт Душанбе → Алматы",
+       "en": "Flight Dushanbe → Almaty"
+      },
+      60000,
+      {
+       "ru": "плановый ориентир, прямой рейс",
+       "en": "planning estimate, direct flight"
+      }
+     ],
+     [
+      {
+       "ru": "Перелёт Алматы → Ереван",
+       "en": "Flight Almaty → Yerevan"
+      },
+      85000,
+      {
+       "ru": "прямой рейс, тариф зависит от даты и багажа",
+       "en": "direct flight, fare depends on date and luggage"
+      }
+     ],
+     [
+      {
+       "ru": "Проживание, 6 ночей",
+       "en": "Stay, 6 nights"
+      },
+      84000,
+      {
+       "ru": "около 14 000 ₸ за ночь, по 2 в номере",
+       "en": "about 14 000 ₸ a night, 2 per room"
+      }
+     ],
+     [
+      {
+       "ru": "Питание, 7 дней",
+       "en": "Food, 7 days"
+      },
+      63000,
+      {
+       "ru": "около 9 000 ₸ в день",
+       "en": "about 9 000 ₸ a day"
+      }
+     ],
+     [
+      {
+       "ru": "Трансферы",
+       "en": "Transfers"
+      },
+      45000,
+      {
+       "ru": "Искандеркуль, города, аэропорты, Севан",
+       "en": "Iskanderkul, cities, airports, Sevan"
+      }
+     ],
+     [
+      {
+       "ru": "Экскурсии и входные билеты",
+       "en": "Tours and tickets"
+      },
+      35000,
+      {
+       "ru": "музеи, канатная дорога, экскурсии",
+       "en": "museums, cable car, tours"
+      }
+     ],
+     [
+      {
+       "ru": "Дополнительные расходы",
+       "en": "Extras"
+      },
+      15000,
+      {
+       "ru": "вода, перекусы, мелочи",
+       "en": "water, snacks, small things"
+      }
+     ],
+     [
+      {
+       "ru": "Резерв 10%",
+       "en": "10% reserve"
+      },
+      38700,
+      null
+     ]
+    ],
+    "price": [
+     820,
+     820
     ]
    },
    {
