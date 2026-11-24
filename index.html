@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Код дружбы — маршрут по 5 странам: Казахстан, Кыргызстан, Таджикистан, Узбекистан, Армения</title>
+  <meta name="description" content="Международный туристический маршрут «Код дружбы»: 5 стран, 9 дней, одна дружба. Алматы, Бишкек и Иссык-Куль, Душанбе и Искандеркуль, Самарканд, Ереван и Севан. Карта, программа по дням, AR.">
+  <meta name="keywords" content="Код дружбы, туристический маршрут, Центральная Азия, Алматы, Бишкек, Иссык-Куль, Душанбе, Искандеркуль, Самарканд, Регистан, Ереван, Севан, Студтуризм">
+  <meta name="theme-color" content="#14284F">
+  <link rel="canonical" href="https://jokhacom.github.io/-/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Код дружбы — 5 стран, 9 дней, одна дружба">
+  <meta property="og:description" content="Маршрут по Казахстану, Кыргызстану, Таджикистану, Узбекистану и Армении: карта, программа по дням, AR.">
+  <meta property="og:image" content="https://jokhacom.github.io/-/assets/img/og.jpg">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preload" as="image" href="assets/img/kz/kz_kolsai_2.webp" type="image/webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Код дружбы",
+    "description": "Международный туристический маршрут по пяти странам: Казахстан, Кыргызстан, Таджикистан, Узбекистан, Армения.",
+    "touristType": "Студенческий туризм",
+    "provider": { "@type": "Organization", "name": "Международная школа Студтуризма", "url": "https://t2t.asia" },
+    "itinerary": { "@type": "ItemList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "item": { "@type": "City", "name": "Алматы" } },
+      { "@type": "ListItem", "position": 2, "item": { "@type": "City", "name": "Бишкек" } },
+      { "@type": "ListItem", "position": 3, "item": { "@type": "City", "name": "Душанбе" } },
+      { "@type": "ListItem", "position": 4, "item": { "@type": "City", "name": "Самарканд" } },
+      { "@type": "ListItem", "position": 5, "item": { "@type": "City", "name": "Ереван" } }
+    ]}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#map" data-i18n="skip">К маршруту</a>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top" aria-label="Код дружбы">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#star8"/></svg>
+      <span data-i18n="brand">Код дружбы</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#map" data-i18n="nav.map">Карта</a>
+      <a href="#countries" data-i18n="nav.route">Программа</a>
+      <a href="#gallery" data-i18n="nav.gallery">Галерея</a>
+      <a href="#ar" data-i18n="nav.ar">AR</a>
+      <a href="#tips" data-i18n="nav.tips">Полезно</a>
+      <a href="#team" data-i18n="nav.team">Команда</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="burger" id="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <!-- 1. HERO -->
+    <section class="hero">
+      <picture class="hero-bg" aria-hidden="true">
+        <img src="assets/img/kz/kz_kolsai_2.webp" alt="" fetchpriority="high">
+      </picture>
+      <div class="hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Международная школа Студтуризма</p>
+        <h1 class="hero-title" data-i18n="hero.title">Код дружбы</h1>
+        <p class="hero-sub" data-i18n="hero.sub">5 стран, 9 дней, одна дружба</p>
+        <ul class="hero-countries" id="heroCountries"></ul>
+        <a class="btn btn-gold" href="#map" data-i18n="hero.cta">Смотреть маршрут</a>
+      </div>
+      <div class="hero-arches" aria-hidden="true">
+        <div class="arch a1"><img src="assets/img/kz/kz_medeu-sm.webp" alt="" loading="lazy"></div>
+        <div class="arch a2"><img src="assets/img/kz/kz_kolsai_1-sm.webp" alt="" loading="lazy"></div>
+        <div class="arch a3"><img src="assets/img/kz/kz_shymbulak-sm.webp" alt="" loading="lazy"></div>
+      </div>
+      <p class="hero-credit"><span data-i18n="hero.credit">Фото: озеро Кольсай</span> · <span id="heroAuthor"></span></p>
+    </section>
+
+    <!-- 2. MAP -->
+    <section class="section" id="map">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="map.kicker">Интерактивная карта</p>
+          <h2 data-i18n="map.title">Алматы → Бишкек → Душанбе → Самарканд → Ереван</h2>
+          <p class="lead" data-i18n="map.lead">Нажмите на точку, чтобы увидеть фото, время и описание. Фильтр показывает одну страну.</p>
+        </div>
+        <div class="map-filter" id="mapFilter" role="group" aria-label="Фильтр по стране"></div>
+        <div class="map-wrap reveal">
+          <div id="leaflet" class="leaflet-box" role="region" aria-label="Карта маршрута"></div>
+          <p class="map-note" id="mapNote"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. COUNTRIES -->
+    <section id="countries" class="countries">
+      <div class="country-nav-wrap">
+        <nav class="country-nav container" id="countryNav" aria-label="Страны"></nav>
+      </div>
+      <div id="countryBlocks"></div>
+    </section>
+
+    <!-- 4. GALLERY -->
+    <section class="section section-sand" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="gallery.kicker">Галерея</p>
+          <h2 data-i18n="gallery.title">Маршрут в кадрах</h2>
+          <p class="lead" data-i18n="gallery.lead">Фото остальных стран появятся по мере подбора, у каждого будет указан автор и лицензия.</p>
+        </div>
+        <div class="gallery" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- 5. AR -->
+    <section class="section section-deep" id="ar">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="ar.kicker">Дополненная реальность</p>
+          <h2 data-i18n="ar.title">Поставьте Регистан у себя на столе</h2>
+          <p class="lead" data-i18n="ar.lead">Покрутите макет пальцем или мышью. На телефоне нажмите «Открыть в AR», на компьютере отсканируйте QR-код.</p>
+        </div>
+        <div class="ar-grid" id="arGrid"></div>
+        <p class="ar-note" data-i18n="ar.note">Это упрощённые стилизованные макеты. Детальные модели можно заменить в папке assets/models без правки кода.</p>
+      </div>
+    </section>
+
+    <!-- 6. TIPS -->
+    <section class="section" id="tips">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="tips.kicker">Перед поездкой</p>
+          <h2 data-i18n="tips.title">Полезно знать</h2>
+        </div>
+        <div class="tips">
+          <article class="tip reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4c-6 8-14 10-14 20a14 14 0 0 0 28 0C38 14 30 12 24 4z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 20v18M18 30h12" stroke="currentColor" stroke-width="2.5"/></svg>
+            <h3 data-i18n="tips.dress.t">Дресс-код</h3>
+            <p data-i18n="tips.dress.d">В мечетях и мавзолеях плечи и колени должны быть закрыты. Девушкам пригодится лёгкий платок.</p>
+          </article>
+          <article class="tip reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 34c8 0 10-4 14-10l4-10 8 4-2 8c6 2 12 4 12 10v2H6z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M6 40h38" stroke="currentColor" stroke-width="2.5"/></svg>
+            <h3 data-i18n="tips.shoes.t">Удобная обувь</h3>
+            <p data-i18n="tips.shoes.d">Много ходьбы по городу, каньонам и горным тропам. Возьмите кроссовки, головной убор и воду.</p>
+          </article>
+          <article class="tip reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 13v11l7 5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            <h3 data-i18n="tips.time.t">Тайминг ориентировочный</h3>
+            <p data-i18n="tips.time.d">Время зависит от погоды, дорог и работы канатных дорог. Перед выездом сверяйтесь с навигатором и гидом.</p>
+          </article>
+          <article class="tip reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 12l10-4 12 4 10-4v28l-10 4-12-4-10 4z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M18 8v28M30 12v28" stroke="currentColor" stroke-width="2.5"/></svg>
+            <h3 data-i18n="tips.docs.t">Документы и связь</h3>
+            <p data-i18n="tips.docs.d">Маршрут пересекает пять границ. Проверьте требования к въезду для своего гражданства и подключите роуминг или местную SIM.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. TEAM -->
+    <section class="section section-sand" id="team">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="team.kicker">Кто это сделал</p>
+          <h2 data-i18n="team.title">Команда проекта</h2>
+        </div>
+        <div class="team" id="teamGrid"></div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACTS -->
+    <section class="section section-deep contacts" id="contacts">
+      <div class="container contacts-inner reveal">
+        <h2 data-i18n="contacts.title">Поехали вместе</h2>
+        <p class="lead" data-i18n="contacts.lead">Вопросы о маршруте и бронирование</p>
+        <div class="contact-actions">
+          <a class="btn btn-gold" id="siteLink" href="https://t2t.asia" target="_blank" rel="noopener">t2t.asia</a>
+          <a class="btn btn-ghost" id="tgLink" href="#" target="_blank" rel="noopener"><span data-i18n="contacts.tg">Telegram</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> <span data-i18n="footer.copy">«Код дружбы» · Международная школа Студтуризма</span></p>
+      <p class="footer-small"><span data-i18n="footer.map">Карта</span>: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · <span data-i18n="footer.photos">Фото Казахстана</span>: <span id="footerAuthor"></span></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Фото" hidden>
+    <button class="lb-close" type="button" aria-label="Закрыть">×</button>
+    <button class="lb-prev" type="button" aria-label="Назад">‹</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-next" type="button" aria-label="Вперёд">›</button>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="star8" viewBox="0 0 40 40">
+      <path d="M20 2l4.6 6.9 8.1-1.6-1.6 8.1L38 20l-6.9 4.6 1.6 8.1-8.1-1.6L20 38l-4.6-6.9-8.1 1.6 1.6-8.1L2 20l6.9-4.6-1.6-8.1 8.1 1.6z" fill="currentColor"/>
+      <circle cx="20" cy="20" r="6" fill="#fff"/>
+    </symbol>
+  </svg>
+
+  <noscript><p class="noscript">Для карты и программы маршрута включите JavaScript.</p></noscript>
+  <script src="assets/vendor/leaflet/leaflet.js" defer></script>
+  <script src="assets/vendor/qrcode/qrcode.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

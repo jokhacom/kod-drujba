@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": { "ru": "Код дружбы", "en": "Friendship Code" },
+    "subtitle": { "ru": "5 стран, 9 дней, одна дружба", "en": "5 countries, 9 days, one friendship" },
+    "photoCredit": "Ж. Миркомилов",
+    "photoLicense": { "ru": "© автор, используется с разрешения", "en": "© the author, used with permission" },
+    "coordsNote": { "ru": "Координаты на карте ориентировочные", "en": "Map coordinates are approximate" }
+  },
+  "tags": {
+    "city":   { "ru": "Город",   "en": "City" },
+    "nature": { "ru": "Природа", "en": "Nature" },
+    "food":   { "ru": "Еда",     "en": "Food" },
+    "main":   { "ru": "Главное", "en": "Must-see" }
+  },
+  "countries": [
+    {
+      "id": "kz",
+      "name": { "ru": "Казахстан", "en": "Kazakhstan" },
+      "city": { "ru": "Алматы", "en": "Almaty" },
+      "hub": [43.2389, 76.8897],
+      "intro": { "ru": "Город яблок у подножия Заилийского Алатау: базары, соборы, высокогорный каток и каньоны.", "en": "The apple city at the foot of the Trans-Ili Alatau: bazaars, cathedrals, a high-altitude rink and canyons." },
+      "days": [
+        {
+          "title": { "ru": "City tour", "en": "City tour" },
+          "subtitle": { "ru": "Знакомство с городом, культурой и горами", "en": "The city, its culture and the mountains" },
+          "points": [
+            { "time": "09:00", "name": { "ru": "Зелёный базар", "en": "Green Bazaar" }, "desc": { "ru": "Сувениры, местные сладости, сухофрукты и атмосфера главного рынка города.", "en": "Souvenirs, local sweets, dried fruit and the buzz of the city's main market." }, "tags": ["city", "food"], "coords": [43.2620, 76.9535] },
+            { "time": "10:15", "name": { "ru": "Парк 28 панфиловцев и Вознесенский собор", "en": "Panfilov Park & Ascension Cathedral" }, "desc": { "ru": "Прогулка по парку и фото у деревянного собора, построенного без единого гвоздя.", "en": "A walk in the park and photos at the wooden cathedral famously built without nails." }, "tags": ["city", "main"], "coords": [43.2587, 76.9532], "photo": "kz/kz_cathedral" },
+            { "time": "11:20", "name": { "ru": "Гостиница «Казахстан» и Дворец Республики", "en": "Hotel Kazakhstan & Palace of the Republic" }, "desc": { "ru": "Символы советского модернизма Алматы: осмотр и фотографии.", "en": "Icons of Almaty's Soviet modernism: a look around and photos." }, "tags": ["city"], "coords": [43.2445, 76.9505], "photo": "kz/kz_hotel_kazakhstan" },
+            { "time": "12:20", "name": { "ru": "Обед в ресторане «Каусар»", "en": "Lunch at Kausar restaurant" }, "desc": { "ru": "Национальная кухня и отдых после утренней прогулки.", "en": "National cuisine and a rest after the morning walk." }, "tags": ["food"], "coords": null, "photo": "kz/kz_restaurant", "photoCaption": { "ru": "Ресторан в Алматы", "en": "A restaurant in Almaty" } },
+            { "time": "14:00", "name": { "ru": "Almaty Museum of Arts", "en": "Almaty Museum of Arts" }, "desc": { "ru": "Новый музей современного искусства Центральной Азии.", "en": "A new museum of Central Asian contemporary art." }, "tags": ["city", "main"], "coords": [43.2190, 76.9290], "photo": "kz/kz_art_museum" },
+            { "time": "16:15", "name": { "ru": "Медеу", "en": "Medeu" }, "desc": { "ru": "Высокогорный каток в ущелье, горные пейзажи и фотографии.", "en": "The high-altitude skating rink in a mountain gorge, views and photos." }, "tags": ["nature", "main"], "coords": [43.1575, 77.0590], "photo": "kz/kz_medeu", "ar": "medeu" },
+            { "time": "17:30", "name": { "ru": "Шымбулак", "en": "Shymbulak" }, "desc": { "ru": "Подъём по канатной дороге, прогулка и отдых в горах. Зависит от работы канатки и тарифа.", "en": "Cable car ride up, a walk and rest in the mountains. Depends on the cable car schedule and ticket." }, "tags": ["nature", "main"], "coords": [43.1280, 77.0800], "photo": "kz/kz_shymbulak" },
+            { "time": "20:15", "name": { "ru": "Ужин в ресторане «Sandyk»", "en": "Dinner at Sandyk restaurant" }, "desc": { "ru": "Ужин после насыщенного дня.", "en": "Dinner after a full day." }, "tags": ["food"], "coords": null }
+          ]
+        },
+        {
+          "title": { "ru": "Nature tour", "en": "Nature tour" },
+          "subtitle": { "ru": "Каньоны и водохранилище Алматинской области", "en": "Canyons and a reservoir of the Almaty region" },
+          "points": [
+            { "time": "05:30", "name": { "ru": "Сбор и выезд из Алматы", "en": "Meet-up and departure from Almaty" }, "desc": { "ru": "Около трёх часов дороги до Чарына.", "en": "About three hours' drive to Charyn." }, "tags": [], "coords": null },
+            { "time": "09:00", "name": { "ru": "Чарынский каньон", "en": "Charyn Canyon" }, "desc": { "ru": "Долина замков: прогулка среди красных скал и фотографии.", "en": "The Valley of Castles: a walk among red cliffs and photos." }, "tags": ["nature", "main"], "coords": [43.3530, 79.0800] },
+            { "time": "11:30", "name": { "ru": "Чёрный каньон", "en": "Black Canyon" }, "desc": { "ru": "Смотровые площадки над тёмными скалами.", "en": "Viewpoints over the dark cliffs." }, "tags": ["nature"], "coords": [43.4040, 78.9930] },
+            { "time": "13:00", "name": { "ru": "Обед в Tary", "en": "Lunch at Tary" }, "desc": { "ru": "Обед в дороге.", "en": "Lunch on the road." }, "tags": ["food"], "coords": null },
+            { "time": "14:00", "name": { "ru": "Бартогайское водохранилище", "en": "Bartogay Reservoir" }, "desc": { "ru": "Бирюзовая вода среди гор, затем возвращение в Алматы.", "en": "Turquoise water among the mountains, then back to Almaty." }, "tags": ["nature"], "coords": [43.3530, 78.5500] },
+            { "time": "19:30", "name": { "ru": "Ужин в городе", "en": "Dinner in the city" }, "desc": { "ru": "Возвращение и ужин в Алматы.", "en": "Back in Almaty for dinner." }, "tags": ["food"], "coords": null }
+          ]
+        }
+      ],
+      "extra": {
+        "title": { "ru": "Дополнительно: Кольсай и Каинды", "en": "Extra: Kolsai & Kaindy" },
+        "text": { "ru": "Озёра Кольсай и Каинды лучше вынести в отдельный тур на 1–2 дня: вместе с каньонами день получится слишком насыщенным. К Каинды может понадобиться местный внедорожный трансфер.", "en": "Lakes Kolsai and Kaindy are best done as a separate 1–2 day trip: combined with the canyons the day gets too long. Kaindy may require a local 4x4 transfer." },
+        "points": [
+          { "name": { "ru": "Озеро Кольсай", "en": "Lake Kolsai" }, "coords": [42.9970, 78.3250], "photo": "kz/kz_kolsai_2" },
+          { "name": { "ru": "Озеро Каинды", "en": "Lake Kaindy" }, "coords": [42.9850, 78.4650] }
+        ],
+        "photos": ["kz/kz_kolsai_1", "kz/kz_kolsai_2", "kz/kz_kolsai_3"]
+      },
+      "note": { "ru": "Время ориентировочное. Подъём на Шымбулак зависит от работы канатной дороги, загородный день от сезона и дорог.", "en": "Times are approximate. Shymbulak depends on the cable car; the countryside day depends on season and roads." }
+    },
+    {
+      "id": "kg",
+      "name": { "ru": "Кыргызстан", "en": "Kyrgyzstan" },
+      "city": { "ru": "Бишкек и Иссык-Куль", "en": "Bishkek & Issyk-Kul" },
+      "hub": [42.8746, 74.5698],
+      "intro": { "ru": "Зелёная столица с музеями и бульварами, а за ней Боомское ущелье и жемчужина гор, озеро Иссык-Куль.", "en": "A green capital of museums and boulevards, then the Boom Gorge and the pearl of the mountains, Lake Issyk-Kul." },
+      "days": [
+        {
+          "title": { "ru": "City walk", "en": "City walk" },
+          "subtitle": { "ru": "Знакомство с Бишкеком", "en": "Getting to know Bishkek" },
+          "points": [
+            { "time": "09:30", "name": { "ru": "Площадь Ала-Тоо", "en": "Ala-Too Square" }, "desc": { "ru": "Главная площадь страны и смена почётного караула.", "en": "The country's main square and the changing of the guard." }, "tags": ["city", "main"], "coords": [42.8765, 74.6037] },
+            { "time": "10:45", "name": { "ru": "Национальный исторический музей", "en": "National History Museum" }, "desc": { "ru": "История Кыргызстана от древности до наших дней.", "en": "Kyrgyz history from ancient times to today." }, "tags": ["city", "main"], "coords": [42.8778, 74.6045] },
+            { "time": "12:10", "name": { "ru": "Дубовый парк", "en": "Oak Park" }, "desc": { "ru": "Тенистый парк со скульптурами под открытым небом.", "en": "A shady park with open-air sculptures." }, "tags": ["city", "nature"], "coords": [42.8770, 74.6085] },
+            { "time": "13:00", "name": { "ru": "Музей изобразительных искусств", "en": "Museum of Fine Arts" }, "desc": { "ru": "Кыргызская живопись, ковры и прикладное искусство.", "en": "Kyrgyz painting, carpets and applied art." }, "tags": ["city"], "coords": [42.8765, 74.6115] },
+            { "time": "14:15", "name": { "ru": "Обед в ресторане Faiza", "en": "Lunch at Faiza" }, "desc": { "ru": "Популярное место с национальной кухней.", "en": "A popular spot for national cuisine." }, "tags": ["food"], "coords": null },
+            { "time": "15:30", "name": { "ru": "Парк Панфилова", "en": "Panfilov Park" }, "desc": { "ru": "Прогулка по одному из старейших парков города.", "en": "A walk in one of the city's oldest parks." }, "tags": ["city"], "coords": [42.8800, 74.5960] },
+            { "time": "16:30", "name": { "ru": "ЦУМ «Айчүрөк»", "en": "TSUM Aichurek" }, "desc": { "ru": "Покупка сувениров: войлок, калпаки, сладости.", "en": "Souvenir shopping: felt, kalpak hats, sweets." }, "tags": ["city"], "coords": [42.8760, 74.6145] },
+            { "time": "17:30", "name": { "ru": "Бульвар Эркиндик", "en": "Erkindik Boulevard" }, "desc": { "ru": "Вечерняя прогулка по главной аллее.", "en": "An evening walk along the main avenue." }, "tags": ["city"], "coords": [42.8710, 74.6080] },
+            { "time": "19:00", "name": { "ru": "Ужин в ресторане «Нават»", "en": "Dinner at Navat" }, "desc": { "ru": "Ужин в национальном стиле.", "en": "Dinner in national style." }, "tags": ["food"], "coords": null }
+          ]
+        },
+        {
+          "title": { "ru": "Иссык-Куль", "en": "Issyk-Kul" },
+          "subtitle": { "ru": "Бишкек → Бурана → Боом → Балыкчы → Чолпон-Ата", "en": "Bishkek → Burana → Boom → Balykchy → Cholpon-Ata" },
+          "points": [
+            { "time": "08:00", "name": { "ru": "Выезд из Бишкека", "en": "Departure from Bishkek" }, "desc": { "ru": "Дорога в сторону Чолпон-Аты.", "en": "Heading towards Cholpon-Ata." }, "tags": [], "coords": null },
+            { "time": "09:30", "name": { "ru": "Башня Бурана", "en": "Burana Tower" }, "desc": { "ru": "Минарет XI века и балбалы на месте древнего Баласагуна.", "en": "An 11th-century minaret and stone balbals on the site of ancient Balasagun." }, "tags": ["main"], "coords": [42.7460, 75.2500] },
+            { "time": "10:15", "name": { "ru": "Боомское ущелье", "en": "Boom Gorge" }, "desc": { "ru": "Живописная дорога сквозь красные скалы вдоль реки Чу.", "en": "A scenic road through red rocks along the Chu river." }, "tags": ["nature"], "coords": [42.5600, 75.8300] },
+            { "time": "12:40", "name": { "ru": "Обед в Балыкчы", "en": "Lunch in Balykchy" }, "desc": { "ru": "Обед у западного берега Иссык-Куля.", "en": "Lunch at the western shore of Issyk-Kul." }, "tags": ["food"], "coords": [42.4600, 76.1870] },
+            { "time": "14:30", "name": { "ru": "Культурный центр «Рух-Ордо»", "en": "Ruh-Ordo Cultural Centre" }, "desc": { "ru": "Часовни мировых религий и скульптуры на берегу озера.", "en": "Chapels of world religions and sculptures on the lakeshore." }, "tags": ["main"], "coords": [42.6410, 77.0850] },
+            { "time": "16:00", "name": { "ru": "Петроглифы под открытым небом", "en": "Open-air petroglyphs" }, "desc": { "ru": "Наскальные рисунки возрастом в тысячи лет.", "en": "Rock carvings thousands of years old." }, "tags": ["nature"], "coords": [42.6620, 77.0650] },
+            { "time": "17:00", "name": { "ru": "Иссык-Куль", "en": "Lake Issyk-Kul" }, "desc": { "ru": "Прогулка или пляжный отдых на берегу горного озера.", "en": "A walk or beach time on the mountain lake." }, "tags": ["nature", "main"], "coords": [42.6440, 77.0750] },
+            { "time": "19:00", "name": { "ru": "Ужин", "en": "Dinner" }, "desc": { "ru": "Ужин в Чолпон-Ате.", "en": "Dinner in Cholpon-Ata." }, "tags": ["food"], "coords": null }
+          ]
+        }
+      ],
+      "note": { "ru": "Время в пути и длительность остановок зависят от дорог и погоды.", "en": "Travel time and stops depend on roads and weather." }
+    },
+    {
+      "id": "tj",
+      "name": { "ru": "Таджикистан", "en": "Tajikistan" },
+      "city": { "ru": "Душанбе и Искандеркуль", "en": "Dushanbe & Iskanderkul" },
+      "hub": [38.5598, 68.7870],
+      "intro": { "ru": "Монументальный Душанбе, чайханы и рынки, а затем Фанские горы и бирюзовое озеро Искандеркуль.", "en": "Monumental Dushanbe, teahouses and markets, then the Fann Mountains and turquoise Lake Iskanderkul." },
+      "days": [
+        {
+          "title": { "ru": "Душанбе", "en": "Dushanbe" },
+          "subtitle": { "ru": "Монументы, библиотека, театр и рынок", "en": "Monuments, library, theatre and market" },
+          "points": [
+            { "time": "09:30", "name": { "ru": "Монумент Исмоили Сомони", "en": "Ismoili Somoni Monument" }, "desc": { "ru": "Сбор группы, фотосессия и экскурсия у главного символа столицы.", "en": "Meet-up, photos and a tour at the capital's main symbol." }, "tags": ["city", "main"], "coords": [38.5770, 68.7840] },
+            { "time": "10:30", "name": { "ru": "Национальная библиотека Таджикистана", "en": "National Library of Tajikistan" }, "desc": { "ru": "Экскурсия по одной из крупнейших библиотек Центральной Азии.", "en": "A tour of one of Central Asia's largest libraries." }, "tags": ["city"], "coords": [38.5778, 68.7810] },
+            { "time": "12:00", "name": { "ru": "Обед в чайхане «Сайёх»", "en": "Lunch at Sayokh teahouse" }, "desc": { "ru": "Традиционная чайхана: плов, лепёшки и зелёный чай.", "en": "A traditional teahouse: plov, flatbread and green tea." }, "tags": ["food"], "coords": null },
+            { "time": "13:30", "name": { "ru": "Национальный театр", "en": "National Theatre" }, "desc": { "ru": "Экскурсия по театру.", "en": "A tour of the theatre." }, "tags": ["city"], "coords": [38.5745, 68.7870] },
+            { "time": "16:30", "name": { "ru": "Рынок «Мехргон»", "en": "Mehrgon Market" }, "desc": { "ru": "Крытый рынок: фрукты, специи, сладости и сувениры.", "en": "A covered market: fruit, spices, sweets and souvenirs." }, "tags": ["city", "food"], "coords": [38.5600, 68.7765] },
+            { "time": "18:30", "name": { "ru": "Ужин в ресторане «Зирбак»", "en": "Dinner at Zirbak" }, "desc": { "ru": "Ужин с таджикской кухней.", "en": "Dinner with Tajik cuisine." }, "tags": ["food"], "coords": null },
+            { "time": "20:00", "name": { "ru": "Башня «Истиклол»", "en": "Istiqlol Tower" }, "desc": { "ru": "Вечерняя подсветка и вид на город.", "en": "Evening lights and city views." }, "tags": ["city", "main"], "coords": [38.5815, 68.7835] }
+          ]
+        },
+        {
+          "title": { "ru": "Искандеркуль", "en": "Iskanderkul" },
+          "subtitle": { "ru": "Фанские горы и мастер-классы", "en": "Fann Mountains and cooking classes" },
+          "points": [
+            { "time": "06:00", "name": { "ru": "Выезд в Фанские горы", "en": "Departure to the Fann Mountains" }, "desc": { "ru": "Около трёх часов дороги.", "en": "About three hours' drive." }, "tags": [], "coords": null },
+            { "time": "09:00", "name": { "ru": "Озеро Искандеркуль", "en": "Lake Iskanderkul" }, "desc": { "ru": "Завтрак и мастер-класс по приготовлению ширчая на берегу.", "en": "Breakfast and a shirchoy cooking class on the shore." }, "tags": ["nature", "food", "main"], "coords": [39.0750, 68.3700] },
+            { "time": "", "name": { "ru": "Змеиное озеро, водопад и пещера", "en": "Snake Lake, waterfall and cave" }, "desc": { "ru": "Пешеходный маршрут по окрестностям озера, после мастер-класса и до 16:00.", "en": "A hike around the lake, after the class and until 16:00." }, "tags": ["nature"], "coords": [39.0790, 68.3820] },
+            { "time": "16:00", "name": { "ru": "Мастер-класс по курутобу", "en": "Qurutob cooking class" }, "desc": { "ru": "Обед и приготовление национального блюда.", "en": "Lunch and cooking the national dish." }, "tags": ["food"], "coords": null },
+            { "time": "20:00", "name": { "ru": "Ужин «Кохи Навруз»", "en": "Dinner at Kokhi Navruz" }, "desc": { "ru": "Ужин во дворце «Кохи Навруз» после возвращения в Душанбе.", "en": "Dinner at the Kokhi Navruz palace back in Dushanbe." }, "tags": ["food", "city"], "coords": [38.5920, 68.8170] },
+            { "time": "21:00+", "name": { "ru": "Вылет в Самарканд", "en": "Flight to Samarkand" }, "desc": { "ru": "Время вылета уточняется.", "en": "Departure time to be confirmed." }, "tags": [], "coords": null }
+          ]
+        }
+      ],
+      "note": { "ru": "Перед поездкой подтвердите расписание и доступность объектов.", "en": "Confirm schedules and opening hours before the trip." }
+    },
+    {
+      "id": "uz",
+      "name": { "ru": "Узбекистан", "en": "Uzbekistan" },
+      "city": { "ru": "Самарканд", "en": "Samarkand" },
+      "hub": [39.6542, 66.9597],
+      "intro": { "ru": "Один день в столице Амира Темура: скоростной «Афросиёб», Регистан, Гур-Эмир и «Вечный город».", "en": "One day in Amir Temur's capital: the Afrosiyob express, Registan, Gur-Emir and the Eternal City." },
+      "days": [
+        {
+          "title": { "ru": "По следам Тамерлана", "en": "In Tamerlane's footsteps" },
+          "subtitle": { "ru": "Из Ташкента на «Афросиёбе»", "en": "From Tashkent on the Afrosiyob" },
+          "points": [
+            { "time": "07:30", "name": { "ru": "Сбор на вокзале Ташкента", "en": "Meet-up at Tashkent station" }, "desc": { "ru": "Знакомство с сопровождающим и посадка на поезд.", "en": "Meet your guide and board the train." }, "tags": [], "coords": [41.2920, 69.2860] },
+            { "time": "08:00", "name": { "ru": "Поезд «Афросиёб»", "en": "Afrosiyob train" }, "desc": { "ru": "Скоростной поезд: Ташкент → Самарканд за 2,5 часа.", "en": "High-speed train: Tashkent → Samarkand in 2.5 hours." }, "tags": [], "coords": null },
+            { "time": "12:00", "name": { "ru": "Обед с пловом", "en": "Plov lunch" }, "desc": { "ru": "Самаркандский плов, свежие лепёшки и зелёный чай.", "en": "Samarkand plov, fresh flatbread and green tea." }, "tags": ["food"], "coords": null },
+            { "time": "13:30", "name": { "ru": "Площадь Регистан", "en": "Registan Square" }, "desc": { "ru": "Три медресе: Улугбека, Шердор и Тилля-Кари. Рассказ гида и время для фото.", "en": "Three madrasahs: Ulugbek, Sher-Dor and Tilya-Kori. Guide's story and photo time." }, "tags": ["city", "main"], "coords": [39.6548, 66.9757], "ar": "registan" },
+            { "time": "16:00", "name": { "ru": "Мавзолей Гур-Эмир", "en": "Gur-Emir Mausoleum" }, "desc": { "ru": "Усыпальница Амира Темура и его рода, золотой купол и легенды эпохи Тимуридов.", "en": "The tomb of Amir Temur and his dynasty, a golden dome and Timurid legends." }, "tags": ["city", "main"], "coords": [39.6485, 66.9690] },
+            { "time": "17:30", "name": { "ru": "Река Сиаб, Конигиль", "en": "Siab river, Konigil" }, "desc": { "ru": "Тутовые деревья, вода и свежий воздух после экскурсий.", "en": "Mulberry trees, water and fresh air after the tours." }, "tags": ["nature"], "coords": [39.6680, 67.0300] },
+            { "time": "18:00", "name": { "ru": "Комплекс «Вечный город»", "en": "Eternal City complex" }, "desc": { "ru": "Архитектура, ремёсла, национальные традиции и фотолокации.", "en": "Architecture, crafts, traditions and photo spots." }, "tags": ["city"], "coords": [39.6640, 67.0220] },
+            { "time": "19:30", "name": { "ru": "Ужин и заселение в отель", "en": "Dinner and hotel check-in" }, "desc": { "ru": "Ужин после насыщенного дня.", "en": "Dinner after a full day." }, "tags": ["food"], "coords": null }
+          ]
+        }
+      ],
+      "note": { "ru": "Для посещения мечетей плечи и колени должны быть закрыты. Возьмите удобную обувь и головной убор.", "en": "Shoulders and knees must be covered in mosques. Bring comfortable shoes and a hat." }
+    },
+    {
+      "id": "am",
+      "name": { "ru": "Армения", "en": "Armenia" },
+      "city": { "ru": "Ереван и Севан", "en": "Yerevan & Sevan" },
+      "hub": [40.1792, 44.4991],
+      "noTiming": true,
+      "intro": { "ru": "Розовый город из туфа: Каскад, Матенадаран и поющие фонтаны, а на второй день озеро Севан и горы.", "en": "The pink tuff city: the Cascade, Matenadaran and singing fountains, then Lake Sevan and the mountains." },
+      "days": [
+        {
+          "title": { "ru": "Ереван", "en": "Yerevan" },
+          "subtitle": { "ru": "Пешком по центру, вечером к фонтанам", "en": "On foot through the centre, fountains in the evening" },
+          "points": [
+            { "time": "1", "name": { "ru": "Кольцо", "en": "Ring Park" }, "desc": { "ru": "Кольцевой бульвар вокруг центра. До следующей точки около 15 мин.", "en": "The ring boulevard around the centre. About 15 min to the next stop." }, "tags": ["city"], "coords": [40.1830, 44.5080] },
+            { "time": "2", "name": { "ru": "Площадь Республики", "en": "Republic Square" }, "desc": { "ru": "Главная площадь из розового туфа. Около 10 мин.", "en": "The main square of pink tuff. About 10 min." }, "tags": ["city", "main"], "coords": [40.1777, 44.5126] },
+            { "time": "3", "name": { "ru": "Улица Абовяна", "en": "Abovyan Street" }, "desc": { "ru": "Старейшая улица центра. Около 10 мин.", "en": "The oldest street in the centre. About 10 min." }, "tags": ["city"], "coords": [40.1815, 44.5175] },
+            { "time": "4", "name": { "ru": "Подземный фонтан", "en": "Underground fountain" }, "desc": { "ru": "Около 10 мин до следующей точки.", "en": "About 10 min to the next stop." }, "tags": ["city"], "coords": [40.1830, 44.5150] },
+            { "time": "5", "name": { "ru": "Северный проспект", "en": "Northern Avenue" }, "desc": { "ru": "Пешеходный проспект с кафе и магазинами. Около 5 мин.", "en": "A pedestrian avenue with cafés and shops. About 5 min." }, "tags": ["city"], "coords": [40.1830, 44.5140] },
+            { "time": "6", "name": { "ru": "Оперный театр", "en": "Opera House" }, "desc": { "ru": "Здание Таманяна, сердце культурной жизни. Около 5 мин.", "en": "Tamanyan's building, the heart of cultural life. About 5 min." }, "tags": ["city", "main"], "coords": [40.1862, 44.5150] },
+            { "time": "7", "name": { "ru": "Скульптурные сады", "en": "Sculpture gardens" }, "desc": { "ru": "Современная скульптура у подножия Каскада. Около 5 мин.", "en": "Modern sculpture at the foot of the Cascade. About 5 min." }, "tags": ["city"], "coords": [40.1895, 44.5155] },
+            { "time": "8", "name": { "ru": "Каскад", "en": "Cascade" }, "desc": { "ru": "Гигантская лестница с фонтанами и видом на Арарат. Около 25 мин.", "en": "A giant stairway of fountains with a view of Ararat. About 25 min." }, "tags": ["city", "main"], "coords": [40.1911, 44.5153], "ar": "cascade" },
+            { "time": "9", "name": { "ru": "Матенадаран", "en": "Matenadaran" }, "desc": { "ru": "Хранилище древних рукописей. Около 25 мин.", "en": "Repository of ancient manuscripts. About 25 min." }, "tags": ["city", "main"], "coords": [40.1923, 44.5214] },
+            { "time": "10", "name": { "ru": "Монумент «Мать Армения»", "en": "Mother Armenia" }, "desc": { "ru": "Монумент над городом в парке Победы. Около 15 мин на машине.", "en": "A monument above the city in Victory Park. About 15 min by car." }, "tags": ["city"], "coords": [40.1960, 44.5245] },
+            { "time": "11", "name": { "ru": "СКК им. Карена Демирчяна", "en": "Karen Demirchyan Complex" }, "desc": { "ru": "Спортивно-концертный комплекс на холме. Около 15 мин на машине.", "en": "A sports and concert complex on a hill. About 15 min by car." }, "tags": ["city"], "coords": [40.1860, 44.4985] },
+            { "time": "12", "name": { "ru": "Парк 2800-летия Еревана", "en": "Yerevan 2800th Anniversary Park" }, "desc": { "ru": "Прогулка по парку. Около 5 мин.", "en": "A walk in the park. About 5 min." }, "tags": ["nature"], "coords": [40.1820, 44.5040] },
+            { "time": "13", "name": { "ru": "Поющие фонтаны", "en": "Singing fountains" }, "desc": { "ru": "Вечернее шоу фонтанов на площади Республики.", "en": "Evening fountain show on Republic Square." }, "tags": ["city", "main"], "coords": [40.1772, 44.5130] }
+          ]
+        },
+        {
+          "title": { "ru": "Севан", "en": "Sevan" },
+          "subtitle": { "ru": "Озеро Севан и окрестности на машине", "en": "Lake Sevan and around by car" },
+          "points": [
+            { "time": "1", "name": { "ru": "Монастырь Айраванк", "en": "Ayravank Monastery" }, "desc": { "ru": "Средневековый монастырь над озером. До следующей точки около 1 ч 20 мин.", "en": "A medieval monastery above the lake. About 1 h 20 min to the next stop." }, "tags": ["main"], "coords": [40.3990, 45.0760] },
+            { "time": "2", "name": { "ru": "Гора Артаниш", "en": "Mount Artanish" }, "desc": { "ru": "Возможен пеший подъём. Около 1 ч – 1 ч 15 мин.", "en": "A hike up is possible. About 1 h – 1 h 15 min." }, "tags": ["nature"], "coords": [40.4900, 45.3000] },
+            { "time": "3", "name": { "ru": "Остров чаек", "en": "Gull Island" }, "desc": { "ru": "Название по рукописной записи, уточняется. Около 1 ч 15 мин – 1 ч 30 мин.", "en": "Name from a handwritten note, to be confirmed. About 1 h 15 min – 1 h 30 min." }, "tags": ["nature"], "coords": null },
+            { "time": "4", "name": { "ru": "Водопад у Антарамеджа", "en": "Waterfall near Antaramej" }, "desc": { "ru": "Название по рукописной записи, уточняется. Около 1 ч – 1 ч 20 мин.", "en": "Name from a handwritten note, to be confirmed. About 1 h – 1 h 20 min." }, "tags": ["nature"], "coords": null },
+            { "time": "5", "name": { "ru": "Гора Армаган", "en": "Mount Armaghan" }, "desc": { "ru": "Потухший вулкан с озером в кратере. Возможен пеший подъём.", "en": "An extinct volcano with a crater lake. A hike up is possible." }, "tags": ["nature", "main"], "coords": [40.1520, 45.3950] }
+          ]
+        }
+      ],
+      "note": { "ru": "Почасового тайминга нет, указан порядок точек и примерное время переезда. Проверьте маршрут в навигаторе перед выездом.", "en": "No hourly timing: stops are listed in order with approximate transfer times. Check the route in a navigator before setting off." }
+    }
+  ],
+  "ar": [
+    { "id": "registan", "model": "assets/models/registan.glb", "name": { "ru": "Регистан", "en": "Registan" }, "place": { "ru": "Самарканд, Узбекистан", "en": "Samarkand, Uzbekistan" }, "desc": { "ru": "Три медресе вокруг главной площади Средней Азии.", "en": "Three madrasahs around Central Asia's most famous square." } },
+    { "id": "cascade", "model": "assets/models/cascade.glb", "name": { "ru": "Каскад", "en": "Cascade" }, "place": { "ru": "Ереван, Армения", "en": "Yerevan, Armenia" }, "desc": { "ru": "Белая лестница-музей с фонтанами и видом на Арарат.", "en": "A white stairway museum with fountains and a view of Ararat." } },
+    { "id": "medeu", "model": "assets/models/medeu.glb", "name": { "ru": "Медеу", "en": "Medeu" }, "place": { "ru": "Алматы, Казахстан", "en": "Almaty, Kazakhstan" }, "desc": { "ru": "Высокогорный каток в окружении гор.", "en": "A high-altitude skating rink ringed by mountains." } }
+  ],
+  "team": [
+    { "group": { "ru": "Дизайнеры", "en": "Designers" }, "role": { "ru": "Айдентика, брендбук, дизайн сайта и бота", "en": "Identity, brand book, site and bot design" }, "people": ["Ануш Погосян", "Мери Мусаелян", "Айк Мамиконян", "Мухлиса Маматкулова"] },
+    { "group": { "ru": "IT", "en": "IT" }, "role": { "ru": "Сайт маршрута и интерактив", "en": "Route website and interactive features" }, "people": ["Жавохирмирзо Миркомилов", "Дана Ален"] },
+    { "group": { "ru": "Креативные менеджеры", "en": "Creative managers" }, "role": { "ru": "Точки, тайминг, смыслы и логистика", "en": "Stops, timing, meaning and logistics" }, "people": ["Елизавета Штык", "Элен Абрамова", "Мери Мусаелян", "Нигина Чориева", "Алина Рустамбекова", "Рената Кирияченко"] },
+    { "group": { "ru": "Безопасность и методология", "en": "Safety & methodology" }, "role": { "ru": "Нитка маршрута, гео и хронометраж", "en": "Route line, geo and timing" }, "people": ["Валерия Братцева", "Эльдар Шуакбаев", "Жанель Абылкаирова", "Дилшод Шодиев", "Шахризода Абдураимова", "Саидакбар Сайдахмедов", "Жанерке Бауыржанкызы"] },
+    { "group": { "ru": "Медиа", "en": "Media" }, "role": { "ru": "Продвижение и презентации", "en": "Promotion and presentations" }, "people": ["Ани Карапетян", "Сухайма Мамадшоева", "Мафтуна Ибодуллозода", "Розия Олимхужаева"] }
+  ],
+  "contacts": {
+    "site": "https://t2t.asia",
+    "telegram": "https://t.me/djavokhirmirzo",
+    "telegramLabel": "@djavokhirmirzo"
+  }
+}
