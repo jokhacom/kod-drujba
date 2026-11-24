@@ -685,3 +685,11 @@ html.intro-lock, html.intro-lock body, html.sheet-lock, html.sheet-lock body { o
 .gallery.collapsed > :nth-child(n+11) { display: none; }
 .gal-more-wrap { text-align: center; margin-top: 18px; }
 .ar-stage model-viewer::part(default-ar-button) { display: none; }
+
+/* Страны в шапке и арки ведут на сайты тур-пакетов */
+.hero-countries li { padding: 0; transition: transform .2s, background .2s; }
+.hero-countries li a { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; color: inherit; text-decoration: none; border-radius: inherit; }
+.hero-countries li:hover { transform: translateY(-2px); background: color-mix(in srgb, var(--c) 30%, transparent); }
+.hero-countries li a:focus-visible, a.arch:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+a.arch { display: block; color: #fff; text-decoration: none; cursor: pointer; }
+a.arch:hover { border-color: #fff; }

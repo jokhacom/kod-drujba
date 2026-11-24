@@ -42,7 +42,7 @@
       'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Из чего складывается цена, $', 'offers.total': 'Итого', 'offers.perDay': 'в день',
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
       'prog.show': 'Показать программу', 'prog.hide': 'Скрыть программу', 'prog.points': 'точек', 'gal.more': 'Показать все фото', 'why.more': 'Почему маршрут идёт именно так', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
-      'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.symbol': 'Национальный символ',
+      'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.site2': 'сайт тур-пакета', 'pkg.symbol': 'Национальный символ',
       start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
       'sound.on': 'Звук включён', 'sound.off': 'Звук выключен'
     },
@@ -85,7 +85,7 @@
       'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'What the price is made of, $', 'offers.total': 'Total', 'offers.perDay': 'a day',
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
       'prog.show': 'Show the programme', 'prog.hide': 'Hide the programme', 'prog.points': 'stops', 'gal.more': 'Show all photos', 'why.more': 'Why the route runs this way', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
-      'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.symbol': 'National symbol',
+      'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.site2': 'tour package website', 'pkg.symbol': 'National symbol',
       start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
       'sound.on': 'Sound on', 'sound.off': 'Sound off'
     }
@@ -169,7 +169,7 @@
 
   /* ---------- Hero, filters, nav ---------- */
   function renderHero() {
-    $('#heroCountries').innerHTML = DATA.countries.map((c) => `<li style="--c:${c.palette[0]}">${window.KD_ORN.svg(c.id, 'chip-orn', c.palette[0])}${esc(L(c.name))}</li>`).join('');
+    $('#heroCountries').innerHTML = DATA.countries.map((c) => `<li style="--c:${c.palette[0]}"><a href="${esc(c.site)}" target="_blank" rel="noopener" aria-label="${esc(L(c.name))}: ${esc(t('pkg.site2'))}">${window.KD_ORN.svg(c.id, 'chip-orn', c.palette[0])}${esc(L(c.name))}</a></li>`).join('');
     // Заголовок по буквам для волны появления
     const title = t('hero.title');
     let li = 0;
@@ -178,7 +178,7 @@
     // Арки: фото, где есть, и цветные открытки остальных стран
     const arches = DATA.countries.map((c) => {
       const ph = photo(c.cover, { name: c.city });
-      return `<div class="arch" style="--c:${c.palette[0]}" data-tilt>${ph ? `<img src="${ph.sm}" alt="" loading="lazy" decoding="async">` : art(c, L(c.name))}<span>${esc(L(c.name))}</span></div>`;
+      return `<a class="arch" style="--c:${c.palette[0]}" href="${esc(c.site)}" target="_blank" rel="noopener" aria-label="${esc(L(c.name))}: ${esc(t('pkg.site2'))}" data-tilt>${ph ? `<img src="${ph.sm}" alt="" loading="lazy" decoding="async">` : art(c, L(c.name))}<span>${esc(L(c.name))}</span></a>`;
     }).join('');
     $('#heroArches').innerHTML = arches;
     $('#heroOrns').innerHTML = DATA.countries.map((c, i) => window.KD_ORN.svg(c.id, `float f${i}`, c.palette[0])).join('');
@@ -279,7 +279,7 @@
               <h2>${esc(L(c.name))}</h2>
               <p class="country-city">${esc(L(c.city))} · ${c.days.length} ${esc(c.days.length > 1 ? t('days2') : t('days1'))}</p>
               <p class="lead">${esc(L(c.intro))}</p>
-              <button class="btn btn-country magnetic" type="button" data-pkg="${c.id}">${esc(t('more'))} <span aria-hidden="true">→</span></button>
+              <a class="btn btn-country magnetic" href="${esc(c.site)}" target="_blank" rel="noopener">${esc(t('more'))} <span aria-hidden="true">↗</span></a>
             </div>
             <div class="country-cover" data-tilt>${ph ? `<img src="${ph.sm}" alt="${esc(ph.caption)}" loading="lazy" decoding="async">` : art(c, L(c.city))}</div>
           </header>
@@ -438,7 +438,7 @@
         <p class="pk-note">${esc(L(DATA.offers.note))} ${esc(L(DATA.offers.passport))}</p>
         <div class="pk-cta">
           <a class="btn btn-country" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('offers.book'))} · Telegram</a>
-          ${o.countries.map((id) => `<button class="btn btn-line" type="button" data-pkg="${id}">${esc(L(country(id).name))}</button>`).join('')}
+          ${o.countries.map((id) => `<a class="btn btn-line" href="${esc(country(id).site)}" target="_blank" rel="noopener">${esc(L(country(id).name))} ↗</a>`).join('')}
         </div>
       </div>`;
     showSheet(`#pack-${id}`, push, DATA.offers.items.indexOf(o) * 2);
@@ -862,7 +862,7 @@
     observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
     window.KD_INTRO.init(DATA, L, t, startHero);
     const tm = location.hash.match(/^#tour-(\w+)/);
-    if (tm) setTimeout(() => openPackage(tm[1], false), 200);
+    if (tm) setTimeout(() => $(`#c-${tm[1]}`)?.scrollIntoView(), 300);
     const om = location.hash.match(/^#pack-(\w+)/);
     if (om) setTimeout(() => openOffer(om[1], false), 200);
     lazySection($('#map'), initMap, '400px');
