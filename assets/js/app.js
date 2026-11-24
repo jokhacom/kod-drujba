@@ -30,7 +30,7 @@
       'contacts.title': 'Поехали вместе', 'contacts.lead': 'Вопросы о маршруте и бронирование', 'contacts.tg': 'Telegram',
       'footer.copy': '«Код дружбы» · Международная школа Студтуризма', 'footer.map': 'Карта', 'footer.photos': 'Фото',
       photo: 'Фото', close: 'Закрыть',
-      'hero.intro': 'Смотреть интро', 'intro.play': 'Начать путешествие', 'intro.hint': 'Со звуком. Можно пропустить.', 'intro.skip': 'Пропустить', 'intro.sound': 'Включить звук', 'intro.together': 'Пять стран вместе',
+      'hero.intro': 'Смотреть интро', 'intro.play': 'Начать путешествие', 'intro.hint': 'Со звуком. Можно пропустить.', 'intro.skip': 'Пропустить', 'intro.sound': 'Включить звук', 'intro.mute': 'Выключить звук', 'intro.together': 'Пять стран вместе',
       more: 'Подробнее о туре', dayN: 'День', days2: 'дня', days1: 'день',
       'stats.countries': 'стран', 'stats.days': 'дней', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
       'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.symbol': 'Национальный символ',
@@ -64,7 +64,7 @@
       'contacts.title': 'Travel with us', 'contacts.lead': 'Questions and bookings', 'contacts.tg': 'Telegram',
       'footer.copy': '“Friendship Code” · International Student Tourism School', 'footer.map': 'Map', 'footer.photos': 'Photos',
       photo: 'Photo', close: 'Close',
-      'hero.intro': 'Watch the intro', 'intro.play': 'Start the journey', 'intro.hint': 'With sound. You can skip it.', 'intro.skip': 'Skip', 'intro.sound': 'Turn sound on', 'intro.together': 'Five countries together',
+      'hero.intro': 'Watch the intro', 'intro.play': 'Start the journey', 'intro.hint': 'With sound. You can skip it.', 'intro.skip': 'Skip', 'intro.sound': 'Turn sound on', 'intro.mute': 'Mute', 'intro.together': 'Five countries together',
       more: 'Tour details', dayN: 'Day', days2: 'days', days1: 'day',
       'stats.countries': 'countries', 'stats.days': 'days', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
       'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.symbol': 'National symbol',
@@ -419,7 +419,7 @@
   }
   function startHero() { document.body.classList.add('hero-go'); }
   function syncSoundBtn() {
-    const on = window.KD_SOUND.enabled, b = $('#soundBtn');
+    const on = window.KD_SOUND.enabled && !window.KD_SOUND.blocked, b = $('#soundBtn');
     b.textContent = on ? '🔊' : '🔈'; b.setAttribute('aria-pressed', String(on)); b.title = on ? t('sound.on') : t('sound.off');
   }
 
@@ -649,7 +649,7 @@
       if (pk) { openPackage(pk.dataset.pkg); return; }
       if (e.target.closest('#sheet [data-close]')) { closePackage(); return; }
       if (e.target.closest('#replayIntro')) { window.KD_INTRO.open(); return; }
-      if (e.target.closest('#soundBtn')) { window.KD_SOUND.setEnabled(!window.KD_SOUND.enabled); if (window.KD_SOUND.enabled) window.KD_SOUND.ting(2); return; }
+      if (e.target.closest('#soundBtn')) { const S = window.KD_SOUND; const on = S.enabled && !S.blocked; S.setEnabled(!on); if (!on) { S.unlock(); S.ting(2); } return; }
       const ar = e.target.closest('[data-ar]');
       if (ar) { activateAR(ar.dataset.ar); return; }
       const lb2 = e.target.closest('.lang button');

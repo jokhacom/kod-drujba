@@ -8,14 +8,16 @@
 (() => {
   'use strict';
   let ctx = null, master = null, verb = null;
-  let enabled = false;
-  try { enabled = localStorage.getItem('kd-sound') === '1'; } catch (e) { /* storage blocked */ }
+  // Звук включён по умолчанию; выключенным он остаётся, только если посетитель сам его выключил
+  let enabled = true;
+  try { enabled = localStorage.getItem('kd-sound') !== '0'; } catch (e) { /* storage blocked */ }
 
   function init() {
     if (ctx) return ctx;
     const AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return null;
     ctx = new AC();
+    ctx.onstatechange = () => document.dispatchEvent(new CustomEvent('kd-sound', { detail: enabled }));
     const comp = ctx.createDynamicsCompressor();
     comp.threshold.value = -14; comp.ratio.value = 4;
     master = ctx.createGain(); master.gain.value = 0.7;
@@ -98,5 +100,13 @@
     if (enabled) unlock();
     document.dispatchEvent(new CustomEvent('kd-sound', { detail: enabled }));
   }
-  window.KD_SOUND = { ting, roll, boom, chord, unlock, setEnabled, get enabled() { return enabled; } };
+  /* Браузер может держать звук на паузе до первого касания: снимаем паузу при любом нажатии */
+  function armAutoplay() {
+    init();
+    if (ctx && ctx.state === 'suspended') ctx.resume().catch(() => {});
+    const go = () => { if (ctx && ctx.state !== 'running' && enabled) ctx.resume(); };
+    ['pointerdown', 'touchstart', 'keydown'].forEach((ev) => addEventListener(ev, go, { capture: true, passive: true }));
+  }
+  const blocked = () => !ctx || ctx.state !== 'running';
+  window.KD_SOUND = { armAutoplay, get blocked() { return blocked(); }, ting, roll, boom, chord, unlock, setEnabled, get enabled() { return enabled; } };
 })();

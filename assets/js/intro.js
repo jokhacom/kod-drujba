@@ -99,7 +99,7 @@
     clearTimeout(autoTimer);
     const root = $('intro'), S = window.KD_SOUND;
     $('introStart').hidden = true;
-    $('introSound').hidden = S.enabled;
+    $('introSound').hidden = false; syncSound();
     const id = ++runId; reset();
     root.classList.add('playing');
     const step = reduce ? 350 : 1350;
@@ -147,28 +147,36 @@
     reset();
     root.hidden = false;
     document.documentElement.classList.add('intro-lock');
-    $('introSound').hidden = true;
-    if (auto) {
-      $('introStart').hidden = false;
-      // Без нажатия через 4 секунды стартуем без звука
-      autoTimer = setTimeout(() => { if ($('introStart').hidden === false) play(); }, 4000);
-    } else {
-      $('introStart').hidden = true;
-      play();
-    }
+    $('introStart').hidden = true;
+    window.KD_SOUND.armAutoplay();
+    play();
     $('introSkip').focus({ preventScroll: true });
   }
   function init(data, langFn, tFn, done) {
     DATA = data; L = langFn; T = tFn; onDone = done;
     addEventListener('resize', sizeCanvas);
     $('introPlay').addEventListener('click', () => { window.KD_SOUND.setEnabled(true); play(); });
+    document.addEventListener('kd-sound', syncSound);
     $('introSkip').addEventListener('click', close);
-    $('introSound').addEventListener('click', () => { window.KD_SOUND.setEnabled(true); $('introSound').hidden = true; });
+    $('introSound').addEventListener('click', (e) => {
+      e.stopPropagation();
+      const S = window.KD_SOUND;
+      if (S.enabled && !S.blocked) S.setEnabled(false);
+      else { S.setEnabled(true); S.unlock(); }
+      syncSound();
+    });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('intro').hidden) close(); });
     let seen = false;
     try { seen = sessionStorage.getItem('kd-intro') === '1'; } catch (e) { /* ignore */ }
     if (location.hash && location.hash !== '#top') seen = true;
     if (!seen) open({ auto: true }); else if (onDone) onDone();
+  }
+  /* Кнопка внизу: «Выключить звук», когда он играет; «Включить звук», если выключен или браузер ждёт касания */
+  function syncSound() {
+    const b = $('introSound'), S = window.KD_SOUND; if (!b || !T) return;
+    const on = S.enabled && !S.blocked;
+    b.innerHTML = on ? `🔇 ${T('intro.mute')}` : `🔊 ${T('intro.sound')}`;
+    b.setAttribute('aria-pressed', String(on));
   }
   function relabel() { if (built && !$('intro').hidden) build(); }
   window.KD_INTRO = { init, open, close, relabel };
