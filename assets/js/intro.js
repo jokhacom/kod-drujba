@@ -161,7 +161,7 @@
     $('introSound').addEventListener('click', (e) => {
       e.stopPropagation();
       const S = window.KD_SOUND;
-      if (S.enabled && !S.blocked) S.setEnabled(false);
+      if (S.enabled) S.setEnabled(false);
       else { S.setEnabled(true); S.unlock(); }
       syncSound();
     });
@@ -171,10 +171,10 @@
     if (location.hash && location.hash !== '#top') seen = true;
     if (!seen) open({ auto: true }); else if (onDone) onDone();
   }
-  /* Кнопка внизу: «Выключить звук», когда он играет; «Включить звук», если выключен или браузер ждёт касания */
+  /* Кнопка внизу: «Выключить звук», пока звук включён (даже если браузер ждёт первого касания, оно сразу его запустит); «Включить звук», если посетитель выключил */
   function syncSound() {
     const b = $('introSound'), S = window.KD_SOUND; if (!b || !T) return;
-    const on = S.enabled && !S.blocked;
+    const on = S.enabled;
     b.innerHTML = on ? `🔇 ${T('intro.mute')}` : `🔊 ${T('intro.sound')}`;
     b.setAttribute('aria-pressed', String(on));
   }
