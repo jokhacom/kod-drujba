@@ -693,3 +693,10 @@ html.intro-lock, html.intro-lock body, html.sheet-lock, html.sheet-lock body { o
 .hero-countries li a:focus-visible, a.arch:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
 a.arch { display: block; color: #fff; text-decoration: none; cursor: pointer; }
 a.arch:hover { border-color: #fff; }
+
+/* Интро: страны заливаются цветами своих флагов */
+.i-flag { opacity: 0; pointer-events: none; stroke: #fff; stroke-width: 1.4; transition: opacity .6s; }
+.i-flag.on { opacity: 1; }
+.intro.all-on .i-flag.on { animation: ipulse .5s ease-in-out 3; }
+.i-fl { display: grid; justify-items: center; gap: 6px; }
+.i-mflag { width: 42px; height: 28px; border-radius: 4px; box-shadow: 0 0 0 1.5px rgba(255,255,255,.7), 0 0 16px rgba(255,255,255,.25); }
