@@ -3461,5 +3461,157 @@
     "en": "Code Keepers can become student guides for the next groups and get paid for it."
    }
   ]
- }
+ },
+ "booking": {
+  "web3formsKey": "d0a9c1d3-a5f9-43b9-aca7-b79b5a7328d5",
+  "to": "mirkomilovjavohir562@gmail.com",
+  "telegram": "https://t.me/djavokhirmirzo",
+  "help": {
+   "ru": "Помогите выбрать",
+   "en": "Help me choose"
+  },
+  "helpNote": {
+   "ru": "Расскажу о себе, подберите",
+   "en": "Tell me what fits"
+  },
+  "thanks": [
+   [
+    "am",
+    "Շնորհակալություն",
+    "Shnorhakalutyun"
+   ],
+   [
+    "kz",
+    "Рақмет",
+    "Rakhmet"
+   ],
+   [
+    "kg",
+    "Рахмат",
+    "Rakhmat"
+   ],
+   [
+    "tj",
+    "Ташаккур",
+    "Tashakkur"
+   ],
+   [
+    "uz",
+    "Katta rahmat",
+    "Katta rahmat"
+   ]
+  ]
+ },
+ "faq": [
+  {
+   "q": {
+    "ru": "Кто может поехать?",
+    "en": "Who can join?"
+   },
+   "a": {
+    "ru": "Студенты, аспиранты и молодёжь от 17 до 35 лет из любой страны. Студенческий билет даёт студенческую цену, а «Паспорт дружбы» копит скидки на следующие поездки.",
+    "en": "Students, postgraduates and young people aged 17 to 35 from any country. A student card gets the student price, and the Friendship Passport builds up discounts for future trips."
+   }
+  },
+  {
+   "q": {
+    "ru": "Можно поехать одному, без друзей?",
+    "en": "Can I go alone?"
+   },
+   "a": {
+    "ru": "Да, так едет большинство. Группа 10–15 человек из разных стран, знакомство начинается в первый же вечер. А если приведёте друга, оба получите бонусы.",
+    "en": "Yes, most people do. Groups are 10–15 people from different countries, and you get to know each other on the first evening. Bring a friend and you both get bonuses."
+   }
+  },
+  {
+   "q": {
+    "ru": "Что входит в цену?",
+    "en": "What does the price include?"
+   },
+   "a": {
+    "ru": "Жильё с завтраками, переезды между городами, гиды-студенты, входные билеты и вечер дружбы. Отдельно оплачиваются дорога до точки старта, обеды и ужины и страховка. Состав каждого пакета расписан в окне «Программа и цена».",
+    "en": "Accommodation with breakfast, transfers between cities, student guides, entrance tickets and the friendship evening. Travel to the start point, lunches and dinners and insurance are paid separately. Each package lists its contents under “Programme and price”."
+   }
+  },
+  {
+   "q": {
+    "ru": "Где мы живём?",
+    "en": "Where do we stay?"
+   },
+   "a": {
+    "ru": "В проверенных хостелах и общежитиях вузов-партнёров, в комнатах на 4–8 человек, девушки и парни отдельно. Если хочется приватности, команда подберёт двухместный номер за доплату.",
+    "en": "In vetted hostels and partner-university dorms, in rooms for 4–8 people, separate for women and men. If you want privacy, the team can find a twin room for an extra charge."
+   }
+  },
+  {
+   "q": {
+    "ru": "Нужна ли виза?",
+    "en": "Do I need a visa?"
+   },
+   "a": {
+    "ru": "Зависит от гражданства. Граждане многих стран СНГ въезжают в эти пять стран без визы, но правила меняются. Проверьте требования на сайте МИД своей страны, а команда подскажет при подтверждении брони.",
+    "en": "It depends on your citizenship. Citizens of many CIS countries enter all five countries visa-free, but rules change. Check your foreign ministry’s website; the team will also advise when confirming your booking."
+   }
+  },
+  {
+   "q": {
+    "ru": "Как забронировать и когда платить?",
+    "en": "How do I book and when do I pay?"
+   },
+   "a": {
+    "ru": "Нажмите «Забронировать», выберите пакет и дату. Команда свяжется с вами в Telegram или по телефону, подтвердит места и расскажет, как и когда оплатить.",
+    "en": "Press “Book”, pick a package and a date. The team will contact you on Telegram or by phone, confirm your place and explain how and when to pay."
+   }
+  },
+  {
+   "q": {
+    "ru": "Когда будут поездки?",
+    "en": "When are the trips?"
+   },
+   "a": {
+    "ru": "Даты собираются под группы, чаще всего на каникулах и в длинные выходные. Укажите в заявке удобную дату, и мы подберём ближайшую группу.",
+    "en": "Dates are set around groups, usually during holidays and long weekends. Put your preferred date in the request and we’ll find the nearest group."
+   }
+  },
+  {
+   "q": {
+    "ru": "Это безопасно?",
+    "en": "Is it safe?"
+   },
+   "a": {
+    "ru": "С группой всегда едет сопровождающий, в каждом городе встречает гид-студент из принимающего вуза. Маршрут и хронометраж проверяет группа безопасности проекта. В горах ходим только по проложенным тропам.",
+    "en": "A tour leader always travels with the group, and a student guide from the host university meets you in every city. The project’s safety team checks the route and timings. In the mountains we stick to marked trails."
+   }
+  },
+  {
+   "q": {
+    "ru": "Какие деньги и связь брать?",
+    "en": "What money and SIM should I take?"
+   },
+   "a": {
+    "ru": "В каждой стране своя валюта: драм, тенге, сом, сомони и сум. Карты работают не везде, поэтому возьмите немного наличных долларов и меняйте на месте. Местная SIM-карта стоит недорого и продаётся в аэропортах.",
+    "en": "Each country has its own currency: dram, tenge, som, somoni and sum. Cards don’t work everywhere, so bring some US dollars in cash and exchange locally. Local SIM cards are cheap and sold at airports."
+   }
+  },
+  {
+   "q": {
+    "ru": "Как работает Паспорт дружбы?",
+    "en": "How does the Friendship Passport work?"
+   },
+   "a": {
+    "ru": "За каждую страну ставится штамп. 2 страны дают −5%, 3–4 страны −10%, а с пятью вы становитесь Хранителем кода с −20% на все поездки до конца учёбы. Монеты добавляются за друзей и задания в пути. Посчитать свою скидку можно в разделе «Паспорт».",
+    "en": "Each country adds a stamp. 2 countries give −5%, 3–4 give −10%, and with all five you become a Code Keeper with −20% on every trip until graduation. Coins come from friends and challenges on the road. Work out your discount in the Passport section."
+   }
+  },
+  {
+   "q": {
+    "ru": "Что если планы поменяются?",
+    "en": "What if my plans change?"
+   },
+   "a": {
+    "ru": "Напишите команде как можно раньше. Условия переноса и возврата зависят от уже купленных билетов и жилья, их называют при подтверждении брони.",
+    "en": "Tell the team as early as possible. Rescheduling and refund terms depend on tickets and accommodation already bought; they are explained when your booking is confirmed."
+   }
+  }
+ ]
 }

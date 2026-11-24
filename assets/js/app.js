@@ -5,7 +5,7 @@
   const I18N = {
     ru: {
       skip: 'К маршруту', brand: 'Код дружбы',
-      'nav.packages': 'Пакеты', 'nav.loyalty': 'Паспорт', 'nav.map': 'Карта', 'nav.route': 'Страны', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
+      'nav.faq': 'FAQ', 'nav.packages': 'Пакеты', 'nav.loyalty': 'Паспорт', 'nav.map': 'Карта', 'nav.route': 'Страны', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
       'hero.eyebrow': 'Международная школа Студтуризма', 'hero.title': 'Код дружбы', 'hero.sub': '5 стран, 3 студенческих пакета, одна дружба',
       'hero.cta': 'Выбрать поездку', 'hero.credit': 'Фото: озеро Кольсай',
       'map.kicker': 'Интерактивная карта', 'map.title': 'Ереван → Алматы → Бишкек → Душанбе → Самарканд',
@@ -43,6 +43,8 @@
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
       'tour.route': 'Маршрут', 'tour.of5': 'из 5 стран', 'tour.perDay': 'Цена за день поездки', 'tour.market': 'Обычный тур', 'tour.save': 'Дешевле обычного тура на', 'tour.loy1': 'Эта поездка даст', 'tour.loy2': 'в Паспорт дружбы и', 'tour.stamp1': 'штамп', 'tour.stamp2': 'штампа', 'tour.stamp5': 'штампов', 'tour.keeper': 'Сразу статус «Хранитель кода»: −20% на все следующие поездки.', 'tour.loyMore': 'Как работает паспорт',
       'loy.kicker': 'Программа лояльности', 'loy.title': 'Паспорт дружбы', 'loy.s1': 'Где вы уже были с «Кодом дружбы»?', 'loy.s2': 'Монеты сверх поездок', 'loy.s3': 'Следующая поездка', 'loy.toNext': 'До уровня', 'loy.more': 'ещё', 'loy.max': 'Максимальный уровень: −20% на всё', 'loy.base': 'Цена пакета', 'loy.lvl': 'Уровень', 'loy.coins': 'Монеты', 'loy.pay': 'Вы платите', 'loy.saveTxt': 'Экономия', 'loy.back': 'вернётся', 'loy.after': 'После поездки в паспорте', 'loy.calc': 'Посчитать свою скидку',
+      'book.cta': 'Забронировать', 'book.title': 'Заявка на поездку', 'book.lead': 'Выберите пакет и дату, и команда свяжется с вами, чтобы всё уточнить. Это ни к чему не обязывает.', 'book.pkg': 'Пакет', 'book.date': 'Желаемая дата', 'book.people': 'Сколько вас', 'book.name': 'Ваше имя', 'book.contact': 'Телефон или Telegram', 'book.contactPh': '+998 … или @username', 'book.uni': 'Вуз и страна', 'book.uniPh': 'Например, ТГТУ, Узбекистан', 'book.msg': 'Сообщение', 'book.msgPh': 'Вопросы, пожелания, с кем едете…', 'book.send': 'Отправить заявку', 'book.sending': 'Отправляем…', 'book.tg': 'Или напишите в Telegram', 'book.note': 'Заявка придёт команде проекта на почту. Мы не передаём ваши данные третьим лицам.', 'book.required': 'Заполните дату, имя и контакт.', 'book.okTitle': 'Спасибо! Заявка отправлена', 'book.ok': 'Команда свяжется с вами в ближайшее время, обычно в течение суток.', 'book.okLoy': 'После поездки в ваш Паспорт дружбы лягут новые штампы.', 'book.back': 'Вернуться на сайт', 'book.err': 'Не получилось отправить заявку. Попробуйте ещё раз, напишите в Telegram или', 'book.mail': 'отправьте письмом',
+      'faq.kicker': 'Вопросы и ответы', 'faq.title': 'Частые вопросы', 'faq.more': 'Не нашли ответ? Напишите нам или сразу оставьте заявку.',
       'prog.show': 'Показать программу', 'prog.hide': 'Скрыть программу', 'prog.points': 'точек', 'gal.more': 'Показать все фото', 'why.more': 'Почему маршрут идёт именно так', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
       'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.site2': 'сайт тур-пакета', 'pkg.symbol': 'Национальный символ',
       start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
@@ -50,7 +52,7 @@
     },
     en: {
       skip: 'Skip to route', brand: 'Friendship Code',
-      'nav.packages': 'Packages', 'nav.loyalty': 'Passport', 'nav.map': 'Map', 'nav.route': 'Countries', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
+      'nav.faq': 'FAQ', 'nav.packages': 'Packages', 'nav.loyalty': 'Passport', 'nav.map': 'Map', 'nav.route': 'Countries', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
       'hero.eyebrow': 'International Student Tourism School', 'hero.title': 'Friendship Code', 'hero.sub': '5 countries, 3 student packages, one friendship',
       'hero.cta': 'Pick a trip', 'hero.credit': 'Photo: Lake Kolsai',
       'map.kicker': 'Interactive map', 'map.title': 'Yerevan → Almaty → Bishkek → Dushanbe → Samarkand',
@@ -88,6 +90,8 @@
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
       'tour.route': 'Route', 'tour.of5': 'of 5 countries', 'tour.perDay': 'Price per day', 'tour.market': 'Typical tour', 'tour.save': 'Cheaper than a typical tour by', 'tour.loy1': 'This trip adds', 'tour.loy2': 'to your Friendship Passport and', 'tour.stamp1': 'stamp', 'tour.stamp2': 'stamps', 'tour.stamp5': 'stamps', 'tour.keeper': 'Instant Code Keeper status: −20% on every next trip.', 'tour.loyMore': 'How the passport works',
       'loy.kicker': 'Loyalty programme', 'loy.title': 'Friendship Passport', 'loy.s1': 'Where have you been with Friendship Code?', 'loy.s2': 'Coins beyond trips', 'loy.s3': 'Your next trip', 'loy.toNext': 'To', 'loy.more': '', 'loy.max': 'Top level: −20% on everything', 'loy.base': 'Package price', 'loy.lvl': 'Level', 'loy.coins': 'Coins', 'loy.pay': 'You pay', 'loy.saveTxt': 'You save', 'loy.back': 'back', 'loy.after': 'Passport after the trip', 'loy.calc': 'Work out your discount',
+      'book.cta': 'Book', 'book.title': 'Trip request', 'book.lead': 'Choose a package and a date, and the team will get in touch to confirm the details. No obligation.', 'book.pkg': 'Package', 'book.date': 'Preferred date', 'book.people': 'How many of you', 'book.name': 'Your name', 'book.contact': 'Phone or Telegram', 'book.contactPh': '+998 … or @username', 'book.uni': 'University and country', 'book.uniPh': 'E.g. TSTU, Uzbekistan', 'book.msg': 'Message', 'book.msgPh': 'Questions, wishes, who you travel with…', 'book.send': 'Send the request', 'book.sending': 'Sending…', 'book.tg': 'Or write on Telegram', 'book.note': 'Your request goes to the project team by email. We never share your data with third parties.', 'book.required': 'Please fill in the date, name and contact.', 'book.okTitle': 'Thank you! Request sent', 'book.ok': 'The team will get in touch soon, usually within a day.', 'book.okLoy': 'After the trip, new stamps will go into your Friendship Passport.', 'book.back': 'Back to the site', 'book.err': 'The request could not be sent. Try again, write on Telegram or', 'book.mail': 'send it by email',
+      'faq.kicker': 'Questions and answers', 'faq.title': 'FAQ', 'faq.more': 'Didn’t find your answer? Write to us or send a request right away.',
       'prog.show': 'Show the programme', 'prog.hide': 'Hide the programme', 'prog.points': 'stops', 'gal.more': 'Show all photos', 'why.more': 'Why the route runs this way', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
       'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.site2': 'tour package website', 'pkg.symbol': 'National symbol',
       start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
@@ -396,7 +400,8 @@
         ${offerFlags(o)}
         <p class="of-pitch">${esc(L(o.pitch))}</p>
         <ul class="of-hl">${o.highlights.map((h) => `<li>${esc(L(h))}</li>`).join('')}</ul>
-        <button class="btn btn-country of-btn" type="button" data-offer="${o.id}">${esc(t('offers.more'))} <span aria-hidden="true">→</span></button>
+        <div class="of-acts"><button class="btn btn-gold of-book" type="button" data-book="${o.id}">${esc(t('book.cta'))}</button>
+        <button class="btn btn-country of-btn" type="button" data-offer="${o.id}">${esc(t('offers.more'))} <span aria-hidden="true">→</span></button></div>
       </article>`;
     }).join('');
     $('#passport').innerHTML = `<div class="pp-stamps">${DATA.countries.map((c, i) => `<span style="--c:${c.palette[0]};--r:${(i - 2) * 7}deg">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></span>`).join('')}</div><p>${esc(L(O.passport))} <a href="#loyalty" class="pp-link">${esc(t('loy.calc'))} →</a></p>`;
@@ -506,7 +511,7 @@
       </div>
       <div class="tr-cta">
         <div><b>${money(o)}</b><small>${o.days} ${esc(t('days2'))} · ${n} ${nCountries(n)}</small></div>
-        <a class="btn btn-gold" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('offers.book'))}</a>
+        <button class="btn btn-gold" type="button" data-book="${o.id}">${esc(t('offers.book'))}</button>
       </div>
       <div class="tr-sites">${cs.map((c) => `<a href="${esc(c.site)}" target="_blank" rel="noopener" style="--c:${c.palette[0]}">${flagSvg(c.id)}${esc(L(c.name))} ↗</a>`).join('')}</div>`;
     showSheet(`#pack-${id}`, push, DATA.offers.items.indexOf(o) * 2);
@@ -561,6 +566,124 @@
     const btn = i == null ? null : $(`[data-seg-btn="${i}"]`, panel);
     $('[data-dn-lbl]', panel).textContent = btn ? $('span', btn).textContent : t('offers.total');
     $('[data-dn-val]', panel).textContent = btn ? $('b', btn).textContent : $('[data-dn-val]', panel).dataset.total;
+  }
+
+
+  /* ---------- FAQ ---------- */
+  function renderFaq() {
+    $('#faqList').innerHTML = DATA.faq.map((f, i) => `<details class="fq reveal" style="--d:${i % 4}"${i === 0 ? ' open' : ''}>
+      <summary><span class="fq-n">${String(i + 1).padStart(2, '0')}</span><span class="fq-q">${esc(L(f.q))}</span><i aria-hidden="true"></i></summary>
+      <div class="fq-a"><p>${esc(L(f.a))}</p></div></details>`).join('');
+    // разметка FAQ для поисковиков
+    let ld = $('#faqLd');
+    if (!ld) { ld = document.createElement('script'); ld.type = 'application/ld+json'; ld.id = 'faqLd'; document.head.appendChild(ld); }
+    ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: DATA.faq.map((f) => ({ '@type': 'Question', name: L(f.q), acceptedAnswer: { '@type': 'Answer', text: L(f.a) } })) });
+    observeReveal();
+  }
+
+  /* ---------- Бронирование: окно-заявка, как на t2t.asia (Web3Forms → почта команды) ---------- */
+  let bookDraft = null, bookReturn = null;
+  function bookHTML() {
+    const B = DATA.booking, d = bookDraft || {};
+    const today = new Date(); today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+    const min = today.toISOString().slice(0, 10);
+    const opts = DATA.offers.items.map((o) => ({ v: o.id, n: L(o.name), s: `${o.days} ${t('days2')} · ${money(o)}`, c: o.countries }))
+      .concat([{ v: 'help', n: L(B.help), s: L(B.helpNote), c: [] }]);
+    const sel = d.pkg || 'trio';
+    const field = (id, label, input, req = true) => `<label class="bk-f" for="${id}"><span>${esc(t(label))}${req ? ' <b aria-hidden="true">*</b>' : ''}</span>${input}</label>`;
+    return `<button class="book-close" type="button" data-book-close aria-label="${esc(t('pkg.close'))}">×</button>
+      <form class="bk" novalidate>
+        <div class="bk-stripe" aria-hidden="true">${DATA.countries.map((c) => `<i style="background:${c.palette[0]}"></i>`).join('')}</div>
+        <p class="bk-kick">${esc(t('brand'))} · ${esc(t('offers.kicker2'))}</p>
+        <h3 class="bk-title" id="bookTitle">${esc(t('book.title'))}</h3>
+        <p class="bk-lead">${esc(t('book.lead'))}</p>
+        <fieldset class="bk-pk"><legend>${esc(t('book.pkg'))} <b aria-hidden="true">*</b></legend>${opts.map((o) => `<label class="bk-o">
+          <input type="radio" name="pkg" value="${o.v}"${o.v === sel ? ' checked' : ''}>
+          <span class="bk-oc"><strong>${esc(o.n)}</strong><em>${esc(o.s)}</em><span class="bk-fl">${o.c.map((id) => `<i style="background:${country(id).palette[0]}"></i>`).join('') || '<i class="q">?</i>'}</span></span></label>`).join('')}</fieldset>
+        <div class="bk-row">
+          ${field('bkDate', 'book.date', `<input id="bkDate" name="date" type="date" required min="${min}" value="${esc(d.date || '')}">`)}
+          ${field('bkPeople', 'book.people', `<div class="bk-step"><button type="button" data-ppl="-1" aria-label="−">−</button><input id="bkPeople" name="people" type="number" min="1" max="30" value="${esc(d.people || '1')}" inputmode="numeric"><button type="button" data-ppl="1" aria-label="+">+</button></div>`)}
+        </div>
+        <div class="bk-row">
+          ${field('bkName', 'book.name', `<input id="bkName" name="name" type="text" required autocomplete="name" maxlength="80" value="${esc(d.name || '')}">`)}
+          ${field('bkContact', 'book.contact', `<input id="bkContact" name="contact" type="text" required autocomplete="tel" maxlength="80" placeholder="${esc(t('book.contactPh'))}" value="${esc(d.contact || '')}">`)}
+        </div>
+        ${field('bkUni', 'book.uni', `<input id="bkUni" name="uni" type="text" maxlength="120" placeholder="${esc(t('book.uniPh'))}" value="${esc(d.uni || '')}">`, false)}
+        <label class="bk-f" for="bkMsg"><span>${esc(t('book.msg'))}</span><textarea id="bkMsg" name="message" rows="3" maxlength="2000" placeholder="${esc(t('book.msgPh'))}">${esc(d.message || '')}</textarea></label>
+        <input class="bk-hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="bk-err" role="alert" hidden></p>
+        <div class="bk-go"><button type="submit" class="btn btn-gold"><span>${esc(t('book.send'))}</span></button>
+          <a class="bk-tg" href="${esc(B.telegram)}" target="_blank" rel="noopener">${esc(t('book.tg'))} →</a></div>
+        <p class="bk-note">${esc(t('book.note'))}</p>
+      </form>`;
+  }
+  function bookRead(f) {
+    const g = (n) => String(f.elements[n]?.value || '').trim();
+    return { pkg: f.querySelector('input[name="pkg"]:checked')?.value || '', date: g('date'), people: g('people') || '1', name: g('name'), contact: g('contact'), uni: g('uni'), message: g('message') };
+  }
+  function openBook(pref) {
+    if (pref) bookDraft = { ...(bookDraft || {}), pkg: pref };
+    const bk = $('#book'), panel = $('#bookPanel');
+    bookReturn = document.activeElement;
+    panel.innerHTML = bookHTML();
+    bk.hidden = false; document.documentElement.classList.add('sheet-lock');
+    requestAnimationFrame(() => bk.classList.add('open'));
+    panel.scrollTop = 0; panel.focus({ preventScroll: true });
+    const f = $('.bk', panel);
+    f.addEventListener('submit', sendBook);
+    f.addEventListener('input', () => { bookDraft = bookRead(f); });
+    f.addEventListener('change', () => { bookDraft = bookRead(f); });
+  }
+  function closeBook() {
+    const bk = $('#book'); if (bk.hidden) return;
+    bk.classList.remove('open');
+    setTimeout(() => { bk.hidden = true; if ($('#sheet').hidden) document.documentElement.classList.remove('sheet-lock'); }, 300);
+    bookReturn?.focus?.({ preventScroll: true });
+  }
+  function sendBook(e) {
+    e.preventDefault();
+    const f = e.currentTarget, B = DATA.booking, v = bookRead(f), err = $('.bk-err', f), btn = $('button[type="submit"]', f);
+    bookDraft = v;
+    $$('.bk-f', f).forEach((el) => el.classList.remove('bad'));
+    const miss = ['date', 'name', 'contact'].filter((k) => !v[k]);
+    miss.forEach((k) => f.elements[k]?.closest('.bk-f').classList.add('bad'));
+    if (miss.length || !v.pkg) { err.textContent = t('book.required'); err.hidden = false; f.elements[miss[0]]?.focus(); return; }
+    if (f.elements._honey.value) return;
+    const o = DATA.offers.items.find((x) => x.id === v.pkg);
+    const pkgName = o ? `${o.name.ru} (${o.days} дн., ${money(o)})` : B.help.ru;
+    const stamps = (loyState.stamps || []).map((id) => country(id).name.ru).join(', ') || '—';
+    const body = {
+      'Пакет': pkgName, 'Дата': v.date.split('-').reverse().join('.'), 'Человек': v.people, 'Имя': v.name, 'Контакт': v.contact,
+      'Вуз и страна': v.uni || '—', 'Сообщение': v.message || '—', 'Штампы в паспорте (по калькулятору)': stamps, 'Язык сайта': lang.toUpperCase()
+    };
+    const subject = `Заявка «Код дружбы» · ${o ? o.name.ru : B.help.ru} · ${v.name}`;
+    err.hidden = true; btn.disabled = true; $('span', btn).textContent = t('book.sending');
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ access_key: B.web3formsKey, subject, from_name: 'Код дружбы · сайт', ...body })
+    }).then((r) => r.json().catch(() => ({})).then((j) => { if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || String(r.status)); }))
+      .then(() => {
+        bookDraft = null;
+        f.innerHTML = `<div class="bk-stripe" aria-hidden="true">${DATA.countries.map((c) => `<i style="background:${c.palette[0]}"></i>`).join('')}</div>
+          <div class="bk-ok">
+            <div class="bk-thanks">${B.thanks.map(([id, w, tr], i) => `<span style="--c:${country(id).palette[0]};--i:${i}" title="${esc(tr)}">${window.KD_ORN.svg(id, '', country(id).palette[0])}<b>${esc(w)}</b><small>${esc(L(country(id).name))}</small></span>`).join('')}</div>
+            <h3 class="bk-title" role="status">${esc(t('book.okTitle'))}</h3>
+            <p class="bk-lead">${esc(t('book.ok'))}</p>
+            <ul class="bk-sum"><li><b>${esc(t('book.pkg'))}</b>${esc(o ? L(o.name) : L(B.help))}</li><li><b>${esc(t('book.date'))}</b>${esc(body['Дата'])}</li><li><b>${esc(t('book.people'))}</b>${esc(v.people)}</li></ul>
+            <p class="bk-loy">${esc(t('book.okLoy'))}</p>
+            <button type="button" class="btn btn-gold" data-book-close>${esc(t('book.back'))}</button>
+          </div>`;
+        if (window.KD_SOUND.enabled) { window.KD_SOUND.unlock(); window.KD_SOUND.chord(0); }
+      })
+      .catch((x) => {
+        const m = String(x?.message || '');
+        console.warn('[booking] Web3Forms:', m);
+        btn.disabled = false; $('span', btn).textContent = t('book.send');
+        err.textContent = t('book.err'); err.hidden = false;
+        // запасной путь: та же заявка готовым письмом в почте посетителя
+        const mail = `mailto:${B.to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(Object.entries(body).map(([k, val]) => `${k}: ${val}`).join('\n'))}`;
+        err.insertAdjacentHTML('beforeend', ` <a class="bk-mail" href="${esc(mail)}">${esc(t('book.mail'))} →</a>`);
+      });
   }
 
   /* ---------- Паспорт дружбы (программа лояльности) ---------- */
@@ -974,6 +1097,11 @@
       }
       const gal = e.target.closest('[data-gal]');
       if (gal) { openLightbox(galleryList, +gal.dataset.gal); return; }
+      const bkb = e.target.closest('[data-book]');
+      if (bkb) { e.preventDefault(); openBook(bkb.dataset.book || null); return; }
+      if (e.target.closest('[data-book-close]')) { closeBook(); return; }
+      const ppl = e.target.closest('[data-ppl]');
+      if (ppl) { const inp = $('#bkPeople'); inp.value = Math.max(1, Math.min(30, (+inp.value || 1) + +ppl.dataset.ppl)); inp.dispatchEvent(new Event('input', { bubbles: true })); return; }
       const dyt = e.target.closest('[data-dy-i]');
       if (dyt) { showDay(+dyt.dataset.dyI); return; }
       const dys = e.target.closest('[data-dy-step]');
@@ -1018,7 +1146,7 @@
       burger.setAttribute('aria-expanded', String(open));
       $('#nav').classList.toggle('open', open);
     });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#sheet').hidden) closePackage(); });
+    document.addEventListener('keydown', (e) => { if (e.key !== 'Escape') return; if (!$('#book').hidden) closeBook(); else if (!$('#sheet').hidden) closePackage(); });
     addEventListener('popstate', () => {
       const m = location.hash.match(/^#tour-(\w+)/), o = location.hash.match(/^#pack-(\w+)/);
       if (m) openPackage(m[1], false); else if (o) openOffer(o[1], false); else closePackage(true);
@@ -1039,7 +1167,7 @@
   }
   function renderAll() {
     applyStatic();
-    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderFaq(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     $$('.reveal').forEach((el) => el.classList.add('in'));
     syncSoundBtn(); window.KD_INTRO.relabel();
@@ -1059,7 +1187,7 @@
     }
     DATA.countries.forEach((c) => { COLORS[c.id] = c.palette[0]; });
     applyStatic();
-    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderLoyalty(); renderFaq(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
     window.KD_INTRO.init(DATA, L, t, startHero);
