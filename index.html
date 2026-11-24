@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Код дружбы — маршрут по 5 странам: Казахстан, Кыргызстан, Таджикистан, Узбекистан, Армения</title>
-  <meta name="description" content="Международный туристический маршрут «Код дружбы»: 5 стран, 9 дней, одна дружба. Ереван и Севан, Алматы, Бишкек и Иссык-Куль, Душанбе и Искандеркуль, финиш в Самарканде. Карта, программа по дням, AR.">
+  <meta name="description" content="Международный туристический маршрут «Код дружбы»: 5 стран, 3 студенческих пакета от 3 до 7 дней. Ереван и Севан, Алматы, Бишкек и Иссык-Куль, Душанбе и Искандеркуль, финиш в Самарканде. Карта, программа по дням, AR.">
   <meta name="keywords" content="Код дружбы, туристический маршрут, Центральная Азия, Алматы, Бишкек, Иссык-Куль, Душанбе, Искандеркуль, Самарканд, Регистан, Ереван, Севан, Студтуризм">
   <meta name="theme-color" content="#081127">
   <link rel="canonical" href="https://kod-drujba.vercel.app/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Код дружбы — 5 стран, 9 дней, одна дружба">
+  <meta property="og:title" content="Код дружбы — 5 стран, 3 студенческих пакета">
   <meta property="og:description" content="Маршрут Ереван → Алматы → Бишкек → Душанбе → Самарканд: карта, программа по дням, тур-пакеты, AR.">
   <meta property="og:image" content="https://kod-drujba.vercel.app/assets/img/og.jpg">
   <meta property="og:locale" content="ru_RU">
@@ -60,7 +60,7 @@
     <div class="i-title">
       <svg class="i-star" viewBox="0 0 40 40" aria-hidden="true"><use href="#star8"/></svg>
       <p class="i-name" data-i18n="hero.title">Код дружбы</p>
-      <p class="i-sub" data-i18n="hero.sub">5 стран, 9 дней, одна дружба</p>
+      <p class="i-sub" data-i18n="hero.sub">5 стран, 3 студенческих пакета, одна дружба</p>
     </div>
     <p class="i-caption" id="introCaption"></p>
     <div class="i-start" id="introStart">
@@ -84,11 +84,11 @@
       <span data-i18n="brand">Код дружбы</span>
     </a>
     <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#packages" data-i18n="nav.packages">Пакеты</a>
       <a href="#map" data-i18n="nav.map">Карта</a>
-      <a href="#countries" data-i18n="nav.route">Программа</a>
-      <a href="#gallery" data-i18n="nav.gallery">Галерея</a>
+      <a href="#countries" data-i18n="nav.route">Страны</a>
       <a href="#ar" data-i18n="nav.ar">AR</a>
-      <a href="#tips" data-i18n="nav.tips">Полезно</a>
+      <a href="#gallery" data-i18n="nav.gallery">Галерея</a>
       <a href="#team" data-i18n="nav.team">Команда</a>
     </nav>
     <button class="sound-btn" type="button" id="soundBtn" aria-pressed="false" aria-label="Звук">🔈</button>
@@ -107,10 +107,10 @@
       <div class="hero-inner">
         <p class="eyebrow" data-i18n="hero.eyebrow">Международная школа Студтуризма</p>
         <h1 class="hero-title" id="heroTitle">Код дружбы</h1>
-        <p class="hero-sub" data-i18n="hero.sub">5 стран, 9 дней, одна дружба</p>
+        <p class="hero-sub" data-i18n="hero.sub">5 стран, 3 студенческих пакета, одна дружба</p>
         <ul class="hero-countries" id="heroCountries"></ul>
         <div class="hero-actions">
-          <a class="btn btn-gold magnetic" href="#map" data-i18n="hero.cta">Смотреть маршрут</a>
+          <a class="btn btn-gold magnetic" href="#packages" data-i18n="hero.cta">Выбрать поездку</a>
           <button class="btn btn-ghost" type="button" id="replayIntro"><span aria-hidden="true">▶</span> <span data-i18n="hero.intro">Смотреть интро</span></button>
         </div>
       </div>
@@ -123,6 +123,20 @@
       <div class="container stats-inner" id="stats"></div>
     </section>
     <div class="orn-band" aria-hidden="true"><div class="orn-track" id="ornBand1"></div></div>
+
+    <!-- PACKAGES -->
+    <section class="section" id="packages">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="offers.kicker">Для студентов</p>
+          <h2 data-i18n="offers.title">Три формата одного маршрута</h2>
+          <p class="lead" data-i18n="offers.lead">От выходных в Самарканде до всех пяти стран за неделю. Хостелы и общежития, гиды-студенты, поезда и автобусы.</p>
+        </div>
+        <div class="offers" id="offers"></div>
+        <div class="passport reveal" id="passport"></div>
+        <details class="market reveal" id="market"></details>
+      </div>
+    </section>
 
     <!-- 2. MAP -->
     <section class="section" id="map">
@@ -151,18 +165,6 @@
 
     <div class="orn-band" aria-hidden="true"><div class="orn-track rev" id="ornBand2"></div></div>
 
-    <!-- 4. GALLERY -->
-    <section class="section section-sand" id="gallery">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="kicker" data-i18n="gallery.kicker">Галерея</p>
-          <h2 data-i18n="gallery.title">Маршрут в кадрах</h2>
-          <p class="lead" data-i18n="gallery.lead">Фото остальных стран появятся по мере подбора, у каждого будет указан автор и лицензия.</p>
-        </div>
-        <div class="gallery" id="galleryGrid"></div>
-      </div>
-    </section>
-
     <!-- 5. AR -->
     <section class="section section-deep" id="ar">
       <div class="container">
@@ -173,6 +175,18 @@
         </div>
         <div class="ar-grid" id="arGrid"></div>
         <p class="ar-note" data-i18n="ar.note">Это упрощённые стилизованные макеты. Детальные модели можно заменить в папке assets/models без правки кода.</p>
+      </div>
+    </section>
+
+    <!-- 4. GALLERY -->
+    <section class="section section-sand" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="gallery.kicker">Галерея</p>
+          <h2 data-i18n="gallery.title">Маршрут в кадрах</h2>
+          <p class="lead" data-i18n="gallery.lead">Фото остальных стран появятся по мере подбора, у каждого будет указан автор и лицензия.</p>
+        </div>
+        <div class="gallery" id="galleryGrid"></div>
       </div>
     </section>
 

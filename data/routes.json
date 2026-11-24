@@ -5,8 +5,8 @@
    "en": "Friendship Code"
   },
   "subtitle": {
-   "ru": "5 стран, 9 дней, одна дружба",
-   "en": "5 countries, 9 days, one friendship"
+   "ru": "5 стран, 3 студенческих пакета, одна дружба",
+   "en": "5 countries, 3 student packages, one friendship"
   },
   "photoCredit": "Ж. Миркомилов",
   "photoLicense": {
@@ -2186,6 +2186,669 @@
     "ru": "Из Ташкента и Самарканда много рейсов домой, а финал на Регистане запоминается лучше всего.",
     "en": "Tashkent and Samarkand have plenty of flights home, and a finale on the Registan is the most memorable."
    }
+  ]
+ },
+ "offers": {
+  "note": {
+   "ru": "Ориентировочная цена на человека в группе 10–15 студентов. Без дороги до точки старта, виз и страховки. Расчёт на ноябрь 2026 года, точную цену называет команда проекта перед бронированием.",
+   "en": "Estimated price per person in a group of 10–15 students. Excludes travel to the start point, visas and insurance. Calculated for November 2026; the project team confirms the exact price before booking."
+  },
+  "items": [
+   {
+    "id": "start",
+    "name": {
+     "ru": "Старт",
+     "en": "Start"
+    },
+    "tag": {
+     "ru": "Первое знакомство",
+     "en": "First taste"
+    },
+    "days": 3,
+    "nights": 2,
+    "price": [
+     110,
+     150
+    ],
+    "countries": [
+     "uz"
+    ],
+    "route": {
+     "ru": "Самарканд",
+     "en": "Samarkand"
+    },
+    "pitch": {
+     "ru": "Выходные в Самарканде: Регистан, плов и вечер дружбы со студентами пяти стран.",
+     "en": "A weekend in Samarkand: the Registan, plov and a friendship evening with students from five countries."
+    },
+    "highlights": [
+     {
+      "ru": "Регистан днём и в вечерней подсветке",
+      "en": "The Registan by day and lit up at night"
+     },
+     {
+      "ru": "Шахи-Зинда, Гур-Эмир, Сиабский базар",
+      "en": "Shah-i-Zinda, Gur-Emir, Siab Bazaar"
+     },
+     {
+      "ru": "Вечер «Код дружбы»: кухня и игры пяти стран",
+      "en": "“Friendship Code” evening: food and games of five countries"
+     },
+     {
+      "ru": "Первый штамп в паспорт дружбы",
+      "en": "The first stamp in your friendship passport"
+     }
+    ],
+    "plan": [
+     {
+      "t": {
+       "ru": "Прибытие и Регистан",
+       "en": "Arrival and the Registan"
+      },
+      "d": {
+       "ru": "Заселение в хостел или общежитие вуза-партнёра, прогулка по Университетскому бульвару, Регистан в вечерней подсветке, плов.",
+       "en": "Check in to a hostel or partner-university dorm, walk along University Boulevard, the Registan lit up at night, plov."
+      }
+     },
+     {
+      "t": {
+       "ru": "Город мастеров",
+       "en": "City of craftsmen"
+      },
+      "d": {
+       "ru": "Гур-Эмир, Шахи-Зинда, Биби-Ханым и Сиабский базар с гидом-студентом. Вечером вечер дружбы.",
+       "en": "Gur-Emir, Shah-i-Zinda, Bibi-Khanym and Siab Bazaar with a student guide. Friendship evening at night."
+      }
+     },
+     {
+      "t": {
+       "ru": "Бумага и звёзды",
+       "en": "Paper and stars"
+      },
+      "d": {
+       "ru": "Бумажная мастерская Конигил или обсерватория Улугбека, выезд домой.",
+       "en": "Konigil paper workshop or Ulugh Beg observatory, then head home."
+      }
+     }
+    ],
+    "inc": [
+     {
+      "ru": "2 ночи в хостеле или общежитии, завтраки",
+      "en": "2 nights in a hostel or dorm, breakfasts"
+     },
+     {
+      "ru": "Гид-студент на 2 дня",
+      "en": "Student guide for 2 days"
+     },
+     {
+      "ru": "Входные билеты по программе",
+      "en": "Entrance tickets on the programme"
+     },
+     {
+      "ru": "Вечер дружбы и паспорт дружбы",
+      "en": "Friendship evening and friendship passport"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Дорога до Самарканда",
+      "en": "Travel to Samarkand"
+     },
+     {
+      "ru": "Обеды и ужины (около $8–12 в день)",
+      "en": "Lunches and dinners (about $8–12 a day)"
+     },
+     {
+      "ru": "Страховка",
+      "en": "Insurance"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Жильё, 2 ночи",
+       "en": "Stay, 2 nights"
+      },
+      "16–24"
+     ],
+     [
+      {
+       "ru": "Питание",
+       "en": "Food"
+      },
+      "30–40"
+     ],
+     [
+      {
+       "ru": "Билеты",
+       "en": "Tickets"
+      },
+      "15–20"
+     ],
+     [
+      {
+       "ru": "Гид и местный транспорт",
+       "en": "Guide and local transport"
+      },
+      "25–35"
+     ],
+     [
+      {
+       "ru": "Вечер дружбы, паспорт",
+       "en": "Friendship evening, passport"
+      },
+      "10–15"
+     ],
+     [
+      {
+       "ru": "Запас",
+       "en": "Buffer"
+      },
+      "10–15"
+     ]
+    ]
+   },
+   {
+    "id": "trio",
+    "name": {
+     "ru": "Шёлковое трио",
+     "en": "Silk Trio"
+    },
+    "tag": {
+     "ru": "Лучшее соотношение",
+     "en": "Best value"
+    },
+    "best": true,
+    "days": 5,
+    "nights": 4,
+    "price": [
+     280,
+     370
+    ],
+    "countries": [
+     "kz",
+     "kg",
+     "uz"
+    ],
+    "route": {
+     "ru": "Алматы → Бишкек → Самарканд",
+     "en": "Almaty → Bishkek → Samarkand"
+    },
+    "pitch": {
+     "ru": "Три страны за пять дней: горы Алматы, ущелье Ала-Арча и финиш на Регистане.",
+     "en": "Three countries in five days: Almaty’s mountains, Ala-Archa gorge and a finish at the Registan."
+    },
+    "highlights": [
+     {
+      "ru": "Кок-Тобе и каток Медеу",
+      "en": "Kok-Tobe and the Medeu rink"
+     },
+     {
+      "ru": "Ала-Арча и Ошский базар",
+      "en": "Ala-Archa and Osh Bazaar"
+     },
+     {
+      "ru": "Регистан и Шахи-Зинда",
+      "en": "The Registan and Shah-i-Zinda"
+     },
+     {
+      "ru": "Три штампа в паспорт дружбы",
+      "en": "Three stamps in the friendship passport"
+     }
+    ],
+    "plan": [
+     {
+      "t": {
+       "ru": "Алматы",
+       "en": "Almaty"
+      },
+      "d": {
+       "ru": "Зелёный базар, парк Панфиловцев, закат на Кок-Тобе.",
+       "en": "Green Bazaar, Panfilov Park, sunset on Kok-Tobe."
+      }
+     },
+     {
+      "t": {
+       "ru": "Горы и дорога",
+       "en": "Mountains and the road"
+      },
+      "d": {
+       "ru": "Утром Медеу и Шымбулак, вечером автобус в Бишкек (4–5 часов).",
+       "en": "Medeu and Shymbulak in the morning, evening bus to Bishkek (4–5 hours)."
+      }
+     },
+     {
+      "t": {
+       "ru": "Бишкек",
+       "en": "Bishkek"
+      },
+      "d": {
+       "ru": "Площадь Ала-Тоо, Ошский базар, после обеда ущелье Ала-Арча.",
+       "en": "Ala-Too Square, Osh Bazaar, Ala-Archa gorge in the afternoon."
+      }
+     },
+     {
+      "t": {
+       "ru": "В Узбекистан",
+       "en": "Into Uzbekistan"
+      },
+      "d": {
+       "ru": "Утренний рейс Бишкек → Ташкент, поезд «Афросиаб» в Самарканд, вечерний Регистан.",
+       "en": "Morning flight Bishkek → Tashkent, Afrosiyob train to Samarkand, the Registan at night."
+      }
+     },
+     {
+      "t": {
+       "ru": "Самарканд",
+       "en": "Samarkand"
+      },
+      "d": {
+       "ru": "Шахи-Зинда, Гур-Эмир, вечер дружбы, выезд.",
+       "en": "Shah-i-Zinda, Gur-Emir, friendship evening, departure."
+      }
+     }
+    ],
+    "inc": [
+     {
+      "ru": "4 ночи в хостелах или общежитиях, завтраки",
+      "en": "4 nights in hostels or dorms, breakfasts"
+     },
+     {
+      "ru": "Автобус Алматы → Бишкек",
+      "en": "Bus Almaty → Bishkek"
+     },
+     {
+      "ru": "Перелёт Бишкек → Ташкент и поезд до Самарканда",
+      "en": "Flight Bishkek → Tashkent and train to Samarkand"
+     },
+     {
+      "ru": "Гид-студент в каждом городе, билеты",
+      "en": "A student guide in each city, tickets"
+     },
+     {
+      "ru": "Вечер дружбы и паспорт дружбы",
+      "en": "Friendship evening and friendship passport"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Дорога до Алматы и из Самарканда",
+      "en": "Travel to Almaty and home from Samarkand"
+     },
+     {
+      "ru": "Обеды и ужины",
+      "en": "Lunches and dinners"
+     },
+     {
+      "ru": "Канатная дорога Шымбулак (по желанию)",
+      "en": "Shymbulak cable car (optional)"
+     },
+     {
+      "ru": "Страховка, визы при необходимости",
+      "en": "Insurance, visas if needed"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Жильё, 4 ночи",
+       "en": "Stay, 4 nights"
+      },
+      "40–60"
+     ],
+     [
+      {
+       "ru": "Питание",
+       "en": "Food"
+      },
+      "55–75"
+     ],
+     [
+      {
+       "ru": "Автобус Алматы → Бишкек",
+       "en": "Bus Almaty → Bishkek"
+      },
+      "10–15"
+     ],
+     [
+      {
+       "ru": "Рейс Бишкек → Ташкент",
+       "en": "Flight Bishkek → Tashkent"
+      },
+      "60–90"
+     ],
+     [
+      {
+       "ru": "Поезд Ташкент → Самарканд",
+       "en": "Train Tashkent → Samarkand"
+      },
+      "15–25"
+     ],
+     [
+      {
+       "ru": "Местный транспорт",
+       "en": "Local transport"
+      },
+      "15–20"
+     ],
+     [
+      {
+       "ru": "Билеты",
+       "en": "Tickets"
+      },
+      "35–45"
+     ],
+     [
+      {
+       "ru": "Гиды-студенты, вечер дружбы",
+       "en": "Student guides, friendship evening"
+      },
+      "40–50"
+     ]
+    ]
+   },
+   {
+    "id": "full",
+    "name": {
+     "ru": "Полный код",
+     "en": "Full Code"
+    },
+    "tag": {
+     "ru": "Все пять стран",
+     "en": "All five countries"
+    },
+    "days": 7,
+    "nights": 6,
+    "price": [
+     530,
+     730
+    ],
+    "countries": [
+     "am",
+     "kz",
+     "kg",
+     "tj",
+     "uz"
+    ],
+    "route": {
+     "ru": "Ереван → Алматы → Бишкек → Душанбе → Самарканд",
+     "en": "Yerevan → Almaty → Bishkek → Dushanbe → Samarkand"
+    },
+    "pitch": {
+     "ru": "Весь маршрут за неделю вместо девяти дней: два перелёта, остальное по земле, финиш в Самарканде.",
+     "en": "The whole route in a week instead of nine days: two flights, the rest by land, finishing in Samarkand."
+    },
+    "highlights": [
+     {
+      "ru": "Каскад в Ереване и Медеу в Алматы",
+      "en": "The Cascade in Yerevan and Medeu in Almaty"
+     },
+     {
+      "ru": "Ала-Арча и Гиссарская крепость",
+      "en": "Ala-Archa and Hisor Fortress"
+     },
+     {
+      "ru": "Горная дорога через Пенджикент в Самарканд",
+      "en": "Mountain road via Panjakent to Samarkand"
+     },
+     {
+      "ru": "Все пять штампов и сертификат школы",
+      "en": "All five stamps and a School certificate"
+     }
+    ],
+    "plan": [
+     {
+      "t": {
+       "ru": "Ереван",
+       "en": "Yerevan"
+      },
+      "d": {
+       "ru": "Каскад, площадь Республики, Вернисаж, вечер у поющих фонтанов.",
+       "en": "The Cascade, Republic Square, Vernissage, evening at the singing fountains."
+      }
+     },
+     {
+      "t": {
+       "ru": "Перелёт в Алматы",
+       "en": "Flight to Almaty"
+      },
+      "d": {
+       "ru": "Рейс Ереван → Алматы, днём Зелёный базар, закат на Кок-Тобе.",
+       "en": "Flight Yerevan → Almaty, Green Bazaar in the afternoon, sunset on Kok-Tobe."
+      }
+     },
+     {
+      "t": {
+       "ru": "Медеу и Бишкек",
+       "en": "Medeu and Bishkek"
+      },
+      "d": {
+       "ru": "Утром Медеу, днём автобус в Бишкек, вечером площадь Ала-Тоо.",
+       "en": "Medeu in the morning, bus to Bishkek in the afternoon, Ala-Too Square at night."
+      }
+     },
+     {
+      "t": {
+       "ru": "Ала-Арча",
+       "en": "Ala-Archa"
+      },
+      "d": {
+       "ru": "Прогулка по ущелью Ала-Арча, вечерний рейс Бишкек → Душанбе.",
+       "en": "A walk in Ala-Archa gorge, evening flight Bishkek → Dushanbe."
+      }
+     },
+     {
+      "t": {
+       "ru": "Душанбе",
+       "en": "Dushanbe"
+      },
+      "d": {
+       "ru": "Проспект Рудаки, Национальный музей, Гиссарская крепость.",
+       "en": "Rudaki Avenue, the National Museum, Hisor Fortress."
+      }
+     },
+     {
+      "t": {
+       "ru": "Дорога в Самарканд",
+       "en": "Road to Samarkand"
+      },
+      "d": {
+       "ru": "Через перевал и Пенджикент в Самарканд (около 6 часов), вечерний Регистан.",
+       "en": "Over the pass and via Panjakent to Samarkand (about 6 hours), the Registan at night."
+      }
+     },
+     {
+      "t": {
+       "ru": "Финиш",
+       "en": "Finish"
+      },
+      "d": {
+       "ru": "Шахи-Зинда, Гур-Эмир, финальный вечер дружбы, выезд.",
+       "en": "Shah-i-Zinda, Gur-Emir, the final friendship evening, departure."
+      }
+     }
+    ],
+    "inc": [
+     {
+      "ru": "6 ночей в хостелах или общежитиях, завтраки",
+      "en": "6 nights in hostels or dorms, breakfasts"
+     },
+     {
+      "ru": "Перелёты Ереван → Алматы и Бишкек → Душанбе",
+      "en": "Flights Yerevan → Almaty and Bishkek → Dushanbe"
+     },
+     {
+      "ru": "Автобус Алматы → Бишкек, трансфер Душанбе → Самарканд",
+      "en": "Bus Almaty → Bishkek, transfer Dushanbe → Samarkand"
+     },
+     {
+      "ru": "Гид-студент в каждой стране, билеты",
+      "en": "A student guide in each country, tickets"
+     },
+     {
+      "ru": "Вечер дружбы, паспорт и сертификат",
+      "en": "Friendship evening, passport and certificate"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Дорога до Еревана и из Самарканда",
+      "en": "Travel to Yerevan and home from Samarkand"
+     },
+     {
+      "ru": "Обеды и ужины",
+      "en": "Lunches and dinners"
+     },
+     {
+      "ru": "Страховка, визы при необходимости",
+      "en": "Insurance, visas if needed"
+     }
+    ],
+    "cost": [
+     [
+      {
+       "ru": "Рейс Ереван → Алматы",
+       "en": "Flight Yerevan → Almaty"
+      },
+      "150–200"
+     ],
+     [
+      {
+       "ru": "Рейс Бишкек → Душанбе",
+       "en": "Flight Bishkek → Dushanbe"
+      },
+      "90–130"
+     ],
+     [
+      {
+       "ru": "Автобус и трансфер по земле",
+       "en": "Bus and land transfer"
+      },
+      "35–55"
+     ],
+     [
+      {
+       "ru": "Жильё, 6 ночей",
+       "en": "Stay, 6 nights"
+      },
+      "60–90"
+     ],
+     [
+      {
+       "ru": "Питание",
+       "en": "Food"
+      },
+      "85–110"
+     ],
+     [
+      {
+       "ru": "Местный транспорт",
+       "en": "Local transport"
+      },
+      "25–35"
+     ],
+     [
+      {
+       "ru": "Билеты",
+       "en": "Tickets"
+      },
+      "35–50"
+     ],
+     [
+      {
+       "ru": "Гиды-студенты, вечер дружбы",
+       "en": "Student guides, friendship evening"
+      },
+      "50–60"
+     ]
+    ]
+   }
+  ],
+  "passport": {
+   "ru": "Паспорт дружбы. Не обязательно ехать во все страны сразу. Каждая поездка ставит штампы стран, где вы побывали. Соберите все пять, и школа выдаст сертификат «Код дружбы» и скидку на следующую поездку.",
+   "en": "Friendship passport. You don’t have to visit every country at once. Each trip stamps the countries you visited. Collect all five and the School gives you a “Friendship Code” certificate and a discount on your next trip."
+  },
+  "market": [
+   {
+    "name": "Orexca · Budget Central Asia Group Tour",
+    "url": "https://www.orexca.com/central-asia/tours/central-asia-group-tour.htm",
+    "days": 14,
+    "countries": 4,
+    "price": "$3 890",
+    "stay": {
+     "ru": "отели 3–4★",
+     "en": "3–4★ hotels"
+    }
+   },
+   {
+    "name": "Advantour · Central Asia Solo Group Tour",
+    "url": "https://advantour.com/central-asia/tours/solo-group-travel-package.htm",
+    "days": 14,
+    "countries": 5,
+    "price": "$4 290",
+    "stay": {
+     "ru": "отели, одноместный номер",
+     "en": "hotels, single room"
+    }
+   },
+   {
+    "name": "G Adventures · The Five Stans of the Silk Road",
+    "url": "https://www.gadventures.com/trips/the-five-stans-of-the-silk-road/AYBA/",
+    "days": 26,
+    "countries": 5,
+    "price": {
+     "ru": "от $5 579",
+     "en": "from $5,579"
+    },
+    "stay": {
+     "ru": "отели, юрты, гостевые дома",
+     "en": "hotels, yurts, homestays"
+    }
+   }
+  ],
+  "insights": [
+   {
+    "ru": "Коммерческие туры по региону идут 14–26 дней и стоят $3 900–5 600, то есть $215–310 в день. Основная цена в отелях, частных трансферах и персональных гидах.",
+    "en": "Commercial tours of the region run 14–26 days and cost $3,900–5,600, or $215–310 a day. Most of the price is hotels, private transfers and personal guides."
+   },
+   {
+    "ru": "Студенческие программы (например, «Студтуризм») держат цену за счёт общежитий вузов-партнёров, коротких поездок и групп. Вузы-партнёры есть в Узбекистане, Казахстане, Кыргызстане и Армении.",
+    "en": "Student programmes (for example, Russia’s Studturizm) keep prices low with partner-university dorms, short trips and groups. Partner universities exist in Uzbekistan, Kazakhstan, Kyrgyzstan and Armenia."
+   },
+   {
+    "ru": "Поэтому у нас хостелы и общежития, гиды-студенты из принимающих вузов, автобусы и поезда вместо частных машин и всего два перелёта в полном маршруте. Получается $37–105 в день.",
+    "en": "So we use hostels and dorms, student guides from host universities, buses and trains instead of private cars, and only two flights on the full route. That comes to $37–105 a day."
+   }
+  ],
+  "sources": [
+   [
+    "Orexca",
+    "https://www.orexca.com/central-asia/tours/central-asia-group-tour.htm"
+   ],
+   [
+    "G Adventures",
+    "https://www.gadventures.com/trips/the-five-stans-of-the-silk-road/AYBA/"
+   ],
+   [
+    "Advantour",
+    "https://advantour.com/central-asia/tours/solo-group-travel-package.htm"
+   ],
+   [
+    "TourDom: Студтуризм 2026",
+    "https://www.tourdom.ru/news/chernyshenko-287-rossiyskikh-vuzov-primut-uchastnikov-programmy-studturizm.html"
+   ],
+   [
+    "Hostelz: Uzbekistan budget",
+    "https://www.hostelz.com/en/backpacker-budget/uzbekistan"
+   ],
+   [
+    "FareCompare: Yerevan–Almaty",
+    "https://www.farecompare.com/flights/Yerevan-EVN/Almaty-ALA/market.html"
+   ],
+   [
+    "Kun.uz: Afrosiyob",
+    "https://kun.uz/en/news/2024/04/26/afrosiyob-high-speed-train-ticket-prices-to-increase-by-up-to-40"
+   ]
   ]
  }
 }

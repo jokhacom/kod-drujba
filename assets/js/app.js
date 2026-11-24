@@ -5,9 +5,9 @@
   const I18N = {
     ru: {
       skip: 'К маршруту', brand: 'Код дружбы',
-      'nav.map': 'Карта', 'nav.route': 'Программа', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
-      'hero.eyebrow': 'Международная школа Студтуризма', 'hero.title': 'Код дружбы', 'hero.sub': '5 стран, 9 дней, одна дружба',
-      'hero.cta': 'Смотреть маршрут', 'hero.credit': 'Фото: озеро Кольсай',
+      'nav.packages': 'Пакеты', 'nav.map': 'Карта', 'nav.route': 'Страны', 'nav.gallery': 'Галерея', 'nav.ar': 'AR', 'nav.tips': 'Полезно', 'nav.team': 'Команда',
+      'hero.eyebrow': 'Международная школа Студтуризма', 'hero.title': 'Код дружбы', 'hero.sub': '5 стран, 3 студенческих пакета, одна дружба',
+      'hero.cta': 'Выбрать поездку', 'hero.credit': 'Фото: озеро Кольсай',
       'map.kicker': 'Интерактивная карта', 'map.title': 'Ереван → Алматы → Бишкек → Душанбе → Самарканд',
       'map.lead': 'Нажмите на точку, чтобы увидеть фото, время и описание. Фильтр показывает одну страну.',
       'map.all': 'Весь маршрут', 'map.toProgram': 'Открыть в программе →', 'map.extra': 'Дополнительный тур',
@@ -21,6 +21,11 @@
       'ar.lead': 'Покрутите макет пальцем или мышью. На телефоне нажмите «Открыть в AR», на компьютере отсканируйте QR-код.',
       'ar.note': 'Это упрощённые стилизованные макеты. Детальные модели можно заменить в папке assets/models без правки кода.',
       'ar.qr': 'Наведите камеру телефона, чтобы открыть в AR', 'ar.loading': 'Загружаем 3D…', 'ar.unsupported': 'AR на этом устройстве недоступен, но макет можно покрутить',
+      'ar.inappIos': 'Встроенный браузер этого приложения не умеет открывать AR. Нажмите «⋯» или значок компаса и выберите «Открыть в Safari», либо скопируйте ссылку и вставьте её в Safari.',
+      'ar.inappAndroid': 'Встроенный браузер этого приложения не умеет открывать AR. Откройте страницу в Chrome: кнопкой ниже или через меню «⋮ → Открыть в браузере».',
+      'ar.noSupport': 'Этот браузер не поддерживает AR. Откройте ссылку в Chrome на Android или в Safari на iPhone. На Android также нужен «Google Play Services для AR».',
+      'ar.wait': 'Загружаем 3D, нажмите ещё раз через секунду.',
+      'ar.openChrome': 'Открыть в Chrome', 'ar.copy': 'Скопировать ссылку', 'ar.copied': 'Ссылка скопирована ✓',
       'tips.kicker': 'Перед поездкой', 'tips.title': 'Полезно знать',
       'tips.dress.t': 'Дресс-код', 'tips.dress.d': 'В мечетях и мавзолеях плечи и колени должны быть закрыты. Девушкам пригодится лёгкий платок.',
       'tips.shoes.t': 'Удобная обувь', 'tips.shoes.d': 'Много ходьбы по городу, каньонам и горным тропам. Возьмите кроссовки, головной убор и воду.',
@@ -32,16 +37,20 @@
       photo: 'Фото', close: 'Закрыть',
       'hero.intro': 'Смотреть интро', 'intro.play': 'Начать путешествие', 'intro.hint': 'Со звуком. Можно пропустить.', 'intro.skip': 'Пропустить', 'intro.sound': 'Включить звук', 'intro.mute': 'Выключить звук', 'intro.together': 'Пять стран вместе',
       more: 'Подробнее о туре', dayN: 'День', days2: 'дня', days1: 'день',
-      'stats.countries': 'стран', 'stats.days': 'дней', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
+      'stats.countries': 'стран', 'stats.days': 'дней на все пять стран', 'stats.packages': 'пакета для студентов',
+      'offers.kicker': 'Для студентов', 'offers.title': 'Три формата одного маршрута', 'offers.lead': 'От выходных в Самарканде до всех пяти стран за неделю. Хостелы и общежития, гиды-студенты, поезда и автобусы.',
+      'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Из чего складывается цена, $', 'offers.total': 'Итого', 'offers.perDay': 'в день',
+      'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
+      'prog.show': 'Показать программу', 'prog.hide': 'Скрыть программу', 'prog.points': 'точек', 'gal.more': 'Показать все фото', 'why.more': 'Почему маршрут идёт именно так', 'stats.stops': 'точек на карте', 'stats.one': 'дружба',
       'pkg.kicker': 'Тур-пакет', 'pkg.program': 'Программа по дням', 'pkg.how': 'Как добираемся', 'pkg.meals': 'Питание по программе', 'pkg.in': 'В пакет входит', 'pkg.out': 'Оплачивается отдельно', 'pkg.bring': 'Что взять с собой', 'pkg.book': 'Забронировать', 'pkg.site': 'Сайт t2t.asia', 'pkg.terms': 'Состав и стоимость пакета уточняет команда проекта.', 'pkg.close': 'Закрыть', 'pkg.symbol': 'Национальный символ',
       start: 'Старт', finish: 'Финиш', transfer: 'Переезд', 'art.soon': 'Фото скоро',
       'sound.on': 'Звук включён', 'sound.off': 'Звук выключен'
     },
     en: {
       skip: 'Skip to route', brand: 'Friendship Code',
-      'nav.map': 'Map', 'nav.route': 'Itinerary', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
-      'hero.eyebrow': 'International Student Tourism School', 'hero.title': 'Friendship Code', 'hero.sub': '5 countries, 9 days, one friendship',
-      'hero.cta': 'See the route', 'hero.credit': 'Photo: Lake Kolsai',
+      'nav.packages': 'Packages', 'nav.map': 'Map', 'nav.route': 'Countries', 'nav.gallery': 'Gallery', 'nav.ar': 'AR', 'nav.tips': 'Tips', 'nav.team': 'Team',
+      'hero.eyebrow': 'International Student Tourism School', 'hero.title': 'Friendship Code', 'hero.sub': '5 countries, 3 student packages, one friendship',
+      'hero.cta': 'Pick a trip', 'hero.credit': 'Photo: Lake Kolsai',
       'map.kicker': 'Interactive map', 'map.title': 'Yerevan → Almaty → Bishkek → Dushanbe → Samarkand',
       'map.lead': 'Tap a point to see a photo, time and description. Use the filter to focus on one country.',
       'map.all': 'Whole route', 'map.toProgram': 'Open in itinerary →', 'map.extra': 'Optional trip',
@@ -55,6 +64,11 @@
       'ar.lead': 'Spin the model with a finger or mouse. On a phone tap “View in AR”, on a computer scan the QR code.',
       'ar.note': 'These are simplified stylised models. Detailed ones can be dropped into assets/models without code changes.',
       'ar.qr': 'Point your phone camera here to open in AR', 'ar.loading': 'Loading 3D…', 'ar.unsupported': 'AR isn’t available on this device, but you can still spin the model',
+      'ar.inappIos': 'This app’s built-in browser can’t open AR. Tap “⋯” or the compass icon and choose “Open in Safari”, or copy the link into Safari.',
+      'ar.inappAndroid': 'This app’s built-in browser can’t open AR. Open the page in Chrome with the button below or via “⋮ → Open in browser”.',
+      'ar.noSupport': 'This browser doesn’t support AR. Open the link in Chrome on Android or Safari on iPhone. Android also needs “Google Play Services for AR”.',
+      'ar.wait': 'Loading 3D, tap again in a second.',
+      'ar.openChrome': 'Open in Chrome', 'ar.copy': 'Copy link', 'ar.copied': 'Link copied ✓',
       'tips.kicker': 'Before you go', 'tips.title': 'Good to know',
       'tips.dress.t': 'Dress code', 'tips.dress.d': 'Shoulders and knees must be covered in mosques and mausoleums. A light scarf is handy for women.',
       'tips.shoes.t': 'Comfortable shoes', 'tips.shoes.d': 'Lots of walking in cities, canyons and on mountain trails. Bring trainers, a hat and water.',
@@ -66,7 +80,11 @@
       photo: 'Photo', close: 'Close',
       'hero.intro': 'Watch the intro', 'intro.play': 'Start the journey', 'intro.hint': 'With sound. You can skip it.', 'intro.skip': 'Skip', 'intro.sound': 'Turn sound on', 'intro.mute': 'Mute', 'intro.together': 'Five countries together',
       more: 'Tour details', dayN: 'Day', days2: 'days', days1: 'day',
-      'stats.countries': 'countries', 'stats.days': 'days', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
+      'stats.countries': 'countries', 'stats.days': 'days for all five countries', 'stats.packages': 'student packages',
+      'offers.kicker': 'For students', 'offers.title': 'Three formats of one route', 'offers.lead': 'From a weekend in Samarkand to all five countries in a week. Hostels and dorms, student guides, trains and buses.',
+      'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'What the price is made of, $', 'offers.total': 'Total', 'offers.perDay': 'a day',
+      'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
+      'prog.show': 'Show the programme', 'prog.hide': 'Hide the programme', 'prog.points': 'stops', 'gal.more': 'Show all photos', 'why.more': 'Why the route runs this way', 'stats.stops': 'stops on the map', 'stats.one': 'friendship',
       'pkg.kicker': 'Tour package', 'pkg.program': 'Day-by-day programme', 'pkg.how': 'Getting there', 'pkg.meals': 'Meals on the programme', 'pkg.in': 'Included', 'pkg.out': 'Paid separately', 'pkg.bring': 'What to bring', 'pkg.book': 'Book', 'pkg.site': 't2t.asia', 'pkg.terms': 'Package contents and price are confirmed by the project team.', 'pkg.close': 'Close', 'pkg.symbol': 'National symbol',
       start: 'Start', finish: 'Finish', transfer: 'Transfer', 'art.soon': 'Photo coming soon',
       'sound.on': 'Sound on', 'sound.off': 'Sound off'
@@ -167,7 +185,7 @@
   }
   function renderStats() {
     const stops = DATA.countries.reduce((n, c) => n + c.days.reduce((m, d) => m + d.points.filter((p) => p.coords).length, 0), 0);
-    const items = [[5, t('stats.countries')], [9, t('stats.days')], [stops, t('stats.stops')], [1, t('stats.one')]];
+    const items = [[5, t('stats.countries')], [DATA.offers.items.length, t('stats.packages')], [Math.max(...DATA.offers.items.map((o) => o.days)), t('stats.days')], [stops, t('stats.stops')]];
     $('#stats').innerHTML = items.map(([v, l], i) => `<div class="stat reveal" style="--c:${DATA.countries[i % 5].palette[0]}"><b data-count="${v}">${v}</b><span>${esc(l)}</span></div>`).join('');
   }
   function renderBands() {
@@ -176,7 +194,7 @@
   }
   function renderWhy() {
     const w = DATA.routeWhy;
-    $('#routeWhy').innerHTML = `<h3>${esc(L(w.title))}</h3><ol>${w.items.map((x, i) => `<li style="--c:${DATA.countries[i % 5].palette[0]}">${esc(L(x))}</li>`).join('')}</ol>`;
+    $('#routeWhy').innerHTML = `<details><summary>${esc(t('why.more'))}</summary><h3>${esc(L(w.title))}</h3><ol>${w.items.map((x, i) => `<li style="--c:${DATA.countries[i % 5].palette[0]}">${esc(L(x))}</li>`).join('')}</ol></details>`;
   }
   function renderCountryNav() {
     $('#countryNav').innerHTML = DATA.countries.map((c) =>
@@ -222,6 +240,15 @@
     }).join('');
     return `<p class="day-sub"><b>${esc(L(day.title))}.</b> ${esc(L(day.subtitle))}${c.noTiming ? ` · ${esc(t('noTiming'))}` : ''}</p><ol class="timeline">${items}</ol>`;
   }
+  const progOpen = {};
+  function toggleProg(cid, open) {
+    const box = $(`#prog-${cid}`), btn = $(`[data-prog="${cid}"]`); if (!box) return;
+    open = open ?? box.hidden;
+    progOpen[cid] = open; box.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    $('.pt-lbl', btn).textContent = t(open ? 'prog.hide' : 'prog.show');
+    if (open) observeReveal();
+  }
   const modeIcon = (m) => m === 'plane' ? '✈' : m === 'bus' ? '🚐' : '🚆';
   function renderCountries() {
     computeOffsets();
@@ -256,10 +283,15 @@
             </div>
             <div class="country-cover" data-tilt>${ph ? `<img src="${ph.sm}" alt="${esc(ph.caption)}" loading="lazy" decoding="async">` : art(c, L(c.city))}</div>
           </header>
+          <button class="prog-toggle" type="button" data-prog="${c.id}" aria-expanded="${!!progOpen[c.id]}" aria-controls="prog-${c.id}">
+            <span class="pt-lbl">${esc(t(progOpen[c.id] ? 'prog.hide' : 'prog.show'))}</span>
+            <span class="pt-meta">${c.days.length} ${esc(c.days.length > 1 ? t('days2') : t('days1'))} · ${c.days.reduce((n, d) => n + d.points.length, 0)} ${esc(t('prog.points'))}</span><span class="pt-ico" aria-hidden="true">▾</span></button>
+          <div class="prog" id="prog-${c.id}" ${progOpen[c.id] ? '' : 'hidden'}>
           ${tabs}
           <div class="day-panel" id="panel-${c.id}" role="tabpanel">${renderDay(c, di)}</div>
           <p class="country-note">${esc(L(c.note))}</p>
           ${extra}
+          </div>
         </div>
       </article>`;
     }).join('');
@@ -319,20 +351,104 @@
           <a class="btn btn-line" href="${esc(DATA.contacts.site)}" target="_blank" rel="noopener">${esc(t('pkg.site'))}</a>
         </div>
       </div>`;
+    showSheet(`#tour-${cid}`, push, DATA.countries.indexOf(c));
+  }
+  function showSheet(hash, push, note) {
     const sh = $('#sheet');
-    sheetReturn = document.activeElement;
+    if (sh.hidden) sheetReturn = document.activeElement;
     sh.hidden = false; document.documentElement.classList.add('sheet-lock');
     requestAnimationFrame(() => sh.classList.add('open'));
     $('#sheetPanel').scrollTop = 0; $('#sheetPanel').focus({ preventScroll: true });
-    if (push && location.hash !== `#tour-${cid}`) history.pushState(null, '', `#tour-${cid}`);
-    if (window.KD_SOUND.enabled) window.KD_SOUND.ting(DATA.countries.indexOf(c), 0, 0.15);
+    if (push && location.hash !== hash) history.pushState(null, '', hash);
+    if (window.KD_SOUND.enabled) window.KD_SOUND.ting(note, 0, 0.15);
+  }
+
+  /* ---------- Студенческие пакеты ---------- */
+  const nCountries = (n) => lang === 'en' ? (n === 1 ? 'country' : 'countries')
+    : (n % 10 === 1 && n % 100 !== 11 ? 'страна' : [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100) ? 'страны' : 'стран');
+  const offerPal = (o) => o.countries.map((id) => country(id).palette[0]);
+  const money = (o) => `$${o.price[0]}–${o.price[1]}`;
+  function offerFlags(o) {
+    return `<div class="of-flags">${DATA.countries.map((c) => {
+      const on = o.countries.includes(c.id);
+      return `<span class="of-flag${on ? ' on' : ''}" style="--c:${c.palette[0]}" title="${esc(L(c.name))}">${window.KD_ORN.svg(c.id, '', on ? c.palette[0] : 'currentColor')}</span>`;
+    }).join('')}</div>`;
+  }
+  function renderOffers() {
+    const O = DATA.offers;
+    $('#offers').innerHTML = O.items.map((o, i) => {
+      const pal = offerPal(o);
+      const grad = pal.length > 1 ? `linear-gradient(90deg,${pal.join(',')})` : pal[0];
+      return `<article class="offer reveal${o.best ? ' best' : ''}" style="--d:${i};--c:${pal[pal.length - 1]};--g:${grad}">
+        <p class="of-tag">${esc(L(o.tag))}</p>
+        <h3>${esc(L(o.name))}</h3>
+        <p class="of-route">${esc(L(o.route))}</p>
+        <div class="of-meta"><span><b>${o.days}</b> ${esc(t('offers.days'))} / ${o.nights} ${esc(t('offers.nights'))}</span><span><b>${o.countries.length}</b> ${nCountries(o.countries.length)}</span></div>
+        <p class="of-price"><b>${money(o)}</b><small>${esc(t('offers.per'))}</small></p>
+        ${offerFlags(o)}
+        <p class="of-pitch">${esc(L(o.pitch))}</p>
+        <ul class="of-hl">${o.highlights.map((h) => `<li>${esc(L(h))}</li>`).join('')}</ul>
+        <button class="btn btn-country of-btn" type="button" data-offer="${o.id}">${esc(t('offers.more'))} <span aria-hidden="true">→</span></button>
+      </article>`;
+    }).join('');
+    $('#passport').innerHTML = `<div class="pp-stamps">${DATA.countries.map((c, i) => `<span style="--c:${c.palette[0]};--r:${(i - 2) * 7}deg">${window.KD_ORN.svg(c.id, '', c.palette[0])}<small>${esc(L(c.name))}</small></span>`).join('')}</div><p>${esc(L(O.passport))}</p>`;
+    const perDay = O.items.map((o) => [Math.round(o.price[0] / o.days), Math.round(o.price[1] / o.days)]);
+    $('#market').innerHTML = `<summary>${esc(t('offers.market'))}</summary>
+      <div class="mk-body">
+        <ul class="mk-ins">${O.insights.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>
+        <div class="mk-table"><table>
+          <thead><tr><th>${esc(t('offers.colTour'))}</th><th>${esc(t('offers.colDays'))}</th><th>${esc(t('offers.colCountries'))}</th><th>${esc(t('offers.colPrice'))}</th><th>${esc(t('offers.colStay'))}</th></tr></thead>
+          <tbody>${O.market.map((m) => `<tr><td><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a></td><td>${m.days}</td><td>${m.countries}</td><td>${esc(L(m.price))}</td><td>${esc(L(m.stay))}</td></tr>`).join('')}
+          <tr class="ours"><td>${esc(t('offers.ours'))}</td><td>${O.items.map((o) => o.days).join(' / ')}</td><td>${O.items.map((o) => o.countries.length).join(' / ')}</td><td>$${O.items[0].price[0]}–${O.items[O.items.length - 1].price[1]}</td><td>${esc(t('offers.oursStay'))}</td></tr></tbody>
+        </table></div>
+        <p class="mk-note">${esc(L(O.note))}</p>
+        <p class="mk-src">${esc(t('offers.sources'))}: ${O.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ')}</p>
+      </div>`;
+    observeReveal();
+  }
+  function openOffer(id, push = true) {
+    const o = DATA.offers.items.find((x) => x.id === id); if (!o) return;
+    const cs = o.countries.map(country), last = cs[cs.length - 1];
+    const [p1, p2, p3] = last.palette;
+    const ph = photo(last.cover, { name: last.city });
+    const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul>`;
+    const sum = o.cost.reduce((a, [, v]) => { const [x, y] = v.split('–').map(Number); return [a[0] + x, a[1] + (y || x)]; }, [0, 0]);
+    $('#sheetPanel').innerHTML = `
+      <button class="sheet-close" type="button" data-close aria-label="${esc(t('pkg.close'))}">×</button>
+      <header class="pk-hero" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        <div class="pk-media">${ph ? `<img src="${ph.src}" alt="${esc(ph.caption)}">` : art(last, L(last.city))}</div>
+        <div class="pk-stripe" aria-hidden="true">${cs.map((x) => `<i style="background:${x.palette[0]}"></i><i style="background:${x.palette[1]}"></i>`).join('')}</div>
+        <div class="pk-head">
+          <p class="pk-kicker">${esc(t('offers.kicker2'))} · ${esc(t('brand'))}</p>
+          <span class="pk-pill">${o.days} ${esc(t('offers.days'))} / ${o.nights} ${esc(t('offers.nights'))} · ${money(o)}</span>
+          <h2 id="sheetTitle">${esc(L(o.name))}<br><small>${esc(L(o.route))}</small></h2>
+          <p class="pk-tag">${esc(L(o.pitch))}</p>
+        </div>
+      </header>
+      <div class="pk-body" style="--c:${p1};--c2:${p2};--c3:${p3}">
+        <div class="pk-stats"><div><b>${o.days}</b><span>${esc(t('days2'))}</span></div><div><b>${o.countries.length}</b><span>${nCountries(o.countries.length)}</span></div><div><b>${money(o)}</b><span>${esc(t('offers.per'))}</span></div><div><b>~$${Math.round((o.price[0] + o.price[1]) / 2 / o.days)}</b><span>${esc(t('offers.perDay'))}</span></div></div>
+        ${offerFlags(o)}
+        <h3>${esc(t('offers.plan'))}</h3>
+        <ol class="of-plan">${o.plan.map((d, i) => `<li><span>${esc(t('day'))} ${i + 1}</span><div><b>${esc(L(d.t))}</b><p>${esc(L(d.d))}</p></div></li>`).join('')}</ol>
+        <div class="pk-grid">
+          <section class="pk-in"><h3>${esc(t('pkg.in'))}</h3>${list(o.inc)}</section>
+          <section class="pk-out"><h3>${esc(t('pkg.out'))}</h3>${list(o.exc)}</section>
+          <section class="of-cost"><h3>${esc(t('offers.cost'))}</h3><table>${o.cost.map(([k, v]) => `<tr><td>${esc(L(k))}</td><td>${esc(v)}</td></tr>`).join('')}<tr class="tot"><td>${esc(t('offers.total'))}</td><td>${sum[0]}–${sum[1]}</td></tr></table></section>
+        </div>
+        <p class="pk-note">${esc(L(DATA.offers.note))} ${esc(L(DATA.offers.passport))}</p>
+        <div class="pk-cta">
+          <a class="btn btn-country" href="${esc(DATA.contacts.telegram)}" target="_blank" rel="noopener">${esc(t('offers.book'))} · Telegram</a>
+          ${o.countries.map((id) => `<button class="btn btn-line" type="button" data-pkg="${id}">${esc(L(country(id).name))}</button>`).join('')}
+        </div>
+      </div>`;
+    showSheet(`#pack-${id}`, push, DATA.offers.items.indexOf(o) * 2);
   }
   function closePackage(fromPop = false) {
     const sh = $('#sheet');
     if (sh.hidden) return;
     sh.classList.remove('open');
     setTimeout(() => { sh.hidden = true; document.documentElement.classList.remove('sheet-lock'); }, 350);
-    if (!fromPop && location.hash.startsWith('#tour-')) history.back();
+    if (!fromPop && /^#(tour|pack)-/.test(location.hash)) history.back();
     sheetReturn?.focus?.({ preventScroll: true });
   }
 
@@ -362,6 +478,11 @@
       }
       return `<div class="g-item is-ph reveal${i % 3 === 0 ? ' tall' : ''}" style="--d:${i % 6}">${art(it.c, it.name, `${L(it.c.name)} · ${t('art.soon')}`)}</div>`;
     }).join('');
+    const grid = $('#galleryGrid'); $('#galMore')?.remove();
+    if (mixed.length > 10) {
+      grid.classList.add('collapsed');
+      grid.insertAdjacentHTML('afterend', `<div class="gal-more-wrap" id="galMore"><button class="btn btn-line" type="button">${esc(t('gal.more'))} (${mixed.length})</button></div>`);
+    }
     observeReveal();
   }
 
@@ -561,30 +682,54 @@
         if ($('model-viewer', stage)) return;
         const mv = document.createElement('model-viewer');
         mv.setAttribute('src', stage.dataset.model);
+        mv.setAttribute('ios-src', stage.dataset.model.replace(/\.glb$/, '.usdz'));
         mv.setAttribute('alt', stage.dataset.name);
         mv.setAttribute('camera-controls', '');
         mv.setAttribute('auto-rotate', '');
         mv.setAttribute('ar', '');
-        mv.setAttribute('ar-modes', 'webxr scene-viewer quick-look');
+        mv.setAttribute('ar-modes', 'scene-viewer quick-look webxr');
         mv.setAttribute('ar-scale', 'auto');
         mv.setAttribute('shadow-intensity', '1');
         mv.setAttribute('exposure', '1.1');
         mv.setAttribute('camera-orbit', '30deg 65deg auto');
         mv.setAttribute('touch-action', 'pan-y');
-        mv.setAttribute('loading', 'lazy');
+        mv.setAttribute('loading', 'eager');
+        mv.setAttribute('reveal', 'auto');
         mv.addEventListener('load', () => { const l = $('.ar-loading', stage); if (l) l.remove(); });
         stage.appendChild(mv);
       });
     }).catch(() => { $$('.ar-loading').forEach((el) => { el.textContent = t('ar.unsupported'); }); });
   }
+  /* AR: кнопка вызывает activateAR() прямо в обработчике нажатия, без ожидания загрузки,
+   * иначе телефон теряет «жест пользователя» и не открывает Scene Viewer / Quick Look.
+   * Во встроенных браузерах Telegram, Instagram и т.п. AR не работает: подсказываем открыть сайт в Safari/Chrome. */
+  function inAppBrowser() {
+    const ua = navigator.userAgent;
+    if (/Telegram|TelegramBot|Instagram|FBAN|FBAV|FB_IAB|Line\/|VKClient|vkontakte|OKApp|WhatsApp|Snapchat|TikTok|musical_ly|Bytedance|YaBrowser\/.*Mobile.*WebView|; wv\)/i.test(ua)) return true;
+    if (window.TelegramWebviewProxy || window.TelegramWebview) return true;
+    // iOS WebView: нет "Safari" в UA, но есть AppleWebKit (Chrome/Firefox на iOS называются CriOS/FxiOS и поддерживают AR)
+    if (/iPhone|iPad|iPod/.test(ua) && /AppleWebKit/.test(ua) && !/Safari\//.test(ua) && !/CriOS|FxiOS|EdgiOS/.test(ua)) return true;
+    return false;
+  }
+  const IS_IOS = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent));
+  function arHint(id, kind) {
+    const card = $(`#ar-${id}`); if (!card) return;
+    let box = $('.ar-hint', card);
+    if (!box) { box = document.createElement('div'); box.className = 'ar-hint'; $('.ar-actions', card).after(box); }
+    const url = pageUrl(`#ar-${id}`);
+    const android = /Android/i.test(navigator.userAgent);
+    const chrome = android ? `<a class="btn btn-gold" href="intent://${esc(url.replace(/^https?:\/\//, ''))}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(url)};end">${esc(t('ar.openChrome'))}</a>` : '';
+    box.innerHTML = `<p>${esc(t(kind === 'inapp' ? (IS_IOS ? 'ar.inappIos' : 'ar.inappAndroid') : kind === 'wait' ? 'ar.wait' : 'ar.noSupport'))}</p>
+      <div class="ar-hint-actions">${kind === 'wait' ? '' : chrome}<button class="btn btn-ghost" type="button" data-copy="${esc(url)}">${esc(t('ar.copy'))}</button></div>`;
+  }
   function activateAR(id) {
     const mv = $(`#ar-${id} model-viewer`);
-    if (!mv) { mountModels(); return; }
-    const go = () => {
-      if (mv.canActivateAR) mv.activateAR();
-      else { const btn = $(`[data-ar="${id}"]`); btn.textContent = t('ar.unsupported'); btn.disabled = true; }
-    };
-    if (mv.loaded) go(); else mv.addEventListener('load', go, { once: true });
+    if (inAppBrowser()) { arHint(id, 'inapp'); return; }
+    if (!mv) { mountModels(); arHint(id, 'wait'); return; }
+    if (mv.canActivateAR) { mv.activateAR(); return; }
+    // iOS Safari без поддержки rel="ar" (старые версии) — открываем USDZ напрямую, Quick Look всё равно его покажет
+    if (IS_IOS && mv.getAttribute('ios-src')) { location.href = mv.getAttribute('ios-src'); return; }
+    arHint(id, 'nosupport');
   }
 
   /* ---------- Reveal & lazy sections ---------- */
@@ -623,6 +768,7 @@
       if (op) {
         e.preventDefault();
         const [cid, di, pi] = op.dataset.open.split('|');
+        toggleProg(cid, true);
         if ((activeDay[cid] || 0) !== +di) selectDay(cid, +di);
         mapState.map?.closePopup();
         const item = $(`#p-${cid}-${di}-${pi}`);
@@ -645,6 +791,12 @@
       }
       const gal = e.target.closest('[data-gal]');
       if (gal) { openLightbox(galleryList, +gal.dataset.gal); return; }
+      const pt = e.target.closest('[data-prog]');
+      if (pt) { toggleProg(pt.dataset.prog); return; }
+      const of = e.target.closest('[data-offer]');
+      if (of) { openOffer(of.dataset.offer); return; }
+      const gm = e.target.closest('#galMore');
+      if (gm) { $('#galleryGrid').classList.remove('collapsed'); gm.remove(); return; }
       const pk = e.target.closest('[data-pkg]');
       if (pk) { openPackage(pk.dataset.pkg); return; }
       if (e.target.closest('#sheet [data-close]')) { closePackage(); return; }
@@ -652,6 +804,8 @@
       if (e.target.closest('#soundBtn')) { const S = window.KD_SOUND; const on = S.enabled && !S.blocked; S.setEnabled(!on); if (!on) { S.unlock(); S.ting(2); } return; }
       const ar = e.target.closest('[data-ar]');
       if (ar) { activateAR(ar.dataset.ar); return; }
+      const cp = e.target.closest('[data-copy]');
+      if (cp) { navigator.clipboard?.writeText(cp.dataset.copy).then(() => { cp.textContent = t('ar.copied'); }, () => { prompt('', cp.dataset.copy); }); return; }
       const lb2 = e.target.closest('.lang button');
       if (lb2) { setLang(lb2.dataset.lang); return; }
       if (e.target.closest('.nav a')) closeMenu();
@@ -664,8 +818,8 @@
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#sheet').hidden) closePackage(); });
     addEventListener('popstate', () => {
-      const m = location.hash.match(/^#tour-(\w+)/);
-      if (m) openPackage(m[1], false); else closePackage(true);
+      const m = location.hash.match(/^#tour-(\w+)/), o = location.hash.match(/^#pack-(\w+)/);
+      if (m) openPackage(m[1], false); else if (o) openOffer(o[1], false); else closePackage(true);
     });
     document.addEventListener('kd-sound', syncSoundBtn);
     const bar = $('#topbar');
@@ -683,7 +837,7 @@
   }
   function renderAll() {
     applyStatic();
-    renderHero(); renderStats(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     $$('.reveal').forEach((el) => el.classList.add('in'));
     syncSoundBtn(); window.KD_INTRO.relabel();
@@ -703,12 +857,14 @@
     }
     DATA.countries.forEach((c) => { COLORS[c.id] = c.palette[0]; });
     applyStatic();
-    renderHero(); renderStats(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
+    renderHero(); renderStats(); renderOffers(); renderBands(); renderWhy(); renderCountryNav(); renderCountries(); renderGallery(); renderTeam(); renderAR();
     $('#mapNote').textContent = L(DATA.meta.coordsNote);
     observeReveal(); spyCountries(); initEffects(); syncSoundBtn();
     window.KD_INTRO.init(DATA, L, t, startHero);
     const tm = location.hash.match(/^#tour-(\w+)/);
     if (tm) setTimeout(() => openPackage(tm[1], false), 200);
+    const om = location.hash.match(/^#pack-(\w+)/);
+    if (om) setTimeout(() => openOffer(om[1], false), 200);
     lazySection($('#map'), initMap, '400px');
     lazySection($('#ar'), () => { arVisible = true; mountModels(); }, '500px');
     if (location.hash.startsWith('#ar-')) { arVisible = true; mountModels(); setTimeout(() => $(location.hash)?.scrollIntoView(), 300); }
