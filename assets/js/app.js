@@ -39,7 +39,7 @@
       more: 'Подробнее о туре', dayN: 'День', days2: 'дня', days1: 'день',
       'stats.countries': 'стран', 'stats.days': 'дней на все пять стран', 'stats.packages': 'пакета для студентов',
       'offers.kicker': 'Для студентов', 'offers.title': 'Три формата одного маршрута', 'offers.lead': 'От выходных в Самарканде до всех пяти стран за неделю. Хостелы и общежития, гиды-студенты, поезда и автобусы.',
-      'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Из чего складывается цена, $', 'offers.total': 'Итого', 'offers.perDay': 'в день',
+      'offers.days': 'дн.', 'offers.nights': 'ноч.', 'offers.per': 'на человека', 'offers.more': 'Программа и цена', 'offers.live': 'Едем', 'offers.plan': 'Программа по дням', 'offers.cost': 'Смета на 1 человека', 'tour.moves': 'Как переезжаем между странами', 'tour.important': 'Важно знать', 'offers.total': 'Итого', 'offers.perDay': 'в день',
       'offers.market': 'Как мы считали и сравнение с другими турами', 'offers.colTour': 'Тур', 'offers.colDays': 'Дней', 'offers.colCountries': 'Стран', 'offers.colPrice': 'Цена', 'offers.colStay': 'Жильё', 'offers.ours': 'Код дружбы (наши пакеты)', 'offers.oursStay': 'хостелы, общежития вузов', 'offers.sources': 'Источники', 'offers.book': 'Хочу в эту поездку', 'offers.kicker2': 'Студенческий пакет',
       'tour.route': 'Маршрут', 'tour.of5': 'из 5 стран', 'tour.perDay': 'Цена за день поездки', 'tour.market': 'Обычный тур', 'tour.save': 'Дешевле обычного тура на', 'tour.loy1': 'Эта поездка даст', 'tour.loy2': 'в Паспорт дружбы и', 'tour.stamp1': 'штамп', 'tour.stamp2': 'штампа', 'tour.stamp5': 'штампов', 'tour.keeper': 'Сразу статус «Хранитель кода»: −20% на все следующие поездки.', 'tour.loyMore': 'Как работает паспорт',
       'loy.kicker': 'Программа лояльности', 'loy.title': 'Паспорт дружбы', 'loy.s1': 'Где вы уже были с «Кодом дружбы»?', 'loy.s2': 'Монеты сверх поездок', 'loy.s3': 'Следующая поездка', 'loy.toNext': 'До уровня', 'loy.more': 'ещё', 'loy.max': 'Максимальный уровень: −20% на всё', 'loy.base': 'Цена пакета', 'loy.lvl': 'Уровень', 'loy.coins': 'Монеты', 'loy.pay': 'Вы платите', 'loy.saveTxt': 'Экономия', 'loy.back': 'вернётся', 'loy.after': 'После поездки в паспорте', 'loy.calc': 'Посчитать свою скидку',
@@ -86,7 +86,7 @@
       more: 'Tour details', dayN: 'Day', days2: 'days', days1: 'day',
       'stats.countries': 'countries', 'stats.days': 'days for all five countries', 'stats.packages': 'student packages',
       'offers.kicker': 'For students', 'offers.title': 'Three formats of one route', 'offers.lead': 'From a weekend in Samarkand to all five countries in a week. Hostels and dorms, student guides, trains and buses.',
-      'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'What the price is made of, $', 'offers.total': 'Total', 'offers.perDay': 'a day',
+      'offers.days': 'd', 'offers.nights': 'n', 'offers.per': 'per person', 'offers.more': 'Programme and price', 'offers.live': 'Visit', 'offers.plan': 'Day by day', 'offers.cost': 'Budget per person', 'tour.moves': 'How we travel between countries', 'tour.important': 'Good to know', 'offers.total': 'Total', 'offers.perDay': 'a day',
       'offers.market': 'How we priced it, compared with other tours', 'offers.colTour': 'Tour', 'offers.colDays': 'Days', 'offers.colCountries': 'Countries', 'offers.colPrice': 'Price', 'offers.colStay': 'Stay', 'offers.ours': 'Friendship Code (our packages)', 'offers.oursStay': 'hostels, university dorms', 'offers.sources': 'Sources', 'offers.book': 'I want this trip', 'offers.kicker2': 'Student package',
       'tour.route': 'Route', 'tour.of5': 'of 5 countries', 'tour.perDay': 'Price per day', 'tour.market': 'Typical tour', 'tour.save': 'Cheaper than a typical tour by', 'tour.loy1': 'This trip adds', 'tour.loy2': 'to your Friendship Passport and', 'tour.stamp1': 'stamp', 'tour.stamp2': 'stamps', 'tour.stamp5': 'stamps', 'tour.keeper': 'Instant Code Keeper status: −20% on every next trip.', 'tour.loyMore': 'How the passport works',
       'loy.kicker': 'Loyalty programme', 'loy.title': 'Friendship Passport', 'loy.s1': 'Where have you been with Friendship Code?', 'loy.s2': 'Coins beyond trips', 'loy.s3': 'Your next trip', 'loy.toNext': 'To', 'loy.more': '', 'loy.max': 'Top level: −20% on everything', 'loy.base': 'Package price', 'loy.lvl': 'Level', 'loy.coins': 'Coins', 'loy.pay': 'You pay', 'loy.saveTxt': 'You save', 'loy.back': 'back', 'loy.after': 'Passport after the trip', 'loy.calc': 'Work out your discount',
@@ -379,7 +379,9 @@
   const nCountries = (n) => lang === 'en' ? (n === 1 ? 'country' : 'countries')
     : (n % 10 === 1 && n % 100 !== 11 ? 'страна' : [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100) ? 'страны' : 'стран');
   const offerPal = (o) => o.countries.map((id) => country(id).palette[0]);
-  const money = (o) => `$${o.price[0]}–${o.price[1]}`;
+  const kzt = (n) => `${Math.round(n).toLocaleString('ru-RU').replace(/\u00a0/g, ' ')} ₸`;
+  const money = (o) => o.kzt ? kzt(o.kzt) : `$${o.price[0]}–${o.price[1]}`;
+  const usd = (o) => o.kzt ? `≈ $${o.price[0]}` : '';
   function offerFlags(o) {
     return `<div class="of-flags">${DATA.countries.map((c) => {
       const on = o.countries.includes(c.id);
@@ -396,7 +398,7 @@
         <h3>${esc(L(o.name))}</h3>
         <p class="of-route">${esc(L(o.route))}</p>
         <div class="of-meta"><span><b>${o.days}</b> ${esc(t('offers.days'))} / ${o.nights} ${esc(t('offers.nights'))}</span><span><b>${o.countries.length}</b> ${nCountries(o.countries.length)}</span></div>
-        <p class="of-price"><b>${money(o)}</b><small>${esc(t('offers.per'))}</small></p>
+        <p class="of-price"><b>${money(o)}</b><small>${esc(t('offers.per'))}${o.kzt ? ` · ${usd(o)}` : ''}</small></p>
         ${offerFlags(o)}
         <p class="of-pitch">${esc(L(o.pitch))}</p>
         <ul class="of-hl">${o.highlights.map((h) => `<li>${esc(L(h))}</li>`).join('')}</ul>
@@ -412,7 +414,7 @@
         <div class="mk-table"><table>
           <thead><tr><th>${esc(t('offers.colTour'))}</th><th>${esc(t('offers.colDays'))}</th><th>${esc(t('offers.colCountries'))}</th><th>${esc(t('offers.colPrice'))}</th><th>${esc(t('offers.colStay'))}</th></tr></thead>
           <tbody>${O.market.map((m) => `<tr><td><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a></td><td>${m.days}</td><td>${m.countries}</td><td>${esc(L(m.price))}</td><td>${esc(L(m.stay))}</td></tr>`).join('')}
-          <tr class="ours"><td>${esc(t('offers.ours'))}</td><td>${O.items.map((o) => o.days).join(' / ')}</td><td>${O.items.map((o) => o.countries.length).join(' / ')}</td><td>$${O.items[0].price[0]}–${O.items[O.items.length - 1].price[1]}</td><td>${esc(t('offers.oursStay'))}</td></tr></tbody>
+          <tr class="ours"><td>${esc(t('offers.ours'))}</td><td>${O.items.map((o) => o.days).join(' / ')}</td><td>${O.items.map((o) => o.countries.length).join(' / ')}</td><td>${O.items.map((o) => `$${o.price[0]}`).join(' / ')}</td><td>${esc(t('offers.oursStay'))}</td></tr></tbody>
         </table></div>
         <p class="mk-note">${esc(L(O.note))}</p>
         <p class="mk-src">${esc(t('offers.sources'))}: ${O.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ')}</p>
@@ -433,13 +435,19 @@
     // фото без «открыток» в начале, чтобы первым кадром было настоящее фото
     slides.sort((a, b) => (!!b.ph) - (!!a.ph));
     const list = (arr, cls) => `<ul class="${cls}">${arr.map((x, i) => `<li class="tv" style="--d:${i}">${esc(L(x))}</li>`).join('')}</ul>`;
-    const cost = o.cost.map(([k, v]) => { const [a, b] = v.split('–').map(Number); return { k: L(k), v, m: (a + (b || a)) / 2 }; });
+    const cost = o.cost.map(([k, v, nt]) => typeof v === 'number' ? { k: L(k), v: kzt(v), m: v, nt: nt ? L(nt) : '' } : (() => { const [a, b] = v.split('–').map(Number); return { k: L(k), v: '$' + v, m: (a + (b || a)) / 2, nt: '' }; })());
     const total = cost.reduce((n, x) => n + x.m, 0);
     const segCol = ['#F2A800', '#00AFCA', '#E8112D', '#2E9D46', '#0033A0', '#FEC50C', '#CE1126', '#1EB53A'];
     let acc = 0;
     const C = 2 * Math.PI * 70;
     const segs = cost.map((x, i) => { const len = x.m / total * C; const s = `<circle class="dn-seg" data-seg="${i}" r="70" cx="90" cy="90" stroke="${segCol[i % segCol.length]}" stroke-dasharray="${len - 2} ${C - len + 2}" stroke-dashoffset="${-acc}" style="--d:${i}"/>`; acc += len; return s; }).join('');
-    const sum = cost.reduce((a, x) => { const [lo, hi] = x.v.split('–').map(Number); return [a[0] + lo, a[1] + (hi || lo)]; }, [0, 0]);
+    const sumTxt = o.kzt ? kzt(total) : (() => { const r = o.cost.reduce((a, [, v]) => { const [lo, hi] = v.split('–').map(Number); return [a[0] + lo, a[1] + (hi || lo)]; }, [0, 0]); return `$${r[0]}–${r[1]}`; })();
+    // программа дня: свои строки + точки из программы страны (ref "am:0")
+    const sched = (d) => {
+      const rows = (d.s || []).map((r) => ({ tm: r.tm, x: L(r.x), h: r.h ? L(r.h) : '' }));
+      if (d.ref) { const [cid, di] = d.ref.split(':'); (country(cid).days[+di]?.points || []).forEach((pt) => rows.push({ tm: /^\d+$/.test(String(pt.time || '')) ? '' : (pt.time || ''), x: L(pt.name), h: pt.hook ? L(pt.hook) : '' })); }
+      return rows;
+    };
     const n = cs.length;
     const nodes = cs.map((c, i) => { const x = n === 1 ? 50 : 8 + i * (84 / (n - 1)); return `<div class="rt-node" style="--x:${x}%;--c:${c.palette[0]};--d:${i}"><span class="rt-flag">${flagSvg(c.id)}</span><b>${esc(L(c.city).split(' и ')[0].split(' and ')[0])}</b><small>${esc(L(c.name))}</small></div>`; }).join('');
     const wave = n === 1 ? 'M 40 50 L 960 50' : cs.map((c, i) => { const x = 80 + i * (840 / (n - 1)); return i === 0 ? `M ${x} 50` : `Q ${x - 420 / (n - 1)} ${i % 2 ? 0 : 100} ${x} 50`; }).join(' ');
@@ -453,7 +461,7 @@
           <p class="tr-kicker">${esc(t('offers.kicker2'))} · ${esc(L(o.tag))}</p>
           <h2 id="sheetTitle" class="tr-title">${[...L(o.name)].map((ch, i) => ch === ' ' ? ' ' : `<span style="--i:${i}">${esc(ch)}</span>`).join('')}</h2>
           <p class="tr-route">${cs.map((c, i) => `<span style="--i:${i};--c:${c.palette[0]}">${flagSvg(c.id)}${esc(L(c.name))}</span>`).join('<i>→</i>')}</p>
-          <div class="tr-badges"><span><b>${o.days}</b> ${esc(t('days2'))}</span><span><b>${money(o)}</b> ${esc(t('offers.per'))}</span></div>
+          <div class="tr-badges"><span><b>${o.days}</b> ${esc(t('days2'))}</span><span><b>${money(o)}</b> ${esc(t('offers.per'))}</span>${o.kzt ? `<span>${esc(usd(o))}</span>` : ''}</div>
         </div>
         ${slides.length > 1 ? `<div class="tr-dots">${slides.map((_, i) => `<i class="${i === 0 ? 'on' : ''}"></i>`).join('')}</div>` : ''}
         <div class="tr-scroll" aria-hidden="true"><span></span></div>
@@ -467,7 +475,7 @@
         </section>
 
         <section class="tr-sec tr-kpi">
-          <div class="kpi tv" style="--d:0"><svg viewBox="0 0 120 120" aria-hidden="true"><circle r="52" cx="60" cy="60" class="kpi-bg"/><circle r="52" cx="60" cy="60" class="kpi-ring" style="--p:${o.days / 7}"/></svg><b data-count="${o.days}">${o.days}</b><span>${esc(t('days2'))}</span></div>
+          <div class="kpi tv" style="--d:0"><svg viewBox="0 0 120 120" aria-hidden="true"><circle r="52" cx="60" cy="60" class="kpi-bg"/><circle r="52" cx="60" cy="60" class="kpi-ring" style="--p:${Math.min(1, o.days / 10)}"/></svg><b data-count="${o.days}">${o.days}</b><span>${esc(t('days2'))}</span></div>
           <div class="kpi tv" style="--d:1"><div class="kpi-flags">${DATA.countries.map((c, i) => `<i class="${o.countries.includes(c.id) ? 'on' : ''}" style="--i:${i}">${flagSvg(c.id)}</i>`).join('')}</div><b data-count="${n}">${n}</b><span>${esc(t('tour.of5'))}</span></div>
           <div class="kpi kpi-cmp tv" style="--d:2">
             <p>${esc(t('tour.perDay'))}</p>
@@ -481,7 +489,7 @@
           <h3 class="tr-h">${esc(t('offers.plan'))}</h3>
           <div class="dy" data-dy>
             <div class="dy-tabs" role="tablist">${o.plan.map((d, i) => `<button type="button" role="tab" class="dy-tab" data-dy-i="${i}" aria-selected="${i === 0}">${i + 1}</button>`).join('')}</div>
-            <div class="dy-track">${o.plan.map((d, i) => `<article class="dy-card${i === 0 ? ' on' : ''}" data-dy-card="${i}"><span class="dy-num">${String(i + 1).padStart(2, '0')}</span><p class="dy-lbl">${esc(t('day'))} ${i + 1} / ${o.plan.length}</p><h4>${esc(L(d.t))}</h4><p>${esc(L(d.d))}</p></article>`).join('')}</div>
+            <div class="dy-track">${o.plan.map((d, i) => `<article class="dy-card${i === 0 ? ' on' : ''}" data-dy-card="${i}"><span class="dy-num">${String(i + 1).padStart(2, '0')}</span><p class="dy-lbl">${esc(t('day'))} ${i + 1} / ${o.plan.length}</p><h4>${d.c ? `<i class="dy-fl">${flagSvg(d.c)}</i>` : ''}${esc(L(d.t))}</h4><p>${esc(L(d.d))}</p>${(() => { const rows = sched(d); return rows.length ? `<ol class="dy-sch">${rows.map((r) => `<li><time>${esc(r.tm)}</time><div>${r.h ? `<b>«${esc(r.h)}»</b>` : ''}<span>${esc(r.x)}</span></div></li>`).join('')}</ol>` : ''; })()}${d.note ? `<p class="dy-note">${esc(L(d.note))}</p>` : ''}</article>`).join('')}</div>
             <div class="dy-nav"><button type="button" data-dy-step="-1" aria-label="←">←</button><div class="dy-bar"><i style="--p:${1 / o.plan.length}"></i></div><button type="button" data-dy-step="1" aria-label="→">→</button></div>
           </div>
         </section>
@@ -490,10 +498,16 @@
           <h3 class="tr-h">${esc(t('offers.cost'))}</h3>
           <div class="dn">
             <div class="dn-chart"><svg viewBox="0 0 180 180" aria-hidden="true"><circle r="70" cx="90" cy="90" class="dn-bg"/>${segs}</svg>
-              <div class="dn-mid"><small data-dn-lbl>${esc(t('offers.total'))}</small><b data-dn-val data-total="$${sum[0]}–${sum[1]}">$${sum[0]}–${sum[1]}</b></div></div>
-            <ul class="dn-legend">${cost.map((x, i) => `<li><button type="button" data-seg-btn="${i}" style="--sc:${segCol[i % segCol.length]}"><i></i><span>${esc(x.k)}</span><b>$${esc(x.v)}</b></button></li>`).join('')}</ul>
+              <div class="dn-mid"><small data-dn-lbl>${esc(t('offers.total'))}</small><b data-dn-val data-total="${esc(sumTxt)}">${esc(sumTxt)}</b></div></div>
+            <ul class="dn-legend">${cost.map((x, i) => `<li><button type="button" data-seg-btn="${i}" style="--sc:${segCol[i % segCol.length]}"><i></i><span>${esc(x.k)}</span><b>${esc(x.v)}</b>${x.nt ? `<em>${esc(x.nt)}</em>` : ''}</button></li>`).join('')}</ul>
           </div>
         </section>
+
+        ${o.transfers ? `<section class="tr-sec tv">
+          <h3 class="tr-h">${esc(t('tour.moves'))}</h3>
+          <div class="mv">${o.transfers.map((m, i) => `<article class="mv-i tv" style="--d:${i}"><h4>${esc(L(m.st))}</h4><p class="mv-how">${esc(L(m.how))}</p><p class="mv-tm">⏱ ${esc(L(m.tm))}</p><p class="mv-note">${esc(L(m.note))}</p></article>`).join('')}</div>
+        </section>` : ''}
+        ${o.notes ? `<section class="tr-sec tr-notes tv"><h3 class="tr-h">${esc(t('tour.important'))}</h3><ul>${o.notes.map((x) => `<li>${esc(L(x))}</li>`).join('')}</ul></section>` : ''}
 
         <section class="tr-sec tr-io">
           <div class="io io-in tv"><h3 class="tr-h">${esc(t('pkg.in'))}</h3>${list(o.inc, 'io-list')}</div>

@@ -1021,3 +1021,36 @@ a.arch:hover { border-color: #fff; }
 .faq-more { max-width: 860px; margin: 22px auto 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 16px; text-align: center; color: var(--muted); }
 .faq-more p { margin: 0; flex-basis: 100%; }
 @media (max-width: 480px) { .fq summary { padding: 14px; gap: 10px; } .fq-q { font-size: 15px; } .fq-a { padding: 0 14px 16px 14px; } }
+
+/* ---------- Пакеты по документу команды: расписание дня, смета ₸, переезды ---------- */
+.dy-track { display: grid; min-height: 0 !important; overflow-x: clip; }
+.dy-card { position: relative; inset: auto; grid-area: 1 / 1; }
+.dy-card h4 { display: flex; align-items: center; gap: 12px; }
+.dy-fl { flex: none; display: inline-flex; width: 36px; height: 24px; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px rgba(255,255,255,.25); }
+.dy-fl svg { width: 100%; height: 100%; }
+.dy-sch { position: relative; list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 2px; }
+.dy-sch::before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(var(--c), var(--c2, #FEC50C)); opacity: .45; border-radius: 2px; }
+.dy-sch li { position: relative; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 4px 14px; padding: 7px 0 7px 26px; }
+.dy-sch li::before { content: ""; position: absolute; left: 2px; top: 13px; width: 12px; height: 12px; border-radius: 50%; background: var(--night); border: 2px solid var(--c2, #FEC50C); }
+.dy-card.on .dy-sch li { animation: schIn .45s both; }
+.dy-card.on .dy-sch li:nth-child(n+2) { animation-delay: .04s; } .dy-card.on .dy-sch li:nth-child(n+4) { animation-delay: .1s; } .dy-card.on .dy-sch li:nth-child(n+7) { animation-delay: .16s; } .dy-card.on .dy-sch li:nth-child(n+10) { animation-delay: .22s; }
+@keyframes schIn { from { opacity: 0; transform: translateX(12px); } }
+.dy-sch time { font: 700 .82rem/1.5 var(--head); color: var(--c2, #FEC50C); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.dy-sch div { min-width: 0; }
+.dy-sch b { display: block; font: 700 .98rem/1.35 var(--head); color: #fff; }
+.dy-sch span { display: block; font-size: .9rem; line-height: 1.45; color: #AEB9D0; }
+.dy-note { margin-top: 14px !important; padding: 10px 14px; border-radius: 12px; background: rgba(254,197,12,.08); border-left: 3px solid var(--c2, #FEC50C); font-size: .9rem !important; color: #E6D9A8 !important; }
+@media (max-width: 600px) { .dy-sch li { grid-template-columns: minmax(0, 1fr); gap: 2px; } .dy-sch time { font-size: .78rem; } }
+@media (prefers-reduced-motion: reduce) { .dy-card.on .dy-sch li { animation: none; } }
+.dn-legend button { grid-template-columns: 12px minmax(0, 1fr) auto; }
+.dn-legend button em { grid-column: 2 / -1; font-style: normal; font-size: .78rem; line-height: 1.4; color: #8E9AB5; }
+.mv { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; counter-reset: mv; }
+.mv-i { position: relative; padding: 18px 18px 16px; border-radius: 18px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); min-width: 0; }
+.mv-i::before { counter-increment: mv; content: counter(mv); position: absolute; right: 14px; top: 10px; font: 900 2.2rem/1 var(--head); color: rgba(255,255,255,.08); }
+.mv-i h4 { margin: 0 0 8px; font: 800 1.05rem/1.25 var(--head); color: #fff; }
+.mv-i p { margin: 0 0 6px; font-size: .9rem; line-height: 1.45; color: #B9C3D8; }
+.mv-tm { color: var(--c2, #FEC50C) !important; font-weight: 600; }
+.mv-note { color: #8E9AB5 !important; font-size: .84rem !important; margin: 0 !important; }
+.tr-notes ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.tr-notes li { position: relative; padding: 12px 14px 12px 40px; border-radius: 14px; background: rgba(255,255,255,.04); color: #C3CDE3; line-height: 1.5; }
+.tr-notes li::before { content: "!"; position: absolute; left: 12px; top: 12px; width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; background: var(--c2, #FEC50C); color: var(--night); font: 800 .75rem/1 var(--head); }
