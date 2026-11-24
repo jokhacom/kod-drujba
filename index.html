@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Код дружбы — маршрут по 5 странам: Казахстан, Кыргызстан, Таджикистан, Узбекистан, Армения</title>
-  <meta name="description" content="Международный туристический маршрут «Код дружбы»: 5 стран, 3 студенческих пакета от 2 до 10 дней. Ереван и Севан, Алматы, Бишкек и Иссык-Куль, Душанбе и Искандеркуль, финиш в Самарканде. Карта, программа по дням, AR.">
+  <meta name="description" content="Международный туристический маршрут «Код дружбы»: 5 стран, 3 студенческих пакета от 1 до 6 дней, цены в рублях, тенге, сомах, сомони, сумах и драмах. Ереван и Севан, Алматы, Бишкек и Иссык-Куль, Душанбе и Искандеркуль, финиш в Самарканде. Карта, программа по дням, AR.">
   <meta name="keywords" content="Код дружбы, туристический маршрут, Центральная Азия, Алматы, Бишкек, Иссык-Куль, Душанбе, Искандеркуль, Самарканд, Регистан, Ереван, Севан, Студтуризм">
   <meta name="theme-color" content="#081127">
   <link rel="canonical" href="https://kod-drujba.vercel.app/">
@@ -130,9 +130,10 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="kicker" data-i18n="offers.kicker">Для студентов</p>
-          <h2 data-i18n="offers.title">Три формата одного маршрута</h2>
+          <h2 data-i18n="offers.title">Пакеты от команд маршрута</h2>
           <p class="lead" data-i18n="offers.lead">От выходных в Самарканде до всех пяти стран за неделю. Хостелы и общежития, гиды-студенты, поезда и автобусы.</p>
         </div>
+        <div class="cur-wrap reveal" data-cur-bar></div>
         <div class="offers" id="offers"></div>
         <div class="passport reveal" id="passport"></div>
         <details class="market reveal" id="market"></details>
@@ -274,6 +275,7 @@
   </main>
 
   <footer class="footer">
+    <div class="container footer-cur" data-cur-bar></div>
     <div class="container footer-inner">
       <p>© <span id="year"></span> <span data-i18n="footer.copy">«Код дружбы» · Международная школа Студтуризма</span></p>
       <p class="footer-small"><span data-i18n="footer.map">Карта</span>: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · <span data-i18n="footer.photos">Фото</span>: <span id="footerAuthor"></span></p>

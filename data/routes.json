@@ -2668,354 +2668,708 @@
  },
  "offers": {
   "note": {
-   "ru": "Предварительная смета на 1 человека при групповом студенческом формате и размещении по 2 в номере, с резервом 10%. Метод расчёта из маршрута команды «Казахстан — Кыргызстан — Узбекистан». Не включены дорога домой, страховка и личные расходы. Тарифы перелётов и поездов уточняются после выбора дат. Пересчёт в доллары примерный, 1 $ ≈ 520 ₸.",
-   "en": "Preliminary budget per person for a student group, 2 per room, with a 10% contingency. Method taken from the team’s Kazakhstan — Kyrgyzstan — Uzbekistan route. Excludes travel home, insurance and personal spending. Flight and train fares are confirmed once dates are set. Dollar figures are approximate, $1 ≈ 520 ₸."
+   "ru": "Предварительная смета на 1 человека при групповом студенческом формате и размещении по 2 в номере, с резервом 10%. Метод расчёта из маршрута команды «Казахстан — Кыргызстан — Узбекистан». Не включены дорога домой, страховка и личные расходы. Тарифы перелётов и поездов уточняются после выбора дат. Смета ведётся в тенге, другие валюты пересчитываются по текущему курсу.",
+   "en": "Preliminary budget per person for a student group, 2 per room, with a 10% contingency. Method taken from the team’s Kazakhstan — Kyrgyzstan — Uzbekistan route. Excludes travel home, insurance and personal spending. Flight and train fares are confirmed once dates are set. The budget is kept in tenge; other currencies use the current exchange rate."
   },
   "items": [
    {
-    "id": "start",
+    "id": "alma",
     "name": {
-     "ru": "Старт",
-     "en": "Start"
+     "ru": "Alma IT",
+     "en": "Alma IT"
     },
     "tag": {
-     "ru": "Первое знакомство",
-     "en": "First taste"
+     "ru": "1 день · с ВК-ботом",
+     "en": "1 day · with a VK bot"
     },
-    "days": 2,
-    "nights": 1,
-    "kzt": 67100,
+    "days": 1,
+    "nights": 0,
+    "kzt": 43920,
     "countries": [
-     "uz"
+     "kz"
     ],
     "route": {
-     "ru": "Ташкент → Самарканд",
-     "en": "Tashkent → Samarkand"
+     "ru": "МУИТ → Медеу → Шымбулак → музей Яндекса → Кок-Тобе",
+     "en": "IITU → Medeu → Shymbulak → Yandex Museum → Kok-Tobe"
     },
     "pitch": {
-     "ru": "Два дня в Самарканде по той же программе, что и финал большого маршрута: «Афросиаб», Регистан, Шахи-Зинда и базар.",
-     "en": "Two days in Samarkand on the same programme as the big route’s finale: the Afrosiyob, the Registan, Shah-i-Zinda and the bazaar."
+     "ru": "Открой Алматы. Собери свою историю. Самостоятельный день в горах и городе: ВК-бот ведёт по маршруту, даёт задания и в финале собирает вашу фотокарту Казахстана.",
+     "en": "Discover Almaty. Collect your story. A self-guided day in the mountains and the city: a VK bot leads the way, sets challenges and builds your photo map of Kazakhstan at the end."
     },
     "highlights": [
      {
-      "ru": "Скоростной поезд «Афросиаб»",
-      "en": "The Afrosiyob high-speed train"
+      "ru": "Медеу и канатная дорога на Шымбулак",
+      "en": "Medeu and the cable car to Shymbulak"
      },
      {
-      "ru": "Регистан, Гур-Эмир и «Вечный город»",
-      "en": "The Registan, Gur-Emir and the Eternal City"
+      "ru": "Музей Яндекса и МУИТ по желанию",
+      "en": "The Yandex Museum and IITU (optional)"
      },
      {
-      "ru": "Шахи-Зинда, Биби-Ханым, Сиабский базар",
-      "en": "Shah-i-Zinda, Bibi-Khanym, Siab Bazaar"
+      "ru": "Вечер на Кок-Тобе и ужин над городом",
+      "en": "An evening on Kok-Tobe and dinner above the city"
      },
      {
-      "ru": "Первый штамп в Паспорт дружбы",
-      "en": "Your first Friendship Passport stamp"
+      "ru": "Персональная фотокарта Казахстана",
+      "en": "Your personal photo map of Kazakhstan"
      }
     ],
     "plan": [
      {
-      "c": "uz",
+      "c": "kz",
       "t": {
-       "ru": "Самарканд: Регистан и Тамерлан",
-       "en": "Samarkand: the Registan and Tamerlane"
+       "ru": "Alma IT: горы, IT и Кок-Тобе",
+       "en": "Alma IT: mountains, IT and Kok-Tobe"
       },
       "d": {
-       "ru": "Утренний «Афросиаб» из Ташкента, плов, Регистан, Гур-Эмир и вечер в «Вечном городе».",
-       "en": "Morning Afrosiyob from Tashkent, plov, the Registan, Gur-Emir and an evening at the Eternal City."
+       "ru": "С 08:00 до 22:00, один или своей компанией, без гида. На каждой остановке задание бота и фото.",
+       "en": "08:00 to 22:00, alone or with friends, no guide. A bot challenge and a photo at every stop."
       },
       "s": [
        {
-        "tm": "07:30–08:00*",
+        "tm": "08:00–10:00",
         "x": {
-         "ru": "Сбор на Ташкентском вокзале, посадка на поезд",
-         "en": "Meet at Tashkent station, board the train"
+         "ru": "МУИТ: обзорная экскурсия по желанию, по предварительной записи. Вход свободный",
+         "en": "IITU: an optional tour by prior appointment. Free entry"
         },
         "h": {
-         "ru": "Старт великого пути",
-         "en": "The start of a great journey"
+         "ru": "Университет, где рождаются технологии",
+         "en": "The university where tech is born"
         }
        },
        {
-        "tm": "08:00–10:30*",
+        "tm": "10:00–10:30",
         "x": {
-         "ru": "Скоростной поезд «Афросиаб» Ташкент → Самарканд",
-         "en": "Afrosiyob high-speed train Tashkent → Samarkand"
-        },
-        "h": {
-         "ru": "Шёлковый путь на скорости 250 км/ч",
-         "en": "The Silk Road at 250 km/h"
+         "ru": "Такси из МУИТ к Медеу · 4 600 ₸",
+         "en": "Taxi from IITU to Medeu · 4 600 ₸"
         }
        },
        {
-        "tm": "10:30–12:00",
+        "tm": "10:30–11:00",
         "x": {
-         "ru": "Трансфер в отель, встреча с гидом, отдых",
-         "en": "Transfer to the hotel, meet the guide, rest"
+         "ru": "Пеший подъём к площадке Медеу",
+         "en": "Walk up to the Medeu viewpoint"
         }
        },
        {
-        "tm": "12:00–13:00",
+        "tm": "11:00–12:30",
         "x": {
-         "ru": "Обед: самаркандский плов, лепёшки, зелёный чай",
-         "en": "Lunch: Samarkand plov, bread and green tea"
+         "ru": "Медеу: прогулка, фото, задание бота, игры для компании",
+         "en": "Medeu: a walk, photos, a bot challenge, games for friends"
         },
         "h": {
-         "ru": "Плов, достойный эмира",
-         "en": "Plov fit for an emir"
+         "ru": "Лёд среди облаков",
+         "en": "Ice among the clouds"
         }
        },
        {
-        "tm": "13:30–15:30",
+        "tm": "12:30–13:30",
         "x": {
-         "ru": "Площадь Регистан: медресе Улугбека, Шердор, Тилля-Кари",
-         "en": "Registan: Ulugh Beg, Sher-Dor and Tilya-Kori madrasas"
+         "ru": "Обед в Abakate · 4 000 ₸",
+         "en": "Lunch at Abakate · 4 000 ₸"
         },
         "h": {
-         "ru": "Сердце Великого шёлкового пути",
-         "en": "The heart of the Great Silk Road"
+         "ru": "Вкус Казахстана в горах",
+         "en": "A taste of Kazakhstan in the mountains"
         }
        },
        {
-        "tm": "16:00–17:30",
+        "tm": "13:30–13:50",
         "x": {
-         "ru": "Мавзолей Гур-Эмир",
-         "en": "Gur-Emir Mausoleum"
-        },
-        "h": {
-         "ru": "Золотой купол Тамерлана",
-         "en": "Tamerlane’s golden dome"
+         "ru": "Билет и посадка на канатную дорогу · 12 000 ₸",
+         "en": "Ticket and boarding the cable car · 12 000 ₸"
         }
        },
        {
-        "tm": "17:30–18:00",
+        "tm": "13:50–14:10",
         "x": {
-         "ru": "Прогулка у реки Сиаб",
-         "en": "A walk by the Siab river"
+         "ru": "Канатная дорога Медеу → Шымбулак",
+         "en": "Cable car Medeu → Shymbulak"
         },
         "h": {
-         "ru": "Тень шелковиц у реки",
-         "en": "Mulberry shade by the river"
+         "ru": "Ближе к небу на канатке",
+         "en": "Closer to the sky by cable car"
         }
        },
        {
-        "tm": "18:00–19:00",
+        "tm": "14:10–15:10",
         "x": {
-         "ru": "Комплекс «Вечный город»",
-         "en": "The Eternal City complex"
+         "ru": "Шымбулак: горные виды, фото и задание бота",
+         "en": "Shymbulak: mountain views, photos and a bot challenge"
         },
         "h": {
-         "ru": "Город, где оживает история",
-         "en": "A city where history comes alive"
+         "ru": "Луна над Шымбулаком",
+         "en": "The moon over Shymbulak"
         }
        },
        {
-        "tm": "19:30–20:30",
+        "tm": "15:10–15:30",
         "x": {
-         "ru": "Ужин и заселение в отель",
-         "en": "Dinner and hotel check-in"
+         "ru": "Канатная дорога обратно, тот же билет",
+         "en": "Cable car back down, same ticket"
+        }
+       },
+       {
+        "tm": "15:40–16:10",
+        "x": {
+         "ru": "Такси к музею Яндекса · 4 600 ₸",
+         "en": "Taxi to the Yandex Museum · 4 600 ₸"
+        }
+       },
+       {
+        "tm": "16:10–16:40",
+        "x": {
+         "ru": "Музей Яндекса, вход свободный",
+         "en": "Yandex Museum, free entry"
         },
         "h": {
-         "ru": "Восточный вечер",
-         "en": "An Eastern evening"
+         "ru": "Музей, где живут первые компьютеры",
+         "en": "Where the first computers live"
+        }
+       },
+       {
+        "tm": "16:40–17:00",
+        "x": {
+         "ru": "Такси к канатной дороге Кок-Тобе · 1 600 ₸",
+         "en": "Taxi to the Kok-Tobe cable car · 1 600 ₸"
+        }
+       },
+       {
+        "tm": "17:00–17:15",
+        "x": {
+         "ru": "Билет и подъём на Кок-Тобе · 10 000 ₸",
+         "en": "Ticket and ride up Kok-Tobe · 10 000 ₸"
+        }
+       },
+       {
+        "tm": "17:15–20:00",
+        "x": {
+         "ru": "Кок-Тобе: задания бота, панорамы, развлечения",
+         "en": "Kok-Tobe: bot challenges, panoramas, fun"
+        },
+        "h": {
+         "ru": "Гора, которая слышит желания",
+         "en": "The mountain that hears wishes"
+        }
+       },
+       {
+        "tm": "20:00–21:00",
+        "x": {
+         "ru": "Ужин в ресторане «Абай» · 7 000 ₸",
+         "en": "Dinner at Abai restaurant · 7 000 ₸"
+        },
+        "h": {
+         "ru": "Ужин над огнями Алматы",
+         "en": "Dinner above Almaty’s lights"
+        }
+       },
+       {
+        "tm": "21:00–21:20",
+        "x": {
+         "ru": "Спуск по канатной дороге, тот же билет",
+         "en": "Cable car down, same ticket"
+        }
+       },
+       {
+        "tm": "21:20–22:00",
+        "x": {
+         "ru": "Домой на общественном транспорте · 120 ₸",
+         "en": "Home by public transport · 120 ₸"
         }
        }
-      ]
-     },
-     {
-      "c": "uz",
-      "t": {
-       "ru": "Самарканд: культурное знакомство",
-       "en": "Samarkand: culture day"
-      },
-      "d": {
-       "ru": "Спокойный день: мозаики Шахи-Зинды, Биби-Ханым, базар и мастерские.",
-       "en": "An easy day: Shah-i-Zinda’s mosaics, Bibi-Khanym, the bazaar and workshops."
-      },
-      "s": [
-       {
-        "tm": "08:00–09:00",
-        "x": {
-         "ru": "Завтрак в отеле",
-         "en": "Breakfast at the hotel"
-        }
-       },
-       {
-        "tm": "09:00–10:00",
-        "x": {
-         "ru": "Шахи-Зинда: исторический некрополь и мозаики",
-         "en": "Shah-i-Zinda: the historic necropolis and its mosaics"
-        },
-        "h": {
-         "ru": "Улица синих куполов",
-         "en": "The street of blue domes"
-        }
-       },
-       {
-        "tm": "10:20–11:20",
-        "x": {
-         "ru": "Мечеть Биби-Ханым",
-         "en": "Bibi-Khanym Mosque"
-        },
-        "h": {
-         "ru": "Мечеть любви Тамерлана",
-         "en": "Tamerlane’s mosque of love"
-        }
-       },
-       {
-        "tm": "11:20–12:15",
-        "x": {
-         "ru": "Сиабский базар: сладости, сухофрукты, специи",
-         "en": "Siab Bazaar: sweets, dried fruit, spices"
-        },
-        "h": {
-         "ru": "Базар, где пахнет Востоком",
-         "en": "A bazaar that smells of the East"
-        }
-       },
-       {
-        "tm": "12:15–13:15",
-        "x": {
-         "ru": "Обед с узбекской кухней",
-         "en": "Lunch of Uzbek cuisine"
-        }
-       },
-       {
-        "tm": "13:15–14:30",
-        "x": {
-         "ru": "Свободное время в историческом центре",
-         "en": "Free time in the historic centre"
-        }
-       },
-       {
-        "tm": "14:30–15:30",
-        "x": {
-         "ru": "Ремесленные мастерские и сувениры",
-         "en": "Craft workshops and souvenirs"
-        },
-        "h": {
-         "ru": "Город мастеров",
-         "en": "City of craftsmen"
-        }
-       },
-       {
-        "tm": "15:30–16:30",
-        "x": {
-         "ru": "Возвращение в отель, сбор вещей",
-         "en": "Back to the hotel, pack up"
-        }
-       },
-       {
-        "tm": "после 16:30",
-        "x": {
-         "ru": "Окончание программы, выезд по отдельному билету",
-         "en": "End of the programme, departure on a separate ticket"
-        },
-        "h": {
-         "ru": "До новой встречи, Самарканд",
-         "en": "Until next time, Samarkand"
-        }
-       }
-      ]
+      ],
+      "note": {
+       "ru": "Без МУИТ выезд в горы в 10:00, маршрут около 12 часов. В МУИТ записываются сами по контактам из бота.",
+       "en": "Without IITU you head to the mountains at 10:00, about 12 hours in total. You book IITU yourself using contacts in the bot."
+      }
      }
     ],
     "transfers": [
      {
       "st": {
-       "ru": "Ташкент → Самарканд",
-       "en": "Tashkent → Samarkand"
+       "ru": "По Алматы",
+       "en": "Around Almaty"
       },
       "how": {
-       "ru": "Скоростной поезд «Афросиаб» с вокзала Ташкента",
-       "en": "Afrosiyob high-speed train from Tashkent station"
+       "ru": "Такси между удалёнными точками, пешком и канатные дороги",
+       "en": "Taxis between far stops, walking and cable cars"
       },
       "tm": {
-       "ru": "2 ч 10 мин – 2 ч 30 мин, на вокзал за 30–40 минут",
-       "en": "2 h 10 min – 2 h 30 min, be at the station 30–40 minutes early"
+       "ru": "Маршрут без лишних возвратов",
+       "en": "A route with no doubling back"
       },
       "note": {
-       "ru": "Билеты покупать заранее на всех. Между прилётом и поездом нужен запас, иначе брать более поздний поезд.",
-       "en": "Buy tickets in advance for everyone. Leave a buffer after landing, or take a later train."
-      }
-     },
-     {
-      "st": {
-       "ru": "Самарканд → домой",
-       "en": "Samarkand → home"
-      },
-      "how": {
-       "ru": "Не входит в стоимость: «Афросиаб» обратно в Ташкент и дальше рейс домой",
-       "en": "Not included: Afrosiyob back to Tashkent, then a flight home"
-      },
-      "tm": {
-       "ru": "Около 2–2,5 часов до Ташкента",
-       "en": "About 2–2.5 hours to Tashkent"
-      },
-      "note": {
-       "ru": "Точка возвращения у всех разная, поэтому обратный билет считается отдельно.",
-       "en": "Everyone returns to a different place, so the ticket home is priced separately."
+       "ru": "Транспорт оплачивает участник, организованного трансфера нет.",
+       "en": "Participants pay for transport; there is no organised transfer."
       }
      }
     ],
     "notes": [
      {
-      "ru": "Время поезда взято из примерного расписания: проверьте его на выбранную дату.",
-      "en": "Train times are from a sample timetable: check them for your date."
+      "ru": "Формат самостоятельный: без экскурсовода, подсказки и рассказы о местах в ВК-боте. Нужны смартфон и русский язык.",
+      "en": "Self-guided: no tour guide, tips and stories live in the VK bot. You need a smartphone and Russian."
      },
      {
-      "ru": "Время и работа объектов подтверждаются перед поездкой.",
-      "en": "Opening hours are confirmed before the trip."
+      "ru": "Ночёвка не входит: старт и финиш в вашем общежитии или отеле.",
+      "en": "No overnight stay: start and finish at your dorm or hotel."
+     },
+     {
+      "ru": "Сезон: весна, лето, осень. Особая подготовка не нужна.",
+      "en": "Season: spring, summer, autumn. No special fitness needed."
+     },
+     {
+      "ru": "В конце квиз из пяти вопросов и персональная фотокарта, при плохой связи в течение 24 часов.",
+      "en": "At the end, a five-question quiz and your photo map, within 24 hours if the connection is poor."
      }
     ],
     "inc": [
      {
-      "ru": "Поезд «Афросиаб» Ташкент → Самарканд",
-      "en": "Afrosiyob train Tashkent → Samarkand"
+      "ru": "Маршрут и задания в ВК-боте",
+      "en": "Route and challenges in the VK bot"
      },
      {
-      "ru": "1 ночь в отеле, по 2 в номере",
-      "en": "1 night in a hotel, 2 per room"
+      "ru": "Подсказки, где поесть и сколько стоит",
+      "en": "Tips on where to eat and what it costs"
      },
      {
-      "ru": "Питание по смете, 8 000 ₸ в день",
-      "en": "Food on budget, 8,000 ₸ a day"
+      "ru": "Легенды мест: яблочный город, Кок-Тобе, снежный барс",
+      "en": "Local legends: the apple city, Kok-Tobe, the snow leopard"
      },
      {
-      "ru": "Гид, экскурсии и входные билеты",
-      "en": "Guide, tours and entrance tickets"
-     },
-     {
-      "ru": "Резерв 10% на непредвиденное",
-      "en": "10% contingency"
+      "ru": "Итоговый квиз и персональная фотокарта",
+      "en": "Final quiz and personal photo map"
      }
     ],
     "exc": [
      {
-      "ru": "Дорога до Ташкента и обратно",
-      "en": "Travel to Tashkent and back"
+      "ru": "Проживание",
+      "en": "Accommodation"
      },
      {
-      "ru": "Страховка, личные покупки, доплата за багаж",
-      "en": "Insurance, personal shopping, luggage fees"
+      "ru": "Дорога до Алматы",
+      "en": "Travel to Almaty"
      },
      {
-      "ru": "Одноместное размещение",
-      "en": "Single room"
+      "ru": "Личные расходы и сувениры",
+      "en": "Personal spending and souvenirs"
      }
     ],
     "cost": [
      [
       {
-       "ru": "Поезд Ташкент → Самарканд",
-       "en": "Train Tashkent → Samarkand"
+       "ru": "Такси между точками",
+       "en": "Taxis between stops"
       },
-      15000,
+      10800,
       {
-       "ru": "«Афросиаб», в одну сторону",
-       "en": "Afrosiyob, one way"
+       "ru": "МУИТ → Медеу 4 600 ₸, Медеу → музей Яндекса 4 600 ₸, к Кок-Тобе 1 600 ₸",
+       "en": "IITU → Medeu 4 600 ₸, Medeu → Yandex Museum 4 600 ₸, to Kok-Tobe 1 600 ₸"
       }
      ],
+     [
+      {
+       "ru": "Канатные дороги",
+       "en": "Cable cars"
+      },
+      22000,
+      {
+       "ru": "Медеу–Шымбулак 12 000 ₸, Кок-Тобе 10 000 ₸, туда и обратно",
+       "en": "Medeu–Shymbulak 12 000 ₸, Kok-Tobe 10 000 ₸, return"
+      }
+     ],
+     [
+      {
+       "ru": "Питание",
+       "en": "Food"
+      },
+      11000,
+      {
+       "ru": "обед в Abakate 4 000 ₸, ужин в «Абае» 7 000 ₸",
+       "en": "lunch at Abakate 4 000 ₸, dinner at Abai 7 000 ₸"
+      }
+     ],
+     [
+      {
+       "ru": "Общественный транспорт",
+       "en": "Public transport"
+      },
+      120,
+      null
+     ]
+    ],
+    "costNote": {
+     "ru": "Сумма из паспорта маршрута, без резерва.",
+     "en": "Total from the route passport, no contingency."
+    },
+    "price": [
+     85,
+     85
+    ]
+   },
+   {
+    "id": "kg2",
+    "name": {
+     "ru": "Не просто увидеть — почувствовать",
+     "en": "Don’t just see it, feel it"
+    },
+    "tag": {
+     "ru": "Кыргызстан · 2 дня",
+     "en": "Kyrgyzstan · 2 days"
+    },
+    "days": 2,
+    "nights": 1,
+    "kzt": 48400,
+    "countries": [
+     "kg"
+    ],
+    "route": {
+     "ru": "Бишкек → Иссык-Куль",
+     "en": "Bishkek → Issyk-Kul"
+    },
+    "pitch": {
+     "ru": "Два дня ярких впечатлений: городская культура, история, гастрономия и природа. Ритм Бишкека и побег к жемчужине Тянь-Шаня.",
+     "en": "Two days of vivid impressions: city culture, history, food and nature. Bishkek’s rhythm and an escape to the pearl of the Tian Shan."
+    },
+    "highlights": [
+     {
+      "ru": "Bishkek Discovery: Ала-Тоо, музеи, «Нават»",
+      "en": "Bishkek Discovery: Ala-Too, museums, Navat"
+     },
+     {
+      "ru": "Башня Бурана и Боомское ущелье",
+      "en": "Burana Tower and Boom Gorge"
+     },
+     {
+      "ru": "«Рух-Ордо», петроглифы и Иссык-Куль",
+      "en": "Ruh-Ordo, petroglyphs and Issyk-Kul"
+     },
+     {
+      "ru": "Штамп Кыргызстана в Паспорт дружбы",
+      "en": "Kyrgyzstan’s stamp in the Friendship Passport"
+     }
+    ],
+    "plan": [
+     {
+      "c": "kg",
+      "t": {
+       "ru": "Bishkek Discovery",
+       "en": "Bishkek Discovery"
+      },
+      "d": {
+       "ru": "Почувствуй ритм столицы: история, искусство, вкусы и городская атмосфера.",
+       "en": "Feel the capital’s rhythm: history, art, flavours and city life."
+      },
+      "s": [
+       {
+        "tm": "08:30–09:30",
+        "x": {
+         "ru": "Завтрак в отеле",
+         "en": "Breakfast at the hotel"
+        },
+        "h": {
+         "ru": "Утро начинается со вкуса Кыргызстана",
+         "en": "The morning starts with a taste of Kyrgyzstan"
+        }
+       },
+       {
+        "tm": "09:30–10:40",
+        "x": {
+         "ru": "Площадь Ала-Тоо",
+         "en": "Ala-Too Square"
+        },
+        "h": {
+         "ru": "В сердце Кыргызстана",
+         "en": "In the heart of Kyrgyzstan"
+        }
+       },
+       {
+        "tm": "10:45–12:00",
+        "x": {
+         "ru": "Национальный исторический музей",
+         "en": "National History Museum"
+        },
+        "h": {
+         "ru": "Путешествие сквозь века",
+         "en": "A journey through the centuries"
+        }
+       },
+       {
+        "tm": "12:10–12:45",
+        "x": {
+         "ru": "Дубовый парк",
+         "en": "Oak Park"
+        },
+        "h": {
+         "ru": "Зелёная душа Бишкека",
+         "en": "Bishkek’s green soul"
+        }
+       },
+       {
+        "tm": "13:00–14:00",
+        "x": {
+         "ru": "Музей изобразительных искусств",
+         "en": "Museum of Fine Arts"
+        },
+        "h": {
+         "ru": "Кыргызстан глазами художников",
+         "en": "Kyrgyzstan through artists’ eyes"
+        }
+       },
+       {
+        "tm": "14:15–15:15",
+        "x": {
+         "ru": "Обед в ресторане Faiza",
+         "en": "Lunch at Faiza"
+        },
+        "h": {
+         "ru": "Вкус Бишкека",
+         "en": "A taste of Bishkek"
+        }
+       },
+       {
+        "tm": "15:30–16:15",
+        "x": {
+         "ru": "Парк Панфилова",
+         "en": "Panfilov Park"
+        },
+        "h": {
+         "ru": "Атмосфера старого парка",
+         "en": "The mood of an old park"
+        }
+       },
+       {
+        "tm": "16:30–17:30",
+        "x": {
+         "ru": "ЦУМ «Айчүрөк»: сувениры",
+         "en": "Aichurok department store: souvenirs"
+        },
+        "h": {
+         "ru": "Охота за впечатлениями",
+         "en": "Hunting for impressions"
+        }
+       },
+       {
+        "tm": "17:30–18:30",
+        "x": {
+         "ru": "Бульвар Эркиндик",
+         "en": "Erkindik Boulevard"
+        },
+        "h": {
+         "ru": "По аллеям свободы",
+         "en": "Along the alleys of freedom"
+        }
+       },
+       {
+        "tm": "19:00–20:30",
+        "x": {
+         "ru": "Ужин в ресторане «Нават»",
+         "en": "Dinner at Navat"
+        },
+        "h": {
+         "ru": "Вечер восточного гостеприимства",
+         "en": "An evening of Eastern hospitality"
+        }
+       },
+       {
+        "tm": "20:40",
+        "x": {
+         "ru": "Свободное время",
+         "en": "Free time"
+        },
+        "h": {
+         "ru": "Бишкек после заката",
+         "en": "Bishkek after sunset"
+        }
+       }
+      ]
+     },
+     {
+      "c": "kg",
+      "t": {
+       "ru": "Issyk-Kul Escape",
+       "en": "Issyk-Kul Escape"
+      },
+      "d": {
+       "ru": "Побег к жемчужине Тянь-Шаня: горы, древняя история и отдых у озера.",
+       "en": "An escape to the pearl of the Tian Shan: mountains, ancient history and rest by the lake."
+      },
+      "s": [
+       {
+        "tm": "07:30–08:00",
+        "x": {
+         "ru": "Завтрак",
+         "en": "Breakfast"
+        },
+        "h": {
+         "ru": "Заряд энергии перед большим путешествием",
+         "en": "Fuel for a big journey"
+        }
+       },
+       {
+        "tm": "08:00",
+        "x": {
+         "ru": "Выезд из Бишкека к Чолпон-Ате",
+         "en": "Leave Bishkek for Cholpon-Ata"
+        },
+        "h": {
+         "ru": "Дорога к жемчужине Кыргызстана начинается",
+         "en": "The road to Kyrgyzstan’s pearl begins"
+        }
+       },
+       {
+        "tm": "09:30–10:15",
+        "x": {
+         "ru": "Башня Бурана",
+         "en": "Burana Tower"
+        },
+        "h": {
+         "ru": "Следы Великого шёлкового пути",
+         "en": "Traces of the Great Silk Road"
+        }
+       },
+       {
+        "tm": "10:15–12:30",
+        "x": {
+         "ru": "Боомское ущелье",
+         "en": "Boom Gorge"
+        },
+        "h": {
+         "ru": "Дорога сквозь горы",
+         "en": "A road through the mountains"
+        }
+       },
+       {
+        "tm": "12:40–13:30",
+        "x": {
+         "ru": "Обед в Балыкчы",
+         "en": "Lunch in Balykchy"
+        },
+        "h": {
+         "ru": "Вкус путешествия",
+         "en": "The taste of the journey"
+        }
+       },
+       {
+        "tm": "13:30–14:30",
+        "x": {
+         "ru": "Прибытие в Чолпон-Ату",
+         "en": "Arrive in Cholpon-Ata"
+        },
+        "h": {
+         "ru": "Добро пожаловать к жемчужине Тянь-Шаня",
+         "en": "Welcome to the pearl of the Tian Shan"
+        }
+       },
+       {
+        "tm": "14:30–16:00",
+        "x": {
+         "ru": "Культурный центр «Рух-Ордо»",
+         "en": "Ruh-Ordo cultural centre"
+        },
+        "h": {
+         "ru": "Место, где встречаются культуры",
+         "en": "Where cultures meet"
+        }
+       },
+       {
+        "tm": "16:00–17:00",
+        "x": {
+         "ru": "Петроглифы под открытым небом",
+         "en": "Open-air petroglyphs"
+        },
+        "h": {
+         "ru": "Послания из прошлого",
+         "en": "Messages from the past"
+        }
+       },
+       {
+        "tm": "17:00–18:30",
+        "x": {
+         "ru": "Прогулка или пляж на Иссык-Куле",
+         "en": "A walk or the beach at Issyk-Kul"
+        },
+        "h": {
+         "ru": "Наедине с природой",
+         "en": "Alone with nature"
+        }
+       },
+       {
+        "tm": "19:00–20:00",
+        "x": {
+         "ru": "Ужин у озера",
+         "en": "Dinner by the lake"
+        },
+        "h": {
+         "ru": "Ужин с атмосферой озёрного вечера",
+         "en": "Dinner with a lakeside evening mood"
+        }
+       }
+      ],
+      "note": {
+       "ru": "Время посещений и режим работы объектов подтверждаются перед поездкой.",
+       "en": "Visiting times and opening hours are confirmed before the trip."
+      }
+     }
+    ],
+    "transfers": [
+     {
+      "st": {
+       "ru": "Бишкек → Чолпон-Ата",
+       "en": "Bishkek → Cholpon-Ata"
+      },
+      "how": {
+       "ru": "Заказной микроавтобус с водителем и гидом",
+       "en": "Chartered minibus with a driver and guide"
+      },
+      "tm": {
+       "ru": "Около 4 часов с остановками у Бураны и в Боомском ущелье",
+       "en": "About 4 hours with stops at Burana and Boom Gorge"
+      },
+      "note": {
+       "ru": "Обратная дорога в Бишкек 4–5 часов, время выезда согласуется с гидом.",
+       "en": "The way back to Bishkek takes 4–5 hours; the departure time is agreed with the guide."
+      }
+     }
+    ],
+    "notes": [
+     {
+      "ru": "Названия активностей презентационные, как в программе команды Кыргызстана.",
+      "en": "Activity names are presentational, as in the Kyrgyzstan team’s programme."
+     },
+     {
+      "ru": "В документе команды цены нет: смета посчитана тем же методом, что и «Шёлковое трио».",
+      "en": "The team’s document has no price, so the budget uses the same method as the Silk Trio."
+     }
+    ],
+    "inc": [
+     {
+      "ru": "1 ночь, по 2 в номере",
+      "en": "1 night, 2 per room"
+     },
+     {
+      "ru": "Питание по смете, 8 000 ₸ в день",
+      "en": "Food on budget, 8 000 ₸ a day"
+     },
+     {
+      "ru": "Выезд на Иссык-Куль",
+      "en": "The Issyk-Kul trip"
+     },
+     {
+      "ru": "Экскурсии, билеты и резерв 10%",
+      "en": "Tours, tickets and a 10% contingency"
+     }
+    ],
+    "exc": [
+     {
+      "ru": "Дорога до Бишкека и обратно",
+      "en": "Travel to Bishkek and back"
+     },
+     {
+      "ru": "Страховка, личные покупки",
+      "en": "Insurance, personal shopping"
+     }
+    ],
+    "cost": [
      [
       {
        "ru": "Проживание, 1 ночь",
@@ -3023,8 +3377,8 @@
       },
       12000,
       {
-       "ru": "по 2 человека в номере",
-       "en": "2 per room"
+       "ru": "12 000 ₸ за ночь, по 2 в номере",
+       "en": "12 000 ₸ a night, 2 per room"
       }
      ],
      [
@@ -3035,26 +3389,26 @@
       16000,
       {
        "ru": "8 000 ₸ в день",
-       "en": "8,000 ₸ a day"
+       "en": "8 000 ₸ a day"
       }
      ],
      [
       {
-       "ru": "Городской транспорт",
-       "en": "Local transport"
+       "ru": "Городской транспорт и выезд на Иссык-Куль",
+       "en": "Local transport and the Issyk-Kul trip"
       },
-      3000,
+      5000,
       null
      ],
      [
       {
-       "ru": "Экскурсии и билеты",
+       "ru": "Экскурсии и входные билеты",
        "en": "Tours and tickets"
       },
-      12000,
+      8000,
       {
-       "ru": "Регистан, Гур-Эмир, Шахи-Зинда, «Вечный город»",
-       "en": "Registan, Gur-Emir, Shah-i-Zinda, Eternal City"
+       "ru": "музеи, Бурана, «Рух-Ордо»",
+       "en": "museums, Burana, Ruh-Ordo"
       }
      ],
      [
@@ -3073,13 +3427,13 @@
        "ru": "Резерв 10%",
        "en": "10% reserve"
       },
-      6100,
+      4400,
       null
      ]
     ],
     "price": [
-     130,
-     130
+     95,
+     95
     ]
    },
    {
@@ -3089,8 +3443,8 @@
      "en": "Silk Trio"
     },
     "tag": {
-     "ru": "Лучшее соотношение",
-     "en": "Best value"
+     "ru": "6 дней · 3 страны",
+     "en": "6 days · 3 countries"
     },
     "best": true,
     "days": 6,
@@ -4033,1007 +4387,6 @@
      435,
      435
     ]
-   },
-   {
-    "id": "full",
-    "name": {
-     "ru": "Полный код",
-     "en": "Full Code"
-    },
-    "tag": {
-     "ru": "Все пять стран",
-     "en": "All five countries"
-    },
-    "days": 10,
-    "nights": 9,
-    "kzt": 524150,
-    "countries": [
-     "am",
-     "kz",
-     "kg",
-     "tj",
-     "uz"
-    ],
-    "route": {
-     "ru": "Ереван → Алматы → Бишкек → Душанбе → Самарканд",
-     "en": "Yerevan → Almaty → Bishkek → Dushanbe → Samarkand"
-    },
-    "pitch": {
-     "ru": "Весь «Код дружбы» за 10 дней: программы всех пяти команд, сшитые в один маршрут, и финиш на Регистане.",
-     "en": "The whole Friendship Code in 10 days: all five teams’ programmes stitched into one route, finishing at the Registan."
-    },
-    "highlights": [
-     {
-      "ru": "Розовый Ереван и голубой Севан",
-      "en": "Pink Yerevan and blue Sevan"
-     },
-     {
-      "ru": "Кок-Тобе, Медеу, Бишкек и Иссык-Куль",
-      "en": "Kok-Tobe, Medeu, Bishkek and Issyk-Kul"
-     },
-     {
-      "ru": "Королевский Душанбе и озеро Искандеркуль",
-      "en": "Royal Dushanbe and Lake Iskanderkul"
-     },
-     {
-      "ru": "Все пять штампов: вы Хранитель кода",
-      "en": "All five stamps: you become a Code Keeper"
-     }
-    ],
-    "plan": [
-     {
-      "c": "am",
-      "t": {
-       "ru": "Розовый Ереван",
-       "en": "Pink Yerevan"
-      },
-      "d": {
-       "ru": "Площадь Республики, Каскад, Матенадаран и поющие фонтаны.",
-       "en": "Republic Square, the Cascade, Matenadaran and the singing fountains."
-      },
-      "ref": "am:0"
-     },
-     {
-      "c": "am",
-      "t": {
-       "ru": "Голубой Севан",
-       "en": "Blue Sevan"
-      },
-      "d": {
-       "ru": "Айраванк, полуостров Артаниш и озеро в кратере Армагана.",
-       "en": "Hayravank, the Artanish peninsula and the crater lake on Armaghan."
-      },
-      "ref": "am:1"
-     },
-     {
-      "c": "kz",
-      "t": {
-       "ru": "Перелёт в Алматы и Кок-Тобе",
-       "en": "Fly to Almaty and Kok-Tobe"
-      },
-      "d": {
-       "ru": "Вечер по маршруту Alma IT: музей Яндекса, Кок-Тобе и ужин над городом.",
-       "en": "An evening on the Alma IT route: the Yandex Museum, Kok-Tobe and dinner above the city."
-      },
-      "s": [
-       {
-        "tm": "утро",
-        "x": {
-         "ru": "Перелёт Ереван → Алматы (по расписанию), заселение",
-         "en": "Flight Yerevan → Almaty (as scheduled), check-in"
-        },
-        "h": {
-         "ru": "Из Армении в яблочный город",
-         "en": "From Armenia to the apple city"
-        }
-       },
-       {
-        "tm": "16:10–16:40",
-        "x": {
-         "ru": "Музей Яндекса: история компьютеров и связи, вход свободный",
-         "en": "Yandex Museum: the history of computers and communication, free entry"
-        },
-        "h": {
-         "ru": "Музей, где живут первые компьютеры",
-         "en": "Where the first computers live"
-        }
-       },
-       {
-        "tm": "17:00–17:15",
-        "x": {
-         "ru": "Канатная дорога на Кок-Тобе",
-         "en": "Cable car up to Kok-Tobe"
-        }
-       },
-       {
-        "tm": "17:15–20:00",
-        "x": {
-         "ru": "Кок-Тобе: панорамы города и задания бота Alma IT",
-         "en": "Kok-Tobe: city panoramas and Alma IT bot challenges"
-        },
-        "h": {
-         "ru": "Гора, которая слышит желания",
-         "en": "The mountain that hears wishes"
-        }
-       },
-       {
-        "tm": "20:00–21:00",
-        "x": {
-         "ru": "Ужин в ресторане «Абай» на вершине",
-         "en": "Dinner at Abai restaurant on the summit"
-        },
-        "h": {
-         "ru": "Ужин над огнями Алматы",
-         "en": "Dinner above Almaty’s lights"
-        }
-       },
-       {
-        "tm": "21:00–22:00",
-        "x": {
-         "ru": "Спуск и возвращение в отель",
-         "en": "Down and back to the hotel"
-        }
-       }
-      ]
-     },
-     {
-      "c": "kz",
-      "t": {
-       "ru": "Алматы City Tour",
-       "en": "Almaty City Tour"
-      },
-      "d": {
-       "ru": "Город, музей и горы Медеу и Шымбулак в один день.",
-       "en": "The city, a museum and the Medeu and Shymbulak mountains in one day."
-      },
-      "s": [
-       {
-        "tm": "09:00–10:00",
-        "x": {
-         "ru": "Зелёный базар: сувениры, местные сладости",
-         "en": "Green Bazaar: souvenirs and local sweets"
-        },
-        "h": {
-         "ru": "Яблочный вкус Алматы",
-         "en": "Almaty’s apple flavour"
-        }
-       },
-       {
-        "tm": "10:15–11:00",
-        "x": {
-         "ru": "Парк 28 гвардейцев-панфиловцев и Вознесенский собор",
-         "en": "Panfilov Park and Ascension Cathedral"
-        },
-        "h": {
-         "ru": "Собор без единого гвоздя",
-         "en": "A cathedral without a single nail"
-        }
-       },
-       {
-        "tm": "11:20–12:00",
-        "x": {
-         "ru": "Гостиница «Казахстан» и Дворец Республики",
-         "en": "Hotel Kazakhstan and the Palace of the Republic"
-        },
-        "h": {
-         "ru": "Алматы в стиле ретро-модерн",
-         "en": "Almaty in retro-modern style"
-        }
-       },
-       {
-        "tm": "12:20–13:30",
-        "x": {
-         "ru": "Обед в ресторане «Каусар»",
-         "en": "Lunch at Kausar restaurant"
-        },
-        "h": {
-         "ru": "Вкус степного гостеприимства",
-         "en": "A taste of steppe hospitality"
-        }
-       },
-       {
-        "tm": "14:00–15:30",
-        "x": {
-         "ru": "Художественный музей Almaty Museum of Arts",
-         "en": "Almaty Museum of Arts"
-        },
-        "h": {
-         "ru": "Искусство новой Азии",
-         "en": "The art of new Asia"
-        }
-       },
-       {
-        "tm": "16:15–17:15",
-        "x": {
-         "ru": "Медеу: прогулка и горные пейзажи",
-         "en": "Medeu: a walk and mountain views"
-        },
-        "h": {
-         "ru": "Лёд среди облаков",
-         "en": "Ice among the clouds"
-        }
-       },
-       {
-        "tm": "17:30–19:30",
-        "x": {
-         "ru": "Шымбулак: подъём на канатной дороге, прогулка",
-         "en": "Shymbulak: cable car up and a walk"
-        },
-        "h": {
-         "ru": "Ближе к небу на канатке",
-         "en": "Closer to the sky by cable car"
-        }
-       },
-       {
-        "tm": "20:15–21:30",
-        "x": {
-         "ru": "Ужин в ресторане «Sandyk»",
-         "en": "Dinner at Sandyk restaurant"
-        },
-        "h": {
-         "ru": "Вечер в сундуке вкусов",
-         "en": "An evening in a chest of flavours"
-        }
-       }
-      ],
-      "note": {
-       "ru": "Чарынский каньон можно добавить отдельным днём.",
-       "en": "Charyn Canyon can be added as an extra day."
-      }
-     },
-     {
-      "c": "kg",
-      "t": {
-       "ru": "Переезд в Бишкек и City Walk",
-       "en": "To Bishkek and a City Walk"
-      },
-      "d": {
-       "ru": "Граница утром, Бишкек после обеда.",
-       "en": "The border in the morning, Bishkek in the afternoon."
-      },
-      "s": [
-       {
-        "tm": "07:00–07:30",
-        "x": {
-         "ru": "Завтрак и освобождение номеров",
-         "en": "Breakfast and check-out"
-        }
-       },
-       {
-        "tm": "07:30–08:00",
-        "x": {
-         "ru": "Сбор группы, посадка в автобус",
-         "en": "Meet up and board the bus"
-        }
-       },
-       {
-        "tm": "08:00–12:30",
-        "x": {
-         "ru": "Переезд Алматы → Бишкек, пограничный контроль",
-         "en": "Almaty → Bishkek, border control"
-        },
-        "h": {
-         "ru": "Через границу к Тянь-Шаню",
-         "en": "Across the border to the Tian Shan"
-        }
-       },
-       {
-        "tm": "12:30–13:30",
-        "x": {
-         "ru": "Размещение в отеле и обед",
-         "en": "Check in and lunch"
-        }
-       },
-       {
-        "tm": "14:00–14:45",
-        "x": {
-         "ru": "Площадь Ала-Тоо",
-         "en": "Ala-Too Square"
-        },
-        "h": {
-         "ru": "В сердце Кыргызстана",
-         "en": "In the heart of Kyrgyzstan"
-        }
-       },
-       {
-        "tm": "15:00–16:15",
-        "x": {
-         "ru": "Национальный исторический музей",
-         "en": "National History Museum"
-        },
-        "h": {
-         "ru": "Путешествие сквозь века",
-         "en": "A journey through the centuries"
-        }
-       },
-       {
-        "tm": "16:30–17:00",
-        "x": {
-         "ru": "Дубовый парк",
-         "en": "Oak Park"
-        },
-        "h": {
-         "ru": "Зелёная душа Бишкека",
-         "en": "Bishkek’s green soul"
-        }
-       },
-       {
-        "tm": "17:15–18:00",
-        "x": {
-         "ru": "Музей изобразительных искусств",
-         "en": "Museum of Fine Arts"
-        },
-        "h": {
-         "ru": "Кыргызстан глазами художников",
-         "en": "Kyrgyzstan through artists’ eyes"
-        }
-       },
-       {
-        "tm": "18:00–18:30",
-        "x": {
-         "ru": "Обед-ужин в ресторане Faiza",
-         "en": "Early dinner at Faiza"
-        },
-        "h": {
-         "ru": "Вкус Бишкека",
-         "en": "A taste of Bishkek"
-        }
-       },
-       {
-        "tm": "18:30–19:15",
-        "x": {
-         "ru": "Парк Панфилова",
-         "en": "Panfilov Park"
-        },
-        "h": {
-         "ru": "Атмосфера старого парка",
-         "en": "The mood of an old park"
-        }
-       },
-       {
-        "tm": "19:15–20:00",
-        "x": {
-         "ru": "ЦУМ «Айчүрөк»: сувениры",
-         "en": "Aichurok department store: souvenirs"
-        },
-        "h": {
-         "ru": "Охота за впечатлениями",
-         "en": "Hunting for impressions"
-        }
-       },
-       {
-        "tm": "20:00–20:30",
-        "x": {
-         "ru": "Бульвар Эркиндик",
-         "en": "Erkindik Boulevard"
-        },
-        "h": {
-         "ru": "По аллеям свободы",
-         "en": "Along the alleys of freedom"
-        }
-       },
-       {
-        "tm": "20:30",
-        "x": {
-         "ru": "Свободное время, возвращение в отель",
-         "en": "Free time, back to the hotel"
-        },
-        "h": {
-         "ru": "Бишкек после заката",
-         "en": "Bishkek after sunset"
-        }
-       }
-      ]
-     },
-     {
-      "c": "kg",
-      "t": {
-       "ru": "Issyk-Kul Escape",
-       "en": "Issyk-Kul Escape"
-      },
-      "d": {
-       "ru": "Бурана, Боомское ущелье и Чолпон-Ата.",
-       "en": "Burana, Boom Gorge and Cholpon-Ata."
-      },
-      "s": [
-       {
-        "tm": "07:00–07:30",
-        "x": {
-         "ru": "Завтрак",
-         "en": "Breakfast"
-        },
-        "h": {
-         "ru": "Заряд энергии перед большим путешествием",
-         "en": "Fuel for a big journey"
-        }
-       },
-       {
-        "tm": "07:30–08:00",
-        "x": {
-         "ru": "Выезд из Бишкека к Чолпон-Ате",
-         "en": "Leave Bishkek for Cholpon-Ata"
-        }
-       },
-       {
-        "tm": "09:30–10:15",
-        "x": {
-         "ru": "Башня Бурана",
-         "en": "Burana Tower"
-        },
-        "h": {
-         "ru": "Следы Великого шёлкового пути",
-         "en": "Traces of the Great Silk Road"
-        }
-       },
-       {
-        "tm": "10:15–12:30",
-        "x": {
-         "ru": "Боомское ущелье, остановки для фото",
-         "en": "Boom Gorge, photo stops"
-        },
-        "h": {
-         "ru": "Дорога сквозь горы",
-         "en": "A road through the mountains"
-        }
-       },
-       {
-        "tm": "12:30–13:30",
-        "x": {
-         "ru": "Обед в Балыкчы",
-         "en": "Lunch in Balykchy"
-        },
-        "h": {
-         "ru": "Вкус путешествия",
-         "en": "The taste of the journey"
-        }
-       },
-       {
-        "tm": "13:30–14:30",
-        "x": {
-         "ru": "Прибытие в Чолпон-Ату",
-         "en": "Arrive in Cholpon-Ata"
-        },
-        "h": {
-         "ru": "Добро пожаловать к жемчужине Тянь-Шаня",
-         "en": "Welcome to the pearl of the Tian Shan"
-        }
-       },
-       {
-        "tm": "14:30–16:00",
-        "x": {
-         "ru": "Культурный центр «Рух-Ордо»",
-         "en": "Ruh-Ordo cultural centre"
-        },
-        "h": {
-         "ru": "Место, где встречаются культуры",
-         "en": "Where cultures meet"
-        }
-       },
-       {
-        "tm": "16:00–17:00",
-        "x": {
-         "ru": "Петроглифы под открытым небом",
-         "en": "Open-air petroglyphs"
-        },
-        "h": {
-         "ru": "Послания из прошлого",
-         "en": "Messages from the past"
-        }
-       },
-       {
-        "tm": "17:00–18:30",
-        "x": {
-         "ru": "Прогулка или пляж на Иссык-Куле",
-         "en": "A walk or the beach at Issyk-Kul"
-        },
-        "h": {
-         "ru": "Наедине с природой",
-         "en": "Alone with nature"
-        }
-       },
-       {
-        "tm": "18:30–20:00",
-        "x": {
-         "ru": "Ужин у озера",
-         "en": "Dinner by the lake"
-        },
-        "h": {
-         "ru": "Ужин с атмосферой озёрного вечера",
-         "en": "Dinner with a lakeside evening mood"
-        }
-       },
-       {
-        "tm": "20:00–24:00",
-        "x": {
-         "ru": "Возвращение в Бишкек (4–5 часов), ночёвка",
-         "en": "Drive back to Bishkek (4–5 hours), overnight"
-        }
-       }
-      ]
-     },
-     {
-      "c": "tj",
-      "t": {
-       "ru": "Королевский Душанбе",
-       "en": "Royal Dushanbe"
-      },
-      "d": {
-       "ru": "Утренний рейс, Сомони, библиотека, базар Мехргон и вечер на башне Истиклол.",
-       "en": "A morning flight, Somoni, the library, Mehrgon bazaar and an evening on Istiklol tower."
-      },
-      "s": [
-       {
-        "tm": "утро",
-        "x": {
-         "ru": "Перелёт Бишкек → Душанбе (по расписанию)",
-         "en": "Flight Bishkek → Dushanbe (as scheduled)"
-        },
-        "h": {
-         "ru": "Курс на Таджикистан",
-         "en": "Course for Tajikistan"
-        }
-       }
-      ],
-      "ref": "tj:0"
-     },
-     {
-      "c": "tj",
-      "t": {
-       "ru": "Fann Mountains Escape",
-       "en": "Fann Mountains Escape"
-      },
-      "d": {
-       "ru": "Искандеркуль, Змеиное озеро и вечерний рейс в Ташкент.",
-       "en": "Iskanderkul, Snake Lake and an evening flight to Tashkent."
-      },
-      "ref": "tj:1"
-     },
-     {
-      "c": "uz",
-      "t": {
-       "ru": "Самарканд: Регистан и Тамерлан",
-       "en": "Samarkand: the Registan and Tamerlane"
-      },
-      "d": {
-       "ru": "«Афросиаб» из Ташкента, Регистан, Гур-Эмир, «Вечный город».",
-       "en": "Afrosiyob from Tashkent, the Registan, Gur-Emir, the Eternal City."
-      },
-      "s": [
-       {
-        "tm": "07:30–08:00*",
-        "x": {
-         "ru": "Сбор на Ташкентском вокзале, посадка на поезд",
-         "en": "Meet at Tashkent station, board the train"
-        },
-        "h": {
-         "ru": "Старт великого пути",
-         "en": "The start of a great journey"
-        }
-       },
-       {
-        "tm": "08:00–10:30*",
-        "x": {
-         "ru": "Скоростной поезд «Афросиаб» Ташкент → Самарканд",
-         "en": "Afrosiyob high-speed train Tashkent → Samarkand"
-        },
-        "h": {
-         "ru": "Шёлковый путь на скорости 250 км/ч",
-         "en": "The Silk Road at 250 km/h"
-        }
-       },
-       {
-        "tm": "10:30–12:00",
-        "x": {
-         "ru": "Трансфер в отель, встреча с гидом, отдых",
-         "en": "Transfer to the hotel, meet the guide, rest"
-        }
-       },
-       {
-        "tm": "12:00–13:00",
-        "x": {
-         "ru": "Обед: самаркандский плов, лепёшки, зелёный чай",
-         "en": "Lunch: Samarkand plov, bread and green tea"
-        },
-        "h": {
-         "ru": "Плов, достойный эмира",
-         "en": "Plov fit for an emir"
-        }
-       },
-       {
-        "tm": "13:30–15:30",
-        "x": {
-         "ru": "Площадь Регистан: медресе Улугбека, Шердор, Тилля-Кари",
-         "en": "Registan: Ulugh Beg, Sher-Dor and Tilya-Kori madrasas"
-        },
-        "h": {
-         "ru": "Сердце Великого шёлкового пути",
-         "en": "The heart of the Great Silk Road"
-        }
-       },
-       {
-        "tm": "16:00–17:30",
-        "x": {
-         "ru": "Мавзолей Гур-Эмир",
-         "en": "Gur-Emir Mausoleum"
-        },
-        "h": {
-         "ru": "Золотой купол Тамерлана",
-         "en": "Tamerlane’s golden dome"
-        }
-       },
-       {
-        "tm": "17:30–18:00",
-        "x": {
-         "ru": "Прогулка у реки Сиаб",
-         "en": "A walk by the Siab river"
-        },
-        "h": {
-         "ru": "Тень шелковиц у реки",
-         "en": "Mulberry shade by the river"
-        }
-       },
-       {
-        "tm": "18:00–19:00",
-        "x": {
-         "ru": "Комплекс «Вечный город»",
-         "en": "The Eternal City complex"
-        },
-        "h": {
-         "ru": "Город, где оживает история",
-         "en": "A city where history comes alive"
-        }
-       },
-       {
-        "tm": "19:30–20:30",
-        "x": {
-         "ru": "Ужин и заселение в отель",
-         "en": "Dinner and hotel check-in"
-        },
-        "h": {
-         "ru": "Восточный вечер",
-         "en": "An Eastern evening"
-        }
-       }
-      ]
-     },
-     {
-      "c": "uz",
-      "t": {
-       "ru": "Финиш: культурный Самарканд",
-       "en": "Finish: cultural Samarkand"
-      },
-      "d": {
-       "ru": "Шахи-Зинда, Биби-Ханым, базар и вручение сертификатов.",
-       "en": "Shah-i-Zinda, Bibi-Khanym, the bazaar and certificates."
-      },
-      "s": [
-       {
-        "tm": "08:00–09:00",
-        "x": {
-         "ru": "Завтрак в отеле",
-         "en": "Breakfast at the hotel"
-        }
-       },
-       {
-        "tm": "09:00–10:00",
-        "x": {
-         "ru": "Шахи-Зинда: исторический некрополь и мозаики",
-         "en": "Shah-i-Zinda: the historic necropolis and its mosaics"
-        },
-        "h": {
-         "ru": "Улица синих куполов",
-         "en": "The street of blue domes"
-        }
-       },
-       {
-        "tm": "10:20–11:20",
-        "x": {
-         "ru": "Мечеть Биби-Ханым",
-         "en": "Bibi-Khanym Mosque"
-        },
-        "h": {
-         "ru": "Мечеть любви Тамерлана",
-         "en": "Tamerlane’s mosque of love"
-        }
-       },
-       {
-        "tm": "11:20–12:15",
-        "x": {
-         "ru": "Сиабский базар: сладости, сухофрукты, специи",
-         "en": "Siab Bazaar: sweets, dried fruit, spices"
-        },
-        "h": {
-         "ru": "Базар, где пахнет Востоком",
-         "en": "A bazaar that smells of the East"
-        }
-       },
-       {
-        "tm": "12:15–13:15",
-        "x": {
-         "ru": "Обед с узбекской кухней",
-         "en": "Lunch of Uzbek cuisine"
-        }
-       },
-       {
-        "tm": "13:15–14:30",
-        "x": {
-         "ru": "Свободное время в историческом центре",
-         "en": "Free time in the historic centre"
-        }
-       },
-       {
-        "tm": "14:30–15:30",
-        "x": {
-         "ru": "Ремесленные мастерские и сувениры",
-         "en": "Craft workshops and souvenirs"
-        },
-        "h": {
-         "ru": "Город мастеров",
-         "en": "City of craftsmen"
-        }
-       },
-       {
-        "tm": "15:30–16:30",
-        "x": {
-         "ru": "Возвращение в отель, сбор вещей",
-         "en": "Back to the hotel, pack up"
-        }
-       },
-       {
-        "tm": "после 16:30",
-        "x": {
-         "ru": "Окончание программы, выезд по отдельному билету",
-         "en": "End of the programme, departure on a separate ticket"
-        },
-        "h": {
-         "ru": "До новой встречи, Самарканд",
-         "en": "Until next time, Samarkand"
-        }
-       }
-      ]
-     }
-    ],
-    "transfers": [
-     {
-      "st": {
-       "ru": "Ереван → Алматы",
-       "en": "Yerevan → Almaty"
-      },
-      "how": {
-       "ru": "Прямой рейс EVN → ALA",
-       "en": "Direct flight EVN → ALA"
-      },
-      "tm": {
-       "ru": "Около 4 часов в воздухе, в аэропорт за 2,5 часа",
-       "en": "About 4 hours in the air, be at the airport 2.5 hours early"
-      },
-      "note": {
-       "ru": "Рейсы летают не каждый день: дату тура подбирают под расписание.",
-       "en": "Flights don’t run daily, so tour dates follow the schedule."
-      }
-     },
-     {
-      "st": {
-       "ru": "Алматы → Бишкек",
-       "en": "Almaty → Bishkek"
-      },
-      "how": {
-       "ru": "Междугородний автобус или заказной микроавтобус, с автовокзала Алматы до автовокзала Бишкека",
-       "en": "Intercity bus or chartered minibus, Almaty bus station to Bishkek bus station"
-      },
-      "tm": {
-       "ru": "4–5 часов + 1–2 часа запаса на границу",
-       "en": "4–5 hours + 1–2 hours for the border"
-      },
-      "note": {
-       "ru": "Прийти за 30 минут. Паспорт держать при себе: на границе каждый проходит контроль сам, багаж едет в автобусе.",
-       "en": "Arrive 30 minutes early. Keep your passport on you: everyone clears the border on foot, luggage stays on the bus."
-      }
-     },
-     {
-      "st": {
-       "ru": "Бишкек → Душанбе",
-       "en": "Bishkek → Dushanbe"
-      },
-      "how": {
-       "ru": "Прямой рейс FRU → DYU",
-       "en": "Direct flight FRU → DYU"
-      },
-      "tm": {
-       "ru": "Около 1 ч 30 мин",
-       "en": "About 1 h 30 min"
-      },
-      "note": {
-       "ru": "Прямых рейсов мало, при их отсутствии летят с пересадкой или меняют порядок дней.",
-       "en": "Direct flights are few; otherwise fly with a connection or reorder the days."
-      }
-     },
-     {
-      "st": {
-       "ru": "Душанбе → Ташкент",
-       "en": "Dushanbe → Tashkent"
-      },
-      "how": {
-       "ru": "Вечерний рейс DYU → TAS, утром поезд в Самарканд",
-       "en": "Evening flight DYU → TAS, train to Samarkand in the morning"
-      },
-      "tm": {
-       "ru": "Около 1 ч 20 мин",
-       "en": "About 1 h 20 min"
-      },
-      "note": {
-       "ru": "Ночёвка в Ташкенте у вокзала. Вариант по земле: Душанбе → Пенджикент → Самарканд, около 6 часов.",
-       "en": "Overnight in Tashkent near the station. Overland option: Dushanbe → Panjakent → Samarkand, about 6 hours."
-      }
-     },
-     {
-      "st": {
-       "ru": "Ташкент → Самарканд",
-       "en": "Tashkent → Samarkand"
-      },
-      "how": {
-       "ru": "Скоростной поезд «Афросиаб» с вокзала Ташкента",
-       "en": "Afrosiyob high-speed train from Tashkent station"
-      },
-      "tm": {
-       "ru": "2 ч 10 мин – 2 ч 30 мин, на вокзал за 30–40 минут",
-       "en": "2 h 10 min – 2 h 30 min, be at the station 30–40 minutes early"
-      },
-      "note": {
-       "ru": "Билеты покупать заранее на всех. Между прилётом и поездом нужен запас, иначе брать более поздний поезд.",
-       "en": "Buy tickets in advance for everyone. Leave a buffer after landing, or take a later train."
-      }
-     },
-     {
-      "st": {
-       "ru": "Самарканд → домой",
-       "en": "Samarkand → home"
-      },
-      "how": {
-       "ru": "Не входит в стоимость: «Афросиаб» обратно в Ташкент и дальше рейс домой",
-       "en": "Not included: Afrosiyob back to Tashkent, then a flight home"
-      },
-      "tm": {
-       "ru": "Около 2–2,5 часов до Ташкента",
-       "en": "About 2–2.5 hours to Tashkent"
-      },
-      "note": {
-       "ru": "Точка возвращения у всех разная, поэтому обратный билет считается отдельно.",
-       "en": "Everyone returns to a different place, so the ticket home is priced separately."
-      }
-     }
-    ],
-    "notes": [
-     {
-      "ru": "Смета посчитана тем же методом, что и «Шёлковое трио». Цены перелётов ориентировочные: проверить после выбора дат.",
-      "en": "The budget uses the same method as the Silk Trio. Flight prices are estimates: check them once dates are set."
-     },
-     {
-      "ru": "Рейсы Ереван–Алматы и Бишкек–Душанбе летают не каждый день, поэтому даты тура подстраиваются под расписание.",
-      "en": "Yerevan–Almaty and Bishkek–Dushanbe flights don’t run daily, so tour dates follow the schedule."
-     },
-     {
-      "ru": "Программы стран взяты у команд Армении, Казахстана, Кыргызстана, Таджикистана и Узбекистана.",
-      "en": "Country programmes come from the Armenia, Kazakhstan, Kyrgyzstan, Tajikistan and Uzbekistan teams."
-     },
-     {
-      "ru": "Для точной сметы нужны даты, размер группы и сколько человек в номере.",
-      "en": "An exact quote needs dates, group size and room sharing."
-     }
-    ],
-    "inc": [
-     {
-      "ru": "Три перелёта, автобус Алматы → Бишкек и поезд до Самарканда",
-      "en": "Three flights, a bus Almaty → Bishkek and a train to Samarkand"
-     },
-     {
-      "ru": "9 ночей, по 2 в номере",
-      "en": "9 nights, 2 per room"
-     },
-     {
-      "ru": "Питание по смете, 8 000 ₸ в день",
-      "en": "Food on budget, 8,000 ₸ a day"
-     },
-     {
-      "ru": "Выезды на Севан, Иссык-Куль и в Фанские горы",
-      "en": "Trips to Sevan, Issyk-Kul and the Fann Mountains"
-     },
-     {
-      "ru": "Экскурсии, билеты, сертификат и резерв 10%",
-      "en": "Tours, tickets, a certificate and a 10% contingency"
-     }
-    ],
-    "exc": [
-     {
-      "ru": "Дорога до Еревана и домой из Самарканда",
-      "en": "Travel to Yerevan and home from Samarkand"
-     },
-     {
-      "ru": "Страховка, личные покупки, доплата за багаж",
-      "en": "Insurance, personal shopping, luggage fees"
-     },
-     {
-      "ru": "Одноместное размещение",
-      "en": "Single room"
-     }
-    ],
-    "cost": [
-     [
-      {
-       "ru": "Межгородской транспорт",
-       "en": "Intercity transport"
-      },
-      193500,
-      {
-       "ru": "рейс Ереван–Алматы ≈70 000 ₸, автобус Алматы–Бишкек ≈3 500 ₸, рейс Бишкек–Душанбе ≈55 000 ₸, рейс Душанбе–Ташкент ≈50 000 ₸, поезд до Самарканда ≈15 000 ₸",
-       "en": "flight Yerevan–Almaty ≈70,000 ₸, bus Almaty–Bishkek ≈3,500 ₸, flight Bishkek–Dushanbe ≈55,000 ₸, flight Dushanbe–Tashkent ≈50,000 ₸, train to Samarkand ≈15,000 ₸"
-      }
-     ],
-     [
-      {
-       "ru": "Проживание, 9 ночей",
-       "en": "Stay, 9 nights"
-      },
-      108000,
-      {
-       "ru": "12 000 ₸ за ночь, по 2 в номере",
-       "en": "12,000 ₸ a night, 2 per room"
-      }
-     ],
-     [
-      {
-       "ru": "Питание, 10 дней",
-       "en": "Food, 10 days"
-      },
-      80000,
-      {
-       "ru": "8 000 ₸ в день",
-       "en": "8,000 ₸ a day"
-      }
-     ],
-     [
-      {
-       "ru": "Городской транспорт и выезды",
-       "en": "Local transport and day trips"
-      },
-      30000,
-      {
-       "ru": "Севан, Иссык-Куль, Фанские горы",
-       "en": "Sevan, Issyk-Kul, the Fann Mountains"
-      }
-     ],
-     [
-      {
-       "ru": "Экскурсии и входные билеты",
-       "en": "Tours and tickets"
-      },
-      45000,
-      null
-     ],
-     [
-      {
-       "ru": "Дополнительные расходы",
-       "en": "Extras"
-      },
-      20000,
-      {
-       "ru": "вода, перекусы, мелочи",
-       "en": "water, snacks, small things"
-      }
-     ],
-     [
-      {
-       "ru": "Резерв 10%",
-       "en": "10% reserve"
-      },
-      47650,
-      null
-     ]
-    ],
-    "price": [
-     1010,
-     1010
-    ]
    }
   ],
   "passport": {
@@ -5356,8 +4709,8 @@
     "en": "What does the price include?"
    },
    "a": {
-    "ru": "Межгородской транспорт, проживание по 2 в номере, питание по смете 8 000 ₸ в день, городской транспорт, экскурсии и входные билеты, плюс резерв 10%. Отдельно оплачиваются дорога до старта и домой, страховка и личные покупки. Смета каждого пакета расписана в окне «Программа и цена».",
-    "en": "Intercity transport, rooms for 2, food budgeted at 8,000 ₸ a day, local transport, tours and entrance tickets, plus a 10% contingency. Travel to the start and home, insurance and personal shopping are extra. Each package’s budget is under “Programme and price”."
+    "ru": "Зависит от пакета. В «Шёлковое трио» входят межгородской транспорт, проживание по 2 в номере, питание по смете 8 000 ₸ в день, городской транспорт, экскурсии и резерв 10%. Alma IT — самостоятельный день с ВК-ботом, где вы платите только за такси, канатные дороги и еду, около 43 920 ₸. Смета каждого пакета расписана в окне «Программа и цена».",
+    "en": "It depends on the package. The Silk Trio includes intercity transport, rooms for 2, food budgeted at 8 000 ₸ a day, local transport, tours and a 10% contingency. Alma IT is a self-guided day with a VK bot where you only pay for taxis, cable cars and food, about 43 920 ₸. Each package’s budget is under “Programme and price”."
    }
   },
   {
