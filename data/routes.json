@@ -87,7 +87,8 @@
        "hook": {
         "ru": "Кольцо зелёного Еревана",
         "en": "Yerevan’s green ring"
-       }
+       },
+       "photo": "@am_kond"
       },
       {
        "time": "2",
@@ -179,7 +180,8 @@
        "hook": {
         "ru": "Прогулка по проспекту стиля",
         "en": "A walk down the avenue of style"
-       }
+       },
+       "photo": "@am_north"
       },
       {
        "time": "6",
@@ -202,7 +204,8 @@
        "hook": {
         "ru": "Сцена, где живёт музыка",
         "en": "Where music lives"
-       }
+       },
+       "photo": "@am_opera"
       },
       {
        "time": "7",
@@ -224,7 +227,8 @@
        "hook": {
         "ru": "Искусство под открытым небом",
         "en": "Art under the open sky"
-       }
+       },
+       "photo": "@am_sculpt"
       },
       {
        "time": "8",
@@ -248,7 +252,8 @@
        "hook": {
         "ru": "Лестница к Арарату",
         "en": "A staircase to Ararat"
-       }
+       },
+       "photo": "@am_cascade"
       },
       {
        "time": "9",
@@ -271,7 +276,8 @@
        "hook": {
         "ru": "Сокровищница древних букв",
         "en": "Treasury of ancient letters"
-       }
+       },
+       "photo": "@am_matenadaran"
       },
       {
        "time": "10",
@@ -293,7 +299,8 @@
        "hook": {
         "ru": "Страж над городом",
         "en": "Guardian above the city"
-       }
+       },
+       "photo": "@am_mother"
       },
       {
        "time": "11",
@@ -315,7 +322,8 @@
        "hook": {
         "ru": "Холм больших концертов",
         "en": "The hill of big concerts"
-       }
+       },
+       "photo": "@am_sport"
       },
       {
        "time": "12",
@@ -337,7 +345,8 @@
        "hook": {
         "ru": "Город старше Рима",
         "en": "A city older than Rome"
-       }
+       },
+       "photo": "@am_park2800"
       },
       {
        "time": "13",
@@ -438,7 +447,8 @@
        "hook": {
         "ru": "Остров, где кричат чайки",
         "en": "Island of the seagulls"
-       }
+       },
+       "photo": "@am_sevan_artanish"
       },
       {
        "time": "4",
@@ -457,7 +467,8 @@
        "hook": {
         "ru": "Шум горного водопада",
         "en": "The roar of a mountain waterfall"
-       }
+       },
+       "photo": "@am_armaghan"
       },
       {
        "time": "5",
@@ -609,7 +620,8 @@
        "hook": {
         "ru": "Яблочный вкус Алматы",
         "en": "Almaty’s apple flavour"
-       }
+       },
+       "photo": "@kz_almaty"
       },
       {
        "time": "10:15",
@@ -772,7 +784,8 @@
        "hook": {
         "ru": "Вечер в сундуке вкусов",
         "en": "An evening in a chest of flavours"
-       }
+       },
+       "photo": "kz/kz_restaurant"
       }
      ]
     },
@@ -801,7 +814,8 @@
        "hook": {
         "ru": "Рассвет навстречу каньонам",
         "en": "Sunrise towards the canyons"
-       }
+       },
+       "photo": "@kz_almaty2"
       },
       {
        "time": "09:00",
@@ -824,7 +838,8 @@
        "hook": {
         "ru": "Долина красных замков",
         "en": "Valley of red castles"
-       }
+       },
+       "photo": "@kz_charyn"
       },
       {
        "time": "11:30",
@@ -846,7 +861,8 @@
        "hook": {
         "ru": "Тёмная сторона каньона",
         "en": "The dark side of the canyon"
-       }
+       },
+       "photo": "@kz_charyn2"
       },
       {
        "time": "13:00",
@@ -865,7 +881,8 @@
        "hook": {
         "ru": "Привал степных путников",
         "en": "A steppe traveller’s rest"
-       }
+       },
+       "photo": "@kz_charyn4"
       },
       {
        "time": "14:00",
@@ -887,7 +904,8 @@
        "hook": {
         "ru": "Бирюза среди гор",
         "en": "Turquoise among the mountains"
-       }
+       },
+       "photo": "@kz_charyn3"
       },
       {
        "time": "19:30",
@@ -906,7 +924,8 @@
        "hook": {
         "ru": "Возвращение в огни Алматы",
         "en": "Back to Almaty’s lights"
-       }
+       },
+       "photo": "@kz_almaty"
       }
      ]
     }
@@ -940,13 +959,15 @@
       "coords": [
        42.985,
        78.465
-      ]
+      ],
+      "photo": "@kz_kaindy"
      }
     ],
     "photos": [
      "kz/kz_kolsai_1",
      "kz/kz_kolsai_2",
-     "kz/kz_kolsai_3"
+     "kz/kz_kolsai_3",
+     "@kz_kaindy"
     ]
    },
    "note": {
@@ -1070,7 +1091,8 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "photo": "@kg_bishkek"
       },
       {
        "time": "09:30",
@@ -1117,7 +1139,8 @@
        "hook": {
         "ru": "Путешествие сквозь века",
         "en": "A journey through the centuries"
-       }
+       },
+       "photo": "@kg_museum"
       },
       {
        "time": "12:10",
@@ -1140,7 +1163,8 @@
        "hook": {
         "ru": "Зелёная душа Бишкека",
         "en": "Bishkek’s green soul"
-       }
+       },
+       "photo": "@kg_park"
       },
       {
        "time": "13:00",
@@ -1162,7 +1186,8 @@
        "hook": {
         "ru": "Кыргызстан глазами художников",
         "en": "Kyrgyzstan through artists’ eyes"
-       }
+       },
+       "photo": "@kg_art"
       },
       {
        "time": "14:15",
@@ -1181,7 +1206,8 @@
        "hook": {
         "ru": "Вкус Бишкека",
         "en": "A taste of Bishkek"
-       }
+       },
+       "photo": "@kg_city"
       },
       {
        "time": "15:30",
@@ -1203,7 +1229,8 @@
        "hook": {
         "ru": "Атмосфера старого парка",
         "en": "The mood of an old park"
-       }
+       },
+       "photo": "@kg_victory2"
       },
       {
        "time": "16:30",
@@ -1225,7 +1252,8 @@
        "hook": {
         "ru": "Охота за впечатлениями",
         "en": "Hunting for impressions"
-       }
+       },
+       "photo": "@kg_clock"
       },
       {
        "time": "17:30",
@@ -1247,7 +1275,8 @@
        "hook": {
         "ru": "По аллеям свободы",
         "en": "Along the alleys of freedom"
-       }
+       },
+       "photo": "@kg_alley"
       },
       {
        "time": "19:00",
@@ -1266,7 +1295,8 @@
        "hook": {
         "ru": "Вечер восточного гостеприимства",
         "en": "An evening of Eastern hospitality"
-       }
+       },
+       "photo": "@kg_alatoo_night"
       },
       {
        "time": "20:40",
@@ -1285,7 +1315,8 @@
        "tags": [
         "city"
        ],
-       "coords": null
+       "coords": null,
+       "photo": "@kg_flag"
       }
      ]
     },
@@ -1316,7 +1347,8 @@
        "tags": [
         "food"
        ],
-       "coords": null
+       "coords": null,
+       "photo": "@kg_victory"
       },
       {
        "time": "08:00",
@@ -1333,7 +1365,8 @@
        "hook": {
         "ru": "Дорога к жемчужине Кыргызстана начинается",
         "en": "The road to Kyrgyzstan’s pearl begins"
-       }
+       },
+       "photo": "@kg_boom"
       },
       {
        "time": "09:30",
@@ -1355,7 +1388,8 @@
        "hook": {
         "ru": "Следы Великого шёлкового пути",
         "en": "Traces of the Great Silk Road"
-       }
+       },
+       "photo": "@kg_burana"
       },
       {
        "time": "10:15",
@@ -1377,7 +1411,8 @@
        "hook": {
         "ru": "Дорога сквозь горы",
         "en": "A road through the mountains"
-       }
+       },
+       "photo": "@kg_canyon"
       },
       {
        "time": "12:40",
@@ -1399,7 +1434,8 @@
        "hook": {
         "ru": "Вкус путешествия",
         "en": "The taste of the journey"
-       }
+       },
+       "photo": "@kg_lake"
       },
       {
        "time": "13:30",
@@ -1419,7 +1455,8 @@
        "coords": [
         42.649,
         77.083
-       ]
+       ],
+       "photo": "@kg_cholpon"
       },
       {
        "time": "14:30",
@@ -1441,7 +1478,8 @@
        "hook": {
         "ru": "Место, где встречаются культуры",
         "en": "Where cultures meet"
-       }
+       },
+       "photo": "@kg_shore"
       },
       {
        "time": "16:00",
@@ -1463,7 +1501,8 @@
        "hook": {
         "ru": "Послания из прошлого",
         "en": "Messages from the past"
-       }
+       },
+       "photo": "@kg_petro"
       },
       {
        "time": "17:00",
@@ -1506,7 +1545,8 @@
        "hook": {
         "ru": "Ужин с атмосферой озёрного вечера",
         "en": "Dinner with a lakeside evening mood"
-       }
+       },
+       "photo": "@kg_sunset"
       }
      ]
     }
@@ -1659,7 +1699,8 @@
        "hook": {
         "ru": "Дворец миллиона книг",
         "en": "A palace of a million books"
-       }
+       },
+       "photo": "@tj_center"
       },
       {
        "time": "12:00",
@@ -1678,7 +1719,8 @@
        "hook": {
         "ru": "Плов, лепёшка и пиала чая",
         "en": "Plov, bread and a bowl of tea"
-       }
+       },
+       "photo": "@tj_tea"
       },
       {
        "time": "13:30",
@@ -1700,7 +1742,8 @@
        "hook": {
         "ru": "За кулисами Душанбе",
         "en": "Backstage in Dushanbe"
-       }
+       },
+       "photo": "@tj_park"
       },
       {
        "time": "16:30",
@@ -1723,7 +1766,8 @@
        "hook": {
         "ru": "Базар цветов и специй",
         "en": "A bazaar of colours and spices"
-       }
+       },
+       "photo": "@tj_market"
       },
       {
        "time": "18:30",
@@ -1742,7 +1786,8 @@
        "hook": {
         "ru": "Ужин с ароматом Памира",
         "en": "Dinner with a taste of the Pamirs"
-       }
+       },
+       "photo": "@tj_plov"
       },
       {
        "time": "20:00",
@@ -1795,7 +1840,8 @@
        "hook": {
         "ru": "Дорога в сердце Фанских гор",
         "en": "The road into the Fann Mountains"
-       }
+       },
+       "photo": "@tj_fann"
       },
       {
        "time": "09:00",
@@ -1819,7 +1865,8 @@
        "hook": {
         "ru": "Озеро Александра Великого",
         "en": "Alexander the Great’s lake"
-       }
+       },
+       "photo": "@tj_iskanderkul"
       },
       {
        "time": "",
@@ -1841,7 +1888,8 @@
        "hook": {
         "ru": "Тропа змей, воды и пещер",
         "en": "A trail of snakes, water and caves"
-       }
+       },
+       "photo": "@tj_snake"
       },
       {
        "time": "16:00",
@@ -1860,7 +1908,8 @@
        "hook": {
         "ru": "Секрет таджикского курутоба",
         "en": "The secret of Tajik qurutob"
-       }
+       },
+       "photo": "@tj_qurutob"
       },
       {
        "time": "20:00",
@@ -1883,7 +1932,8 @@
        "hook": {
         "ru": "Ужин во дворце Навруза",
         "en": "Dinner in the Navruz palace"
-       }
+       },
+       "photo": "@tj_suzani"
       },
       {
        "time": "21:00+",
@@ -1900,7 +1950,8 @@
        "hook": {
         "ru": "Курс на Самарканд",
         "en": "Course for Samarkand"
-       }
+       },
+       "photo": "@tj_flag"
       }
      ]
     }
@@ -2024,7 +2075,8 @@
        "hook": {
         "ru": "Старт великого пути",
         "en": "The start of a great journey"
-       }
+       },
+       "photo": "@uz_tashkent"
       },
       {
        "time": "08:00",
@@ -2041,7 +2093,8 @@
        "hook": {
         "ru": "Шёлковый путь на скорости 250 км/ч",
         "en": "The Silk Road at 250 km/h"
-       }
+       },
+       "photo": "@uz_tashkent2"
       },
       {
        "time": "12:00",
@@ -2132,7 +2185,8 @@
        "hook": {
         "ru": "Тень шелковиц у реки",
         "en": "Mulberry shade by the river"
-       }
+       },
+       "photo": "@uz_craft"
       },
       {
        "time": "18:00",
@@ -2154,7 +2208,8 @@
        "hook": {
         "ru": "Город, где оживает история",
         "en": "A city where history comes alive"
-       }
+       },
+       "photo": "@uz_night"
       },
       {
        "time": "19:30",
@@ -2173,7 +2228,8 @@
        "hook": {
         "ru": "Восточный вечер",
         "en": "An Eastern evening"
-       }
+       },
+       "photo": "@ppl_plov"
       }
      ]
     }
@@ -2686,6 +2742,398 @@
    "license": "© авторы, используется с разрешения команды",
    "caption": "Башня «Истиклол» в вечерних огнях",
    "captionEn": "Istiklol tower lit up at dusk"
+  },
+  "am_kond": {
+   "src": "assets/img/am/am_kond.webp",
+   "sm": "assets/img/am/am_kond-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Старый Ереван, квартал Конд",
+   "captionEn": "Old Yerevan, the Kond quarter"
+  },
+  "am_north": {
+   "src": "assets/img/am/am_north.webp",
+   "sm": "assets/img/am/am_north-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Северный проспект",
+   "captionEn": "Northern Avenue"
+  },
+  "am_opera": {
+   "src": "assets/img/am/am_opera.webp",
+   "sm": "assets/img/am/am_opera-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Оперный театр",
+   "captionEn": "Opera House"
+  },
+  "am_sculpt": {
+   "src": "assets/img/am/am_sculpt.webp",
+   "sm": "assets/img/am/am_sculpt-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Скульптуры в саду у Каскада",
+   "captionEn": "Sculptures by the Cascade"
+  },
+  "am_cascade": {
+   "src": "assets/img/am/am_cascade.webp",
+   "sm": "assets/img/am/am_cascade-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Каскад",
+   "captionEn": "The Cascade"
+  },
+  "am_matenadaran": {
+   "src": "assets/img/am/am_matenadaran.webp",
+   "sm": "assets/img/am/am_matenadaran-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Матенадаран",
+   "captionEn": "Matenadaran"
+  },
+  "am_mother": {
+   "src": "assets/img/am/am_mother.webp",
+   "sm": "assets/img/am/am_mother-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Монумент «Мать Армения»",
+   "captionEn": "Mother Armenia monument"
+  },
+  "am_sport": {
+   "src": "assets/img/am/am_sport.webp",
+   "sm": "assets/img/am/am_sport-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "СКК им. Карена Демирчяна",
+   "captionEn": "Karen Demirchyan Sports Complex"
+  },
+  "am_park2800": {
+   "src": "assets/img/am/am_park2800.webp",
+   "sm": "assets/img/am/am_park2800-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Парк 2800-летия Еревана",
+   "captionEn": "Yerevan 2800th Anniversary Park"
+  },
+  "kz_charyn": {
+   "src": "assets/img/kz/kz_charyn.webp",
+   "sm": "assets/img/kz/kz_charyn-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Чарынский каньон",
+   "captionEn": "Charyn Canyon"
+  },
+  "kz_charyn2": {
+   "src": "assets/img/kz/kz_charyn2.webp",
+   "sm": "assets/img/kz/kz_charyn2-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Каньоны Чарына",
+   "captionEn": "The Charyn canyons"
+  },
+  "kz_charyn3": {
+   "src": "assets/img/kz/kz_charyn3.webp",
+   "sm": "assets/img/kz/kz_charyn3-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Река Чарын в каньоне",
+   "captionEn": "The Charyn river in the canyon"
+  },
+  "kz_charyn4": {
+   "src": "assets/img/kz/kz_charyn4.webp",
+   "sm": "assets/img/kz/kz_charyn4-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Цветные скалы Чарына",
+   "captionEn": "The coloured rocks of Charyn"
+  },
+  "kz_kaindy": {
+   "src": "assets/img/kz/kz_kaindy.webp",
+   "sm": "assets/img/kz/kz_kaindy-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Озеро Каинды",
+   "captionEn": "Lake Kaindy"
+  },
+  "kz_almaty": {
+   "src": "assets/img/kz/kz_almaty.webp",
+   "sm": "assets/img/kz/kz_almaty-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Алматы у подножия гор",
+   "captionEn": "Almaty at the foot of the mountains"
+  },
+  "kz_almaty2": {
+   "src": "assets/img/kz/kz_almaty2.webp",
+   "sm": "assets/img/kz/kz_almaty2-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Панорама Алматы",
+   "captionEn": "Almaty panorama"
+  },
+  "kg_museum": {
+   "src": "assets/img/kg/kg_museum.webp",
+   "sm": "assets/img/kg/kg_museum-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Национальный исторический музей",
+   "captionEn": "National History Museum"
+  },
+  "kg_alatoo_night": {
+   "src": "assets/img/kg/kg_alatoo_night.webp",
+   "sm": "assets/img/kg/kg_alatoo_night-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Площадь Ала-Тоо вечером",
+   "captionEn": "Ala-Too Square in the evening"
+  },
+  "kg_victory2": {
+   "src": "assets/img/kg/kg_victory2.webp",
+   "sm": "assets/img/kg/kg_victory2-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Монумент Победы в Бишкеке",
+   "captionEn": "Victory monument, Bishkek"
+  },
+  "kg_cholpon": {
+   "src": "assets/img/kg/kg_cholpon.webp",
+   "sm": "assets/img/kg/kg_cholpon-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Берег Иссык-Куля в Чолпон-Ате",
+   "captionEn": "The Issyk-Kul shore at Cholpon-Ata"
+  },
+  "kg_bishkek": {
+   "src": "assets/img/kg/kg_bishkek.webp",
+   "sm": "assets/img/kg/kg_bishkek-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Центр Бишкека",
+   "captionEn": "Central Bishkek"
+  },
+  "kg_boom": {
+   "src": "assets/img/kg/kg_boom.webp",
+   "sm": "assets/img/kg/kg_boom-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Каньоны Конорчек в Боомском ущелье",
+   "captionEn": "Konorchek canyons in the Boom gorge"
+  },
+  "kg_city": {
+   "src": "assets/img/kg/kg_city.webp",
+   "sm": "assets/img/kg/kg_city-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Бишкек и горы Ала-Тоо",
+   "captionEn": "Bishkek and the Ala-Too range"
+  },
+  "kg_petro": {
+   "src": "assets/img/kg/kg_petro.webp",
+   "sm": "assets/img/kg/kg_petro-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Петроглифы Чолпон-Аты",
+   "captionEn": "Cholpon-Ata petroglyphs"
+  },
+  "kg_art": {
+   "src": "assets/img/kg/kg_art.webp",
+   "sm": "assets/img/kg/kg_art-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Уличная галерея картин в Бишкеке",
+   "captionEn": "A street art gallery in Bishkek"
+  },
+  "kg_park": {
+   "src": "assets/img/kg/kg_park.webp",
+   "sm": "assets/img/kg/kg_park-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Зелёный центр Бишкека",
+   "captionEn": "Green central Bishkek"
+  },
+  "kg_alley": {
+   "src": "assets/img/kg/kg_alley.webp",
+   "sm": "assets/img/kg/kg_alley-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Аллея в центре Бишкека",
+   "captionEn": "An alley in central Bishkek"
+  },
+  "kg_clock": {
+   "src": "assets/img/kg/kg_clock.webp",
+   "sm": "assets/img/kg/kg_clock-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Часы на здании в центре Бишкека",
+   "captionEn": "A clock tower in central Bishkek"
+  },
+  "kg_flag": {
+   "src": "assets/img/kg/kg_flag.webp",
+   "sm": "assets/img/kg/kg_flag-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Флаг на площади в Бишкеке",
+   "captionEn": "A flag on a Bishkek square"
+  },
+  "kg_burana": {
+   "src": "assets/img/kg/kg_burana.webp",
+   "sm": "assets/img/kg/kg_burana-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Башня Бурана",
+   "captionEn": "Burana Tower"
+  },
+  "kg_canyon": {
+   "src": "assets/img/kg/kg_canyon.webp",
+   "sm": "assets/img/kg/kg_canyon-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Дорога через ущелье к Иссык-Кулю",
+   "captionEn": "The road through the gorge to Issyk-Kul"
+  },
+  "kg_lake": {
+   "src": "assets/img/kg/kg_lake.webp",
+   "sm": "assets/img/kg/kg_lake-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Иссык-Куль",
+   "captionEn": "Issyk-Kul"
+  },
+  "kg_shore": {
+   "src": "assets/img/kg/kg_shore.webp",
+   "sm": "assets/img/kg/kg_shore-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Чолпон-Ата",
+   "captionEn": "Cholpon-Ata"
+  },
+  "kg_sunset": {
+   "src": "assets/img/kg/kg_sunset.webp",
+   "sm": "assets/img/kg/kg_sunset-sm.webp",
+   "author": "Материалы команд проекта",
+   "license": "© авторы, учебный проект",
+   "caption": "Закат на Иссык-Куле",
+   "captionEn": "Sunset at Issyk-Kul"
+  },
+  "tj_center": {
+   "src": "assets/img/tj/tj_center.webp",
+   "sm": "assets/img/tj/tj_center-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Центр Душанбе",
+   "captionEn": "Central Dushanbe"
+  },
+  "tj_park": {
+   "src": "assets/img/tj/tj_park.webp",
+   "sm": "assets/img/tj/tj_park-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Площадь и фонтаны в центре Душанбе",
+   "captionEn": "Square and fountains in central Dushanbe"
+  },
+  "tj_tea": {
+   "src": "assets/img/tj/tj_tea.webp",
+   "sm": "assets/img/tj/tj_tea-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Чай по-таджикски",
+   "captionEn": "Tajik tea"
+  },
+  "tj_market": {
+   "src": "assets/img/tj/tj_market.webp",
+   "sm": "assets/img/tj/tj_market-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Таджикский базар",
+   "captionEn": "A Tajik bazaar"
+  },
+  "tj_plov": {
+   "src": "assets/img/tj/tj_plov.webp",
+   "sm": "assets/img/tj/tj_plov-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Таджикский плов",
+   "captionEn": "Tajik plov"
+  },
+  "tj_fann": {
+   "src": "assets/img/tj/tj_fann.webp",
+   "sm": "assets/img/tj/tj_fann-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Дорога в Фанские горы",
+   "captionEn": "The road to the Fann mountains"
+  },
+  "tj_iskanderkul": {
+   "src": "assets/img/tj/tj_iskanderkul.webp",
+   "sm": "assets/img/tj/tj_iskanderkul-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Озеро Искандеркуль",
+   "captionEn": "Lake Iskanderkul"
+  },
+  "tj_snake": {
+   "src": "assets/img/tj/tj_snake.webp",
+   "sm": "assets/img/tj/tj_snake-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Окрестности Искандеркуля",
+   "captionEn": "Around Iskanderkul"
+  },
+  "tj_qurutob": {
+   "src": "assets/img/tj/tj_qurutob.webp",
+   "sm": "assets/img/tj/tj_qurutob-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Курутоб",
+   "captionEn": "Qurutob"
+  },
+  "tj_suzani": {
+   "src": "assets/img/tj/tj_suzani.webp",
+   "sm": "assets/img/tj/tj_suzani-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Таджикская вышивка сюзане",
+   "captionEn": "Tajik suzani embroidery"
+  },
+  "tj_flag": {
+   "src": "assets/img/tj/tj_flag.webp",
+   "sm": "assets/img/tj/tj_flag-sm.webp",
+   "author": "Фото из открытых источников",
+   "license": "используется в некоммерческом учебном проекте",
+   "caption": "Флагшток и парк в Душанбе",
+   "captionEn": "The flagpole park in Dushanbe"
+  },
+  "uz_tashkent": {
+   "src": "assets/img/uz/uz_tashkent.webp",
+   "sm": "assets/img/uz/uz_tashkent-sm.webp",
+   "author": "Unsplash",
+   "license": "Unsplash License",
+   "caption": "Ташкент",
+   "captionEn": "Tashkent"
+  },
+  "uz_tashkent2": {
+   "src": "assets/img/uz/uz_tashkent2.webp",
+   "sm": "assets/img/uz/uz_tashkent2-sm.webp",
+   "author": "Unsplash",
+   "license": "Unsplash License",
+   "caption": "Ташкент",
+   "captionEn": "Tashkent"
+  },
+  "uz_craft": {
+   "src": "assets/img/uz/uz_craft.webp",
+   "sm": "assets/img/uz/uz_craft-sm.webp",
+   "author": "Unsplash",
+   "license": "Unsplash License",
+   "caption": "Узбекские ремёсла",
+   "captionEn": "Uzbek crafts"
+  },
+  "uz_night": {
+   "src": "assets/img/uz/uz_night.webp",
+   "sm": "assets/img/uz/uz_night-sm.webp",
+   "author": "Unsplash",
+   "license": "Unsplash License",
+   "caption": "Самарканд вечером",
+   "captionEn": "Samarkand in the evening"
   }
  },
  "finish": {
