@@ -2726,8 +2726,8 @@
     "id": "trio",
     "num": 1,
     "name": {
-     "ru": "Казахстан — Кыргызстан — Узбекистан",
-     "en": "Kazakhstan — Kyrgyzstan — Uzbekistan"
+     "ru": "Золотой путь Центральной Азии",
+     "en": "The Golden Road of Central Asia"
     },
     "tag": {
      "ru": "Пакет 1 · 6 дней / 5 ночей",
@@ -3879,8 +3879,8 @@
     "id": "peaks",
     "num": 2,
     "name": {
-     "ru": "Таджикистан — Казахстан — Армения",
-     "en": "Tajikistan — Kazakhstan — Armenia"
+     "ru": "Горный диалог культур",
+     "en": "A Mountain Dialogue of Cultures"
     },
     "tag": {
      "ru": "Пакет 2 · 7 дней / 6 ночей",
@@ -5075,8 +5075,8 @@
     "id": "road",
     "num": 3,
     "name": {
-     "ru": "Три страны — одно путешествие",
-     "en": "Three Countries, One Journey"
+     "ru": "Сердце Центральной Азии",
+     "en": "The Heart of Central Asia"
     },
     "tag": {
      "ru": "Пакет 3 · 7 дней / 6 ночей",
@@ -6615,8 +6615,8 @@
     "en": "What does the price include?"
    },
    "a": {
-    "ru": "Зависит от пакета. В «Шёлковое трио» входят межгородской транспорт, проживание по 2 в номере, питание по смете 8 000 ₸ в день, городской транспорт, экскурсии и резерв 10%. Alma IT — самостоятельный день с ВК-ботом, где вы платите только за такси, канатные дороги и еду, около 43 920 ₸. Смета каждого пакета расписана в окне «Программа и цена».",
-    "en": "It depends on the package. The Silk Trio includes intercity transport, rooms for 2, food budgeted at 8 000 ₸ a day, local transport, tours and a 10% contingency. Alma IT is a self-guided day with a VK bot where you only pay for taxis, cable cars and food, about 43 920 ₸. Each package’s budget is under “Programme and price”."
+    "ru": "Зависит от пакета. В «Золотой путь Центральной Азии» входят межгородской транспорт, проживание по 2 в номере, питание по смете 8 000 ₸ в день, городской транспорт, экскурсии и резерв 10%. Что входит в «Горный диалог культур» и «Сердце Центральной Азии», расписано в смете каждого пакета в окне «Программа и цена».",
+    "en": "It depends on the package. The Golden Road of Central Asia includes intercity transport, rooms for 2, food budgeted at 8 000 ₸ a day, local transport, tours and a 10% contingency. What A Mountain Dialogue of Cultures and The Heart of Central Asia include is listed in each package’s budget under “Programme and price”."
    }
   },
   {
