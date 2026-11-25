@@ -1094,7 +1094,8 @@
        "hook": {
         "ru": "В сердце Кыргызстана",
         "en": "In the heart of Kyrgyzstan"
-       }
+       },
+       "photo": "@kg_alatoo_sunset"
       },
       {
        "time": "10:45",
@@ -1486,7 +1487,8 @@
        "hook": {
         "ru": "Наедине с природой",
         "en": "Alone with nature"
-       }
+       },
+       "photo": "@kg_valley"
       },
       {
        "time": "19:00",
@@ -1576,7 +1578,13 @@
      }
     ]
    },
-   "site": "https://dany-simonov.github.io/turism"
+   "site": "https://dany-simonov.github.io/turism",
+   "cover": "@kg_alatoo_sunset",
+   "extraPhotos": [
+    "@kg_victory",
+    "@kg_alatoo",
+    "@kg_valley"
+   ]
   },
   {
    "id": "tj",
@@ -2621,6 +2629,38 @@
    "license": "© авторы, используется с разрешения команды",
    "caption": "Кок-Тобе: колесо обозрения и телебашня над Алматы",
    "captionEn": "Kok-Tobe: the Ferris wheel above Almaty"
+  },
+  "kg_alatoo_sunset": {
+   "src": "assets/img/kg/kg_alatoo_sunset.webp",
+   "sm": "assets/img/kg/kg_alatoo_sunset-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Площадь Ала-Тоо на закате",
+   "captionEn": "Ala-Too Square at sunset"
+  },
+  "kg_victory": {
+   "src": "assets/img/kg/kg_victory.webp",
+   "sm": "assets/img/kg/kg_victory-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Площадь Победы и горы Ала-Тоо над Бишкеком",
+   "captionEn": "Victory Square and the Ala-Too range above Bishkek"
+  },
+  "kg_alatoo": {
+   "src": "assets/img/kg/kg_alatoo.webp",
+   "sm": "assets/img/kg/kg_alatoo-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Площадь Ала-Тоо и флаг Кыргызстана",
+   "captionEn": "Ala-Too Square and the flag of Kyrgyzstan"
+  },
+  "kg_valley": {
+   "src": "assets/img/kg/kg_valley.webp",
+   "sm": "assets/img/kg/kg_valley-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Горная долина Кыргызстана",
+   "captionEn": "A mountain valley in Kyrgyzstan"
   }
  },
  "finish": {
