@@ -523,7 +523,7 @@
         <div class="tr-shade" aria-hidden="true"></div>
         <div class="tr-head">
           <p class="tr-kicker">${esc(t('offers.kicker2'))} · ${esc(L(o.tag))}</p>
-          <h2 id="sheetTitle" class="tr-title">${[...L(o.name)].map((ch, i) => ch === ' ' ? ' ' : `<span style="--i:${i}">${esc(ch)}</span>`).join('')}</h2>
+          <h2 id="sheetTitle" class="tr-title">${(() => { let i = 0; return L(o.name).split(' ').map((w) => `<span class="trw">${[...w].map((ch) => `<span style="--i:${i++}">${esc(ch)}</span>`).join('')}</span>`).join(' '); })()}</h2>
           <p class="tr-route">${cs.map((c, i) => `<span style="--i:${i};--c:${c.palette[0]}">${flagSvg(c.id)}${esc(L(c.name))}</span>`).join('<i>→</i>')}</p>
           <div class="tr-badges"><span><b>${o.days}</b> ${nDays(o.days)}</span><span><b>${moneyH(o)}</b> ${esc(t('offers.per'))}</span></div>
         </div>

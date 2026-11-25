@@ -727,7 +727,8 @@ a.arch:hover { border-color: #fff; }
 .tr-head { position: relative; z-index: 2; width: min(1100px, 100%); margin: 0 auto; padding: 0 20px 64px; display: grid; gap: 14px; opacity: calc(1 - var(--sc, 0) / 600); }
 .tr-kicker { margin: 0; font: 700 .78rem var(--head); letter-spacing: .14em; text-transform: uppercase; color: var(--c2, #FEC50C); }
 .tr-title { margin: 0; color: #fff; font: 900 clamp(3rem, 12vw, 7.5rem)/.95 var(--head); letter-spacing: -.02em; text-shadow: 0 10px 40px rgba(0,0,0,.45); }
-.tr-title span { display: inline-block; opacity: 0; transform: translateY(.5em) rotate(6deg); animation: trLetter .7s cubic-bezier(.2,1.4,.4,1) forwards; animation-delay: calc(.25s + var(--i) * 45ms); }
+.tr-title .trw { display: inline-block; white-space: nowrap; }
+.tr-title .trw > span { display: inline-block; opacity: 0; transform: translateY(.5em) rotate(6deg); animation: trLetter .7s cubic-bezier(.2,1.4,.4,1) forwards; animation-delay: calc(.25s + var(--i) * 45ms); }
 @keyframes trLetter { to { opacity: 1; transform: none; } }
 .tr-route { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .tr-route span { display: inline-flex; align-items: center; gap: 7px; padding: 6px 12px 6px 6px; border-radius: 999px; background: rgba(255,255,255,.12); border: 1px solid color-mix(in srgb, var(--c) 70%, #fff); backdrop-filter: blur(6px); font: 600 .9rem var(--body); color: #fff; opacity: 0; animation: iup .6s ease-out forwards; animation-delay: calc(.8s + var(--i) * 120ms); }
