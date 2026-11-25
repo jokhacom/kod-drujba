@@ -187,7 +187,7 @@
     // Узбекистан первым: финиш маршрута и главная страна школы
     const archOrder = [...DATA.countries].sort((x, y) => (y.id === 'uz') - (x.id === 'uz'));
     const arches = archOrder.map((c) => {
-      const ph = photo(c.cover, { name: c.city });
+      const ph = photo(c.archPhoto || c.cover, { name: c.city });
       return `<a class="arch" style="--c:${c.palette[0]}" href="${esc(c.site)}" target="_blank" rel="noopener" aria-label="${esc(L(c.name))}: ${esc(t('pkg.site2'))}" data-tilt>${ph ? `<img src="${ph.sm}" alt="" loading="lazy" decoding="async">` : art(c, L(c.name))}<span>${esc(L(c.name))}</span></a>`;
     }).join('');
     $('#heroArches').innerHTML = arches;

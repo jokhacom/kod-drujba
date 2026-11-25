@@ -1023,7 +1023,8 @@
    "site": "https://alma-it.netlify.app",
    "extraPhotos": [
     "@kz_koktobe"
-   ]
+   ],
+   "archPhoto": "@kz_koktobe_arch"
   },
   {
    "id": "kg",
@@ -2661,6 +2662,14 @@
    "license": "© авторы, используется с разрешения команды",
    "caption": "Горная долина Кыргызстана",
    "captionEn": "A mountain valley in Kyrgyzstan"
+  },
+  "kz_koktobe_arch": {
+   "src": "assets/img/kz/kz_koktobe_arch.webp",
+   "sm": "assets/img/kz/kz_koktobe_arch-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Кок-Тобе и горы над Алматы",
+   "captionEn": "Kok-Tobe and the mountains above Almaty"
   }
  },
  "finish": {
