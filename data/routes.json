@@ -963,7 +963,7 @@
     "ru": "Қошқар мүйіз, «бараньи рога»",
     "en": "Qoshqar müyiz, “ram’s horns”"
    },
-   "cover": "kz/kz_kolsai_2",
+   "cover": "@kz_koktobe",
    "arrive": {
     "mode": "plane",
     "ru": "Перелёт Ереван — Алматы, ≈ 4 ч",
@@ -1021,9 +1021,7 @@
     ]
    },
    "site": "https://alma-it.netlify.app",
-   "extraPhotos": [
-    "@kz_koktobe"
-   ],
+   "extraPhotos": [],
    "archPhoto": "@kz_koktobe_arch"
   },
   {
@@ -1582,6 +1580,7 @@
    "site": "https://dany-simonov.github.io/turism",
    "cover": "@kg_alatoo_sunset",
    "extraPhotos": [
+    "@kg_knu",
     "@kg_victory",
     "@kg_alatoo",
     "@kg_valley"
@@ -1766,7 +1765,8 @@
        "hook": {
         "ru": "Город в огнях с высоты",
         "en": "The city lit up from above"
-       }
+       },
+       "photo": "@tj_istiklol"
       }
      ]
     },
@@ -2670,6 +2670,22 @@
    "license": "© авторы, используется с разрешения команды",
    "caption": "Кок-Тобе и горы над Алматы",
    "captionEn": "Kok-Tobe and the mountains above Almaty"
+  },
+  "kg_knu": {
+   "src": "assets/img/kg/kg_knu.webp",
+   "sm": "assets/img/kg/kg_knu-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Кыргызский национальный университет, Бишкек",
+   "captionEn": "Kyrgyz National University, Bishkek"
+  },
+  "tj_istiklol": {
+   "src": "assets/img/tj/tj_istiklol.webp",
+   "sm": "assets/img/tj/tj_istiklol-sm.webp",
+   "author": "Материалы команды «Код дружбы»",
+   "license": "© авторы, используется с разрешения команды",
+   "caption": "Башня «Истиклол» в вечерних огнях",
+   "captionEn": "Istiklol tower lit up at dusk"
   }
  },
  "finish": {
